@@ -1,0 +1,290 @@
+{
+  "Cmp": {
+    "Checkout": {
+      "Checkout": {
+        "payShopName": "Ödeme {shopName}",
+        "stepConfirmPay": "Onayla ve Öde",
+        "stepExtraInformation": "Ekstra Bilgi",
+        "stepOrderCancelled": "Sipariş İptal Edildi",
+        "stepOrderInformation": "Sipariş Bilgileri",
+        "stepOrderRefunded": "İade Edilen Sipariş",
+        "stepReceiveItems": "Ürünlerinizi Teslim Alın"
+      },
+      "CheckoutAdditionalInformationForm": {
+        "additionalInformationInstructions": "Lütfen siparişinizde aşağıdaki öğeler için ek bilgi verin.",
+        "fieldRequiredError": "Bu alan zorunludur",
+        "proceedToPayment": "Ödeme İşlemine Geçin"
+      },
+      "CheckoutCompleted": {
+        "orderCompletedSuccessfully": "Siparişiniz başarıyla tamamlandı!",
+        "orderMarkedRefunded": "Siparişiniz iade edildi olarak işaretlendi!",
+        "orderPartiallyCompleted": "Siparişiniz kısmen tamamlandı!"
+      },
+      "CheckoutCompletedDeliverables": {
+        "addOns": "Eklentiler",
+        "copied": "Kopyalandı!",
+        "copy": "Anlaşıldı",
+        "deliveredItems": "Teslim Edilen Ürünler",
+        "downloadButton": "İndir",
+        "downloadFailed": "Çıktılar indirilemedi.",
+        "instructions": "Talimatlar",
+        "moreItemsDownload": "ve {label} adresini indirerek erişebileceğiniz {count} daha fazla öğe.",
+        "outOfStockMessage": "Bu ürün şu anda stoklarımızda bulunmamaktadır. Daha fazla bilgi için lütfen Destek ekibimizle iletişime geçin.",
+        "productBeingDelivered": "Bu ürün teslim ediliyor...",
+        "productDeliveryFailed": "Bu ürün teslim edilemedi. Daha fazla bilgi için lütfen Destek ekibimizle iletişime geçin.",
+        "statusCancelled": "İptal Edildi",
+        "statusDelivered": "Teslim edildi",
+        "statusExpired": "Süresi doldu",
+        "statusFailed": "Başarısız",
+        "statusOutOfStock": "Stokta yok",
+        "statusPending": "Beklemede",
+        "statusRefunded": "İade Edildi",
+        "statusVoided": "Geçersiz"
+      },
+      "CheckoutCompletedFeedback": {
+        "automaticFeedbackWarning": "Eğer 7 gün içinde geri bildirim bırakmazsanız, sizin için otomatik olarak 5 yıldızlı bir geri bildirim bırakılacaktır.",
+        "cancel": "İptal",
+        "editFeedback": "Geri Bildirimi Düzenle",
+        "feedbackCouponIncentive": "Bir sonraki alışverişinizde indirim kuponu almak için geri bildirim bırakın. Gerekli minimum derecelendirme: {rating} yıldız.",
+        "feedbackEmailInstructions": "Sipariş tamamlandıktan sonra aldığınız e-postadaki \"Geri Bildirim Bırakın\" düğmesine tıklayarak geri bildirim bırakabilirsiniz.",
+        "feedbackIneligibleAmount": "Bu sipariş geri bildirim için uygun değildir (Önemsiz Miktar)",
+        "feedbackIneligibleManual": "Bu sipariş geri bildirim için uygun değildir (Elle İşlenmiş)",
+        "leaveFeedback": "Geri Bildirim Bırakın",
+        "message": "Mesaj",
+        "messageRequired": "Mesaj gereklidir.",
+        "noMessageLeft": "Mesaj bırakılmadı.",
+        "rating": "Değerlendirme",
+        "ratingRequired": "Derecelendirme gereklidir.",
+        "replyFromShop": "Gelen cevap {shopName}",
+        "saveChanges": "Değişiklikleri Kaydet",
+        "submitFeedback": "Geri Bildirim Gönder",
+        "yourFeedback": "Geri Bildiriminiz"
+      },
+      "CheckoutCompletedRedirectUrl": {
+        "clickContinueOrder": "Siparişinize devam etmek için herhangi bir yere tıklayın."
+      },
+      "CheckoutDiscordIntegration": {
+        "connectButton": "Bağlan",
+        "connectDiscord": "Discord'a Bağlan",
+        "connectDiscordRequired": "Devam etmek için Discord hesabınızı bağlayın.",
+        "disconnect": "Bağlantıyı Kes",
+        "discord": "Discord",
+        "discordDescriptionWithRole": "Discord sunucumuza otomatik olarak katılmak ve bir rol almak için.",
+        "discordDescriptionWithoutRole": "Discord sunucumuza otomatik olarak katılmak için."
+      },
+      "CheckoutFailed": {
+        "orderCancelled": "Sipariş İptal Edildi",
+        "orderCancelledMessage": "Sipariş iptal edildi.",
+        "orderExpired": "Sipariş Süresi Doldu",
+        "orderFailed": "Sipariş Başarısız",
+        "orderProcessingFailed": "Bu sipariş işleme alınamadı. Bunun bir hata olduğunu düşünüyorsanız, lütfen destek ekibimizle iletişime geçin veya daha sonra tekrar deneyin.",
+        "paymentNotSentInTime": "Ödeme zamanında gönderilmedi."
+      },
+      "CheckoutFooter": {
+        "poweredBy": "Tarafından desteklenmektedir",
+        "termsOfService": "Hizmet Koşulları"
+      },
+      "CheckoutInvoiceDetails": {
+        "anonymized": "Anonimleştirilmiş",
+        "cancelledAt": "İptal Edildi",
+        "completedAt": "Tamamlandı",
+        "copied": "Kopyalandı!",
+        "createdAt": "Şu Adreste Oluşturuldu",
+        "emailAddress": "E-posta Adresi",
+        "expiresAt": "Geçerlilik Süresi",
+        "invoiceId": "Fatura Kimliği",
+        "remainingAmountCrypto": "Kalan Tutar ({gateway})",
+        "totalAmountCrypto": "Toplam Tutar ({gateway})",
+        "totalPrice": "Toplam Fiyat",
+        "totalPriceUsd": "Toplam Fiyat (USD)"
+      },
+      "CheckoutInvoiceItems": {
+        "forParentItem": "İçin {parentName}",
+        "priceEach": "{price} her biri"
+      },
+      "CheckoutOrderInformationForm": {
+        "applied": "Uygulamalı",
+        "apply": "Başvurmak",
+        "couponCode": "Kupon Kodu",
+        "couponPlaceholder": "Kupon kodunuz mu var? Buraya girin.",
+        "emailAddress": "E-posta Adresi",
+        "emailInvalid": "Lütfen geçerli bir e-posta adresi girin",
+        "emailPlaceholder": "Sipariş onayı bu e-posta adresine gönderilecektir.",
+        "emailRequired": "Lütfen e-posta adresinizi girin",
+        "newsletterSignup": "{shopName} adresinden güncellemeler ve promosyonlar almak istiyorum.",
+        "paymentMethod": "Ödeme Yöntemi",
+        "paymentMethodRequired": "Lütfen bir ödeme yöntemi seçin",
+        "proceedToPayment": "Ödeme İşlemine Geçin",
+        "termsAgreement": "{shopName}'un Hizmet Şartlarını okudum ve kabul ediyorum.",
+        "termsRequired": "Lütfen hüküm ve koşulları kabul edin"
+      },
+      "CheckoutPayCashApp": {
+        "addNoteInstruction": "Ödemeye bir not ekleyin, aksi takdirde dikkate alınmayacaktır.",
+        "addNoteWarning": "Notu Eklediğinizden emin olun, aksi takdirde siparişiniz otomatik olarak işleme alınmayacaktır.",
+        "automaticProcessingMessage": "Ödeme alındıktan sonra siparişiniz otomatik olarak işleme alınacaktır.",
+        "awaitingConfirmation": "Onay Bekleniyor...",
+        "confirmationMessage": "Ödeme işlemi tamamlandığında bir onay alacaksınız.",
+        "contactForAssistance": "Herhangi bir sorunuz varsa veya daha fazla yardıma ihtiyacınız varsa, lütfen bizimle iletişime geçin.",
+        "continue": "Devam et",
+        "copied": "Kopyalandı!",
+        "copyBelow": "Aşağıya kopyalayabilirsiniz.",
+        "copyCashtag": "Ya da aşağıdaki etiketi kopyalayın.",
+        "manualAcceptanceWait": "Ödemeniz hesap sahibi tarafından manuel olarak kabul edilirken lütfen bekleyiniz.",
+        "openCashapp": "CashApp'i açın",
+        "scanQrCode": "QR kodunu tarayabilirsiniz.",
+        "sendExactAmount": "Tam tutarı gönderdiğinizden emin olun.",
+        "sendPaymentWithNote": "Aşağıdaki hesaba bir not ile ödeme göndermelisiniz.",
+        "warningPaymentWithNote": "Uyarı - Senetle Ödeme"
+      },
+      "CheckoutPayCryptocurrency": {
+        "automaticProcessingConfirmation": "İşlem onaylandıktan sonra siparişiniz otomatik olarak işleme alınacaktır.",
+        "automaticProcessingPayment": "Ödeme alındıktan sonra siparişiniz otomatik olarak işleme alınacaktır.",
+        "automaticProcessingRemaining": "Kalan tutar alındığında siparişiniz otomatik olarak işleme alınacaktır.",
+        "copied": "Kopyalandı!",
+        "copyAddressBelow": "Ya da aşağıdaki adresi kopyalayın.",
+        "copyBelow": "Aşağıya kopyalayabilirsiniz.",
+        "noTransactions": "Henüz işlem yok...",
+        "openWallet": "Açık Cüzdan",
+        "partialPayment": "Kısmi Ödeme",
+        "partialPaymentStatus": "{paidAmount} {gateway} adresini {totalAmount} {gateway} adresinden ödediniz.",
+        "remainingAmount": "Kalan miktar: {amount} {gateway}.",
+        "scanQrCode": "QR kodunu tarayabilirsiniz.",
+        "sendExactAmount": "Tam tutarı gönderdiğinizden emin olun.",
+        "sendExactRemainingAmount": "Kalan miktarı tam olarak gönderdiğinizden emin olun.",
+        "sendPaymentToAddress": "Ödemeyi aşağıdaki adrese göndermelisiniz.",
+        "transactionHistory": "İşlem Geçmişi"
+      },
+      "CheckoutPayExternalUrl": {
+        "clickHereIfNotVisible": "Görmüyor musunuz? Buraya tıklayın",
+        "paymentBeingProcessed": "Ödemeniz işleme alınıyor...",
+        "paymentPageOpened": "Ödeme sayfası yeni bir sekmede açıldı"
+      },
+      "CheckoutPayManual": {
+        "awaitingConfirmation": "Onay Bekleniyor",
+        "cancel": "İptal",
+        "markAsPaid": "Ödendi olarak işaretle",
+        "markOrderAsPaid": "Siparişi Ödendi Olarak İşaretle",
+        "markedAsPaidFailed": "Fatura ödendi olarak işaretlenemedi. Lütfen tekrar deneyiniz.",
+        "markedAsPaidSuccess": "Fatura başarıyla ödendi olarak işaretlendi! Lütfen onay için bekleyiniz.",
+        "paymentInstructions": "Ödeme Talimatları",
+        "proofOfPayment": "Ödeme Kanıtı",
+        "proofOfPaymentRequired": "Ödeme kanıtı gereklidir."
+      },
+      "CheckoutPayPayPalFriendsFamily": {
+        "addNoteInstruction": "Ödemeye bir not ekleyin, aksi takdirde dikkate alınmayacaktır.",
+        "additionalDetailsInstruction": "Ek ayrıntı vermeniz istenirse aşağıdakileri kullanın:",
+        "automaticProcessingMessage": "Ödeme alındıktan sonra siparişiniz otomatik olarak işleme alınacaktır.",
+        "continue": "Devam et",
+        "copied": "Kopyalandı!",
+        "copyBelow": "Aşağıya kopyalayabilirsiniz.",
+        "copyEmailBelow": "PayPal e-posta adresini aşağıya kopyalayın.",
+        "friendsFamilyNoteWarning": "Ödemeyi Arkadaşlar ve Aile olarak gönderdiğinizden ve Not Eklediğinizden emin olun, aksi takdirde siparişiniz otomatik olarak işleme alınmayacaktır.",
+        "friendsFamilyWarning": "Friends &amp; Family olarak göndermezseniz, siparişiniz otomatik olarak işleme alınmayacaktır.",
+        "noNoteInstruction": "Ödemeyi gönderirken bir not eklemeyin.",
+        "openPaypal": "Açık PayPal",
+        "sendExactAmount": "Tam tutarı gönderdiğinizden emin olun.",
+        "sendFriendsFamilyNote": "Friends &amp; Family ödemesini bir notla birlikte aşağıdaki hesaba göndermelisiniz.",
+        "warningFriendsFamilyNote": "Uyarı - Not ile Arkadaş ve Aile Ödemesi"
+      },
+      "CheckoutPayPayPalREST": {
+        "paypalPaymentProcessing": "PayPal ödemeniz işleme alınıyor..."
+      },
+      "CheckoutPaySumUp": {
+        "authenticationFailed": "Kart kimlik doğrulaması başarısız oldu. Lütfen farklı bir kart deneyin.",
+        "insufficientFunds": "Yetersiz bakiye. Lütfen farklı bir kart deneyin.",
+        "networkError": "Ağ hatası. Lütfen bağlantınızı kontrol edin ve tekrar deneyin.",
+        "paymentCancelled": "Ödeme iptal edildi. Lütfen tekrar deneyiniz.",
+        "paymentErrorGeneric": "Ödemeniz işlenirken bir hata oluştu. Lütfen tekrar deneyiniz.",
+        "paymentFailedRetry": "Ödeme başarısız oldu. Lütfen yenileyip tekrar deneyin veya farklı bir kart kullanın.",
+        "paymentProcessingNotification": "Ödemeniz işleme alınıyor. İşlem tamamlandığında sizi bilgilendireceğiz.",
+        "sumupPaymentProcessing": "SumUp ödemeniz işleme alınıyor..."
+      },
+      "CheckoutPayVenmo": {
+        "addNoteInstruction": "Ödemeye bir not ekleyin, aksi takdirde dikkate alınmayacaktır.",
+        "additionalDetailsInstruction": "Ek ayrıntı vermeniz istenirse aşağıdakileri kullanın:",
+        "automaticProcessingMessage": "Ödeme alındıktan sonra siparişiniz otomatik olarak işleme alınacaktır.",
+        "continue": "Devam et",
+        "copied": "Kopyalandı!",
+        "copyBelow": "Aşağıya kopyalayabilirsiniz.",
+        "copyTagBelow": "Ya da aşağıdaki etiketi kopyalayın.",
+        "friendsFamilyNoteWarning": "Ödemeyi Arkadaşlar ve Aile olarak gönderdiğinizden ve Not Eklediğinizden emin olun, aksi takdirde siparişiniz otomatik olarak işleme alınmayacaktır.",
+        "openVenmo": "Venmo'yu aç",
+        "scanQrCode": "QR kodunu tarayabilirsiniz.",
+        "sendExactAmount": "Tam tutarı gönderdiğinizden emin olun.",
+        "sendFriendsFamilyNote": "Friends &amp; Family ödemesini bir notla birlikte aşağıdaki hesaba göndermelisiniz.",
+        "warningFriendsFamilyNote": "Uyarı - Not ile Arkadaş ve Aile Ödemesi"
+      },
+      "CheckoutPaymentMethodButton": {
+        "allowedAmounts": "İzin verilen miktarlar:",
+        "discount": "indirim",
+        "fee": "ücret",
+        "maximumAmount": "Maksimum miktar:",
+        "minimumAmount": "Minimum miktar:",
+        "poweredBy": "Tarafından desteklenmektedir"
+      },
+      "CheckoutPriceSummary": {
+        "couponCodeWithName": "Kupon Kodu ({code})",
+        "paymentMethodDiscount": "Ödeme Yöntemi İndirimi",
+        "paymentMethodFee": "Ödeme Yöntemi Ücreti",
+        "preTaxTotal": "Vergi Öncesi Toplam",
+        "subtotal": "Ara Toplam",
+        "taxWithRate": "Vergi ({rate}%)",
+        "total": "Toplam",
+        "unknownCode": "Bilinmeyen Kod",
+        "volumeDiscount": "Hacim İndirimi"
+      },
+      "CheckoutRefunded": {
+        "orderRefunded": "İade Edilen Sipariş",
+        "orderRefundedMessage": "Bu sipariş iade edildi olarak işaretlenmiştir."
+      },
+      "CheckoutShopCustomerBalanceButton": {
+        "allowedAmounts": "İzin verilen miktarlar:",
+        "balance": "Denge",
+        "cancel": "İptal",
+        "clickToAuthenticate": "Kimlik doğrulamak için tıklayın.",
+        "continue": "Devam et",
+        "discount": "indirim",
+        "enterEmailAddress": "Lütfen e-posta adresinizi giriniz.",
+        "fee": "ücret",
+        "insufficientBalance": "Bu faturayı ödemek için yeterli bakiyeniz yok.",
+        "invalidCredentials": "Geçersiz kimlik bilgileri.",
+        "logIn": "Giriş Yap",
+        "logInCustomerAccount": "Müşteri Hesabınıza Giriş Yapın",
+        "loggedInAs": "{email} olarak giriş yapıldı.",
+        "loggedInAsEmail": "Olarak giriş yaptı {email}",
+        "logout": "Oturum Kapatma",
+        "maximumAmount": "Maksimum miktar:",
+        "minimumAmount": "Minimum miktar:",
+        "otpCaptchaInstructions": "CAPTCHA doğrulamasından sonra e-posta adresinize tek seferlik bir şifre gönderilecektir. Lütfen bir dakika bekleyiniz.",
+        "otpSent": "OTP e-postanıza gönderilmiştir.",
+        "otpSentInstructions": "E-posta adresinize tek seferlik bir şifre gönderilmiştir. Hesabınıza erişmek ve bakiyenizle ödeme yapmak için lütfen aşağıya girin.",
+        "sufficientBalance": "Bu faturayı ödemek için yeterli bakiyeniz var."
+      },
+      "CheckoutStepper": {
+        "next": "Sıradaki:",
+        "stepNumber": "Adım {number}"
+      },
+      "CheckoutTicketButton": {
+        "havingIssues": "Siparişinizle ilgili sorun mu yaşıyorsunuz?",
+        "openSupportTicket": "Destek Bileti Açın",
+        "openTicketInstructions": "Destek ekibimizden yardım almak için Müşteri Panonuzda bir Bilet Açabilirsiniz."
+      }
+    },
+    "FormLabel": {
+      "optionalIndicator": "(isteğe bağlı)"
+    },
+    "FormSubmit": {
+      "defaultLabel": "Devam et"
+    }
+  },
+  "Route": {
+    "App": {
+      "title": "Ödeme"
+    },
+    "Checkout": {
+      "invoiceNotFound": "Fatura bulunamadı",
+      "pageTitle": "Ödeme - {shopName}",
+      "shopNotFound": "Mağaza bulunamadı"
+    }
+  }
+}

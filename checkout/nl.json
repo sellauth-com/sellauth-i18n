@@ -1,0 +1,290 @@
+{
+  "Cmp": {
+    "Checkout": {
+      "Checkout": {
+        "payShopName": "Betaal {shopName}",
+        "stepConfirmPay": "Bevestigen en betalen",
+        "stepExtraInformation": "Extra informatie",
+        "stepOrderCancelled": "Bestelling geannuleerd",
+        "stepOrderInformation": "Bestelinformatie",
+        "stepOrderRefunded": "Bestelling terugbetaald",
+        "stepReceiveItems": "Uw artikelen ontvangen"
+      },
+      "CheckoutAdditionalInformationForm": {
+        "additionalInformationInstructions": "Geef aanvullende informatie voor de volgende items in je bestelling.",
+        "fieldRequiredError": "Dit veld is verplicht",
+        "proceedToPayment": "Doorgaan naar betaling"
+      },
+      "CheckoutCompleted": {
+        "orderCompletedSuccessfully": "Je bestelling is succesvol afgerond!",
+        "orderMarkedRefunded": "Je bestelling is gemarkeerd als terugbetaald!",
+        "orderPartiallyCompleted": "Je bestelling is gedeeltelijk voltooid!"
+      },
+      "CheckoutCompletedDeliverables": {
+        "addOns": "Toevoegingen",
+        "copied": "Gekopieerd!",
+        "copy": "Kopie",
+        "deliveredItems": "Geleverde artikelen",
+        "downloadButton": "Downloaden",
+        "downloadFailed": "Download van deliverables mislukt.",
+        "instructions": "Instructies",
+        "moreItemsDownload": "en {count} meer items waartoe u toegang kunt krijgen door {label} te downloaden.",
+        "outOfStockMessage": "Dit product is momenteel niet op voorraad. Neem contact op met onze Klantenservice voor meer informatie.",
+        "productBeingDelivered": "Dit product wordt geleverd...",
+        "productDeliveryFailed": "Dit product kon niet worden geleverd. Neem contact op met onze Klantenservice voor meer informatie.",
+        "statusCancelled": "Geannuleerd",
+        "statusDelivered": "Geleverd",
+        "statusExpired": "Verlopen",
+        "statusFailed": "Mislukt",
+        "statusOutOfStock": "Niet op voorraad",
+        "statusPending": "In afwachting van",
+        "statusRefunded": "Terugbetaald",
+        "statusVoided": "Ongeldig"
+      },
+      "CheckoutCompletedFeedback": {
+        "automaticFeedbackWarning": "Als je niet binnen 7 dagen feedback achterlaat, wordt er automatisch een 5-sterrenfeedback voor je achtergelaten.",
+        "cancel": "Annuleren",
+        "editFeedback": "Feedback bewerken",
+        "feedbackCouponIncentive": "Laat een feedback achter en ontvang een kortingsbon voor je volgende aankoop. Minimaal vereiste waardering: {rating} sterren.",
+        "feedbackEmailInstructions": "Je kunt feedback achterlaten door te klikken op de knop \"Feedback achterlaten\" in de e-mail die je hebt ontvangen nadat je bestelling is voltooid.",
+        "feedbackIneligibleAmount": "Deze bestelling komt niet in aanmerking voor een terugkoppeling (onbeduidend bedrag)",
+        "feedbackIneligibleManual": "Deze bestelling komt niet in aanmerking voor een terugkoppeling (handmatig verwerkt)",
+        "leaveFeedback": "Feedback achterlaten",
+        "message": "Bericht",
+        "messageRequired": "Bericht is vereist.",
+        "noMessageLeft": "Geen bericht achtergelaten.",
+        "rating": "Beoordeling",
+        "ratingRequired": "Rating is vereist.",
+        "replyFromShop": "Antwoord van {shopName}",
+        "saveChanges": "Wijzigingen opslaan",
+        "submitFeedback": "Feedback indienen",
+        "yourFeedback": "Uw feedback"
+      },
+      "CheckoutCompletedRedirectUrl": {
+        "clickContinueOrder": "Klik op een willekeurige plaats om verder te gaan met je bestelling."
+      },
+      "CheckoutDiscordIntegration": {
+        "connectButton": "Maak verbinding met",
+        "connectDiscord": "Discord verbinden",
+        "connectDiscordRequired": "Maak verbinding met je Discord-account om verder te gaan.",
+        "disconnect": "Ontkoppelen",
+        "discord": "Discord",
+        "discordDescriptionWithRole": "om automatisch lid te worden van onze Discord-server en een rol te ontvangen.",
+        "discordDescriptionWithoutRole": "om automatisch lid te worden van onze Discord-server."
+      },
+      "CheckoutFailed": {
+        "orderCancelled": "Bestelling geannuleerd",
+        "orderCancelledMessage": "De bestelling is geannuleerd.",
+        "orderExpired": "Bestelling verlopen",
+        "orderFailed": "Bestelling mislukt",
+        "orderProcessingFailed": "Deze bestelling kon niet worden verwerkt. Als je denkt dat dit een fout is, neem dan contact op met onze klantenservice of probeer het later nog eens.",
+        "paymentNotSentInTime": "De betaling is niet op tijd verzonden."
+      },
+      "CheckoutFooter": {
+        "poweredBy": "Aangedreven door",
+        "termsOfService": "Servicevoorwaarden"
+      },
+      "CheckoutInvoiceDetails": {
+        "anonymized": "Geanonimiseerd",
+        "cancelledAt": "Geannuleerd Op",
+        "completedAt": "Voltooid Op",
+        "copied": "Gekopieerd!",
+        "createdAt": "Gemaakt op",
+        "emailAddress": "E-mailadres",
+        "expiresAt": "Verloopt op",
+        "invoiceId": "Factuur ID",
+        "remainingAmountCrypto": "Resterend bedrag ({gateway})",
+        "totalAmountCrypto": "Totaal bedrag ({gateway})",
+        "totalPrice": "Totale prijs",
+        "totalPriceUsd": "Totale prijs (USD)"
+      },
+      "CheckoutInvoiceItems": {
+        "forParentItem": "Voor {parentName}",
+        "priceEach": "{price} elke"
+      },
+      "CheckoutOrderInformationForm": {
+        "applied": "Toegepast",
+        "apply": "Toepassen",
+        "couponCode": "kortingscode",
+        "couponPlaceholder": "Heb je een couponcode? Voer hem hier in.",
+        "emailAddress": "E-mailadres",
+        "emailInvalid": "Voer een geldig e-mailadres in",
+        "emailPlaceholder": "De orderbevestiging wordt naar dit e-mailadres gestuurd.",
+        "emailRequired": "Voer uw e-mailadres in",
+        "newsletterSignup": "Ik wil graag updates en promoties ontvangen van {shopName}.",
+        "paymentMethod": "Betaalmethode",
+        "paymentMethodRequired": "Selecteer een betaalmethode",
+        "proceedToPayment": "Doorgaan naar betaling",
+        "termsAgreement": "Ik heb de Servicevoorwaarden van {shopName} gelezen en ga ermee akkoord.",
+        "termsRequired": "Accepteer de algemene voorwaarden"
+      },
+      "CheckoutPayCashApp": {
+        "addNoteInstruction": "Voeg een notitie toe aan de betaling, anders wordt deze genegeerd.",
+        "addNoteWarning": "Zorg ervoor dat je de opmerking toevoegt, anders wordt je bestelling niet automatisch verwerkt.",
+        "automaticProcessingMessage": "Je bestelling wordt automatisch verwerkt zodra de betaling is ontvangen.",
+        "awaitingConfirmation": "In afwachting van bevestiging...",
+        "confirmationMessage": "Je ontvangt een bevestiging zodra de betaling is verwerkt.",
+        "contactForAssistance": "Als je vragen hebt of meer hulp nodig hebt, kun je contact met ons opnemen.",
+        "continue": "Ga verder",
+        "copied": "Gekopieerd!",
+        "copyBelow": "Je kunt het hieronder kopiëren.",
+        "copyCashtag": "Of kopieer de cashtag hieronder.",
+        "manualAcceptanceWait": "Wacht even terwijl je betaling handmatig wordt geaccepteerd door de accounteigenaar.",
+        "openCashapp": "Open CashApp",
+        "scanQrCode": "Je kunt de QR-code scannen.",
+        "sendExactAmount": "Zorg ervoor dat je het exacte bedrag stuurt.",
+        "sendPaymentWithNote": "Je moet een betaling met een briefje sturen naar de volgende rekening.",
+        "warningPaymentWithNote": "Waarschuwing - Betaling met nota"
+      },
+      "CheckoutPayCryptocurrency": {
+        "automaticProcessingConfirmation": "Je bestelling wordt automatisch verwerkt zodra de transactie is bevestigd.",
+        "automaticProcessingPayment": "Je bestelling wordt automatisch verwerkt zodra de betaling is ontvangen.",
+        "automaticProcessingRemaining": "Je bestelling wordt automatisch verwerkt zodra het resterende bedrag is ontvangen.",
+        "copied": "Gekopieerd!",
+        "copyAddressBelow": "Of kopieer het onderstaande adres.",
+        "copyBelow": "Je kunt het hieronder kopiëren.",
+        "noTransactions": "Nog geen transacties...",
+        "openWallet": "Open Portemonnee",
+        "partialPayment": "Gedeeltelijke betaling",
+        "partialPaymentStatus": "Je hebt {paidAmount} {gateway} betaald van {totalAmount} {gateway}.",
+        "remainingAmount": "Resterend bedrag: {amount} {gateway}.",
+        "scanQrCode": "Je kunt de QR-code scannen.",
+        "sendExactAmount": "Zorg ervoor dat je het exacte bedrag stuurt.",
+        "sendExactRemainingAmount": "Zorg ervoor dat je het exacte resterende bedrag stuurt.",
+        "sendPaymentToAddress": "Je moet een betaling sturen naar het volgende adres.",
+        "transactionHistory": "Transactiegeschiedenis"
+      },
+      "CheckoutPayExternalUrl": {
+        "clickHereIfNotVisible": "Zie je het niet? Klik hier",
+        "paymentBeingProcessed": "Uw betaling wordt verwerkt...",
+        "paymentPageOpened": "De betaalpagina is geopend in een nieuw tabblad"
+      },
+      "CheckoutPayManual": {
+        "awaitingConfirmation": "In afwachting van bevestiging",
+        "cancel": "Annuleren",
+        "markAsPaid": "Markeren als betaald",
+        "markOrderAsPaid": "Bestelling markeren als betaald",
+        "markedAsPaidFailed": "Het is niet gelukt om de factuur als betaald te markeren. Probeer het opnieuw.",
+        "markedAsPaidSuccess": "Factuur gemarkeerd als succesvol betaald! Wacht op bevestiging.",
+        "paymentInstructions": "Betalingsinstructies",
+        "proofOfPayment": "Bewijs van betaling",
+        "proofOfPaymentRequired": "Een betalingsbewijs is vereist."
+      },
+      "CheckoutPayPayPalFriendsFamily": {
+        "addNoteInstruction": "Voeg een notitie toe aan de betaling, anders wordt deze genegeerd.",
+        "additionalDetailsInstruction": "Gebruik het volgende als u om meer informatie wordt gevraagd:",
+        "automaticProcessingMessage": "Je bestelling wordt automatisch verwerkt zodra de betaling is ontvangen.",
+        "continue": "Ga verder",
+        "copied": "Gekopieerd!",
+        "copyBelow": "Je kunt het hieronder kopiëren.",
+        "copyEmailBelow": "Kopieer het e-mailadres van PayPal hieronder.",
+        "friendsFamilyNoteWarning": "Zorg ervoor dat je de betaling als Vrienden &amp; Familie verstuurt en de notitie toevoegt, anders wordt je bestelling niet automatisch verwerkt.",
+        "friendsFamilyWarning": "Als je niet als Vrienden &amp; Familie verstuurt, wordt je bestelling niet automatisch verwerkt.",
+        "noNoteInstruction": "Voeg geen notitie toe bij het verzenden van de betaling.",
+        "openPaypal": "Open PayPal",
+        "sendExactAmount": "Zorg ervoor dat je het exacte bedrag stuurt.",
+        "sendFriendsFamilyNote": "Je moet een Friends &amp; Family-betaling met een briefje sturen naar de volgende rekening.",
+        "warningFriendsFamilyNote": "Waarschuwing - Vrienden &amp; Familie Betaling met Notitie"
+      },
+      "CheckoutPayPayPalREST": {
+        "paypalPaymentProcessing": "Uw PayPal-betaling wordt verwerkt..."
+      },
+      "CheckoutPaySumUp": {
+        "authenticationFailed": "Kaartverificatie mislukt. Probeer een andere kaart.",
+        "insufficientFunds": "Onvoldoende saldo. Probeer een andere kaart.",
+        "networkError": "Netwerkfout. Controleer je verbinding en probeer het opnieuw.",
+        "paymentCancelled": "De betaling is geannuleerd. Probeer het opnieuw.",
+        "paymentErrorGeneric": "Er is een fout opgetreden bij het verwerken van je betaling. Probeer het opnieuw.",
+        "paymentFailedRetry": "Betaling mislukt. Vernieuwen en opnieuw proberen of een andere kaart gebruiken.",
+        "paymentProcessingNotification": "Je betaling wordt verwerkt. We brengen je op de hoogte wanneer de verwerking is voltooid.",
+        "sumupPaymentProcessing": "Uw SumUp betaling wordt verwerkt..."
+      },
+      "CheckoutPayVenmo": {
+        "addNoteInstruction": "Voeg een notitie toe aan de betaling, anders wordt deze genegeerd.",
+        "additionalDetailsInstruction": "Gebruik het volgende als u om meer informatie wordt gevraagd:",
+        "automaticProcessingMessage": "Je bestelling wordt automatisch verwerkt zodra de betaling is ontvangen.",
+        "continue": "Ga verder",
+        "copied": "Gekopieerd!",
+        "copyBelow": "Je kunt het hieronder kopiëren.",
+        "copyTagBelow": "Of kopieer de tag hieronder.",
+        "friendsFamilyNoteWarning": "Zorg ervoor dat je de betaling als Vrienden &amp; Familie verstuurt en de notitie toevoegt, anders wordt je bestelling niet automatisch verwerkt.",
+        "openVenmo": "Venmo openen",
+        "scanQrCode": "Je kunt de QR-code scannen.",
+        "sendExactAmount": "Zorg ervoor dat je het exacte bedrag stuurt.",
+        "sendFriendsFamilyNote": "Je moet een Friends &amp; Family-betaling met een briefje sturen naar de volgende rekening.",
+        "warningFriendsFamilyNote": "Waarschuwing - Vrienden &amp; Familie Betaling met Notitie"
+      },
+      "CheckoutPaymentMethodButton": {
+        "allowedAmounts": "Toegestane bedragen:",
+        "discount": "korting",
+        "fee": "vergoeding",
+        "maximumAmount": "Maximumbedrag:",
+        "minimumAmount": "Minimumbedrag:",
+        "poweredBy": "Aangedreven door"
+      },
+      "CheckoutPriceSummary": {
+        "couponCodeWithName": "Couponcode ({code})",
+        "paymentMethodDiscount": "Betalingsmethode Korting",
+        "paymentMethodFee": "Betalingsmethode Vergoeding",
+        "preTaxTotal": "Totaal vóór belastingen",
+        "subtotal": "Subtotaal",
+        "taxWithRate": "Belasting ({rate}%)",
+        "total": "Totaal",
+        "unknownCode": "Onbekende code",
+        "volumeDiscount": "Volumekorting"
+      },
+      "CheckoutRefunded": {
+        "orderRefunded": "Bestelling terugbetaald",
+        "orderRefundedMessage": "Deze bestelling is gemarkeerd als terugbetaald."
+      },
+      "CheckoutShopCustomerBalanceButton": {
+        "allowedAmounts": "Toegestane bedragen:",
+        "balance": "Saldo",
+        "cancel": "Annuleren",
+        "clickToAuthenticate": "Klik om te verifiëren.",
+        "continue": "Ga verder",
+        "discount": "korting",
+        "enterEmailAddress": "Voer uw e-mailadres in.",
+        "fee": "vergoeding",
+        "insufficientBalance": "Je hebt niet genoeg saldo om deze factuur te betalen.",
+        "invalidCredentials": "Ongeldige aanmeldingsgegevens.",
+        "logIn": "Aanmelden",
+        "logInCustomerAccount": "Aanmelden bij je klantenaccount",
+        "loggedInAs": "Aangemeld als {email}.",
+        "loggedInAsEmail": "Aangemeld als {email}",
+        "logout": "Afmelden",
+        "maximumAmount": "Maximumbedrag:",
+        "minimumAmount": "Minimumbedrag:",
+        "otpCaptchaInstructions": "Na de CAPTCHA-verificatie wordt een eenmalig wachtwoord naar je e-mailadres gestuurd. Een ogenblik geduld alstublieft.",
+        "otpSent": "OTP is naar uw e-mail verzonden.",
+        "otpSentInstructions": "Er is een eenmalig wachtwoord naar je e-mailadres gestuurd. Voer het hieronder in om toegang te krijgen tot je account en met je saldo te betalen.",
+        "sufficientBalance": "Je hebt genoeg saldo om deze factuur te betalen."
+      },
+      "CheckoutStepper": {
+        "next": "Volgende:",
+        "stepNumber": "Stap {number}"
+      },
+      "CheckoutTicketButton": {
+        "havingIssues": "Problemen met je bestelling?",
+        "openSupportTicket": "Een supportticket openen",
+        "openTicketInstructions": "Je kunt een ticket openen op je klantdashboard om hulp te krijgen van ons ondersteuningsteam."
+      }
+    },
+    "FormLabel": {
+      "optionalIndicator": "(optioneel)"
+    },
+    "FormSubmit": {
+      "defaultLabel": "Ga verder"
+    }
+  },
+  "Route": {
+    "App": {
+      "title": "Kassa"
+    },
+    "Checkout": {
+      "invoiceNotFound": "Factuur niet gevonden",
+      "pageTitle": "Kassa - {shopName}",
+      "shopNotFound": "Winkel niet gevonden"
+    }
+  }
+}

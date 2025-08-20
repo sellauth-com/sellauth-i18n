@@ -1,0 +1,290 @@
+{
+  "Cmp": {
+    "Checkout": {
+      "Checkout": {
+        "payShopName": "Palkka {shopName}",
+        "stepConfirmPay": "Vahvista &amp; maksa",
+        "stepExtraInformation": "Lisätietoa",
+        "stepOrderCancelled": "Tilaus peruutettu",
+        "stepOrderInformation": "Tilaustiedot",
+        "stepOrderRefunded": "Tilauksen takaisinmaksettu",
+        "stepReceiveItems": "Vastaanota tuotteesi"
+      },
+      "CheckoutAdditionalInformationForm": {
+        "additionalInformationInstructions": "Anna tilauksessasi lisätietoja seuraavista kohteista.",
+        "fieldRequiredError": "Tämä kenttä on pakollinen",
+        "proceedToPayment": "Siirry maksuun"
+      },
+      "CheckoutCompleted": {
+        "orderCompletedSuccessfully": "Tilauksesi on suoritettu onnistuneesti!",
+        "orderMarkedRefunded": "Tilauksesi on merkitty palautetuksi!",
+        "orderPartiallyCompleted": "Tilauksesi on osittain valmis!"
+      },
+      "CheckoutCompletedDeliverables": {
+        "addOns": "Lisäosat",
+        "copied": "Kopioitu!",
+        "copy": "Kopioi",
+        "deliveredItems": "Toimitetut tuotteet",
+        "downloadButton": "Lataa",
+        "downloadFailed": "Toimitusten lataaminen epäonnistui.",
+        "instructions": "Ohjeet",
+        "moreItemsDownload": "ja {count} lisää kohteita, joihin pääset käsiksi lataamalla {label}.",
+        "outOfStockMessage": "Tämä tuote on tällä hetkellä loppunut varastosta. Ota yhteyttä asiakaspalveluumme saadaksesi lisätietoja.",
+        "productBeingDelivered": "Tämä tuote toimitetaan...",
+        "productDeliveryFailed": "Tätä tuotetta ei voitu toimittaa. Ota yhteyttä asiakaspalveluumme saadaksesi lisätietoja.",
+        "statusCancelled": "Peruutettu",
+        "statusDelivered": "Toimitettu",
+        "statusExpired": "Vanhentunut",
+        "statusFailed": "Epäonnistunut",
+        "statusOutOfStock": "Ei varastossa",
+        "statusPending": "Vireillä",
+        "statusRefunded": "Palautettu",
+        "statusVoided": "Mitätöity"
+      },
+      "CheckoutCompletedFeedback": {
+        "automaticFeedbackWarning": "Jos et jätä palautetta 7 päivän kuluessa, sinulle jätetään automaattisesti 5 tähden palaute.",
+        "cancel": "Peruuta",
+        "editFeedback": "Muokkaa palautetta",
+        "feedbackCouponIncentive": "Jätä palautetta ja saat alennuskupongin seuraavaa ostoasi varten. Vaadittava vähimmäisarvosana: {rating} tähdet.",
+        "feedbackEmailInstructions": "Voit jättää palautetta klikkaamalla \"Jätä palaute\" -painiketta sähköpostissa, jonka sait tilauksen valmistuttua.",
+        "feedbackIneligibleAmount": "Tästä tilauksesta ei voi antaa palautetta (merkityksetön summa).",
+        "feedbackIneligibleManual": "Tästä tilauksesta ei voi antaa palautetta (manuaalisesti käsitelty).",
+        "leaveFeedback": "Jätä palautetta",
+        "message": "Viesti",
+        "messageRequired": "Viestiä tarvitaan.",
+        "noMessageLeft": "Ei jätetty viestiä.",
+        "rating": "Luokitus",
+        "ratingRequired": "Luokitus vaaditaan.",
+        "replyFromShop": "Vastaus osoitteesta {shopName}",
+        "saveChanges": "Tallenna muutokset",
+        "submitFeedback": "Lähetä palautetta",
+        "yourFeedback": "Palautteesi"
+      },
+      "CheckoutCompletedRedirectUrl": {
+        "clickContinueOrder": "Jatka tilausta klikkaamalla mistä tahansa."
+      },
+      "CheckoutDiscordIntegration": {
+        "connectButton": "Yhdistä",
+        "connectDiscord": "Yhdistä Discord",
+        "connectDiscordRequired": "Yhdistä Discord-tilisi jatkaaksesi.",
+        "disconnect": "Katkaise yhteys",
+        "discord": "Keskustelu",
+        "discordDescriptionWithRole": "liittyäksesi automaattisesti Discord-palvelimeemme ja saadaksesi roolin.",
+        "discordDescriptionWithoutRole": "liittyäksesi automaattisesti Discord-palvelimeemme."
+      },
+      "CheckoutFailed": {
+        "orderCancelled": "Tilaus peruutettu",
+        "orderCancelledMessage": "Tilaus on peruutettu.",
+        "orderExpired": "Tilaus päättynyt",
+        "orderFailed": "Tilaus epäonnistui",
+        "orderProcessingFailed": "Tätä tilausta ei voitu käsitellä. Jos luulet, että kyseessä on virhe, ota yhteyttä asiakaspalveluumme tai yritä myöhemmin uudelleen.",
+        "paymentNotSentInTime": "Maksua ei lähetetty ajoissa."
+      },
+      "CheckoutFooter": {
+        "poweredBy": "Powered by",
+        "termsOfService": "Käyttöehdot"
+      },
+      "CheckoutInvoiceDetails": {
+        "anonymized": "Anonymisoitu",
+        "cancelledAt": "Peruutettu klo",
+        "completedAt": "Valmistunut klo",
+        "copied": "Kopioitu!",
+        "createdAt": "Created at",
+        "emailAddress": "Sähköpostiosoite",
+        "expiresAt": "Vanhentuu osoitteessa",
+        "invoiceId": "Laskun ID",
+        "remainingAmountCrypto": "Jäljellä oleva määrä ({gateway})",
+        "totalAmountCrypto": "Kokonaismäärä ({gateway})",
+        "totalPrice": "Kokonaishinta",
+        "totalPriceUsd": "Kokonaishinta (USD)"
+      },
+      "CheckoutInvoiceItems": {
+        "forParentItem": "Osoitteessa {parentName}",
+        "priceEach": "{price} kukin"
+      },
+      "CheckoutOrderInformationForm": {
+        "applied": "Sovellettu",
+        "apply": "Hae",
+        "couponCode": "Kuponkikoodi",
+        "couponPlaceholder": "Onko sinulla kuponkikoodi? Kirjoita se tähän.",
+        "emailAddress": "Sähköpostiosoite",
+        "emailInvalid": "Kirjoita voimassa oleva sähköpostiosoite",
+        "emailPlaceholder": "Tilausvahvistus lähetetään tähän sähköpostiosoitteeseen.",
+        "emailRequired": "Kirjoita sähköpostiosoitteesi",
+        "newsletterSignup": "Haluan saada päivityksiä ja kampanjoita osoitteesta {shopName}.",
+        "paymentMethod": "Maksutapa",
+        "paymentMethodRequired": "Valitse maksutapa",
+        "proceedToPayment": "Siirry maksuun",
+        "termsAgreement": "Olen lukenut ja hyväksyn {shopName}:n käyttöehdot.",
+        "termsRequired": "Hyväksy ehdot"
+      },
+      "CheckoutPayCashApp": {
+        "addNoteInstruction": "Lisää maksuun huomautus, muuten se jätetään huomiotta.",
+        "addNoteWarning": "Muista lisätä huomautus, muuten tilaustasi ei käsitellä automaattisesti.",
+        "automaticProcessingMessage": "Tilauksesi käsitellään automaattisesti, kun maksu on vastaanotettu.",
+        "awaitingConfirmation": "Odotamme vahvistusta...",
+        "confirmationMessage": "Saat vahvistuksen, kun maksu on käsitelty.",
+        "contactForAssistance": "Jos sinulla on kysyttävää tai tarvitset lisäapua, ota meihin yhteyttä.",
+        "continue": "Jatka",
+        "copied": "Kopioitu!",
+        "copyBelow": "Voit kopioida sen alta.",
+        "copyCashtag": "Tai kopioi alla oleva cashtag.",
+        "manualAcceptanceWait": "Odota, kun tilin omistaja hyväksyy maksusi manuaalisesti.",
+        "openCashapp": "Avaa CashApp",
+        "scanQrCode": "Voit skannata QR-koodin.",
+        "sendExactAmount": "Varmista, että lähetät tarkan summan.",
+        "sendPaymentWithNote": "Maksu on lähetettävä seuraavalle tilille.",
+        "warningPaymentWithNote": "Varoitus - Maksu huomautuksella"
+      },
+      "CheckoutPayCryptocurrency": {
+        "automaticProcessingConfirmation": "Tilauksesi käsitellään automaattisesti, kun maksutapahtuma on vahvistettu.",
+        "automaticProcessingPayment": "Tilauksesi käsitellään automaattisesti, kun maksu on vastaanotettu.",
+        "automaticProcessingRemaining": "Tilauksesi käsitellään automaattisesti, kun jäljellä oleva summa on vastaanotettu.",
+        "copied": "Kopioitu!",
+        "copyAddressBelow": "Tai kopioi alla oleva osoite.",
+        "copyBelow": "Voit kopioida sen alta.",
+        "noTransactions": "Ei tapahtumia vielä...",
+        "openWallet": "Avoin lompakko",
+        "partialPayment": "Osittainen maksu",
+        "partialPaymentStatus": "Olet maksanut {paidAmount} {gateway} osoitteesta {totalAmount} {gateway}.",
+        "remainingAmount": "Jäljellä oleva määrä: {amount} {gateway}.",
+        "scanQrCode": "Voit skannata QR-koodin.",
+        "sendExactAmount": "Varmista, että lähetät tarkan summan.",
+        "sendExactRemainingAmount": "Varmista, että lähetät tarkan jäljellä olevan summan.",
+        "sendPaymentToAddress": "Maksu on lähetettävä seuraavaan osoitteeseen.",
+        "transactionHistory": "Tapahtumahistoria"
+      },
+      "CheckoutPayExternalUrl": {
+        "clickHereIfNotVisible": "Etkö näe sitä? Klikkaa tästä",
+        "paymentBeingProcessed": "Maksuasi käsitellään parhaillaan...",
+        "paymentPageOpened": "Maksusivu on avattu uuteen välilehteen."
+      },
+      "CheckoutPayManual": {
+        "awaitingConfirmation": "Odottaa vahvistusta",
+        "cancel": "Peruuta",
+        "markAsPaid": "Merkitse maksetuksi",
+        "markOrderAsPaid": "Merkitse tilaus maksetuksi",
+        "markedAsPaidFailed": "Lasku ei ole merkitty maksetuksi. Yritä uudelleen.",
+        "markedAsPaidSuccess": "Lasku merkitty maksetuksi onnistuneesti! Odota vahvistusta.",
+        "paymentInstructions": "Maksuohjeet",
+        "proofOfPayment": "Maksutodistus",
+        "proofOfPaymentRequired": "Maksutodistus vaaditaan."
+      },
+      "CheckoutPayPayPalFriendsFamily": {
+        "addNoteInstruction": "Lisää maksuun huomautus, muuten se jätetään huomiotta.",
+        "additionalDetailsInstruction": "Jos sinua pyydetään toimittamaan lisätietoja, käytä seuraavia ohjeita:",
+        "automaticProcessingMessage": "Tilauksesi käsitellään automaattisesti, kun maksu on vastaanotettu.",
+        "continue": "Jatka",
+        "copied": "Kopioitu!",
+        "copyBelow": "Voit kopioida sen alta.",
+        "copyEmailBelow": "Kopioi PayPalin sähköpostiosoite alta.",
+        "friendsFamilyNoteWarning": "Varmista, että lähetät maksun ystäville ja perheelle ja lisäät muistiinpanon, muuten tilaustasi ei käsitellä automaattisesti.",
+        "friendsFamilyWarning": "Jos et lähetä Friends &amp; Family -tilausta, tilaustasi ei käsitellä automaattisesti.",
+        "noNoteInstruction": "Älä liitä huomautusta maksun lähettämisen yhteydessä.",
+        "openPaypal": "Avaa PayPal",
+        "sendExactAmount": "Varmista, että lähetät tarkan summan.",
+        "sendFriendsFamilyNote": "Lähetä Friends &amp; Family -maksu ja merkintä seuraavalle tilille.",
+        "warningFriendsFamilyNote": "Varoitus - Friends &amp; Family -maksu huomautuksella"
+      },
+      "CheckoutPayPayPalREST": {
+        "paypalPaymentProcessing": "PayPal-maksua käsitellään parhaillaan..."
+      },
+      "CheckoutPaySumUp": {
+        "authenticationFailed": "Kortin todennus epäonnistui. Kokeile toista korttia.",
+        "insufficientFunds": "Varojen riittämättömyys. Kokeile toista korttia.",
+        "networkError": "Verkkovirhe. Tarkista yhteys ja yritä uudelleen.",
+        "paymentCancelled": "Maksu peruttiin. Yritä uudelleen.",
+        "paymentErrorGeneric": "Maksun käsittelyssä tapahtui virhe. Yritä uudelleen.",
+        "paymentFailedRetry": "Maksu epäonnistui. Päivitä ja yritä uudelleen tai käytä toista korttia.",
+        "paymentProcessingNotification": "Maksuasi käsitellään parhaillaan. Ilmoitamme sinulle, kun se on valmis.",
+        "sumupPaymentProcessing": "SumUp-maksua käsitellään parhaillaan..."
+      },
+      "CheckoutPayVenmo": {
+        "addNoteInstruction": "Lisää maksuun huomautus, muuten se jätetään huomiotta.",
+        "additionalDetailsInstruction": "Jos sinua pyydetään toimittamaan lisätietoja, käytä seuraavia ohjeita:",
+        "automaticProcessingMessage": "Tilauksesi käsitellään automaattisesti, kun maksu on vastaanotettu.",
+        "continue": "Jatka",
+        "copied": "Kopioitu!",
+        "copyBelow": "Voit kopioida sen alta.",
+        "copyTagBelow": "Tai kopioi alla oleva tunniste.",
+        "friendsFamilyNoteWarning": "Varmista, että lähetät maksun ystäville ja perheelle ja lisäät muistiinpanon, muuten tilaustasi ei käsitellä automaattisesti.",
+        "openVenmo": "Avaa Venmo",
+        "scanQrCode": "Voit skannata QR-koodin.",
+        "sendExactAmount": "Varmista, että lähetät tarkan summan.",
+        "sendFriendsFamilyNote": "Lähetä Friends &amp; Family -maksu ja merkintä seuraavalle tilille.",
+        "warningFriendsFamilyNote": "Varoitus - Friends &amp; Family -maksu huomautuksella"
+      },
+      "CheckoutPaymentMethodButton": {
+        "allowedAmounts": "Sallitut määrät:",
+        "discount": "alennus",
+        "fee": "maksu",
+        "maximumAmount": "Enimmäismäärä:",
+        "minimumAmount": "Vähimmäismäärä:",
+        "poweredBy": "Powered by"
+      },
+      "CheckoutPriceSummary": {
+        "couponCodeWithName": "Kuponkikoodi ({code})",
+        "paymentMethodDiscount": "Maksutapa-alennus",
+        "paymentMethodFee": "Maksutapa Maksu",
+        "preTaxTotal": "Ennen veroja Yhteensä",
+        "subtotal": "Yhteensä",
+        "taxWithRate": "Vero ({rate}%)",
+        "total": "Yhteensä",
+        "unknownCode": "Tuntematon koodi",
+        "volumeDiscount": "Volyymialennus"
+      },
+      "CheckoutRefunded": {
+        "orderRefunded": "Tilauksen takaisinmaksettu",
+        "orderRefundedMessage": "Tämä tilaus on merkitty palautetuksi."
+      },
+      "CheckoutShopCustomerBalanceButton": {
+        "allowedAmounts": "Sallitut määrät:",
+        "balance": "Balance",
+        "cancel": "Peruuta",
+        "clickToAuthenticate": "Napsauta todennusta.",
+        "continue": "Jatka",
+        "discount": "alennus",
+        "enterEmailAddress": "Anna sähköpostiosoitteesi.",
+        "fee": "maksu",
+        "insufficientBalance": "Saldosi ei riitä tämän laskun maksamiseen.",
+        "invalidCredentials": "Virheelliset valtakirjat.",
+        "logIn": "Kirjaudu sisään",
+        "logInCustomerAccount": "Kirjaudu sisään asiakastilillesi",
+        "loggedInAs": "Kirjautunut sisään nimellä {email}.",
+        "loggedInAsEmail": "Kirjautunut sisään nimellä {email}",
+        "logout": "Kirjaudu ulos",
+        "maximumAmount": "Enimmäismäärä:",
+        "minimumAmount": "Vähimmäismäärä:",
+        "otpCaptchaInstructions": "CAPTCHA-varmennuksen jälkeen sähköpostiosoitteeseesi lähetetään kertakäyttösalasana. Odota hetki.",
+        "otpSent": "OTP on lähetetty sähköpostiisi.",
+        "otpSentInstructions": "Sähköpostiosoitteeseesi on lähetetty kertakäyttösalasana. Syötä se alla olevaan kenttään päästäksesi tilillesi ja maksaaksesi saldollasi.",
+        "sufficientBalance": "Sinulla on riittävästi saldoa tämän laskun maksamiseen."
+      },
+      "CheckoutStepper": {
+        "next": "Seuraava:",
+        "stepNumber": "Vaihe {number}"
+      },
+      "CheckoutTicketButton": {
+        "havingIssues": "Onko tilauksesi kanssa ongelmia?",
+        "openSupportTicket": "Avaa tukipyyntö",
+        "openTicketInstructions": "Voit avata tiketin asiakkaan kojelaudalla saadaksesi apua tukitiimiltämme."
+      }
+    },
+    "FormLabel": {
+      "optionalIndicator": "(valinnainen)"
+    },
+    "FormSubmit": {
+      "defaultLabel": "Jatka"
+    }
+  },
+  "Route": {
+    "App": {
+      "title": "Kassa"
+    },
+    "Checkout": {
+      "invoiceNotFound": "Laskua ei löydy",
+      "pageTitle": "Kassalle - {shopName}",
+      "shopNotFound": "Kauppaa ei löydy"
+    }
+  }
+}

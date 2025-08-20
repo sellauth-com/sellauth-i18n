@@ -1,0 +1,290 @@
+{
+  "Cmp": {
+    "Checkout": {
+      "Checkout": {
+        "payShopName": "Заплати {shopName}",
+        "stepConfirmPay": "Підтвердити та оплатити",
+        "stepExtraInformation": "Додаткова інформація",
+        "stepOrderCancelled": "Замовлення скасовано",
+        "stepOrderInformation": "Інформація про замовлення",
+        "stepOrderRefunded": "Замовлення відшкодовано",
+        "stepReceiveItems": "Отримайте свої товари"
+      },
+      "CheckoutAdditionalInformationForm": {
+        "additionalInformationInstructions": "Будь ласка, надайте додаткову інформацію для наступних позицій у вашому замовленні.",
+        "fieldRequiredError": "Це поле обов'язкове для заповнення",
+        "proceedToPayment": "Перейти до оплати"
+      },
+      "CheckoutCompleted": {
+        "orderCompletedSuccessfully": "Ваше замовлення успішно завершено!",
+        "orderMarkedRefunded": "Ваше замовлення відмічено як відшкодоване!",
+        "orderPartiallyCompleted": "Ваше замовлення частково виконано!"
+      },
+      "CheckoutCompletedDeliverables": {
+        "addOns": "Доповнення",
+        "copied": "Зрозумів!",
+        "copy": "Зрозумів.",
+        "deliveredItems": "Доставлені товари",
+        "downloadButton": "Завантажити",
+        "downloadFailed": "Не вдалося завантажити результати.",
+        "instructions": "Інструкція",
+        "moreItemsDownload": "та {count} більше статей, до яких ви можете отримати доступ, завантаживши {label}.",
+        "outOfStockMessage": "Наразі цього продукту немає в наявності. Будь ласка, зверніться до нашої служби підтримки для отримання додаткової інформації.",
+        "productBeingDelivered": "Цей товар доставляється...",
+        "productDeliveryFailed": "Цей продукт не може бути доставлений. Будь ласка, зверніться до нашої служби підтримки для отримання додаткової інформації.",
+        "statusCancelled": "Скасовано.",
+        "statusDelivered": "Доставлено",
+        "statusExpired": "Закінчився",
+        "statusFailed": "Не вдалося.",
+        "statusOutOfStock": "Немає в наявності",
+        "statusPending": "На розгляді",
+        "statusRefunded": "Відшкодовано",
+        "statusVoided": "Анульовано"
+      },
+      "CheckoutCompletedFeedback": {
+        "automaticFeedbackWarning": "Якщо ви не залишите відгук протягом 7 днів, вам буде автоматично залишено 5-зірковий відгук.",
+        "cancel": "Скасувати",
+        "editFeedback": "Редагувати відгук",
+        "feedbackCouponIncentive": "Залиште відгук, щоб отримати купон на знижку на наступну покупку. Мінімальна оцінка: {rating} зірок.",
+        "feedbackEmailInstructions": "Ви можете залишити відгук, натиснувши кнопку \"Залишити відгук\" в електронному листі, який ви отримали після завершення замовлення.",
+        "feedbackIneligibleAmount": "Це замовлення не має права на зворотній зв'язок (незначна сума)",
+        "feedbackIneligibleManual": "Це замовлення не має права на зворотній зв'язок (Обробляється вручну)",
+        "leaveFeedback": "Залишити відгук",
+        "message": "Повідомлення",
+        "messageRequired": "Потрібне повідомлення.",
+        "noMessageLeft": "Повідомлення не залишено.",
+        "rating": "Рейтинг",
+        "ratingRequired": "Оцінка обов'язкова.",
+        "replyFromShop": "Відповідь від {shopName}",
+        "saveChanges": "Зберегти зміни",
+        "submitFeedback": "Надіслати відгук",
+        "yourFeedback": "Ваш відгук"
+      },
+      "CheckoutCompletedRedirectUrl": {
+        "clickContinueOrder": "Натисніть будь-де, щоб продовжити оформлення замовлення."
+      },
+      "CheckoutDiscordIntegration": {
+        "connectButton": "Підключіться",
+        "connectDiscord": "Підключіть Розбрат",
+        "connectDiscordRequired": "Підключіть свій обліковий запис Discord, щоб продовжити.",
+        "disconnect": "Від'єднати",
+        "discord": "Розбрат",
+        "discordDescriptionWithRole": "щоб автоматично приєднатися до нашого сервера Discord і отримати роль.",
+        "discordDescriptionWithoutRole": "щоб автоматично приєднатися до нашого сервера Discord."
+      },
+      "CheckoutFailed": {
+        "orderCancelled": "Замовлення скасовано",
+        "orderCancelledMessage": "Наказ скасовано.",
+        "orderExpired": "Термін дії замовлення закінчився",
+        "orderFailed": "Замовлення не виконано.",
+        "orderProcessingFailed": "Це замовлення не може бути оброблено. Якщо ви вважаєте, що це помилка, зверніться до служби підтримки або повторіть спробу пізніше.",
+        "paymentNotSentInTime": "Платіж не був відправлений вчасно."
+      },
+      "CheckoutFooter": {
+        "poweredBy": "За підтримки",
+        "termsOfService": "Умови надання послуг"
+      },
+      "CheckoutInvoiceDetails": {
+        "anonymized": "Анонімно",
+        "cancelledAt": "Скасовано за адресою",
+        "completedAt": "Завершено в",
+        "copied": "Зрозумів!",
+        "createdAt": "Створено в",
+        "emailAddress": "Адреса електронної пошти",
+        "expiresAt": "Термін дії закінчується в",
+        "invoiceId": "Ідентифікатор інвойсу",
+        "remainingAmountCrypto": "Залишок коштів ({gateway})",
+        "totalAmountCrypto": "Загальна сума ({gateway})",
+        "totalPrice": "Загальна ціна",
+        "totalPriceUsd": "Загальна ціна (USD)"
+      },
+      "CheckoutInvoiceItems": {
+        "forParentItem": "Для {parentName}",
+        "priceEach": "{price} кожен"
+      },
+      "CheckoutOrderInformationForm": {
+        "applied": "Застосовано",
+        "apply": "Подати заявку",
+        "couponCode": "Код купона",
+        "couponPlaceholder": "Маєте код купона? Введіть його тут.",
+        "emailAddress": "Адреса електронної пошти",
+        "emailInvalid": "Будь ласка, введіть дійсну адресу електронної пошти",
+        "emailPlaceholder": "Підтвердження замовлення буде надіслано на цю електронну адресу.",
+        "emailRequired": "Будь ласка, введіть свою електронну адресу",
+        "newsletterSignup": "Я хочу отримувати новини та акції від {shopName}.",
+        "paymentMethod": "Спосіб оплати",
+        "paymentMethodRequired": "Будь ласка, оберіть спосіб оплати",
+        "proceedToPayment": "Перейти до оплати",
+        "termsAgreement": "Я прочитав та погоджуюсь з Умовами надання послуг {shopName}.",
+        "termsRequired": "Будь ласка, прийміть умови та положення"
+      },
+      "CheckoutPayCashApp": {
+        "addNoteInstruction": "Додайте примітку до платежу, інакше він буде проігнорований.",
+        "addNoteWarning": "Обов'язково додайте Примітку, інакше ваше замовлення не буде автоматично оброблено.",
+        "automaticProcessingMessage": "Ваше замовлення буде автоматично оброблено після отримання оплати.",
+        "awaitingConfirmation": "Очікуємо підтвердження...",
+        "confirmationMessage": "Ви отримаєте підтвердження після обробки платежу.",
+        "contactForAssistance": "Якщо у вас виникли запитання або вам потрібна додаткова допомога, будь ласка, зв'яжіться з нами.",
+        "continue": "Продовжуйте",
+        "copied": "Зрозумів!",
+        "copyBelow": "Ви можете скопіювати його нижче.",
+        "copyCashtag": "Або скопіюйте касовий чек нижче.",
+        "manualAcceptanceWait": "Будь ласка, зачекайте, поки ваш платіж буде прийнятий власником рахунку вручну.",
+        "openCashapp": "Відкрийте CashApp",
+        "scanQrCode": "Ви можете відсканувати QR-код.",
+        "sendExactAmount": "Переконайтеся, що ви надіслали точну суму.",
+        "sendPaymentWithNote": "Ви повинні надіслати платіж з приміткою на наступний рахунок.",
+        "warningPaymentWithNote": "Попередження - Оплата з приміткою"
+      },
+      "CheckoutPayCryptocurrency": {
+        "automaticProcessingConfirmation": "Ваше замовлення буде автоматично оброблено після підтвердження транзакції.",
+        "automaticProcessingPayment": "Ваше замовлення буде автоматично оброблено після отримання оплати.",
+        "automaticProcessingRemaining": "Ваше замовлення буде автоматично оброблено, як тільки ми отримаємо решту суми.",
+        "copied": "Зрозумів!",
+        "copyAddressBelow": "Або скопіюйте адресу нижче.",
+        "copyBelow": "Ви можете скопіювати його нижче.",
+        "noTransactions": "Ще немає транзакцій...",
+        "openWallet": "Відкрити гаманець",
+        "partialPayment": "Часткова оплата",
+        "partialPaymentStatus": "Ви сплатили {paidAmount} {gateway} з {totalAmount} {gateway}.",
+        "remainingAmount": "Сума, що залишилася: {amount} {gateway}.",
+        "scanQrCode": "Ви можете відсканувати QR-код.",
+        "sendExactAmount": "Переконайтеся, що ви надіслали точну суму.",
+        "sendExactRemainingAmount": "Переконайтеся, що ви надіслали точну суму, що залишилася.",
+        "sendPaymentToAddress": "Ви повинні надіслати платіж на наступну адресу.",
+        "transactionHistory": "Історія транзакцій"
+      },
+      "CheckoutPayExternalUrl": {
+        "clickHereIfNotVisible": "Не бачите? Натисни сюди.",
+        "paymentBeingProcessed": "Ваш платіж обробляється...",
+        "paymentPageOpened": "Сторінка оплати відкрилася в новій вкладці"
+      },
+      "CheckoutPayManual": {
+        "awaitingConfirmation": "Очікує на підтвердження",
+        "cancel": "Скасувати",
+        "markAsPaid": "Позначити як сплачений",
+        "markOrderAsPaid": "Позначити замовлення як оплачене",
+        "markedAsPaidFailed": "Не вдалося позначити інвойс як оплачений. Будь ласка, спробуйте ще раз.",
+        "markedAsPaidSuccess": "Інвойс відмічено як успішно оплачений! Будь ласка, зачекайте на підтвердження.",
+        "paymentInstructions": "Платіжні реквізити",
+        "proofOfPayment": "Підтвердження платежу",
+        "proofOfPaymentRequired": "Підтвердження оплати обов'язкове."
+      },
+      "CheckoutPayPayPalFriendsFamily": {
+        "addNoteInstruction": "Додайте примітку до платежу, інакше він буде проігнорований.",
+        "additionalDetailsInstruction": "Якщо вас попросять надати додаткову інформацію, використовуйте наступне:",
+        "automaticProcessingMessage": "Ваше замовлення буде автоматично оброблено після отримання оплати.",
+        "continue": "Продовжуйте",
+        "copied": "Зрозумів!",
+        "copyBelow": "Ви можете скопіювати його нижче.",
+        "copyEmailBelow": "Скопіюйте адресу електронної пошти PayPal нижче.",
+        "friendsFamilyNoteWarning": "Переконайтеся, що ви відправили платіж як \"Друзям і родичам\" і додали \"Примітку\", інакше ваше замовлення не буде автоматично оброблено.",
+        "friendsFamilyWarning": "Якщо ви не відправите замовлення як \"Друзі та Родина\", воно не буде автоматично оброблене.",
+        "noNoteInstruction": "Не додавайте примітку при надсиланні платежу.",
+        "openPaypal": "Відкрити PayPal",
+        "sendExactAmount": "Переконайтеся, що ви надіслали точну суму.",
+        "sendFriendsFamilyNote": "Ви повинні надіслати платіж Friends &amp; Family з приміткою на наступний рахунок.",
+        "warningFriendsFamilyNote": "Попередження - Друзі та родичі Оплата з приміткою"
+      },
+      "CheckoutPayPayPalREST": {
+        "paypalPaymentProcessing": "Ваш платіж PayPal обробляється..."
+      },
+      "CheckoutPaySumUp": {
+        "authenticationFailed": "Не вдалося автентифікувати картку. Спробуйте іншу картку.",
+        "insufficientFunds": "Недостатньо коштів. Будь ласка, спробуйте іншу картку.",
+        "networkError": "Помилка в мережі. Будь ласка, перевірте з'єднання та спробуйте ще раз.",
+        "paymentCancelled": "Платіж було скасовано. Будь ласка, спробуйте ще раз.",
+        "paymentErrorGeneric": "Сталася помилка при обробці вашого платежу. Будь ласка, спробуйте ще раз.",
+        "paymentFailedRetry": "Платіж не пройшов. Будь ласка, оновіть і спробуйте ще раз або скористайтеся іншою карткою.",
+        "paymentProcessingNotification": "Ваш платіж обробляється. Ми повідомимо вас про його завершення.",
+        "sumupPaymentProcessing": "Ваш платіж SumUp обробляється..."
+      },
+      "CheckoutPayVenmo": {
+        "addNoteInstruction": "Додайте примітку до платежу, інакше він буде проігнорований.",
+        "additionalDetailsInstruction": "Якщо вас попросять надати додаткову інформацію, використовуйте наступне:",
+        "automaticProcessingMessage": "Ваше замовлення буде автоматично оброблено після отримання оплати.",
+        "continue": "Продовжуйте",
+        "copied": "Зрозумів!",
+        "copyBelow": "Ви можете скопіювати його нижче.",
+        "copyTagBelow": "Або скопіюйте тег нижче.",
+        "friendsFamilyNoteWarning": "Переконайтеся, що ви відправили платіж як \"Друзям і родичам\" і додали \"Примітку\", інакше ваше замовлення не буде автоматично оброблено.",
+        "openVenmo": "Відкрити Venmo",
+        "scanQrCode": "Ви можете відсканувати QR-код.",
+        "sendExactAmount": "Переконайтеся, що ви надіслали точну суму.",
+        "sendFriendsFamilyNote": "Ви повинні надіслати платіж Friends &amp; Family з приміткою на наступний рахунок.",
+        "warningFriendsFamilyNote": "Попередження - Друзі та родичі Оплата з приміткою"
+      },
+      "CheckoutPaymentMethodButton": {
+        "allowedAmounts": "Допустимі суми:",
+        "discount": "знижка",
+        "fee": "плата",
+        "maximumAmount": "Максимальна сума:",
+        "minimumAmount": "Мінімальна сума:",
+        "poweredBy": "За підтримки"
+      },
+      "CheckoutPriceSummary": {
+        "couponCodeWithName": "Код купона ({code})",
+        "paymentMethodDiscount": "Спосіб оплати Знижка",
+        "paymentMethodFee": "Плата за спосіб оплати Комісія",
+        "preTaxTotal": "До оподаткування Всього",
+        "subtotal": "Проміжний підсумок",
+        "taxWithRate": "Податок ({rate}%)",
+        "total": "Всього",
+        "unknownCode": "Невідомий код",
+        "volumeDiscount": "Знижка за об'єм"
+      },
+      "CheckoutRefunded": {
+        "orderRefunded": "Замовлення відшкодовано",
+        "orderRefundedMessage": "Це замовлення позначено як відшкодоване."
+      },
+      "CheckoutShopCustomerBalanceButton": {
+        "allowedAmounts": "Допустимі суми:",
+        "balance": "Баланс",
+        "cancel": "Скасувати",
+        "clickToAuthenticate": "Натисніть, щоб підтвердити свою автентичність.",
+        "continue": "Продовжуйте",
+        "discount": "знижка",
+        "enterEmailAddress": "Будь ласка, введіть свою електронну адресу.",
+        "fee": "плата",
+        "insufficientBalance": "На вашому рахунку недостатньо коштів для оплати цього інвойсу.",
+        "invalidCredentials": "Невірні облікові дані.",
+        "logIn": "Увійдіть в систему",
+        "logInCustomerAccount": "Увійдіть до свого облікового запису клієнта",
+        "loggedInAs": "Увійдіть як {email}.",
+        "loggedInAsEmail": "Увійшов як {email}",
+        "logout": "Вийти з системи",
+        "maximumAmount": "Максимальна сума:",
+        "minimumAmount": "Мінімальна сума:",
+        "otpCaptchaInstructions": "Одноразовий пароль буде надіслано на вашу електронну адресу після перевірки CAPTCHA. Будь ласка, зачекайте хвилинку.",
+        "otpSent": "OTP надіслано на вашу електронну пошту.",
+        "otpSentInstructions": "Одноразовий пароль було надіслано на вашу електронну адресу. Будь ласка, введіть його нижче, щоб отримати доступ до свого облікового запису та оплатити рахунок.",
+        "sufficientBalance": "На вашому балансі достатньо коштів, щоб оплатити цей інвойс."
+      },
+      "CheckoutStepper": {
+        "next": "Наступний:",
+        "stepNumber": "Крок {number}"
+      },
+      "CheckoutTicketButton": {
+        "havingIssues": "Виникли проблеми із замовленням?",
+        "openSupportTicket": "Відкрийте тікет підтримки",
+        "openTicketInstructions": "Ви можете відкрити тікет у своєму Особистому кабінеті, щоб отримати допомогу від нашої служби підтримки."
+      }
+    },
+    "FormLabel": {
+      "optionalIndicator": "(за бажанням)"
+    },
+    "FormSubmit": {
+      "defaultLabel": "Продовжуйте"
+    }
+  },
+  "Route": {
+    "App": {
+      "title": "Каса"
+    },
+    "Checkout": {
+      "invoiceNotFound": "Інвойс не знайдено",
+      "pageTitle": "Каса. {shopName}",
+      "shopNotFound": "Магазин не знайдено"
+    }
+  }
+}

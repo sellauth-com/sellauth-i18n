@@ -1,0 +1,290 @@
+{
+  "Cmp": {
+    "Checkout": {
+      "Checkout": {
+        "payShopName": "Rémunération {shopName}",
+        "stepConfirmPay": "Confirmer et payer",
+        "stepExtraInformation": "Informations supplémentaires",
+        "stepOrderCancelled": "Commande annulée",
+        "stepOrderInformation": "Informations sur les commandes",
+        "stepOrderRefunded": "Commande remboursée",
+        "stepReceiveItems": "Recevoir vos articles"
+      },
+      "CheckoutAdditionalInformationForm": {
+        "additionalInformationInstructions": "Veuillez fournir des informations supplémentaires pour les éléments suivants dans votre commande.",
+        "fieldRequiredError": "Ce champ est obligatoire",
+        "proceedToPayment": "Procéder au paiement"
+      },
+      "CheckoutCompleted": {
+        "orderCompletedSuccessfully": "Votre commande a été traitée avec succès !",
+        "orderMarkedRefunded": "Votre commande a été marquée comme remboursée !",
+        "orderPartiallyCompleted": "Votre commande a été partiellement exécutée !"
+      },
+      "CheckoutCompletedDeliverables": {
+        "addOns": "Compléments",
+        "copied": "Copié !",
+        "copy": "Copie",
+        "deliveredItems": "Articles livrés",
+        "downloadButton": "Télécharger",
+        "downloadFailed": "Échec du téléchargement des produits livrables.",
+        "instructions": "Instructions",
+        "moreItemsDownload": "et {count} d'autres éléments auxquels vous pouvez accéder en téléchargeant {label}.",
+        "outOfStockMessage": "Ce produit est actuellement en rupture de stock. Veuillez contacter notre service d'assistance pour plus d'informations.",
+        "productBeingDelivered": "Ce produit est en cours de livraison...",
+        "productDeliveryFailed": "Ce produit n'a pas pu être livré. Veuillez contacter notre service d'assistance pour plus d'informations.",
+        "statusCancelled": "Annulé",
+        "statusDelivered": "Livré",
+        "statusExpired": "Expiré",
+        "statusFailed": "Échec",
+        "statusOutOfStock": "En rupture de stock",
+        "statusPending": "En attente",
+        "statusRefunded": "Remboursé",
+        "statusVoided": "Annulé"
+      },
+      "CheckoutCompletedFeedback": {
+        "automaticFeedbackWarning": "Si vous ne laissez pas d'évaluation dans les 7 jours, une évaluation 5 étoiles sera automatiquement laissée pour vous.",
+        "cancel": "Annuler",
+        "editFeedback": "Modifier le retour d'information",
+        "feedbackCouponIncentive": "Laissez un commentaire pour obtenir un coupon de réduction pour votre prochain achat. Évaluation minimale requise : {rating} étoiles.",
+        "feedbackEmailInstructions": "Vous pouvez laisser un commentaire en cliquant sur le bouton \"Laisser un commentaire\" dans l'e-mail que vous avez reçu à la fin de votre commande.",
+        "feedbackIneligibleAmount": "Cette commande ne peut pas faire l'objet d'un retour d'information (montant insignifiant)",
+        "feedbackIneligibleManual": "Cette commande ne peut pas faire l'objet d'un retour d'information (traitement manuel)",
+        "leaveFeedback": "Laisser un commentaire",
+        "message": "Message",
+        "messageRequired": "Le message est obligatoire.",
+        "noMessageLeft": "Aucun message n'a été laissé.",
+        "rating": "Evaluation",
+        "ratingRequired": "Un classement est requis.",
+        "replyFromShop": "Réponse de {shopName}",
+        "saveChanges": "Enregistrer les modifications",
+        "submitFeedback": "Soumettre un retour d'information",
+        "yourFeedback": "Votre avis"
+      },
+      "CheckoutCompletedRedirectUrl": {
+        "clickContinueOrder": "Cliquez n'importe où pour poursuivre votre commande."
+      },
+      "CheckoutDiscordIntegration": {
+        "connectButton": "Connecter",
+        "connectDiscord": "Connecter Discord",
+        "connectDiscordRequired": "Connectez votre compte Discord pour continuer.",
+        "disconnect": "Déconnexion",
+        "discord": "Discord",
+        "discordDescriptionWithRole": "pour rejoindre automatiquement notre serveur Discord et recevoir un rôle.",
+        "discordDescriptionWithoutRole": "pour rejoindre automatiquement notre serveur Discord."
+      },
+      "CheckoutFailed": {
+        "orderCancelled": "Commande annulée",
+        "orderCancelledMessage": "La commande a été annulée.",
+        "orderExpired": "Commande expirée",
+        "orderFailed": "Échec de la commande",
+        "orderProcessingFailed": "Cette commande n'a pas pu être traitée. Si vous pensez qu'il s'agit d'une erreur, veuillez contacter notre service d'assistance ou réessayer plus tard.",
+        "paymentNotSentInTime": "Le paiement n'a pas été envoyé à temps."
+      },
+      "CheckoutFooter": {
+        "poweredBy": "Propulsé par",
+        "termsOfService": "Conditions d'utilisation"
+      },
+      "CheckoutInvoiceDetails": {
+        "anonymized": "Anonymat",
+        "cancelledAt": "Annulé à",
+        "completedAt": "Terminé le",
+        "copied": "Copié !",
+        "createdAt": "Créé à",
+        "emailAddress": "Adresse électronique",
+        "expiresAt": "Expires At",
+        "invoiceId": "ID de la facture",
+        "remainingAmountCrypto": "Montant restant ({gateway})",
+        "totalAmountCrypto": "Montant total ({gateway})",
+        "totalPrice": "Prix total",
+        "totalPriceUsd": "Prix total (USD)"
+      },
+      "CheckoutInvoiceItems": {
+        "forParentItem": "Pour {parentName}",
+        "priceEach": "{price} chacun"
+      },
+      "CheckoutOrderInformationForm": {
+        "applied": "Appliqué",
+        "apply": "Appliquer",
+        "couponCode": "Code des coupons",
+        "couponPlaceholder": "Vous avez un code de réduction ? Saisissez-le ici.",
+        "emailAddress": "Adresse électronique",
+        "emailInvalid": "Veuillez saisir une adresse électronique valide",
+        "emailPlaceholder": "La confirmation de la commande sera envoyée à cette adresse électronique.",
+        "emailRequired": "Veuillez saisir votre adresse e-mail",
+        "newsletterSignup": "Je souhaite recevoir les mises à jour et les promotions de {shopName}.",
+        "paymentMethod": "Mode de paiement",
+        "paymentMethodRequired": "Veuillez sélectionner un mode de paiement",
+        "proceedToPayment": "Procéder au paiement",
+        "termsAgreement": "J'ai lu et j'accepte les conditions d'utilisation de {shopName}.",
+        "termsRequired": "Veuillez accepter les termes et conditions"
+      },
+      "CheckoutPayCashApp": {
+        "addNoteInstruction": "Ajoutez une note au paiement, sinon il sera ignoré.",
+        "addNoteWarning": "Assurez-vous d'ajouter la note, sinon votre commande ne sera pas traitée automatiquement.",
+        "automaticProcessingMessage": "Votre commande sera automatiquement traitée dès réception du paiement.",
+        "awaitingConfirmation": "En attente de confirmation...",
+        "confirmationMessage": "Vous recevrez une confirmation une fois le paiement traité.",
+        "contactForAssistance": "Si vous avez des questions ou si vous avez besoin d'aide, n'hésitez pas à nous contacter.",
+        "continue": "Continuer",
+        "copied": "Copié !",
+        "copyBelow": "Vous pouvez le copier ci-dessous.",
+        "copyCashtag": "Ou copiez le cashtag ci-dessous.",
+        "manualAcceptanceWait": "Veuillez patienter pendant que votre paiement est accepté manuellement par le propriétaire du compte.",
+        "openCashapp": "Ouvrir CashApp",
+        "scanQrCode": "Vous pouvez scanner le code QR.",
+        "sendExactAmount": "Veillez à envoyer le montant exact.",
+        "sendPaymentWithNote": "Vous devez envoyer un paiement accompagné d'une note au compte suivant.",
+        "warningPaymentWithNote": "Avertissement - Paiement avec note"
+      },
+      "CheckoutPayCryptocurrency": {
+        "automaticProcessingConfirmation": "Votre commande sera automatiquement traitée une fois la transaction confirmée.",
+        "automaticProcessingPayment": "Votre commande sera automatiquement traitée dès réception du paiement.",
+        "automaticProcessingRemaining": "Votre commande sera automatiquement traitée dès réception du montant restant.",
+        "copied": "Copié !",
+        "copyAddressBelow": "Ou copiez l'adresse ci-dessous.",
+        "copyBelow": "Vous pouvez le copier ci-dessous.",
+        "noTransactions": "Pas encore de transactions...",
+        "openWallet": "Portefeuille ouvert",
+        "partialPayment": "Paiement partiel",
+        "partialPaymentStatus": "Vous avez payé {paidAmount} {gateway} sur {totalAmount} {gateway}.",
+        "remainingAmount": "Montant restant : {amount} {gateway}.",
+        "scanQrCode": "Vous pouvez scanner le code QR.",
+        "sendExactAmount": "Veillez à envoyer le montant exact.",
+        "sendExactRemainingAmount": "Veillez à envoyer le montant exact restant.",
+        "sendPaymentToAddress": "Vous devez envoyer un paiement à l'adresse suivante.",
+        "transactionHistory": "Historique des transactions"
+      },
+      "CheckoutPayExternalUrl": {
+        "clickHereIfNotVisible": "Vous ne le voyez pas ? Cliquez ici",
+        "paymentBeingProcessed": "Votre paiement est en cours de traitement...",
+        "paymentPageOpened": "La page de paiement a été ouverte dans un nouvel onglet"
+      },
+      "CheckoutPayManual": {
+        "awaitingConfirmation": "En attente de confirmation",
+        "cancel": "Annuler",
+        "markAsPaid": "Marquer comme payé",
+        "markOrderAsPaid": "Marquer la commande comme payée",
+        "markedAsPaidFailed": "La facture n'a pas été marquée comme payée. Veuillez réessayer.",
+        "markedAsPaidSuccess": "Facture marquée comme payée avec succès ! Veuillez attendre la confirmation.",
+        "paymentInstructions": "Instructions de paiement",
+        "proofOfPayment": "Preuve de paiement",
+        "proofOfPaymentRequired": "Une preuve de paiement est exigée."
+      },
+      "CheckoutPayPayPalFriendsFamily": {
+        "addNoteInstruction": "Ajoutez une note au paiement, sinon il sera ignoré.",
+        "additionalDetailsInstruction": "Si l'on vous demande de fournir des détails supplémentaires, utilisez ce qui suit :",
+        "automaticProcessingMessage": "Votre commande sera automatiquement traitée dès réception du paiement.",
+        "continue": "Continuer",
+        "copied": "Copié !",
+        "copyBelow": "Vous pouvez le copier ci-dessous.",
+        "copyEmailBelow": "Copiez l'adresse e-mail de PayPal ci-dessous.",
+        "friendsFamilyNoteWarning": "Veillez à envoyer le paiement en tant qu'Amis et Famille et à ajouter la note, sinon votre commande ne sera pas traitée automatiquement.",
+        "friendsFamilyWarning": "Si vous n'envoyez pas votre commande en tant qu'Amis et Famille, elle ne sera pas traitée automatiquement.",
+        "noNoteInstruction": "Ne pas inclure de note lors de l'envoi du paiement.",
+        "openPaypal": "Ouvrir PayPal",
+        "sendExactAmount": "Veillez à envoyer le montant exact.",
+        "sendFriendsFamilyNote": "Vous devez envoyer un paiement aux amis et à la famille accompagné d'une note au compte suivant.",
+        "warningFriendsFamilyNote": "Avertissement - Paiement aux amis et à la famille avec note"
+      },
+      "CheckoutPayPayPalREST": {
+        "paypalPaymentProcessing": "Votre paiement PayPal est en cours de traitement..."
+      },
+      "CheckoutPaySumUp": {
+        "authenticationFailed": "L'authentification de la carte a échoué. Veuillez essayer une autre carte.",
+        "insufficientFunds": "Fonds insuffisants. Veuillez essayer une autre carte.",
+        "networkError": "Erreur de réseau. Veuillez vérifier votre connexion et réessayer.",
+        "paymentCancelled": "Le paiement a été annulé. Veuillez réessayer.",
+        "paymentErrorGeneric": "Une erreur s'est produite lors du traitement de votre paiement. Veuillez réessayer.",
+        "paymentFailedRetry": "Le paiement a échoué. Veuillez actualiser et réessayer ou utiliser une autre carte.",
+        "paymentProcessingNotification": "Votre paiement est en cours de traitement. Nous vous en informerons dès qu'il sera terminé.",
+        "sumupPaymentProcessing": "Votre paiement SumUp est en cours de traitement..."
+      },
+      "CheckoutPayVenmo": {
+        "addNoteInstruction": "Ajoutez une note au paiement, sinon il sera ignoré.",
+        "additionalDetailsInstruction": "Si l'on vous demande de fournir des détails supplémentaires, utilisez ce qui suit :",
+        "automaticProcessingMessage": "Votre commande sera automatiquement traitée dès réception du paiement.",
+        "continue": "Continuer",
+        "copied": "Copié !",
+        "copyBelow": "Vous pouvez le copier ci-dessous.",
+        "copyTagBelow": "Ou copiez le tag ci-dessous.",
+        "friendsFamilyNoteWarning": "Veillez à envoyer le paiement en tant qu'Amis et Famille et à ajouter la note, sinon votre commande ne sera pas traitée automatiquement.",
+        "openVenmo": "Ouvrir Venmo",
+        "scanQrCode": "Vous pouvez scanner le code QR.",
+        "sendExactAmount": "Veillez à envoyer le montant exact.",
+        "sendFriendsFamilyNote": "Vous devez envoyer un paiement aux amis et à la famille accompagné d'une note au compte suivant.",
+        "warningFriendsFamilyNote": "Avertissement - Paiement aux amis et à la famille avec note"
+      },
+      "CheckoutPaymentMethodButton": {
+        "allowedAmounts": "Montants autorisés :",
+        "discount": "réduction",
+        "fee": "taxe",
+        "maximumAmount": "Montant maximum :",
+        "minimumAmount": "Montant minimum :",
+        "poweredBy": "Propulsé par"
+      },
+      "CheckoutPriceSummary": {
+        "couponCodeWithName": "Code promo ({code})",
+        "paymentMethodDiscount": "Remise sur le mode de paiement",
+        "paymentMethodFee": "Frais liés au mode de paiement",
+        "preTaxTotal": "Total avant impôt",
+        "subtotal": "Sous-total",
+        "taxWithRate": "Taxe ({rate}%)",
+        "total": "Total",
+        "unknownCode": "Code inconnu",
+        "volumeDiscount": "Remise sur volume"
+      },
+      "CheckoutRefunded": {
+        "orderRefunded": "Commande remboursée",
+        "orderRefundedMessage": "Cette commande a été marquée comme remboursée."
+      },
+      "CheckoutShopCustomerBalanceButton": {
+        "allowedAmounts": "Montants autorisés :",
+        "balance": "Équilibre",
+        "cancel": "Annuler",
+        "clickToAuthenticate": "Cliquez sur pour vous authentifier.",
+        "continue": "Continuer",
+        "discount": "réduction",
+        "enterEmailAddress": "Veuillez saisir votre adresse e-mail.",
+        "fee": "taxe",
+        "insufficientBalance": "Vous ne disposez pas d'un solde suffisant pour payer cette facture.",
+        "invalidCredentials": "Informations d'identification non valides.",
+        "logIn": "Se connecter",
+        "logInCustomerAccount": "Connectez-vous à votre compte client",
+        "loggedInAs": "Connecté en tant que {email}.",
+        "loggedInAsEmail": "Connecté en tant que {email}",
+        "logout": "Déconnexion",
+        "maximumAmount": "Montant maximum :",
+        "minimumAmount": "Montant minimum :",
+        "otpCaptchaInstructions": "Un mot de passe à usage unique sera envoyé à votre adresse électronique après la vérification du CAPTCHA. Veuillez patienter un instant.",
+        "otpSent": "L'OTP a été envoyé à votre e-mail.",
+        "otpSentInstructions": "Un mot de passe à usage unique a été envoyé à votre adresse e-mail. Veuillez le saisir ci-dessous pour accéder à votre compte et payer avec votre solde.",
+        "sufficientBalance": "Votre solde est suffisant pour payer cette facture."
+      },
+      "CheckoutStepper": {
+        "next": "Suivant :",
+        "stepNumber": "Étape {number}"
+      },
+      "CheckoutTicketButton": {
+        "havingIssues": "Vous avez des problèmes avec votre commande ?",
+        "openSupportTicket": "Ouvrir un ticket d'assistance",
+        "openTicketInstructions": "Vous pouvez ouvrir un ticket sur votre tableau de bord client pour recevoir de l'aide de notre équipe d'assistance."
+      }
+    },
+    "FormLabel": {
+      "optionalIndicator": "(facultatif)"
+    },
+    "FormSubmit": {
+      "defaultLabel": "Continuer"
+    }
+  },
+  "Route": {
+    "App": {
+      "title": "Sortie de caisse"
+    },
+    "Checkout": {
+      "invoiceNotFound": "Facture non trouvée",
+      "pageTitle": "Sortie de caisse - {shopName}",
+      "shopNotFound": "Boutique non trouvée"
+    }
+  }
+}

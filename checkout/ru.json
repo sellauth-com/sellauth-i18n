@@ -1,0 +1,290 @@
+{
+  "Cmp": {
+    "Checkout": {
+      "Checkout": {
+        "payShopName": "Оплатить {shopName}",
+        "stepConfirmPay": "Подтвердите и оплатите",
+        "stepExtraInformation": "Дополнительная информация",
+        "stepOrderCancelled": "Заказ отменен",
+        "stepOrderInformation": "Информация о заказе",
+        "stepOrderRefunded": "Заказ возвращен",
+        "stepReceiveItems": "Получите ваши товары"
+      },
+      "CheckoutAdditionalInformationForm": {
+        "additionalInformationInstructions": "Пожалуйста, укажите в заказе дополнительную информацию по следующим пунктам.",
+        "fieldRequiredError": "Это поле обязательно для заполнения",
+        "proceedToPayment": "Перейти к оплате"
+      },
+      "CheckoutCompleted": {
+        "orderCompletedSuccessfully": "Ваш заказ успешно завершен!",
+        "orderMarkedRefunded": "Ваш заказ был отмечен как возвращенный!",
+        "orderPartiallyCompleted": "Ваш заказ был частично выполнен!"
+      },
+      "CheckoutCompletedDeliverables": {
+        "addOns": "Дополнения",
+        "copied": "Скопировано!",
+        "copy": "Копировать",
+        "deliveredItems": "Доставленные предметы",
+        "downloadButton": "Скачать",
+        "downloadFailed": "Не удалось загрузить результаты.",
+        "instructions": "Инструкции",
+        "moreItemsDownload": "и еще {count} элементов, доступ к которым вы можете получить, загрузив {label}.",
+        "outOfStockMessage": "Этот продукт в настоящее время отсутствует на складе. Пожалуйста, свяжитесь с нашей службой поддержки для получения дополнительной информации.",
+        "productBeingDelivered": "Этот продукт доставляется...",
+        "productDeliveryFailed": "Этот продукт не удалось доставить. Пожалуйста, свяжитесь с нашей службой поддержки для получения дополнительной информации.",
+        "statusCancelled": "Отменено",
+        "statusDelivered": "Доставлено",
+        "statusExpired": "Просроченный",
+        "statusFailed": "Не удалось",
+        "statusOutOfStock": "Нет в наличии",
+        "statusPending": "В ожидании",
+        "statusRefunded": "Возмещено",
+        "statusVoided": "Недействительный"
+      },
+      "CheckoutCompletedFeedback": {
+        "automaticFeedbackWarning": "Если вы не оставите отзыв в течение 7 дней, 5-звездочный отзыв будет автоматически оставлен для вас.",
+        "cancel": "Отмена",
+        "editFeedback": "Редактировать отзывы",
+        "feedbackCouponIncentive": "Оставьте отзыв, чтобы получить купон на скидку для следующей покупки. Минимальный рейтинг: {rating} звезд.",
+        "feedbackEmailInstructions": "Вы можете оставить отзыв, нажав кнопку \"Оставить отзыв\" в электронном письме, которое вы получили по завершении заказа.",
+        "feedbackIneligibleAmount": "Этот заказ не подлежит обратной связи (незначительная сумма)",
+        "feedbackIneligibleManual": "Этот заказ не подлежит обратной связи (обрабатывается вручную)",
+        "leaveFeedback": "Оставить отзыв",
+        "message": "Сообщение",
+        "messageRequired": "Сообщение обязательно.",
+        "noMessageLeft": "Сообщение не оставлено.",
+        "rating": "Рейтинг",
+        "ratingRequired": "Требуется рейтинг.",
+        "replyFromShop": "Ответ от {shopName}",
+        "saveChanges": "Сохранить изменения",
+        "submitFeedback": "Отправить отзыв",
+        "yourFeedback": "Ваши отзывы"
+      },
+      "CheckoutCompletedRedirectUrl": {
+        "clickContinueOrder": "Нажмите в любом месте, чтобы продолжить оформление заказа."
+      },
+      "CheckoutDiscordIntegration": {
+        "connectButton": "Подключайтесь",
+        "connectDiscord": "Подключение Discord",
+        "connectDiscordRequired": "Подключите свой аккаунт Discord, чтобы продолжить игру.",
+        "disconnect": "Отключить",
+        "discord": "Дискорд",
+        "discordDescriptionWithRole": "чтобы автоматически присоединиться к нашему серверу Discord и получить роль.",
+        "discordDescriptionWithoutRole": "чтобы автоматически присоединиться к нашему серверу Discord."
+      },
+      "CheckoutFailed": {
+        "orderCancelled": "Заказ отменен",
+        "orderCancelledMessage": "Заказ был отменен.",
+        "orderExpired": "Срок действия заказа истек",
+        "orderFailed": "Заказ не выполнен",
+        "orderProcessingFailed": "Этот заказ не может быть обработан. Если вы считаете, что это ошибка, пожалуйста, свяжитесь с нашей службой поддержки или повторите попытку позже.",
+        "paymentNotSentInTime": "Платеж не был отправлен вовремя."
+      },
+      "CheckoutFooter": {
+        "poweredBy": "Находится",
+        "termsOfService": "Условия предоставления услуг"
+      },
+      "CheckoutInvoiceDetails": {
+        "anonymized": "Анонимизированный",
+        "cancelledAt": "Отменено в",
+        "completedAt": "Завершено",
+        "copied": "Скопировано!",
+        "createdAt": "Создано в",
+        "emailAddress": "Адрес электронной почты",
+        "expiresAt": "Expires At",
+        "invoiceId": "Идентификатор счета-фактуры",
+        "remainingAmountCrypto": "Оставшаяся сумма ({gateway})",
+        "totalAmountCrypto": "Общая сумма ({gateway})",
+        "totalPrice": "Общая цена",
+        "totalPriceUsd": "Общая цена (USD)"
+      },
+      "CheckoutInvoiceItems": {
+        "forParentItem": "Для {parentName}",
+        "priceEach": "{price} каждый"
+      },
+      "CheckoutOrderInformationForm": {
+        "applied": "Прикладная",
+        "apply": "Применить",
+        "couponCode": "Код купона",
+        "couponPlaceholder": "У вас есть код купона? Введите его здесь.",
+        "emailAddress": "Адрес электронной почты",
+        "emailInvalid": "Пожалуйста, введите действительный адрес электронной почты",
+        "emailPlaceholder": "Подтверждение заказа будет отправлено на этот адрес электронной почты.",
+        "emailRequired": "Пожалуйста, введите адрес электронной почты",
+        "newsletterSignup": "Я хотел бы получать обновления и рекламные акции от {shopName}.",
+        "paymentMethod": "Способ оплаты",
+        "paymentMethodRequired": "Пожалуйста, выберите способ оплаты",
+        "proceedToPayment": "Перейти к оплате",
+        "termsAgreement": "Я прочитал и согласен с Условиями предоставления услуг {shopName}.",
+        "termsRequired": "Пожалуйста, примите условия и положения"
+      },
+      "CheckoutPayCashApp": {
+        "addNoteInstruction": "Добавьте примечание к платежу, иначе он будет проигнорирован.",
+        "addNoteWarning": "Обязательно добавьте примечание, иначе ваш заказ не будет автоматически обработан.",
+        "automaticProcessingMessage": "Ваш заказ будет автоматически обработан после получения оплаты.",
+        "awaitingConfirmation": "Ожидаем подтверждения...",
+        "confirmationMessage": "Вы получите подтверждение после обработки платежа.",
+        "contactForAssistance": "Если у вас возникли вопросы или вам нужна дополнительная помощь, пожалуйста, свяжитесь с нами.",
+        "continue": "Продолжить",
+        "copied": "Скопировано!",
+        "copyBelow": "Вы можете скопировать его ниже.",
+        "copyCashtag": "Или скопируйте каштег ниже.",
+        "manualAcceptanceWait": "Пожалуйста, подождите, пока ваш платеж будет вручную принят владельцем аккаунта.",
+        "openCashapp": "Открыть CashApp",
+        "scanQrCode": "Вы можете отсканировать QR-код.",
+        "sendExactAmount": "Убедитесь, что вы отправили точную сумму.",
+        "sendPaymentWithNote": "Вы должны отправить платеж с пометкой на следующий счет.",
+        "warningPaymentWithNote": "Предупреждение - Оплата с примечанием"
+      },
+      "CheckoutPayCryptocurrency": {
+        "automaticProcessingConfirmation": "Ваш заказ будет автоматически обработан после подтверждения транзакции.",
+        "automaticProcessingPayment": "Ваш заказ будет автоматически обработан после получения оплаты.",
+        "automaticProcessingRemaining": "Ваш заказ будет автоматически обработан после получения оставшейся суммы.",
+        "copied": "Скопировано!",
+        "copyAddressBelow": "Или скопируйте адрес ниже.",
+        "copyBelow": "Вы можете скопировать его ниже.",
+        "noTransactions": "Пока никаких сделок...",
+        "openWallet": "Открытый кошелек",
+        "partialPayment": "Частичная оплата",
+        "partialPaymentStatus": "Вы оплатили {paidAmount} {gateway} из {totalAmount} {gateway}.",
+        "remainingAmount": "Оставшаяся сумма: {amount} {gateway}.",
+        "scanQrCode": "Вы можете отсканировать QR-код.",
+        "sendExactAmount": "Убедитесь, что вы отправили точную сумму.",
+        "sendExactRemainingAmount": "Обязательно отправьте точную оставшуюся сумму.",
+        "sendPaymentToAddress": "Вы должны отправить платеж по следующему адресу.",
+        "transactionHistory": "История транзакций"
+      },
+      "CheckoutPayExternalUrl": {
+        "clickHereIfNotVisible": "Не видите? Нажмите здесь",
+        "paymentBeingProcessed": "Ваш платеж обрабатывается...",
+        "paymentPageOpened": "Страница оплаты была открыта в новой вкладке"
+      },
+      "CheckoutPayManual": {
+        "awaitingConfirmation": "Ожидание подтверждения",
+        "cancel": "Отмена",
+        "markAsPaid": "Отметить как оплаченный",
+        "markOrderAsPaid": "Отметить заказ как оплаченный",
+        "markedAsPaidFailed": "Не удалось отметить счет как оплаченный. Пожалуйста, попробуйте еще раз.",
+        "markedAsPaidSuccess": "Счет отмечен как успешно оплаченный! Пожалуйста, дождитесь подтверждения.",
+        "paymentInstructions": "Инструкции по оплате",
+        "proofOfPayment": "Подтверждение оплаты",
+        "proofOfPaymentRequired": "Необходимо подтверждение оплаты."
+      },
+      "CheckoutPayPayPalFriendsFamily": {
+        "addNoteInstruction": "Добавьте примечание к платежу, иначе он будет проигнорирован.",
+        "additionalDetailsInstruction": "Если вас попросят предоставить дополнительные сведения, воспользуйтесь следующим:",
+        "automaticProcessingMessage": "Ваш заказ будет автоматически обработан после получения оплаты.",
+        "continue": "Продолжить",
+        "copied": "Скопировано!",
+        "copyBelow": "Вы можете скопировать его ниже.",
+        "copyEmailBelow": "Скопируйте указанный ниже адрес электронной почты PayPal.",
+        "friendsFamilyNoteWarning": "Убедитесь, что вы отправили платеж в формате \"Друзья и семья\" и добавили примечание, иначе ваш заказ не будет автоматически обработан.",
+        "friendsFamilyWarning": "Если вы не отправляете заказ как \"Друзья и семья\", он не будет автоматически обработан.",
+        "noNoteInstruction": "Не включайте примечание при отправке платежа.",
+        "openPaypal": "Открыть PayPal",
+        "sendExactAmount": "Убедитесь, что вы отправили точную сумму.",
+        "sendFriendsFamilyNote": "Вы должны отправить платеж \"Друзья и семья\" с пометкой на следующий счет.",
+        "warningFriendsFamilyNote": "Предупреждение - Оплата по друзьям и родственникам с примечанием"
+      },
+      "CheckoutPayPayPalREST": {
+        "paypalPaymentProcessing": "Ваш платеж PayPal обрабатывается..."
+      },
+      "CheckoutPaySumUp": {
+        "authenticationFailed": "Не удалось пройти аутентификацию карты. Пожалуйста, попробуйте другую карту.",
+        "insufficientFunds": "Недостаточно средств. Пожалуйста, попробуйте другую карту.",
+        "networkError": "Ошибка сети. Пожалуйста, проверьте подключение и повторите попытку.",
+        "paymentCancelled": "Платеж был отменен. Пожалуйста, попробуйте еще раз.",
+        "paymentErrorGeneric": "При обработке вашего платежа произошла ошибка. Пожалуйста, попробуйте еще раз.",
+        "paymentFailedRetry": "Платеж не прошел. Пожалуйста, обновите и попробуйте еще раз или используйте другую карту.",
+        "paymentProcessingNotification": "Ваш платеж находится в процессе обработки. Мы уведомим вас о ее завершении.",
+        "sumupPaymentProcessing": "Ваш платеж SumUp обрабатывается..."
+      },
+      "CheckoutPayVenmo": {
+        "addNoteInstruction": "Добавьте примечание к платежу, иначе он будет проигнорирован.",
+        "additionalDetailsInstruction": "Если вас попросят предоставить дополнительные сведения, воспользуйтесь следующим:",
+        "automaticProcessingMessage": "Ваш заказ будет автоматически обработан после получения оплаты.",
+        "continue": "Продолжить",
+        "copied": "Скопировано!",
+        "copyBelow": "Вы можете скопировать его ниже.",
+        "copyTagBelow": "Или скопируйте тег ниже.",
+        "friendsFamilyNoteWarning": "Убедитесь, что вы отправили платеж в формате \"Друзья и семья\" и добавили примечание, иначе ваш заказ не будет автоматически обработан.",
+        "openVenmo": "Открыть Venmo",
+        "scanQrCode": "Вы можете отсканировать QR-код.",
+        "sendExactAmount": "Убедитесь, что вы отправили точную сумму.",
+        "sendFriendsFamilyNote": "Вы должны отправить платеж \"Друзья и семья\" с пометкой на следующий счет.",
+        "warningFriendsFamilyNote": "Предупреждение - Оплата по друзьям и родственникам с примечанием"
+      },
+      "CheckoutPaymentMethodButton": {
+        "allowedAmounts": "Разрешенные суммы:",
+        "discount": "скидка",
+        "fee": "плата",
+        "maximumAmount": "Максимальная сумма:",
+        "minimumAmount": "Минимальная сумма:",
+        "poweredBy": "Находится"
+      },
+      "CheckoutPriceSummary": {
+        "couponCodeWithName": "Код купона ({code})",
+        "paymentMethodDiscount": "Скидка на способ оплаты",
+        "paymentMethodFee": "Комиссия за способ оплаты",
+        "preTaxTotal": "Итого до уплаты налогов",
+        "subtotal": "Итого",
+        "taxWithRate": "Налог ({rate}%)",
+        "total": "Всего",
+        "unknownCode": "Неизвестный код",
+        "volumeDiscount": "Скидка за объем"
+      },
+      "CheckoutRefunded": {
+        "orderRefunded": "Заказ возвращен",
+        "orderRefundedMessage": "Этот заказ был помечен как возвращенный."
+      },
+      "CheckoutShopCustomerBalanceButton": {
+        "allowedAmounts": "Разрешенные суммы:",
+        "balance": "Баланс",
+        "cancel": "Отмена",
+        "clickToAuthenticate": "Нажмите, чтобы пройти аутентификацию.",
+        "continue": "Продолжить",
+        "discount": "скидка",
+        "enterEmailAddress": "Пожалуйста, введите адрес электронной почты.",
+        "fee": "плата",
+        "insufficientBalance": "У вас недостаточно средств для оплаты этого счета.",
+        "invalidCredentials": "Неверные учетные данные.",
+        "logIn": "Войти",
+        "logInCustomerAccount": "Войдите в учетную запись клиента",
+        "loggedInAs": "Вошел в систему как {email}.",
+        "loggedInAsEmail": "Вошел в систему как {email}",
+        "logout": "Выход из системы",
+        "maximumAmount": "Максимальная сумма:",
+        "minimumAmount": "Минимальная сумма:",
+        "otpCaptchaInstructions": "После проверки CAPTCHA на ваш адрес электронной почты будет отправлен одноразовый пароль. Пожалуйста, подождите немного.",
+        "otpSent": "OTP отправлен на вашу электронную почту.",
+        "otpSentInstructions": "На ваш адрес электронной почты был отправлен одноразовый пароль. Введите его ниже, чтобы получить доступ к своему аккаунту и оплатить баланс.",
+        "sufficientBalance": "У вас достаточно средств для оплаты этого счета."
+      },
+      "CheckoutStepper": {
+        "next": "Следующий:",
+        "stepNumber": "Шаг {number}"
+      },
+      "CheckoutTicketButton": {
+        "havingIssues": "У вас возникли проблемы с заказом?",
+        "openSupportTicket": "Открыть тикет в службу поддержки",
+        "openTicketInstructions": "Вы можете открыть тикет на панели клиента, чтобы получить помощь от нашей службы поддержки."
+      }
+    },
+    "FormLabel": {
+      "optionalIndicator": "(необязательно)"
+    },
+    "FormSubmit": {
+      "defaultLabel": "Продолжить"
+    }
+  },
+  "Route": {
+    "App": {
+      "title": "Касса"
+    },
+    "Checkout": {
+      "invoiceNotFound": "Счет-фактура не найден",
+      "pageTitle": "Выезд - {shopName}",
+      "shopNotFound": "Магазин не найден"
+    }
+  }
+}
