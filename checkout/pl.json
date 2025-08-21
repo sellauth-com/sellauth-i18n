@@ -2,13 +2,13 @@
   "Cmp": {
     "Checkout": {
       "Checkout": {
-        "payShopName": "Wynagrodzenie {shopName}",
+        "payShopName": "Zapłać {shopName}",
         "stepConfirmPay": "Potwierdź i zapłać",
         "stepExtraInformation": "Dodatkowe informacje",
         "stepOrderCancelled": "Zamówienie anulowane",
         "stepOrderInformation": "Informacje o zamówieniu",
         "stepOrderRefunded": "Zamówienie zwrócone",
-        "stepReceiveItems": "Odbiór przedmiotów"
+        "stepReceiveItems": "Odbierz przedmioty"
       },
       "CheckoutAdditionalInformationForm": {
         "additionalInformationInstructions": "W zamówieniu należy podać dodatkowe informacje dotyczące następujących elementów.",
@@ -30,7 +30,7 @@
         "instructions": "Instrukcje",
         "moreItemsDownload": "i {count} więcej elementów, do których można uzyskać dostęp, pobierając {label}.",
         "outOfStockMessage": "Ten produkt jest obecnie niedostępny. Aby uzyskać więcej informacji, skontaktuj się z naszym działem pomocy technicznej.",
-        "productBeingDelivered": "Ten produkt jest dostarczany...",
+        "productBeingDelivered": "Ten produkt jest w procesie dostarczania...",
         "productDeliveryFailed": "Ten produkt nie mógł zostać dostarczony. Skontaktuj się z naszym działem pomocy technicznej, aby uzyskać więcej informacji.",
         "statusCancelled": "Anulowane",
         "statusDelivered": "Dostarczone",
@@ -44,11 +44,11 @@
       "CheckoutCompletedFeedback": {
         "automaticFeedbackWarning": "Jeśli nie wystawisz opinii w ciągu 7 dni, 5-gwiazdkowa opinia zostanie wystawiona automatycznie.",
         "cancel": "Anuluj",
-        "editFeedback": "Edytuj informacje zwrotne",
+        "editFeedback": "Edytuj opinię",
         "feedbackCouponIncentive": "Zostaw opinię, aby otrzymać kupon rabatowy na następny zakup. Minimalna wymagana ocena: {rating} gwiazdek.",
         "feedbackEmailInstructions": "Możesz zostawić opinię, klikając przycisk \"Zostaw opinię\" w wiadomości e-mail otrzymanej po zakończeniu zamówienia.",
-        "feedbackIneligibleAmount": "To zamówienie nie kwalifikuje się do otrzymania informacji zwrotnej (kwota nieistotna)",
-        "feedbackIneligibleManual": "To zamówienie nie kwalifikuje się do otrzymania informacji zwrotnej (przetwarzane ręcznie)",
+        "feedbackIneligibleAmount": "To zamówienie nie kwalifikuje się do otrzymania opinii (kwota nieistotna)",
+        "feedbackIneligibleManual": "To zamówienie nie kwalifikuje się do otrzymania opinii (przetwarzane ręcznie)",
         "leaveFeedback": "Zostaw opinię",
         "message": "Wiadomość",
         "messageRequired": "Wiadomość jest wymagana.",
@@ -78,7 +78,7 @@
         "orderExpired": "Zamówienie wygasło",
         "orderFailed": "Zamówienie nie powiodło się",
         "orderProcessingFailed": "To zamówienie nie mogło zostać przetworzone. Jeśli uważasz, że to błąd, skontaktuj się z naszym działem pomocy lub spróbuj ponownie później.",
-        "paymentNotSentInTime": "Płatność nie została wysłana na czas."
+        "paymentNotSentInTime": "Płatność nie została uregulowana na czas."
       },
       "CheckoutFooter": {
         "poweredBy": "Powered by",
@@ -86,10 +86,10 @@
       },
       "CheckoutInvoiceDetails": {
         "anonymized": "Zanonimizowany",
-        "cancelledAt": "Anulowano przy",
-        "completedAt": "Ukończono w",
+        "cancelledAt": "Anulowano z datą",
+        "completedAt": "Ukończono z datą",
         "copied": "Skopiowane!",
-        "createdAt": "Utworzono w",
+        "createdAt": "Utworzono z datą",
         "emailAddress": "Adres e-mail",
         "expiresAt": "Wygasa w dniu",
         "invoiceId": "Identyfikator faktury",
@@ -103,7 +103,7 @@
         "priceEach": "{price} każdy"
       },
       "CheckoutOrderInformationForm": {
-        "applied": "Stosowany",
+        "applied": "Zastosowano",
         "apply": "Zastosuj",
         "couponCode": "Kod kuponu",
         "couponPlaceholder": "Masz kod kuponu? Wpisz go tutaj.",
@@ -131,10 +131,10 @@
         "copyCashtag": "Lub skopiuj poniższy cashtag.",
         "manualAcceptanceWait": "Poczekaj, aż płatność zostanie ręcznie zaakceptowana przez właściciela konta.",
         "openCashapp": "Otwórz CashApp",
-        "scanQrCode": "Można zeskanować kod QR.",
+        "scanQrCode": "Możesz zeskanować kod QR.",
         "sendExactAmount": "Upewnij się, że wysyłasz dokładną kwotę.",
         "sendPaymentWithNote": "Należy wysłać płatność z dopiskiem na poniższe konto.",
-        "warningPaymentWithNote": "Ostrzeżenie - płatność notą"
+        "warningPaymentWithNote": "Ostrzeżenie - płatność z notą"
       },
       "CheckoutPayCryptocurrency": {
         "automaticProcessingConfirmation": "Zamówienie zostanie automatycznie przetworzone po potwierdzeniu transakcji.",
@@ -164,10 +164,10 @@
         "cancel": "Anuluj",
         "markAsPaid": "Oznacz jako opłacone",
         "markOrderAsPaid": "Oznacz zamówienie jako opłacone",
-        "markedAsPaidFailed": "Nie udało się oznaczyć faktury jako zapłaconej. Spróbuj ponownie.",
+        "markedAsPaidFailed": "Nie udało się oznaczyć faktury jako opłaconej. Spróbuj ponownie.",
         "markedAsPaidSuccess": "Faktura oznaczona jako zapłacona pomyślnie! Poczekaj na potwierdzenie.",
         "paymentInstructions": "Instrukcje dotyczące płatności",
-        "proofOfPayment": "Dowód płatności",
+        "proofOfPayment": "Dowód wpłaty",
         "proofOfPaymentRequired": "Wymagany jest dowód wpłaty."
       },
       "CheckoutPayPayPalFriendsFamily": {
@@ -183,7 +183,7 @@
         "noNoteInstruction": "Nie dołączaj notatki podczas wysyłania płatności.",
         "openPaypal": "Otwórz PayPal",
         "sendExactAmount": "Upewnij się, że wysyłasz dokładną kwotę.",
-        "sendFriendsFamilyNote": "Opłatę Friends &amp; Family należy przesłać z dopiskiem na poniższe konto.",
+        "sendFriendsFamilyNote": "Opłatę Przyjaciele i Rodzina należy przesłać z dopiskiem na poniższe konto.",
         "warningFriendsFamilyNote": "Ostrzeżenie - Płatność dla przyjaciół i rodziny z notą"
       },
       "CheckoutPayPayPalREST": {
@@ -211,11 +211,11 @@
         "openVenmo": "Otwórz Venmo",
         "scanQrCode": "Można zeskanować kod QR.",
         "sendExactAmount": "Upewnij się, że wysyłasz dokładną kwotę.",
-        "sendFriendsFamilyNote": "Opłatę Friends &amp; Family należy przesłać z dopiskiem na poniższe konto.",
+        "sendFriendsFamilyNote": "Opłatę Przyjaciele i Rodzina należy przesłać z dopiskiem na poniższe konto.",
         "warningFriendsFamilyNote": "Ostrzeżenie - Płatność dla przyjaciół i rodziny z notą"
       },
       "CheckoutPaymentMethodButton": {
-        "allowedAmounts": "Dozwolone kwoty:",
+        "allowedAmounts": "Dozwolona kwota:",
         "discount": "rabat",
         "fee": "opłata",
         "maximumAmount": "Maksymalna kwota:",
@@ -225,7 +225,7 @@
       "CheckoutPriceSummary": {
         "couponCodeWithName": "Kod kuponu ({code})",
         "paymentMethodDiscount": "Zniżka za metodę płatności",
-        "paymentMethodFee": "Metoda płatności Opłata",
+        "paymentMethodFee": "Prowizja za metodę płatności",
         "preTaxTotal": "Razem przed opodatkowaniem",
         "subtotal": "Suma częściowa",
         "taxWithRate": "Podatek ({rate}%)",
@@ -246,7 +246,7 @@
         "discount": "rabat",
         "enterEmailAddress": "Wprowadź swój adres e-mail.",
         "fee": "opłata",
-        "insufficientBalance": "Nie masz wystarczającego salda, aby zapłacić za tę fakturę.",
+        "insufficientBalance": "Nie masz wystarczających środków, aby zapłacić za tę fakturę.",
         "invalidCredentials": "Nieprawidłowe dane uwierzytelniające.",
         "logIn": "Zaloguj się",
         "logInCustomerAccount": "Zaloguj się do swojego konta klienta",
@@ -255,10 +255,10 @@
         "logout": "Wylogowanie",
         "maximumAmount": "Maksymalna kwota:",
         "minimumAmount": "Minimalna kwota:",
-        "otpCaptchaInstructions": "Jednorazowe hasło zostanie wysłane na Twój adres e-mail po weryfikacji CAPTCHA. Poczekaj chwilę.",
-        "otpSent": "OTP został wysłany na Twój adres e-mail.",
+        "otpCaptchaInstructions": "Jednorazowe hasło zostanie wysłane na Twój adres e-mail po weryfikacji CAPTCHA. Prosimy o chwilę cierpliwości.",
+        "otpSent": "Jednorazowe hasło zostało wysłane na Twój adres e-mail.",
         "otpSentInstructions": "Na Twój adres e-mail zostało wysłane jednorazowe hasło. Wprowadź je poniżej, aby uzyskać dostęp do konta i zapłacić saldem.",
-        "sufficientBalance": "Masz wystarczające saldo, aby zapłacić za tę fakturę."
+        "sufficientBalance": "Masz wystarczające środki, aby zapłacić za tę fakturę."
       },
       "CheckoutStepper": {
         "next": "Następny:",
@@ -279,11 +279,11 @@
   },
   "Route": {
     "App": {
-      "title": "Kasa"
+      "title": "Podsumowanie"
     },
     "Checkout": {
       "invoiceNotFound": "Nie znaleziono faktury",
-      "pageTitle": "Kasa - {shopName}",
+      "pageTitle": "Podusmowanie - {shopName}",
       "shopNotFound": "Nie znaleziono sklepu"
     }
   }
