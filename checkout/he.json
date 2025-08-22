@@ -1,0 +1,290 @@
+{
+  "Route": {
+    "App": {
+      "title": "סיכום הזמנה"
+    },
+    "Checkout": {
+      "pageTitle": "סיכום הזמנה - {shopName}",
+      "invoiceNotFound": "מספר קבלה לא נמצא",
+      "shopNotFound": "חנות לא נמצאה"
+    }
+  },
+  "Cmp": {
+    "FormLabel": {
+      "optionalIndicator": "(לא חובה)"
+    },
+    "FormSubmit": {
+      "defaultLabel": "המשך"
+    },
+    "Checkout": {
+      "Checkout": {
+        "stepOrderInformation": "מידע על ההזמנה",
+        "stepExtraInformation": "מידע נוסף",
+        "stepConfirmPay": "אשר ושלם",
+        "stepReceiveItems": "קבל את הפריטים שלך",
+        "stepOrderCancelled": "הזמנה בוטלה",
+        "stepOrderRefunded": "ההזמנה זוכתה",
+        "payShopName": "שלם ל {shopName}"
+      },
+      "CheckoutAdditionalInformationForm": {
+        "additionalInformationInstructions": "בבקשה תצרף פרטים נוספים לגבי הדברים הבאים בהזמנה שלך.",
+        "fieldRequiredError": "שדה זה הוא חובה",
+        "proceedToPayment": "המשך לתשלום"
+      },
+      "CheckoutCompleted": {
+        "orderCompletedSuccessfully": "ההזמנה שלך הושלמה בהצלחה!",
+        "orderPartiallyCompleted": "ההזמנה שלך הושלמה חלקית!",
+        "orderMarkedRefunded": "ההזמנה שלך סומנה כזוכתה!"
+      },
+      "CheckoutCompletedDeliverables": {
+        "statusDelivered": "נמסרה",
+        "statusPending": "בהמתנה",
+        "statusOutOfStock": "אזל המלאי",
+        "statusCancelled": "בוטלה",
+        "statusExpired": "פג תוקף",
+        "statusVoided": "בוטלה לפני שהושלמה",
+        "statusFailed": "נכשלה",
+        "statusRefunded": "זוכתה",
+        "downloadFailed": "נכשל להוריד את הפריטים.",
+        "downloadButton": "הורד",
+        "deliveredItems": "פריטים שנמסרו",
+        "addOns": "תוספות",
+        "instructions": "הוראות",
+        "copied": "הועתק!",
+        "moreItemsDownload": "ועוד {count} פריטים שאתה יכול להשיג על ידי ההורדה שלהם {label}.",
+        "copy": "העתק",
+        "outOfStockMessage": "המוצר הזה כרגע לא במלאי. בבקשה תיצור קשר עם צוות התמיכה בשביל עוד מידע.",
+        "productBeingDelivered": "המוצר הזה נמסר כרגע.",
+        "productDeliveryFailed": "המוצר הזה לא יכל היה להימסר. בבקשה תיצור קשר עם צוות התמיכה בשביל עוד מידע."
+      },
+      "CheckoutCompletedFeedback": {
+        "rating": "דירוג",
+        "message": "הודעה",
+        "noMessageLeft": "לא הושארה שום הודעה.",
+        "replyFromShop": "הגבה מ {shopName}",
+        "editFeedback": "ערוך ביקורת",
+        "ratingRequired": "דירוג הוא חובה.",
+        "messageRequired": "הודעה היא חובה.",
+        "saveChanges": "שמור שינויים",
+        "submitFeedback": "שלח ביקורת",
+        "cancel": "בטל",
+        "feedbackIneligibleManual": "ההזמנה הזאת לא כבילה לביקורת (הושמלה ידנית)",
+        "feedbackIneligibleAmount": "ההזמנה הזאת לא כבילה לביקורת (כמות לא משמעותי)",
+        "feedbackCouponIncentive": "השאר ביקורת כדי לקבל קוד קופון בקנייה הבאה שלך. כמו כוכבים מינימום היא: {rating} כוכבים.",
+        "feedbackEmailInstructions": "אתה יכול להשאיר ביקורת על ידי לחיצה על כפתור ה\"השאר ביקורת\" באימייל שקיבלת כשההזמנה שלך הושלמה.",
+        "yourFeedback": "הביקורת שלך",
+        "leaveFeedback": "השאר ביקורת",
+        "automaticFeedbackWarning": "אם לא תשאיר ביקורת תוך 7 ימים, ביקורת של חמישה כוכבים תהיה מוגשת אוטומטית על ידך."
+      },
+      "CheckoutCompletedRedirectUrl": {
+        "clickContinueOrder": "לחץ בכל מקום כדי להמשיך את ההזמנה שלך."
+      },
+      "CheckoutDiscordIntegration": {
+        "discord": "דיסקורד",
+        "connectDiscordRequired": "חבר את משתמש הדיסקורד שלך כדי להמשיך",
+        "disconnect": "התנתק",
+        "connectDiscord": "חבר דיסקורד",
+        "connectButton": "לחבר",
+        "discordDescriptionWithRole": "כדי להכנס אוטומטית לשרת הדיסקורד שלנו ולקבל רול.",
+        "discordDescriptionWithoutRole": "כדי להכנס לשרת הדיסקורד שלנו אוטומטית."
+      },
+      "CheckoutFailed": {
+        "orderCancelled": "הזמנה בוטלה",
+        "orderExpired": "פג תוקף ההזמנה",
+        "orderFailed": "הזמנה נכשלה",
+        "orderCancelledMessage": "ההזמנה שלך בוטלה.",
+        "paymentNotSentInTime": "התשלום לא נעשה בזמן.",
+        "orderProcessingFailed": "לא ניתן היה לעבד הזמנה זו. אם אתה חושב שזאת טעות, בבקשה תיצור קשר עם צוות התמיכה שלנו או נסה שוב מאוחר יותר."
+      },
+      "CheckoutFooter": {
+        "poweredBy": "מופעל על ידי",
+        "termsOfService": "תנאי השירות"
+      },
+      "CheckoutInvoiceDetails": {
+        "invoiceId": "מספר קבלה",
+        "copied": "הועתק!",
+        "emailAddress": "כתובת אימייל",
+        "anonymized": "אנונימי",
+        "totalPrice": "מחיר מלא",
+        "totalPriceUsd": "מחיר מלא (דולר אמריקאי)",
+        "totalAmountCrypto": "כמות מלאה ({gateway})",
+        "remainingAmountCrypto": "כמות שנשארה ({gateway})",
+        "createdAt": "נוצר ב",
+        "expiresAt": "פג תוקף ב",
+        "completedAt": "הושלם ב",
+        "cancelledAt": "בוטל ב"
+      },
+      "CheckoutInvoiceItems": {
+        "forParentItem": "בשביל {parentName}",
+        "priceEach": "{price} לכל אחד"
+      },
+      "CheckoutOrderInformationForm": {
+        "emailAddress": "כתובת אימייל",
+        "emailPlaceholder": "אישור ההזמנה ישלח לכתובת המייל הזאתי:",
+        "emailRequired": "אנא הזן את כתובת המייל שלך",
+        "emailInvalid": "אנא הזן כתובת מייל תקינה",
+        "couponCode": "קוד קופון",
+        "couponPlaceholder": "יש לך קוד קופון? שים אותו כאן.",
+        "applied": "הוחל",
+        "apply": "יישם",
+        "paymentMethod": "שיטת תשלום",
+        "paymentMethodRequired": "אנא בחר שיטת תשלום",
+        "termsRequired": "אנא קבלו את התנאים וההגבלות",
+        "termsAgreement": "קראתי והסכמתי לתנאי השימוש של {shopName}",
+        "newsletterSignup": "אני אשמח לקבל עדכונים והנחות מ{shopName}",
+        "proceedToPayment": "המשך לתשלום"
+      },
+      "CheckoutPaymentMethodButton": {
+        "poweredBy": "מופעל על ידי",
+        "allowedAmounts": "כמות מותרת:",
+        "minimumAmount": "כמות מינימלית:",
+        "maximumAmount": "כמות מקסימלית:",
+        "fee": "עמלה",
+        "discount": "הנחה"
+      },
+      "CheckoutPayCashApp": {
+        "warningPaymentWithNote": "אזהרה - תשלום עם סיבת ההעברה",
+        "addNoteWarning": "תוודאו שאתם מוסיפים את סיבת ההעברה, או שההזמנה לא תושלם באופן אוטומטי.",
+        "addNoteInstruction": "הוסיפו את סיבת ההעברה לתשלום, אחרת יתעלמו מהתשלום.",
+        "continue": "המשך",
+        "automaticProcessingMessage": "ההזמנה שלך תהיה מושלמת אוטומטית ברגע שהכסף יעבור.",
+        "sendPaymentWithNote": "צריך לשלוח תשלום עם סיבת ההעברה למשתמש הזה.",
+        "sendExactAmount": "תוודאו שאתם שמים את כמות הכסף המדויקת",
+        "scanQrCode": "אפשר לסרוק את קוד הקיו-אר.",
+        "copyCashtag": "או שאפשר להעתיק את שם הקאשתאג למטה.",
+        "copyBelow": "אפשר להעתיק את זה למטה.",
+        "copied": "הועתק!",
+        "openCashapp": "פתח את קאשאפפ",
+        "awaitingConfirmation": "ממתין לאישור...",
+        "manualAcceptanceWait": "בבקשה המתן בזמן שהתשלום יושלם ידנית על ידי הבעלים של המשתמש.",
+        "confirmationMessage": "אתה תקבל אימות ברגע שהתשלום הושלם.",
+        "contactForAssistance": "אם יש לך כל שאלה או צריך עזרה, בבקשה תיצור קשר איתנו."
+      },
+      "CheckoutPayCryptocurrency": {
+        "partialPayment": "תשלום חלקי",
+        "partialPaymentStatus": "שילמת {paidAmount} {gateway} מתוך {totalAmount} {gateway}.",
+        "remainingAmount": "כמות שנשארה: {amount} {gateway}",
+        "sendPaymentToAddress": "צריך לשלוח את התשלום לכתובת הבאה.",
+        "sendExactAmount": "תוודאו לשלוח את הכמות המדוייקת.",
+        "sendExactRemainingAmount": "תוודאו לשלוח בדיוק את הכמות שנשארה.",
+        "scanQrCode": "אפשר לסרוק את קוד הקיו-אר למטה.",
+        "copyAddressBelow": "או להעתיק את הכתובת למטה.",
+        "copyBelow": "אפשר להעתיק אותה למטה.",
+        "copied": "הועתק!",
+        "openWallet": "פתח ארנק",
+        "transactionHistory": "היסטוריית תשלומים",
+        "noTransactions": "לא היו תשלומים עד כה...",
+        "automaticProcessingRemaining": "ההזמנה שלך תושלם באופן אוטומטי ברגע שהכמות שנשארה תשולם.",
+        "automaticProcessingPayment": "ההזמנה שלך תושלם באופן אוטומטי ברגע שהתשלום יעבור.",
+        "automaticProcessingConfirmation": "ההזמנה שלך תושלם באופן אוטומטי ברגע שההעברה תאומת."
+      },
+      "CheckoutPayExternalUrl": {
+        "paymentBeingProcessed": "התשלום שלך בבדיקה...",
+        "paymentPageOpened": "עמוד התשלום נפתח בדף חדש.",
+        "clickHereIfNotVisible": "לא רואה את זה? לחץ כאן"
+      },
+      "CheckoutPayManual": {
+        "markedAsPaidSuccess": "החשבונית סומנה כשולמה בהצלחה! אנא המתן לאישור.",
+        "markedAsPaidFailed": "נכשל סימון החשבונית כשולמה. אנא נסה שוב.",
+        "markAsPaid": "סמן כשולם",
+        "markOrderAsPaid": "סמן הזמנה כשולמה",
+        "proofOfPayment": "הוכחת התשלום",
+        "proofOfPaymentRequired": "הוכחת התשלום היא חובה.",
+        "cancel": "בטל",
+        "paymentInstructions": "הוראות תשלום",
+        "awaitingConfirmation": "ממתין לאישור"
+      },
+      "CheckoutPayPayPalFriendsFamily": {
+        "warningFriendsFamilyNote": "אזהרה - תשלום בחברים ומשפחה עם סיבת ההעברה",
+        "friendsFamilyNoteWarning": "תוודאו לשלוח את התשלום בתור חברים ומשפחה ולהוסיף את סיבת ההעברה, אחרת ההזמנה שלך לא תושלם באופן אוטומטי.",
+        "friendsFamilyWarning": "אם לא תשלח בתור חברים ומשפחה, ההזמנה שלך לא תושלם.",
+        "continue": "המשך",
+        "automaticProcessingMessage": "ההזמנה שלך תושלם באופן אוטומטי ברגע שהתשלום עבר.",
+        "sendFriendsFamilyNote": "תצטרכו לשלוח תשלום בתור משפחה וחברים עם סיבת ההעברה למשתמש הבא.",
+        "sendExactAmount": "תוודאו לשלוח את כמות הכסף המדויקת.",
+        "copyEmailBelow": "העתק את כתובת האימייל של הפייפאל למטה.",
+        "copyBelow": "אפשר להעתיק אותה למטה.",
+        "copied": "הועתק!",
+        "openPaypal": "פתח את פייפאל",
+        "addNoteInstruction": "תשים את סיבת ההעברה, אחרת יתעלמו מהתשלום.",
+        "noNoteInstruction": "אל תשים סיבה ההעברה.",
+        "additionalDetailsInstruction": "אם מבקשים לשים פרטים נוספים, השתמש בפרטים הבאים:"
+      },
+      "CheckoutPayPayPalREST": {
+        "paypalPaymentProcessing": "תשלום הפייפאל שלך בתהליך בדיקה..."
+      },
+      "CheckoutPaySumUp": {
+        "sumupPaymentProcessing": "תשלום הסאמאפ שלך בתהליך בדיקה...",
+        "paymentFailedRetry": "תשלום נכשל. אנא רענן את העמוד ונסה שוב או השתמש בכרטיס שונה.",
+        "paymentProcessingNotification": "התשלום שלך בתהליך בדיקה. אנחנו נודיע לך כשהתשלום בוצע.",
+        "paymentCancelled": "תשלום בוטל. אנא נסה שוב.",
+        "paymentErrorGeneric": "אירעה שגיאה בעיבוד התשלום שלך. אנא נסה שוב.",
+        "networkError": "שגיאת רשת. אנא בדוק את החיבור ונסה שוב.",
+        "authenticationFailed": "אימות הכרטיס נכשל. אנא נסה כרטיס אחר.",
+        "insufficientFunds": "אין מספיק כספים. אנא נסה כרטיס אחר."
+      },
+      "CheckoutPayVenmo": {
+        "warningFriendsFamilyNote": "אזהרה - תשלום בחברים ומשפחה עם סיבת ההעברה",
+        "friendsFamilyNoteWarning": "תוודאו לשלוח את התשלום בתור חברים ומשפחה ולהוסיף את סיבת ההעברה, אחרת ההזמנה שלך לא תושלם באופן אוטומטי.",
+        "continue": "המשך",
+        "automaticProcessingMessage": "ההזמנה שלך תושלם באופן אוטומטי ברגע שהתשלום עבר.",
+        "sendFriendsFamilyNote": "תצטרכו לשלוח תשלום בתור משפחה וחברים עם סיבת ההעברה למשתמש הבא.",
+        "sendExactAmount": "תוודאו לשלוח את כמות הכסף המדויקת.",
+        "scanQrCode": "אפשר להעתיק את קוד הקו-אר למטה.",
+        "copyTagBelow": "או להעתיק את התאג למטה.",
+        "copyBelow": "או אפשר להתיק אותו למטה.",
+        "copied": "הועתק!",
+        "openVenmo": "פתח את וונמו",
+        "addNoteInstruction": "תשים את סיבת ההעברה, אחרת יתעלמו מהתשלום.",
+        "additionalDetailsInstruction": "אם מבקשים לשים פרטים נוספים, השתמש בפרטים הבאים:"
+      },
+      "CheckoutPriceSummary": {
+        "subtotal": "סכום ביניים",
+        "volumeDiscount": "אחוז הנחה",
+        "couponCodeWithName": "קוד קופון ({code})",
+        "unknownCode": "קוד לא מוכר",
+        "paymentMethodFee": "עמלת שיטת תשלום",
+        "paymentMethodDiscount": "הנחת שיטת תשלום",
+        "preTaxTotal": "סך הכל כמות לפני מס",
+        "taxWithRate": "מס ({rate}%)",
+        "total": "סך הכל"
+      },
+      "CheckoutRefunded": {
+        "orderRefunded": "הזמנה זוכתה",
+        "orderRefundedMessage": "ההזמנה שלך סומנה כזוכתה!"
+      },
+      "CheckoutShopCustomerBalanceButton": {
+        "otpSent": "סיסמא חד פעמית נשלחה לאימייל שלך.",
+        "otpSentInstructions": "סיסמא חד פעמית נשלחה לכתובת האימייל שלך. אנא הזן אותה למטה כדי לקבל גישה למשתמש שלך ולשלם עם היתרה שלך.",
+        "otpCaptchaInstructions": "סיסמא חד פעמית תשלח לכתובת המייל שלך לאחר שתשלים את אימות הקאפצ'ה. אנא חכו רגע.",
+        "invalidCredentials": "פרטים שגויים",
+        "loggedInAs": "מחובר בתור {email}.",
+        "loggedInAsEmail": "מחובר בתור {email}",
+        "clickToAuthenticate": "לחץ כדי לאמת.",
+        "enterEmailAddress": "אנא הזן את כתובת האימייל שלך.",
+        "allowedAmounts": "כמות מותרת:",
+        "minimumAmount": "כמות מינימלית:",
+        "maximumAmount": "כמות מקסימלית:",
+        "discount": "הנחה",
+        "fee": "עמלה",
+        "logInCustomerAccount": "התחבר אל משתמש הלקוח שלך",
+        "cancel": "בטל",
+        "logIn": "התחבר",
+        "insufficientBalance": "אין לך מספיק יתרה בכדי לשלם על קבלה זאת.",
+        "sufficientBalance": "יש לך מספיק יתרה בכדי לשלם על קבלה זאת.",
+        "balance": "יתרה",
+        "logout": "התנתק",
+        "continue": "המשך"
+      },
+      "CheckoutStepper": {
+        "next": "הבא:",
+        "stepNumber": "שלב {number}"
+      },
+      "CheckoutTicketButton": {
+        "havingIssues": "חווה בעיות עם ההזמנה שלך?",
+        "openTicketInstructions": "אתם יכולים לפתוח טיקט בעמוד הלקוחות שלנו באתר כדי לקבל עזרה מצוות התמיכה שלנו.",
+        "openSupportTicket": "פתח טיקט תמיכה."
+      }
+    }
+  }
+}
