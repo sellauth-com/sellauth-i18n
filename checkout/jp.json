@@ -1,0 +1,171 @@
+{
+  "Route": {
+    "App": {
+      "title": "チェックアウト"
+    },
+    "Checkout": {
+      "pageTitle": "チェックアウト - {shopName}",
+      "invoiceNotFound": "請求書が見つかりません",
+      "shopNotFound": "ショップが見つかりません"
+    }
+  },
+  "Cmp": {
+    "FormLabel": {
+      "optionalIndicator": "（任意）"
+    },
+    "FormSubmit": {
+      "defaultLabel": "続ける"
+    },
+    "Checkout": {
+      "Checkout": {
+        "stepOrderInformation": "注文情報",
+        "stepExtraInformation": "追加情報",
+        "stepConfirmPay": "確認と支払い",
+        "stepReceiveItems": "商品を受け取る",
+        "stepOrderCancelled": "注文がキャンセルされました",
+        "stepOrderRefunded": "注文が返金されました",
+        "payShopName": "{shopName} に支払う"
+      },
+      "CheckoutAdditionalInformationForm": {
+        "additionalInformationInstructions": "ご注文の次の項目に追加情報をご提供ください。",
+        "fieldRequiredError": "この項目は必須です",
+        "proceedToPayment": "支払いに進む"
+      },
+      "CheckoutCompleted": {
+        "orderCompletedSuccessfully": "ご注文が正常に完了しました！",
+        "orderPartiallyCompleted": "ご注文が一部完了しました！",
+        "orderMarkedRefunded": "ご注文は返金済みにマークされました！"
+      },
+      "CheckoutCompletedDeliverables": {
+        "statusDelivered": "配達済み",
+        "statusPending": "保留中",
+        "statusOutOfStock": "在庫切れ",
+        "statusCancelled": "キャンセル済み",
+        "statusExpired": "期限切れ",
+        "statusVoided": "無効",
+        "statusFailed": "失敗",
+        "statusRefunded": "返金済み",
+        "downloadFailed": "納品物のダウンロードに失敗しました。",
+        "downloadButton": "ダウンロード",
+        "deliveredItems": "納品された商品",
+        "addOns": "追加オプション",
+        "instructions": "手順",
+        "copied": "コピーしました！",
+        "moreItemsDownload": "さらに {count} 件のアイテムは {label} をダウンロードすることでアクセスできます。",
+        "copy": "コピー",
+        "outOfStockMessage": "この商品は現在在庫切れです。詳細についてはサポートにお問い合わせください。",
+        "productBeingDelivered": "この商品は配送中です...",
+        "productDeliveryFailed": "この商品は配達できませんでした。詳細についてはサポートにお問い合わせください。"
+      },
+      "CheckoutCompletedFeedback": {
+        "rating": "評価",
+        "message": "メッセージ",
+        "noMessageLeft": "メッセージは残されていません。",
+        "replyFromShop": "{shopName} からの返信",
+        "editFeedback": "フィードバックを編集",
+        "ratingRequired": "評価は必須です。",
+        "messageRequired": "メッセージは必須です。",
+        "saveChanges": "変更を保存",
+        "submitFeedback": "フィードバックを送信",
+        "cancel": "キャンセル",
+        "feedbackIneligibleManual": "この注文はフィードバック対象外です（手動処理）",
+        "feedbackIneligibleAmount": "この注文はフィードバック対象外です（金額が少額）",
+        "feedbackCouponIncentive": "フィードバックを残すと次回購入に使える割引クーポンを獲得できます。必要な最低評価：{rating} 星。",
+        "feedbackEmailInstructions": "注文完了時に受け取ったメールの「フィードバックを残す」ボタンをクリックしてフィードバックを残すことができます。",
+        "yourFeedback": "あなたのフィードバック",
+        "leaveFeedback": "フィードバックを残す",
+        "automaticFeedbackWarning": "7日以内にフィードバックを残さない場合、自動的に5つ星のフィードバックが残されます。"
+      },
+      "CheckoutCompletedRedirectUrl": {
+        "clickContinueOrder": "クリックして注文に進む"
+      },
+      "CheckoutDiscordIntegration": {
+        "discord": "Discord",
+        "connectDiscordRequired": "続行するにはDiscordアカウントを接続してください。",
+        "disconnect": "切断",
+        "connectDiscord": "Discordを接続",
+        "connectButton": "接続",
+        "discordDescriptionWithRole": "Discordサーバーに自動的に参加し、ロールを受け取ります。",
+        "discordDescriptionWithoutRole": "Discordサーバーに自動的に参加します。"
+      },
+      "CheckoutFailed": {
+        "orderCancelled": "注文がキャンセルされました",
+        "orderExpired": "注文が期限切れです",
+        "orderFailed": "注文に失敗しました",
+        "orderCancelledMessage": "注文はキャンセルされました。",
+        "paymentNotSentInTime": "支払いが時間内に送信されませんでした。",
+        "orderProcessingFailed": "注文を処理できませんでした。誤りだと思われる場合はサポートに連絡するか、後でもう一度お試しください。"
+      },
+      "CheckoutFooter": {
+        "poweredBy": "提供元",
+        "termsOfService": "利用規約"
+      },
+      "CheckoutInvoiceDetails": {
+        "invoiceId": "請求書ID",
+        "copied": "コピーしました！",
+        "emailAddress": "メールアドレス",
+        "anonymized": "匿名化済み",
+        "totalPrice": "合計金額",
+        "totalPriceUsd": "合計金額 (USD)",
+        "totalAmountCrypto": "合計金額 ({gateway})",
+        "remainingAmountCrypto": "残額 ({gateway})",
+        "createdAt": "作成日",
+        "expiresAt": "有効期限",
+        "completedAt": "完了日",
+        "cancelledAt": "キャンセル日"
+      },
+      "CheckoutInvoiceItems": {
+        "forParentItem": "{parentName} 用",
+        "priceEach": "各 {price}"
+      },
+      "CheckoutOrderInformationForm": {
+        "emailAddress": "メールアドレス",
+        "emailPlaceholder": "注文確認はこのメールアドレスに送信されます。",
+        "emailRequired": "メールアドレスを入力してください",
+        "emailInvalid": "有効なメールアドレスを入力してください",
+        "couponCode": "クーポンコード",
+        "couponPlaceholder": "クーポンをお持ちですか？ここに入力してください。",
+        "applied": "適用済み",
+        "apply": "適用",
+        "paymentMethod": "支払い方法",
+        "paymentMethodRequired": "支払い方法を選択してください",
+        "termsRequired": "利用規約に同意してください",
+        "termsAgreement": "私は {shopName} の利用規約を読み、同意しました。",
+        "newsletterSignup": "{shopName} からの最新情報やキャンペーンを受け取りたいです。",
+        "proceedToPayment": "支払いに進む"
+      },
+      "CheckoutPaymentMethodButton": {
+        "poweredBy": "提供元",
+        "allowedAmounts": "許可された金額：",
+        "minimumAmount": "最小金額：",
+        "maximumAmount": "最大金額：",
+        "fee": "手数料",
+        "discount": "割引"
+      },
+      "CheckoutPriceSummary": {
+        "subtotal": "小計",
+        "volumeDiscount": "数量割引",
+        "couponCodeWithName": "クーポン ({code})",
+        "unknownCode": "不明なクーポン",
+        "paymentMethodFee": "支払い方法手数料",
+        "paymentMethodDiscount": "支払い方法割引",
+        "preTaxTotal": "税抜合計",
+        "taxWithRate": "税金 ({rate}%)",
+        "total": "合計"
+      },
+      "CheckoutRefunded": {
+        "orderRefunded": "注文が返金されました",
+        "orderRefundedMessage": "この注文は返金済みにマークされました。"
+      },
+      "CheckoutStepper": {
+        "next": "次へ：",
+        "stepNumber": "ステップ {number}"
+      },
+      "CheckoutTicketButton": {
+        "havingIssues": "注文に問題がありますか？",
+        "openTicketInstructions": "カスタマーダッシュボードでチケットを開き、サポートチームから支援を受けられます。",
+        "openSupportTicket": "サポートチケットを開く"
+      }
+    }
+  }
+}
