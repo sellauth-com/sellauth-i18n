@@ -4,11 +4,11 @@
       "Checkout": {
         "payShopName": "Bezahlen {shopName}",
         "stepConfirmPay": "Bestätigen &amp; Bezahlen",
-        "stepExtraInformation": "Zusätzliche Informationen",
+        "stepExtraInformation": "Weitere Informationen",
         "stepOrderCancelled": "Bestellung storniert",
-        "stepOrderInformation": "Informationen bestellen",
-        "stepOrderRefunded": "Erstattete Bestellung",
-        "stepReceiveItems": "Erhalten Sie Ihre Artikel"
+        "stepOrderInformation": "Bestellinformationen",
+        "stepOrderRefunded": "Bestellung erstattet",
+        "stepReceiveItems": "Artikel erhalten"
       },
       "CheckoutAdditionalInformationForm": {
         "additionalInformationInstructions": "Bitte geben Sie in Ihrer Bestellung zusätzliche Informationen zu den folgenden Punkten an.",
@@ -18,7 +18,7 @@
       "CheckoutCompleted": {
         "orderCompletedSuccessfully": "Ihre Bestellung wurde erfolgreich abgeschlossen!",
         "orderMarkedRefunded": "Ihre Bestellung wurde als erstattet markiert!",
-        "orderPartiallyCompleted": "Ihr Auftrag wurde teilweise ausgeführt!"
+        "orderPartiallyCompleted": "Ihre Bestellung wurde teilweise abgeschlossen!"
       },
       "CheckoutCompletedDeliverables": {
         "addOns": "Add-ons",
@@ -35,11 +35,11 @@
         "statusCancelled": "Abgesagt",
         "statusDelivered": "Geliefert",
         "statusExpired": "Abgelaufen",
-        "statusFailed": "Gescheitert",
+        "statusFailed": "Fehlgeschlagen",
         "statusOutOfStock": "Nicht auf Lager",
-        "statusPending": "Anhängig",
+        "statusPending": "Ausstehend",
         "statusRefunded": "Erstattet",
-        "statusVoided": "Ungültig"
+        "statusVoided": "Storniert"
       },
       "CheckoutCompletedFeedback": {
         "automaticFeedbackWarning": "Wenn Sie innerhalb von 7 Tagen kein Feedback hinterlassen, wird automatisch ein 5-Sterne-Feedback für Sie abgegeben.",
@@ -47,7 +47,7 @@
         "editFeedback": "Feedback bearbeiten",
         "feedbackCouponIncentive": "Hinterlassen Sie eine Bewertung, um einen Rabattgutschein für Ihren nächsten Einkauf zu erhalten. Mindestbewertung erforderlich: {rating} Sterne.",
         "feedbackEmailInstructions": "Sie können uns eine Rückmeldung geben, indem Sie in der E-Mail, die Sie nach Abschluss der Bestellung erhalten haben, auf die Schaltfläche \"Feedback hinterlassen\" klicken.",
-        "feedbackIneligibleAmount": "Diese Bestellung ist nicht für eine Rückmeldung geeignet (unbedeutender betrag).",
+        "feedbackIneligibleAmount": "Diese Bestellung ist nicht für eine Rückmeldung geeignet (geringer Betrag).",
         "feedbackIneligibleManual": "Diese Bestellung ist nicht für eine Rückmeldung geeignet (manuell bearbeitet)",
         "leaveFeedback": "Feedback hinterlassen",
         "message": "Nachricht",
@@ -61,28 +61,28 @@
         "yourFeedback": "Ihr Feedback"
       },
       "CheckoutCompletedRedirectUrl": {
-        "clickContinueOrder": "Klicken Sie irgendwo, um Ihre Bestellung fortzusetzen."
+        "clickContinueOrder": "Klicken Sie, um mit Ihrer Bestellung fortzufahren."
       },
       "CheckoutDiscordIntegration": {
         "connectButton": "Verbinden Sie",
-        "connectDiscord": "Diskord verbinden",
+        "connectDiscord": "Discord verbinden",
         "connectDiscordRequired": "Verbinde dein Discord-Konto, um fortzufahren.",
         "disconnect": "Trennen Sie die Verbindung",
-        "discord": "Diskord",
+        "discord": "Discord",
         "discordDescriptionWithRole": "um automatisch unserem Discord-Server beizutreten und eine Rolle zu erhalten.",
         "discordDescriptionWithoutRole": "um automatisch unserem Discord-Server beizutreten."
       },
       "CheckoutFailed": {
         "orderCancelled": "Bestellung storniert",
-        "orderCancelledMessage": "Der Auftrag wurde storniert.",
-        "orderExpired": "Bestellung Abgelaufen",
+        "orderCancelledMessage": "Die Bestellung wurde storniert.",
+        "orderExpired": "Bestellung abgelaufen",
         "orderFailed": "Bestellung fehlgeschlagen",
         "orderProcessingFailed": "Diese Bestellung konnte nicht bearbeitet werden. Wenn Sie glauben, dass dies ein Fehler ist, kontaktieren Sie bitte unseren Support oder versuchen Sie es später noch einmal.",
         "paymentNotSentInTime": "Die Zahlung wurde nicht fristgerecht übermittelt."
       },
       "CheckoutFooter": {
         "poweredBy": "Angetrieben durch",
-        "termsOfService": "Bedingungen der Dienstleistung"
+        "termsOfService": "Nutzungsbedingungen"
       },
       "CheckoutInvoiceDetails": {
         "anonymized": "Anonymisiert",
@@ -93,7 +93,7 @@
         "emailAddress": "E-Mail Adresse",
         "expiresAt": "Läuft ab bei",
         "invoiceId": "Rechnungs-ID",
-        "remainingAmountCrypto": "Verbleibender Betrag ({gateway})",
+        "remainingAmountCrypto": "Restbetrag ({gateway})",
         "totalAmountCrypto": "Gesamtbetrag ({gateway})",
         "totalPrice": "Gesamtpreis",
         "totalPriceUsd": "Gesamtpreis (USD)"
@@ -104,8 +104,8 @@
       },
       "CheckoutOrderInformationForm": {
         "applied": "Angewandt",
-        "apply": "Bewerbung",
-        "couponCode": "Kupon-Code",
+        "apply": "Anwenden",
+        "couponCode": "Gutscheincode",
         "couponPlaceholder": "Haben Sie einen Gutscheincode? Geben Sie ihn hier ein.",
         "emailAddress": "E-Mail Adresse",
         "emailInvalid": "Bitte geben Sie eine gültige E-Mail Adresse ein",
@@ -116,7 +116,7 @@
         "paymentMethodRequired": "Bitte wählen Sie eine Zahlungsmethode",
         "proceedToPayment": "Weiter zur Zahlung",
         "termsAgreement": "Ich habe die Allgemeinen Geschäftsbedingungen von {shopName} gelesen und stimme ihnen zu.",
-        "termsRequired": "Bitte akzeptieren Sie die Bedingungen und Konditionen"
+        "termsRequired": "Bitte akzeptieren Sie die Allgemeinen Geschäftsbedingungen."
       },
       "CheckoutPayCashApp": {
         "addNoteInstruction": "Fügen Sie der Zahlung eine Notiz hinzu, sonst wird sie ignoriert.",
@@ -128,7 +128,7 @@
         "continue": "Weiter",
         "copied": "Kopiert!",
         "copyBelow": "Sie können ihn unten kopieren.",
-        "copyCashtag": "Oder kopieren Sie den unten stehenden Hashtag.",
+        "copyCashtag": "Oder kopieren Sie den unten stehenden Cashtag.",
         "manualAcceptanceWait": "Bitte warten Sie, während Ihre Zahlung manuell vom Kontoinhaber angenommen wird.",
         "openCashapp": "CashApp öffnen",
         "scanQrCode": "Sie können den QR-Code scannen.",
@@ -144,7 +144,7 @@
         "copyAddressBelow": "Oder kopieren Sie die unten stehende Adresse.",
         "copyBelow": "Sie können ihn unten kopieren.",
         "noTransactions": "Noch keine Transaktionen...",
-        "openWallet": "Offene Brieftasche",
+        "openWallet": "Wallet öffnen",
         "partialPayment": "Teilweise Zahlung",
         "partialPaymentStatus": "Sie haben {paidAmount} {gateway} aus {totalAmount} {gateway} bezahlt.",
         "remainingAmount": "Verbleibender Betrag: {amount} {gateway}.",
@@ -223,10 +223,10 @@
         "poweredBy": "Angetrieben durch"
       },
       "CheckoutPriceSummary": {
-        "couponCodeWithName": "Coupon Code ({code})",
-        "paymentMethodDiscount": "Zahlungsmethode Rabatt",
-        "paymentMethodFee": "Zahlungsmethode Gebühr",
-        "preTaxTotal": "Vor-Steuer Gesamt",
+        "couponCodeWithName": "Gutscheincode ({code})",
+        "paymentMethodDiscount": "Rabatt für Zahlungsmethode",
+        "paymentMethodFee": "Gebühr für Zahlungsmethode",
+        "preTaxTotal": "Zwischensumme (ohne Steuern)",
         "subtotal": "Zwischensumme",
         "taxWithRate": "Steuer ({rate}%)",
         "total": "Insgesamt",
@@ -239,7 +239,7 @@
       },
       "CheckoutShopCustomerBalanceButton": {
         "allowedAmounts": "Zulässige Beträge:",
-        "balance": "Bilanz",
+        "balance": "Guthaben",
         "cancel": "Abbrechen",
         "clickToAuthenticate": "Klicken Sie zur Authentifizierung.",
         "continue": "Weiter",
@@ -252,7 +252,7 @@
         "logInCustomerAccount": "Melden Sie sich bei Ihrem Kundenkonto an",
         "loggedInAs": "Eingeloggt als {email}.",
         "loggedInAsEmail": "Eingeloggt als {email}",
-        "logout": "Abmeldung",
+        "logout": "Abmelden",
         "maximumAmount": "Höchstbetrag:",
         "minimumAmount": "Mindestbetrag:",
         "otpCaptchaInstructions": "Nach der CAPTCHA-Prüfung wird Ihnen ein einmaliges Passwort an Ihre E-Mail-Adresse geschickt. Bitte warten Sie einen Moment.",
