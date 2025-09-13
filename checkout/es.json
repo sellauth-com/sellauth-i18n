@@ -82,7 +82,9 @@
       },
       "CheckoutFooter": {
         "poweredBy": "Desarrollado por",
-        "termsOfService": "Condiciones de uso"
+        "termsOfService": "Condiciones de uso",
+        "privacyPolicy": "Política de privacidad",
+        "refundPolicy": "Política de reembolso"
       },
       "CheckoutInvoiceDetails": {
         "anonymized": "Anonimizado",

@@ -82,7 +82,9 @@
       },
       "CheckoutFooter": {
         "poweredBy": "За підтримки",
-        "termsOfService": "Умови надання послуг"
+        "termsOfService": "Умови надання послуг",
+        "privacyPolicy": "Політика конфіденційності",
+        "refundPolicy": "Політика повернення коштів"
       },
       "CheckoutInvoiceDetails": {
         "anonymized": "Анонімно",

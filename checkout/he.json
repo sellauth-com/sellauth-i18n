@@ -98,7 +98,9 @@
       },
       "CheckoutFooter": {
         "poweredBy": "מופעל על ידי",
-        "termsOfService": "תנאי השירות"
+        "termsOfService": "תנאי השירות",
+        "privacyPolicy": "מדיניות פרטיות",
+        "refundPolicy": "מדיניות החזרות"
       },
       "CheckoutInvoiceDetails": {
         "invoiceId": "מספר קבלה",

@@ -98,7 +98,9 @@
       },
       "CheckoutFooter": {
         "poweredBy": "提供元",
-        "termsOfService": "利用規約"
+        "termsOfService": "利用規約",
+        "privacyPolicy": "プライバシーポリシー",
+        "refundPolicy": "返金ポリシー"
       },
       "CheckoutInvoiceDetails": {
         "invoiceId": "請求書ID",

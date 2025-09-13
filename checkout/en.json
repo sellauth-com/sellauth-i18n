@@ -98,7 +98,9 @@
       },
       "CheckoutFooter": {
         "poweredBy": "Powered by",
-        "termsOfService": "Terms of Service"
+        "termsOfService": "Terms of Service",
+        "privacyPolicy": "Privacy Policy",
+        "refundPolicy": "Refund Policy"
       },
       "CheckoutInvoiceDetails": {
         "invoiceId": "Invoice ID",
