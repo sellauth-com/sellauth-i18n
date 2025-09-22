@@ -1,0 +1,292 @@
+{
+  "Route": {
+    "App": {
+      "title": "결제하기"
+    },
+    "Checkout": {
+      "pageTitle": "결제하기 - {shopName}",
+      "invoiceNotFound": "인보이스를 찾을 수 없습니다",
+      "shopNotFound": "상점을 찾을 수 없습니다"
+    }
+  },
+  "Cmp": {
+    "FormLabel": {
+      "optionalIndicator": "(선택)"
+    },
+    "FormSubmit": {
+      "defaultLabel": "계속하기"
+    },
+    "Checkout": {
+      "Checkout": {
+        "stepOrderInformation": "주문 정보",
+        "stepExtraInformation": "추가 정보",
+        "stepConfirmPay": "확인 및 결제",
+        "stepReceiveItems": "상품 수령",
+        "stepOrderCancelled": "주문 취소됨",
+        "stepOrderRefunded": "주문 환불됨",
+        "payShopName": "{shopName} 결제"
+      },
+      "CheckoutAdditionalInformationForm": {
+        "additionalInformationInstructions": "주문 내 항목에 대해 추가 정보를 입력해 주세요.",
+        "fieldRequiredError": "이 필드는 필수입니다",
+        "proceedToPayment": "결제 진행하기"
+      },
+      "CheckoutCompleted": {
+        "orderCompletedSuccessfully": "주문이 성공적으로 완료되었습니다!",
+        "orderPartiallyCompleted": "주문이 부분적으로 완료되었습니다!",
+        "orderMarkedRefunded": "주문이 환불 처리되었습니다!"
+      },
+      "CheckoutCompletedDeliverables": {
+        "statusDelivered": "배송 완료",
+        "statusPending": "대기 중",
+        "statusOutOfStock": "품절",
+        "statusCancelled": "취소됨",
+        "statusExpired": "만료됨",
+        "statusVoided": "무효",
+        "statusFailed": "실패",
+        "statusRefunded": "환불됨",
+        "downloadFailed": "상품 다운로드에 실패했습니다.",
+        "downloadButton": "다운로드",
+        "deliveredItems": "배송된 상품",
+        "addOns": "추가 구성",
+        "instructions": "사용 안내",
+        "copied": "복사됨!",
+        "moreItemsDownload": "{label}을(를) 다운로드하면 추가 {count}개 항목을 확인할 수 있습니다.",
+        "copy": "복사",
+        "outOfStockMessage": "해당 상품은 현재 품절 상태입니다. 자세한 사항은 고객 지원팀에 문의해 주세요.",
+        "productBeingDelivered": "상품을 배송 중입니다...",
+        "productDeliveryFailed": "상품을 배송할 수 없습니다. 고객 지원팀에 문의해 주세요."
+      },
+      "CheckoutCompletedFeedback": {
+        "rating": "평점",
+        "message": "메시지",
+        "noMessageLeft": "남겨진 메시지가 없습니다.",
+        "replyFromShop": "{shopName}의 답변",
+        "editFeedback": "피드백 수정",
+        "ratingRequired": "평점을 입력해야 합니다.",
+        "messageRequired": "메시지를 입력해야 합니다.",
+        "saveChanges": "변경 사항 저장",
+        "submitFeedback": "피드백 제출",
+        "cancel": "취소",
+        "feedbackIneligibleManual": "이 주문은 피드백 대상이 아닙니다 (수동 처리됨)",
+        "feedbackIneligibleAmount": "이 주문은 피드백 대상이 아닙니다 (소액 결제)",
+        "feedbackCouponIncentive": "피드백을 남기면 다음 구매 시 사용할 할인 쿠폰을 드립니다. 최소 평점: {rating} 별.",
+        "feedbackEmailInstructions": "주문 완료 시 받은 이메일의 \"피드백 남기기\" 버튼을 클릭하여 피드백을 남길 수 있습니다.",
+        "yourFeedback": "내 피드백",
+        "leaveFeedback": "피드백 남기기",
+        "automaticFeedbackWarning": "7일 이내에 피드백을 남기지 않으면, 자동으로 5점 피드백이 등록됩니다."
+      },
+      "CheckoutCompletedRedirectUrl": {
+        "clickContinueOrder": "화면을 클릭하면 주문 페이지로 이동합니다."
+      },
+      "CheckoutDiscordIntegration": {
+        "discord": "디스코드",
+        "connectDiscordRequired": "디스코드 계정을 연결해야 합니다.",
+        "disconnect": "연결 해제",
+        "connectDiscord": "디스코드 연결",
+        "connectButton": "연결",
+        "discordDescriptionWithRole": "디스코드 서버에 자동으로 참여하고 역할을 받습니다.",
+        "discordDescriptionWithoutRole": "디스코드 서버에 자동으로 참여합니다."
+      },
+      "CheckoutFailed": {
+        "orderCancelled": "주문 취소됨",
+        "orderExpired": "주문 만료됨",
+        "orderFailed": "주문 실패",
+        "orderCancelledMessage": "주문이 취소되었습니다.",
+        "paymentNotSentInTime": "결제가 제시간에 이루어지지 않았습니다.",
+        "orderProcessingFailed": "주문을 처리할 수 없습니다. 오류라고 생각되면 고객 지원팀에 문의하거나 다시 시도하세요."
+      },
+      "CheckoutFooter": {
+        "poweredBy": "제공:",
+        "termsOfService": "이용 약관",
+        "privacyPolicy": "개인정보 처리방침",
+        "refundPolicy": "환불 정책"
+      },
+      "CheckoutInvoiceDetails": {
+        "invoiceId": "인보이스 ID",
+        "copied": "복사됨!",
+        "emailAddress": "이메일 주소",
+        "anonymized": "익명 처리됨",
+        "totalPrice": "총액",
+        "totalPriceUsd": "총액 (USD)",
+        "totalAmountCrypto": "총액 ({gateway})",
+        "remainingAmountCrypto": "잔액 ({gateway})",
+        "createdAt": "생성일",
+        "expiresAt": "만료일",
+        "completedAt": "완료일",
+        "cancelledAt": "취소일"
+      },
+      "CheckoutInvoiceItems": {
+        "forParentItem": "{parentName} 관련",
+        "priceEach": "개당 {price}"
+      },
+      "CheckoutOrderInformationForm": {
+        "emailAddress": "이메일 주소",
+        "emailPlaceholder": "주문 확인 메일이 이 주소로 발송됩니다.",
+        "emailRequired": "이메일 주소를 입력해 주세요",
+        "emailInvalid": "올바른 이메일 주소를 입력해 주세요",
+        "couponCode": "쿠폰 코드",
+        "couponPlaceholder": "쿠폰 코드가 있다면 입력해 주세요.",
+        "applied": "적용됨",
+        "apply": "적용",
+        "paymentMethod": "결제 수단",
+        "paymentMethodRequired": "결제 수단을 선택해 주세요",
+        "termsRequired": "약관에 동의해야 합니다",
+        "termsAgreement": "{shopName}의 이용 약관을 읽고 동의합니다.",
+        "newsletterSignup": "{shopName}의 소식 및 프로모션을 받겠습니다.",
+        "proceedToPayment": "결제 진행하기"
+      },
+      "CheckoutPaymentMethodButton": {
+        "poweredBy": "제공:",
+        "allowedAmounts": "허용 금액:",
+        "minimumAmount": "최소 금액:",
+        "maximumAmount": "최대 금액:",
+        "fee": "수수료",
+        "discount": "할인"
+      },
+      "CheckoutPayCashApp": {
+        "warningPaymentWithNote": "경고 - 메모와 함께 결제 필요",
+        "addNoteWarning": "메모를 반드시 추가해야 주문이 자동으로 처리됩니다.",
+        "addNoteInstruction": "결제 시 메모를 추가하지 않으면 무시됩니다.",
+        "continue": "계속하기",
+        "automaticProcessingMessage": "결제가 확인되면 주문이 자동으로 처리됩니다.",
+        "sendPaymentWithNote": "다음 계정으로 메모와 함께 결제를 진행해야 합니다.",
+        "sendExactAmount": "정확한 금액을 보내야 합니다.",
+        "scanQrCode": "QR 코드를 스캔할 수 있습니다.",
+        "copyCashtag": "아래 캐시태그를 복사할 수 있습니다.",
+        "copyBelow": "아래에서 복사할 수 있습니다.",
+        "copied": "복사됨!",
+        "openCashapp": "CashApp 열기",
+        "awaitingConfirmation": "확인 대기 중...",
+        "manualAcceptanceWait": "계정 소유자가 결제를 수동으로 확인할 때까지 기다려 주세요.",
+        "confirmationMessage": "결제가 처리되면 확인 메시지를 받게 됩니다.",
+        "contactForAssistance": "문의사항이나 도움이 필요하시면 연락해 주세요."
+      },
+      "CheckoutPayCryptocurrency": {
+        "partialPayment": "부분 결제",
+        "partialPaymentStatus": "{totalAmount} {gateway} 중 {paidAmount} {gateway}을(를) 결제하셨습니다.",
+        "remainingAmount": "잔액: {amount} {gateway}",
+        "sendPaymentToAddress": "다음 주소로 결제를 진행해야 합니다.",
+        "sendExactAmount": "정확한 금액을 보내야 합니다.",
+        "sendExactRemainingAmount": "정확한 잔액을 보내야 합니다.",
+        "scanQrCode": "QR 코드를 스캔할 수 있습니다.",
+        "copyAddressBelow": "아래 주소를 복사할 수 있습니다.",
+        "copyBelow": "아래에서 복사할 수 있습니다.",
+        "copied": "복사됨!",
+        "openWallet": "지갑 열기",
+        "transactionHistory": "거래 내역",
+        "noTransactions": "아직 거래 없음...",
+        "automaticProcessingRemaining": "잔액이 수신되면 주문이 자동으로 처리됩니다.",
+        "automaticProcessingPayment": "결제가 수신되면 주문이 자동으로 처리됩니다.",
+        "automaticProcessingConfirmation": "거래가 확인되면 주문이 자동으로 처리됩니다."
+      },
+      "CheckoutPayExternalUrl": {
+        "paymentBeingProcessed": "결제를 처리 중입니다...",
+        "paymentPageOpened": "결제 페이지가 새 탭에서 열렸습니다",
+        "clickHereIfNotVisible": "보이지 않나요? 여기를 클릭하세요"
+      },
+      "CheckoutPayManual": {
+        "markedAsPaidSuccess": "인보이스가 성공적으로 결제 완료로 표시되었습니다! 확인을 기다려 주세요.",
+        "markedAsPaidFailed": "인보이스를 결제 완료로 표시하지 못했습니다. 다시 시도해 주세요.",
+        "markAsPaid": "결제 완료 처리",
+        "markOrderAsPaid": "주문을 결제 완료 처리",
+        "proofOfPayment": "결제 증빙",
+        "proofOfPaymentRequired": "결제 증빙이 필요합니다.",
+        "cancel": "취소",
+        "paymentInstructions": "결제 안내",
+        "awaitingConfirmation": "확인 대기 중"
+      },
+      "CheckoutPayPayPalFriendsFamily": {
+        "warningFriendsFamilyNote": "경고 - 친구 & 가족 결제 시 메모 필요",
+        "friendsFamilyNoteWarning": "반드시 친구 & 가족 결제로 보내고 메모를 추가해야 주문이 자동 처리됩니다.",
+        "friendsFamilyWarning": "친구 & 가족으로 보내지 않으면 주문이 자동으로 처리되지 않습니다.",
+        "continue": "계속하기",
+        "automaticProcessingMessage": "결제가 수신되면 주문이 자동으로 처리됩니다.",
+        "sendFriendsFamilyNote": "다음 계정으로 친구 & 가족 결제를 메모와 함께 보내야 합니다.",
+        "sendExactAmount": "정확한 금액을 보내야 합니다.",
+        "copyEmailBelow": "아래 PayPal 이메일 주소를 복사하세요.",
+        "copyBelow": "아래에서 복사할 수 있습니다.",
+        "copied": "복사됨!",
+        "openPaypal": "PayPal 열기",
+        "addNoteInstruction": "결제 시 메모를 추가하지 않으면 무시됩니다.",
+        "noNoteInstruction": "결제 시 메모를 추가하지 마세요.",
+        "additionalDetailsInstruction": "추가 정보를 요청받으면 다음을 입력하세요:"
+      },
+      "CheckoutPayPayPalREST": {
+        "paypalPaymentProcessing": "PayPal 결제를 처리 중입니다..."
+      },
+      "CheckoutPaySumUp": {
+        "sumupPaymentProcessing": "SumUp 결제를 처리 중입니다...",
+        "paymentFailedRetry": "결제 실패. 새로고침 후 다시 시도하거나 다른 카드를 사용하세요.",
+        "paymentProcessingNotification": "결제를 처리 중입니다. 완료되면 알려드립니다.",
+        "paymentCancelled": "결제가 취소되었습니다. 다시 시도해 주세요.",
+        "paymentErrorGeneric": "결제를 처리하는 중 오류가 발생했습니다. 다시 시도해 주세요.",
+        "networkError": "네트워크 오류. 연결을 확인한 후 다시 시도하세요.",
+        "authenticationFailed": "카드 인증 실패. 다른 카드를 사용해 보세요.",
+        "insufficientFunds": "잔액 부족. 다른 카드를 사용해 보세요."
+      },
+      "CheckoutPayVenmo": {
+        "warningFriendsFamilyNote": "경고 - 친구 & 가족 결제 시 메모 필요",
+        "friendsFamilyNoteWarning": "반드시 친구 & 가족 결제로 보내고 메모를 추가해야 주문이 자동 처리됩니다.",
+        "continue": "계속하기",
+        "automaticProcessingMessage": "결제가 수신되면 주문이 자동으로 처리됩니다.",
+        "sendFriendsFamilyNote": "다음 계정으로 친구 & 가족 결제를 메모와 함께 보내야 합니다.",
+        "sendExactAmount": "정확한 금액을 보내야 합니다.",
+        "scanQrCode": "QR 코드를 스캔할 수 있습니다.",
+        "copyTagBelow": "아래 태그를 복사할 수 있습니다.",
+        "copyBelow": "아래에서 복사할 수 있습니다.",
+        "copied": "복사됨!",
+        "openVenmo": "Venmo 열기",
+        "addNoteInstruction": "결제 시 메모를 추가하지 않으면 무시됩니다.",
+        "additionalDetailsInstruction": "추가 정보를 요청받으면 다음을 입력하세요:"
+      },
+      "CheckoutPriceSummary": {
+        "subtotal": "소계",
+        "volumeDiscount": "수량 할인",
+        "couponCodeWithName": "쿠폰 코드 ({code})",
+        "unknownCode": "알 수 없는 코드",
+        "paymentMethodFee": "결제 수단 수수료",
+        "paymentMethodDiscount": "결제 수단 할인",
+        "preTaxTotal": "세금 전 총액",
+        "taxWithRate": "세금 ({rate}%)",
+        "total": "총액"
+      },
+      "CheckoutRefunded": {
+        "orderRefunded": "주문 환불됨",
+        "orderRefundedMessage": "이 주문은 환불 처리되었습니다."
+      },
+      "CheckoutShopCustomerBalanceButton": {
+        "otpSent": "OTP가 이메일로 전송되었습니다.",
+        "otpSentInstructions": "일회용 비밀번호가 이메일 주소로 전송되었습니다. 아래에 입력해 계정에 접속 후 잔액으로 결제해 주세요.",
+        "otpCaptchaInstructions": "CAPTCHA 확인 후 일회용 비밀번호가 이메일로 전송됩니다. 잠시만 기다려 주세요.",
+        "invalidCredentials": "잘못된 정보입니다.",
+        "loggedInAs": "{email}로 로그인됨.",
+        "loggedInAsEmail": "{email}로 로그인됨",
+        "clickToAuthenticate": "인증하려면 클릭하세요.",
+        "enterEmailAddress": "이메일 주소를 입력해 주세요.",
+        "allowedAmounts": "허용 금액:",
+        "minimumAmount": "최소 금액:",
+        "maximumAmount": "최대 금액:",
+        "discount": "할인",
+        "fee": "수수료",
+        "logInCustomerAccount": "고객 계정 로그인",
+        "cancel": "취소",
+        "logIn": "로그인",
+        "insufficientBalance": "잔액이 부족하여 인보이스를 결제할 수 없습니다.",
+        "sufficientBalance": "잔액으로 인보이스를 결제할 수 있습니다.",
+        "balance": "잔액",
+        "logout": "로그아웃",
+        "continue": "계속하기"
+      },
+      "CheckoutStepper": {
+        "next": "다음:",
+        "stepNumber": "단계 {number}"
+      },
+      "CheckoutTicketButton": {
+        "havingIssues": "주문에 문제가 있나요?",
+        "openTicketInstructions": "고객 대시보드에서 지원 티켓을 열어 고객 지원팀의 도움을 받을 수 있습니다.",
+        "openSupportTicket": "지원 티켓 열기"
+      }
+    }
+  }
+}
