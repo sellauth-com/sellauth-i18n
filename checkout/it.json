@@ -191,6 +191,13 @@
       "CheckoutPayPayPalREST": {
         "paypalPaymentProcessing": "Il tuo pagamento PayPal è in fase di elaborazione..."
       },
+      "CheckoutPayRevolutBusiness": {
+        "pleaseWait": "Attendere prego...",
+        "somethingWentWrong": "Qualcosa è andato storto.",
+        "retry": "Riprova",
+        "yourPaymentIsBeingProcessed": "Il tuo pagamento è in fase di elaborazione.",
+        "clickTheButtonBelowToPayForYourOrder": "Fare clic sul pulsante sottostante per pagare il proprio ordine."
+      },
       "CheckoutPaySumUp": {
         "authenticationFailed": "L'autenticazione della carta non è riuscita. Provare con un'altra carta.",
         "insufficientFunds": "Fondi insufficienti. Provare con un'altra carta.",

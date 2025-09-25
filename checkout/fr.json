@@ -191,6 +191,13 @@
       "CheckoutPayPayPalREST": {
         "paypalPaymentProcessing": "Votre paiement PayPal est en cours de traitement..."
       },
+      "CheckoutPayRevolutBusiness": {
+        "pleaseWait": "Veuillez patienter...",
+        "somethingWentWrong": "Quelque chose a mal tourné.",
+        "retry": "Réessayer",
+        "yourPaymentIsBeingProcessed": "Votre paiement est en cours de traitement.",
+        "clickTheButtonBelowToPayForYourOrder": "Cliquez sur le bouton ci-dessous pour payer votre commande."
+      },
       "CheckoutPaySumUp": {
         "authenticationFailed": "L'authentification de la carte a échoué. Veuillez essayer une autre carte.",
         "insufficientFunds": "Fonds insuffisants. Veuillez essayer une autre carte.",

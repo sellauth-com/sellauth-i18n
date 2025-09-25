@@ -191,6 +191,13 @@
       "CheckoutPayPayPalREST": {
         "paypalPaymentProcessing": "Twoja płatność PayPal jest przetwarzana..."
       },
+      "CheckoutPayRevolutBusiness": {
+        "pleaseWait": "Proszę czekać...",
+        "somethingWentWrong": "Coś poszło nie tak.",
+        "retry": "Spróbuj ponownie",
+        "yourPaymentIsBeingProcessed": "Twój płatność jest przetwarzana.",
+        "clickTheButtonBelowToPayForYourOrder": "Kliknij przycisk poniżej, aby zapłacić za swoje zamówienie."
+      },
       "CheckoutPaySumUp": {
         "authenticationFailed": "Uwierzytelnienie karty nie powiodło się. Spróbuj użyć innej karty.",
         "insufficientFunds": "Brak wystarczających środków. Spróbuj użyć innej karty.",
@@ -214,8 +221,7 @@
         "scanQrCode": "Zeskanuj kod QR.",
         "sendExactAmount": "Upewnij się, że wysyłasz dokładną kwotę.",
         "sendFriendsFamilyNote": "Wyślij płatność Friends & Family (Przyjaciele i rodzina) z notatką na poniższe konto.",
-        "warningFriendsFamilyNote": "Uwaga – płatność Friends & Family (Przyjaciele i rodzina) z notatką",
-        "copyTagBelow": "Lub skopiuj poniższy tag."
+        "warningFriendsFamilyNote": "Uwaga – płatność Friends & Family (Przyjaciele i rodzina) z notatką"
       },
       "CheckoutPaymentMethodButton": {
         "allowedAmounts": "Dozwolone kwoty:",

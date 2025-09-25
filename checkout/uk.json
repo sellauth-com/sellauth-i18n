@@ -191,6 +191,13 @@
       "CheckoutPayPayPalREST": {
         "paypalPaymentProcessing": "Ваш платіж PayPal обробляється..."
       },
+      "CheckoutPayRevolutBusiness": {
+        "pleaseWait": "Будь ласка, зачекайте...",
+        "somethingWentWrong": "Щось пішло не так.",
+        "retry": "Спробуйте ще раз",
+        "yourPaymentIsBeingProcessed": "Ваш платіж обробляється.",
+        "clickTheButtonBelowToPayForYourOrder": "Натисніть кнопку нижче, щоб оплатити своє замовлення."
+      },
       "CheckoutPaySumUp": {
         "authenticationFailed": "Не вдалося автентифікувати картку. Спробуйте іншу картку.",
         "insufficientFunds": "Недостатньо коштів. Будь ласка, спробуйте іншу картку.",

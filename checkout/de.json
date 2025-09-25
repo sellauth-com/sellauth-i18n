@@ -191,6 +191,13 @@
       "CheckoutPayPayPalREST": {
         "paypalPaymentProcessing": "Ihre PayPal-Zahlung wird gerade bearbeitet..."
       },
+      "CheckoutPayRevolutBusiness": {
+        "pleaseWait": "Bitte warten...",
+        "somethingWentWrong": "Etwas ist schief gelaufen.",
+        "retry": "Erneut versuchen",
+        "yourPaymentIsBeingProcessed": "Ihre Zahlung wird bearbeitet.",
+        "clickTheButtonBelowToPayForYourOrder": "Klicken Sie auf die Schaltfläche unten, um Ihre Bestellung zu bezahlen."
+      },
       "CheckoutPaySumUp": {
         "authenticationFailed": "Kartenauthentifizierung fehlgeschlagen. Bitte versuchen Sie eine andere Karte.",
         "insufficientFunds": "Unzureichende Deckung. Bitte versuchen Sie eine andere Karte.",

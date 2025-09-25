@@ -191,6 +191,13 @@
       "CheckoutPayPayPalREST": {
         "paypalPaymentProcessing": "Din PayPal-betalning håller på att behandlas..."
       },
+      "CheckoutPayRevolutBusiness": {
+        "pleaseWait": "Vänligen vänta...",
+        "somethingWentWrong": "Något gick fel.",
+        "retry": "Försök igen",
+        "yourPaymentIsBeingProcessed": "Din betalning behandlas.",
+        "clickTheButtonBelowToPayForYourOrder": "Klicka på knappen nedan för att betala för din beställning."
+      },
       "CheckoutPaySumUp": {
         "authenticationFailed": "Autentiseringen av kortet misslyckades. Försök med ett annat kort.",
         "insufficientFunds": "Otillräckliga medel. Försök med ett annat kort.",

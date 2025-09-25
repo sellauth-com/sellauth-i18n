@@ -215,6 +215,13 @@
       "CheckoutPayPayPalREST": {
         "paypalPaymentProcessing": "Your PayPal payment is being processed..."
       },
+      "CheckoutPayRevolutBusiness": {
+        "pleaseWait": "Please wait...",
+        "somethingWentWrong": "Something went wrong.",
+        "retry": "Retry",
+        "yourPaymentIsBeingProcessed": "Your payment is being processed.",
+        "clickTheButtonBelowToPayForYourOrder": "Click the button below to pay for your order."
+      },
       "CheckoutPaySumUp": {
         "sumupPaymentProcessing": "Your SumUp payment is being processed...",
         "paymentFailedRetry": "Payment failed. Please refresh and try again or use a different card.",

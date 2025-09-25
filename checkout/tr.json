@@ -191,6 +191,13 @@
       "CheckoutPayPayPalREST": {
         "paypalPaymentProcessing": "PayPal ödemeniz işleme alınıyor..."
       },
+      "CheckoutPayRevolutBusiness": {
+        "pleaseWait": "Lütfen bekleyin...",
+        "somethingWentWrong": "Bir şeyler ters gitti.",
+        "retry": "Tekrar dene",
+        "yourPaymentIsBeingProcessed": "Ödemeniz işleniyor.",
+        "clickTheButtonBelowToPayForYourOrder": "Siparişinizi ödemek için aşağıdaki düğmeye tıklayın."
+      },
       "CheckoutPaySumUp": {
         "authenticationFailed": "Kart kimlik doğrulaması başarısız oldu. Lütfen farklı bir kart deneyin.",
         "insufficientFunds": "Yetersiz bakiye. Lütfen farklı bir kart deneyin.",

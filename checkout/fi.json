@@ -191,6 +191,13 @@
       "CheckoutPayPayPalREST": {
         "paypalPaymentProcessing": "PayPal-maksua käsitellään parhaillaan..."
       },
+      "CheckoutPayRevolutBusiness": {
+        "pleaseWait": "Ole hyvä ja odota...",
+        "somethingWentWrong": "Jotain meni pieleen.",
+        "retry": "Yritä uudelleen",
+        "yourPaymentIsBeingProcessed": "Maksuasi käsitellään parhaillaan.",
+        "clickTheButtonBelowToPayForYourOrder": "Napsauta alla olevaa painiketta maksaaksesi tilauksesi."
+      },
       "CheckoutPaySumUp": {
         "authenticationFailed": "Kortin todennus epäonnistui. Kokeile toista korttia.",
         "insufficientFunds": "Varojen riittämättömyys. Kokeile toista korttia.",

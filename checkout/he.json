@@ -215,6 +215,13 @@
       "CheckoutPayPayPalREST": {
         "paypalPaymentProcessing": "תשלום הפייפאל שלך בתהליך בדיקה..."
       },
+      "CheckoutPayRevolutBusiness": {
+        "pleaseWait": "אנא המתן...",
+        "somethingWentWrong": "משהו השתבש.",
+        "retry": "נסה שוב",
+        "yourPaymentIsBeingProcessed": "התשלום שלך בתהליך.",
+        "clickTheButtonBelowToPayForYourOrder": "לחץ על הכפתור למטה כדי לשלם עבור ההזמנה שלך."
+      },
       "CheckoutPaySumUp": {
         "sumupPaymentProcessing": "תשלום הסאמאפ שלך בתהליך בדיקה...",
         "paymentFailedRetry": "תשלום נכשל. אנא רענן את העמוד ונסה שוב או השתמש בכרטיס שונה.",

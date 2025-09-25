@@ -191,6 +191,13 @@
       "CheckoutPayPayPalREST": {
         "paypalPaymentProcessing": "Uw PayPal-betaling wordt verwerkt..."
       },
+      "CheckoutPayRevolutBusiness": {
+        "pleaseWait": "Vänligen vänta...",
+        "somethingWentWrong": "Något gick fel.",
+        "retry": "Försök igen",
+        "yourPaymentIsBeingProcessed": "Din betalning behandlas.",
+        "clickTheButtonBelowToPayForYourOrder": "Klicka på knappen nedan för att betala för din beställning."
+      },
       "CheckoutPaySumUp": {
         "authenticationFailed": "Kaartverificatie mislukt. Probeer een andere kaart.",
         "insufficientFunds": "Onvoldoende saldo. Probeer een andere kaart.",

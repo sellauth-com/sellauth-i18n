@@ -215,6 +215,13 @@
       "CheckoutPayPayPalREST": {
         "paypalPaymentProcessing": "PayPal 결제를 처리 중입니다..."
       },
+      "CheckoutPayRevolutBusiness": {
+        "pleaseWait": "잠시만 기다려 주세요...",
+        "somethingWentWrong": "문제가 발생했습니다.",
+        "retry": "다시 시도",
+        "yourPaymentIsBeingProcessed": "결제가 처리 중입니다.",
+        "clickTheButtonBelowToPayForYourOrder": "아래 버튼을 클릭하여 주문을 결제하세요."
+      },
       "CheckoutPaySumUp": {
         "sumupPaymentProcessing": "SumUp 결제를 처리 중입니다...",
         "paymentFailedRetry": "결제 실패. 새로고침 후 다시 시도하거나 다른 카드를 사용하세요.",

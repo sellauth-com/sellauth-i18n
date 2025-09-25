@@ -191,6 +191,13 @@
       "CheckoutPayPayPalREST": {
         "paypalPaymentProcessing": "Ваш платеж PayPal обрабатывается..."
       },
+      "CheckoutPayRevolutBusiness": {
+        "pleaseWait": "Пожалуйста, подождите...",
+        "somethingWentWrong": "Что-то пошло не так.",
+        "retry": "Попробовать снова",
+        "yourPaymentIsBeingProcessed": "Ваш платеж обрабатывается.",
+        "clickTheButtonBelowToPayForYourOrder": "Нажмите кнопку ниже, чтобы оплатить свой заказ."
+      },
       "CheckoutPaySumUp": {
         "authenticationFailed": "Не удалось пройти аутентификацию карты. Пожалуйста, попробуйте другую карту.",
         "insufficientFunds": "Недостаточно средств. Пожалуйста, попробуйте другую карту.",
