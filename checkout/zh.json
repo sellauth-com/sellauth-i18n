@@ -1,0 +1,300 @@
+{
+  "Route": {
+    "App": {
+      "title": "付款"
+    },
+    "Checkout": {
+      "pageTitle": "结账 - {shopName}",
+      "invoiceNotFound": "未找到订单",
+      "shopNotFound": "未找到店铺"
+    }
+  },
+  "Cmp": {
+    "FormLabel": {
+      "optionalIndicator": "（可选）"
+    },
+    "FormSubmit": {
+      "defaultLabel": "继续"
+    },
+    "Checkout": {
+      "Checkout": {
+        "stepOrderInformation": "订单信息",
+        "stepExtraInformation": "补充信息",
+        "stepConfirmPay": "确认并支付",
+        "stepReceiveItems": "接收商品",
+        "stepOrderCancelled": "订单已取消",
+        "stepOrderRefunded": "订单已退款",
+        "payShopName": "向 {shopName} 支付"
+      },
+      "CheckoutAdditionalInformationForm": {
+        "additionalInformationInstructions": "请为您订单中的以下商品提供补充信息。",
+        "fieldRequiredError": "此字段为必填项",
+        "proceedToPayment": "前往支付"
+      },
+      "CheckoutCompleted": {
+        "orderCompletedSuccessfully": "您的订单已成功完成！",
+        "orderPartiallyCompleted": "您的订单已部分完成！",
+        "orderMarkedRefunded": "您的订单已标记为已退款！"
+      },
+      "CheckoutCompletedDeliverables": {
+        "statusDelivered": "已交付",
+        "statusPending": "待处理",
+        "statusOutOfStock": "缺货",
+        "statusCancelled": "已取消",
+        "statusExpired": "已过期",
+        "statusVoided": "已失效",
+        "statusFailed": "失败",
+        "statusRefunded": "已退款",
+        "downloadFailed": "交付内容下载失败。",
+        "downloadButton": "下载",
+        "deliveredItems": "已交付商品",
+        "addOns": "附加项",
+        "instructions": "说明",
+        "copied": "已复制！",
+        "moreItemsDownload": "以及 {count} 个更多项目，您可以通过下载 {label} 来获取。",
+        "copy": "复制",
+        "outOfStockMessage": "该商品目前缺货。详情请联系我们的客服。",
+        "productBeingDelivered": "该商品正在交付中...",
+        "productDeliveryFailed": "该商品交付失败。详情请联系我们的客服。"
+      },
+      "CheckoutCompletedFeedback": {
+        "rating": "评分",
+        "message": "留言",
+        "noMessageLeft": "未留下留言。",
+        "replyFromShop": "{shopName} 的回复",
+        "editFeedback": "编辑评价",
+        "ratingRequired": "请评分。",
+        "messageRequired": "请留言。",
+        "saveChanges": "保存修改",
+        "submitFeedback": "提交评价",
+        "cancel": "取消",
+        "feedbackIneligibleManual": "此订单不支持评价（人工处理订单）",
+        "feedbackIneligibleAmount": "此订单不支持评价（金额过低）",
+        "feedbackCouponIncentive": "留下评价可获得下次购买的折扣券。最低要求评分：{rating} 星。",
+        "feedbackEmailInstructions": "您可以点击订单完成后收到的邮件中的“留下评价”按钮进行评价。",
+        "yourFeedback": "您的评价",
+        "leaveFeedback": "留下评价",
+        "automaticFeedbackWarning": "若7天内未留下评价，系统将自动为您提交5星评价。"
+      },
+      "CheckoutCompletedRedirectUrl": {
+        "clickContinueOrder": "点击任意位置继续查看您的订单。"
+      },
+      "CheckoutDiscordIntegration": {
+        "discord": "Discord",
+        "connectDiscordRequired": "请连接您的Discord账户以继续。",
+        "disconnect": "断开连接",
+        "connectDiscord": "连接Discord",
+        "connectButton": "连接",
+        "discordDescriptionWithRole": "自动加入我们的Discord服务器并获取角色。",
+        "discordDescriptionWithoutRole": "自动加入我们的Discord服务器。"
+      },
+      "CheckoutFailed": {
+        "orderCancelled": "订单已取消",
+        "orderExpired": "订单已过期",
+        "orderFailed": "订单失败",
+        "orderCancelledMessage": "订单已取消。",
+        "paymentNotSentInTime": "付款未及时提交。",
+        "orderProcessingFailed": "订单处理失败。如您认为这是错误，请联系客服或稍后重试。"
+      },
+      "CheckoutFooter": {
+        "poweredBy": "技术支持",
+        "termsOfService": "服务条款",
+        "privacyPolicy": "隐私政策",
+        "refundPolicy": "退款政策"
+      },
+      "CheckoutInvoiceDetails": {
+        "invoiceId": "发票编号",
+        "copied": "已复制！",
+        "emailAddress": "电子邮箱",
+        "anonymized": "已匿名",
+        "totalPrice": "总价",
+        "totalPriceUsd": "总价",
+        "totalAmountCrypto": "总金额（{gateway}）",
+        "remainingAmountCrypto": "剩余金额（{gateway}）",
+        "createdAt": "创建时间",
+        "expiresAt": "过期时间",
+        "completedAt": "完成时间",
+        "cancelledAt": "取消时间"
+      },
+      "CheckoutInvoiceItems": {
+        "forParentItem": "隶属于 {parentName}",
+        "priceEach": "单价 {price}"
+      },
+      "CheckoutOrderInformationForm": {
+        "emailAddress": "电子邮箱",
+        "emailPlaceholder": "订单确认将发送至该邮箱地址。",
+        "emailRequired": "请输入您的电子邮箱",
+        "emailInvalid": "请输入有效的电子邮箱",
+        "couponCode": "优惠券代码",
+        "couponPlaceholder": "有优惠券代码？请在此输入。",
+        "applied": "已应用",
+        "apply": "应用",
+        "remove": "移除",
+        "paymentMethod": "支付方式",
+        "paymentMethodRequired": "请选择支付方式",
+        "termsRequired": "请接受条款和条件",
+        "termsAgreement": "我已阅读并同意 {shopName} 的服务条款。",
+        "newsletterSignup": "我希望接收 {shopName} 的更新和促销信息。",
+        "proceedToPayment": "前往支付"
+      },
+      "CheckoutPaymentMethodButton": {
+        "poweredBy": "技术支持",
+        "allowedAmounts": "允许金额：",
+        "minimumAmount": "最低金额：",
+        "maximumAmount": "最高金额：",
+        "fee": "手续费",
+        "discount": "折扣"
+      },
+      "CheckoutPayCashApp": {
+        "warningPaymentWithNote": "警告 - 带备注的付款",
+        "addNoteWarning": "请务必添加备注，否则您的订单将无法自动处理。",
+        "addNoteInstruction": "请在付款时添加备注，否则付款将被忽略。",
+        "continue": "继续",
+        "automaticProcessingMessage": "收到付款后，您的订单将自动处理。",
+        "sendPaymentWithNote": "您需要向以下账户发送带备注的付款。",
+        "sendExactAmount": "请确保发送准确金额。",
+        "scanQrCode": "您可以扫描二维码。",
+        "copyCashtag": "或复制下方的收款标签。",
+        "copyBelow": "您可以复制下方内容。",
+        "copied": "已复制！",
+        "openCashapp": "打开CashApp",
+        "awaitingConfirmation": "等待确认中...",
+        "manualAcceptanceWait": "请等待账户所有者手动确认您的付款。",
+        "confirmationMessage": "付款处理完成后，您将收到确认通知。",
+        "contactForAssistance": "如有任何问题或需要进一步帮助，请联系我们。"
+      },
+      "CheckoutPayCryptocurrency": {
+        "partialPayment": "部分付款",
+        "partialPaymentStatus": "您已支付 {paidAmount} {gateway}，总金额为 {totalAmount} {gateway}。",
+        "remainingAmount": "剩余金额：{amount} {gateway}。",
+        "sendPaymentToAddress": "您需要向以下地址发送付款。",
+        "sendExactAmount": "请确保发送准确金额。",
+        "sendExactRemainingAmount": "请确保发送准确的剩余金额。",
+        "scanQrCode": "您可以扫描二维码。",
+        "copyAddressBelow": "或复制下方的地址。",
+        "copyBelow": "您可以复制下方内容。",
+        "copied": "已复制！",
+        "openWallet": "打开钱包",
+        "transactionHistory": "交易记录",
+        "noTransactions": "暂无交易记录...",
+        "automaticProcessingRemaining": "收到剩余金额后，您的订单将自动处理。",
+        "automaticProcessingPayment": "收到付款后，您的订单将自动处理。",
+        "automaticProcessingConfirmation": "交易确认后，您的订单将自动处理。"
+      },
+      "CheckoutPayExternalUrl": {
+        "paymentBeingProcessed": "您的付款正在处理中...",
+        "paymentPageOpened": "支付页面已在新标签页打开",
+        "clickHereIfNotVisible": "未看到页面？请点击此处"
+      },
+      "CheckoutPayManual": {
+        "markedAsPaidSuccess": "发票已成功标记为已付款！请等待确认。",
+        "markedAsPaidFailed": "标记发票为已付款失败。请重试。",
+        "markAsPaid": "标记为已付款",
+        "markOrderAsPaid": "标记订单为已付款",
+        "proofOfPayment": "付款凭证",
+        "proofOfPaymentRequired": "付款凭证为必填项。",
+        "cancel": "取消",
+        "paymentInstructions": "付款说明",
+        "awaitingConfirmation": "等待确认中"
+      },
+      "CheckoutPayPayPalFriendsFamily": {
+        "warningFriendsFamilyNote": "警告 - 亲友转账带备注付款",
+        "friendsFamilyNoteWarning": "请务必以“亲友”模式发送付款并添加备注，否则您的订单将无法自动处理。",
+        "friendsFamilyWarning": "若不以“亲友”模式发送，您的订单将无法自动处理。",
+        "continue": "继续",
+        "automaticProcessingMessage": "收到付款后，您的订单将自动处理。",
+        "sendFriendsFamilyNote": "您需要向以下账户发送带备注的亲友转账付款。",
+        "sendExactAmount": "请确保发送准确金额。",
+        "copyEmailBelow": "复制下方的邮箱地址。",
+        "copyBelow": "您可以复制下方内容。",
+        "copied": "已复制！",
+        "openPaypal": "打开PayPal",
+        "addNoteInstruction": "请在付款时添加备注，否则付款将被忽略。",
+        "noNoteInstruction": "发送付款时请勿包含备注。",
+        "additionalDetailsInstruction": "如需提供补充信息，请使用以下内容："
+      },
+      "CheckoutPayPayPalREST": {
+        "paypalPaymentProcessing": "您的付款正在处理中..."
+      },
+      "CheckoutPayRevolutBusiness": {
+        "pleaseWait": "请稍候...",
+        "somethingWentWrong": "出现错误。",
+        "retry": "重试",
+        "yourPaymentIsBeingProcessed": "您的付款正在处理中。",
+        "clickTheButtonBelowToPayForYourOrder": "点击下方按钮为您的订单付款。"
+      },
+      "CheckoutPaySumUp": {
+        "sumupPaymentProcessing": "您的付款正在处理中...",
+        "paymentFailedRetry": "付款失败。请刷新页面重试或使用其他卡片。",
+        "paymentProcessingNotification": "您的付款正在处理中。完成后我们将通知您。",
+        "paymentCancelled": "付款已取消。请重试。",
+        "paymentErrorGeneric": "处理付款时发生错误。请重试。",
+        "networkError": "网络错误。请检查网络连接后重试。",
+        "authenticationFailed": "卡片验证失败。请尝试使用其他卡片。",
+        "insufficientFunds": "余额不足。请尝试使用其他卡片。"
+      },
+      "CheckoutPayVenmo": {
+        "warningFriendsFamilyNote": "警告 - 亲友转账带备注付款",
+        "friendsFamilyNoteWarning": "请务必以“亲友”模式发送付款并添加备注，否则您的订单将无法自动处理。",
+        "continue": "继续",
+        "automaticProcessingMessage": "收到付款后，您的订单将自动处理。",
+        "sendFriendsFamilyNote": "您需要向以下账户发送带备注的亲友转账付款。",
+        "sendExactAmount": "请确保发送准确金额。",
+        "scanQrCode": "您可以扫描二维码。",
+        "copyTagBelow": "或复制下方的标签。",
+        "copyBelow": "您可以复制下方内容。",
+        "copied": "已复制！",
+        "openVenmo": "打开Venmo",
+        "addNoteInstruction": "请在付款时添加备注，否则付款将被忽略。",
+        "additionalDetailsInstruction": "如需提供补充信息，请使用以下内容："
+      },
+      "CheckoutPriceSummary": {
+        "subtotal": "小计",
+        "volumeDiscount": "批量折扣",
+        "couponCodeWithDiscount": "优惠券代码（{discount}）",
+        "unknownCode": "未知代码",
+        "paymentMethodFee": "支付方式手续费",
+        "paymentMethodDiscount": "支付方式折扣",
+        "preTaxTotal": "税前总计",
+        "taxWithRate": "税费（{rate}%）",
+        "total": "总计"
+      },
+      "CheckoutRefunded": {
+        "orderRefunded": "订单已退款",
+        "orderRefundedMessage": "此订单已标记为已退款。"
+      },
+      "CheckoutShopCustomerBalanceButton": {
+        "otpSent": "验证码已发送至您的邮箱。",
+        "otpSentInstructions": "一次性验证码已发送至您的邮箱地址。请在下方输入以登录账户并使用余额付款。",
+        "otpCaptchaInstructions": "完成验证码验证后，一次性验证码将发送至您的邮箱地址。请稍候。",
+        "invalidCredentials": "凭证无效。",
+        "loggedInAs": "已登录为 {email}。",
+        "loggedInAsEmail": "已登录为 {email}",
+        "clickToAuthenticate": "点击验证。",
+        "enterEmailAddress": "请输入您的邮箱地址。",
+        "allowedAmounts": "允许金额：",
+        "minimumAmount": "最低金额：",
+        "maximumAmount": "最高金额：",
+        "discount": "折扣",
+        "fee": "手续费",
+        "logInCustomerAccount": "登录您的客户账户",
+        "cancel": "取消",
+        "logIn": "登录",
+        "insufficientBalance": "您的余额不足以支付此发票。",
+        "sufficientBalance": "您的余额足以支付此发票。",
+        "balance": "余额",
+        "logout": "退出登录",
+        "continue": "继续"
+      },
+      "CheckoutStepper": {
+        "next": "下一步：",
+        "stepNumber": "第 {number} 步"
+      },
+      "CheckoutTicketButton": {
+        "havingIssues": "您的订单遇到问题？",
+        "openTicketInstructions": "您可以在客户中心提交工单，以获得我们支持团队的帮助。",
+        "openSupportTicket": "提交支持工单"
+      }
+    }
+  }
+}
