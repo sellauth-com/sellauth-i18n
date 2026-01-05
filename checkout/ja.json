@@ -71,7 +71,7 @@
         "feedbackIneligibleManual": "この注文はフィードバック対象外です（手動処理）",
         "feedbackIneligibleAmount": "この注文はフィードバック対象外です（金額が少額）",
         "feedbackCouponIncentive": "フィードバックを残すと次回購入に使える割引クーポンを獲得できます。必要な最低評価：{rating} 星。",
-        "feedbackEmailInstructions": "注文完了時に受け取ったメールの「フィードバックを残す」ボタンをクリックしてフィードバックを残すことができます。",
+        "feedbackEmailInstructions": "注文完了時に受け取ったメールの\"フィードバックを残す\"ボタンをクリックしてフィードバックを残すことができます。",
         "yourFeedback": "あなたのフィードバック",
         "leaveFeedback": "フィードバックを残す",
         "automaticFeedbackWarning": "7日以内にフィードバックを残さない場合、自動的に5つ星のフィードバックが残されます。"
@@ -129,6 +129,7 @@
         "couponPlaceholder": "クーポンをお持ちですか？ここに入力してください。",
         "applied": "適用済み",
         "apply": "適用",
+        "remove": "削除",
         "paymentMethod": "支払い方法",
         "paymentMethodRequired": "支払い方法を選択してください",
         "termsRequired": "利用規約に同意してください",
@@ -178,7 +179,11 @@
         "noTransactions": "まだ取引がありません...",
         "automaticProcessingRemaining": "残額が受信されると注文は自動的に処理されます。",
         "automaticProcessingPayment": "支払いが受信されると注文は自動的に処理されます。",
-        "automaticProcessingConfirmation": "取引が確認されると注文は自動的に処理されます。"
+        "automaticProcessingConfirmation": "取引が確認されると注文は自動的に処理されます。",
+        "addressSafetyTitle": "重要：ウォレットアドレスを確認してください",
+        "addressSafetySubtitle": "セキュリティのため、ウォレットに貼り付けるアドレスがここに表示されているものと一致することを必ず確認してください。",
+        "verifyAddressInstructions": "アドレスの最初の4文字と最後の4文字を少なくとも確認してください。",
+        "dismiss": "閉じる"
       },
       "CheckoutPayExternalUrl": {
         "paymentBeingProcessed": "お支払いを処理中です...",
@@ -250,7 +255,7 @@
       "CheckoutPriceSummary": {
         "subtotal": "小計",
         "volumeDiscount": "数量割引",
-        "couponCodeWithName": "クーポン ({code})",
+        "couponCodeWithDiscount": "クーポン ({discount})",
         "unknownCode": "不明なクーポン",
         "paymentMethodFee": "支払い方法手数料",
         "paymentMethodDiscount": "支払い方法割引",

@@ -107,6 +107,7 @@
       "CheckoutOrderInformationForm": {
         "applied": "Aplicado",
         "apply": "Aplicar",
+        "remove": "Remover",
         "couponCode": "Código do cupom",
         "couponPlaceholder": "Tem um código de cupom? Digite aqui.",
         "emailAddress": "Endereço de email",
@@ -154,7 +155,11 @@
         "sendExactAmount": "Certifique-se de enviar o valor exato.",
         "sendExactRemainingAmount": "Certifique-se de enviar o valor exato restante.",
         "sendPaymentToAddress": "O pagamento deve ser feito para o seguinte endereço.",
-        "transactionHistory": "Histórico de transações"
+        "transactionHistory": "Histórico de transações",
+        "addressSafetyTitle": "Importante: Verifique o endereço da carteira",
+        "addressSafetySubtitle": "Para sua segurança, confirme sempre que o endereço da carteira que está a colar na sua carteira corresponde ao que é apresentado aqui.",
+        "verifyAddressInstructions": "Verifique pelo menos os primeiros 4 e os últimos 4 caracteres do endereço.",
+        "dismiss": "Ignorar"
       },
       "CheckoutPayExternalUrl": {
         "clickHereIfNotVisible": "Não está vendo? Clique aqui",
@@ -232,7 +237,7 @@
         "poweredBy": "Desenvolvido por"
       },
       "CheckoutPriceSummary": {
-        "couponCodeWithName": "Código do cupom ({code})",
+        "couponCodeWithDiscount": "Código do cupom ({discount})",
         "paymentMethodDiscount": "Desconto da forma de pagamento",
         "paymentMethodFee": "Taxa da forma de pagamento",
         "preTaxTotal": "Total antes dos impostos",

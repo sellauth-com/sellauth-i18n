@@ -107,6 +107,7 @@
       "CheckoutOrderInformationForm": {
         "applied": "Toegepast",
         "apply": "Toepassen",
+        "remove": "Verwijderen",
         "couponCode": "kortingscode",
         "couponPlaceholder": "Heb je een couponcode? Voer hem hier in.",
         "emailAddress": "E-mailadres",
@@ -154,7 +155,11 @@
         "sendExactAmount": "Zorg ervoor dat je het exacte bedrag stuurt.",
         "sendExactRemainingAmount": "Zorg ervoor dat je het exacte resterende bedrag stuurt.",
         "sendPaymentToAddress": "Je moet een betaling sturen naar het volgende adres.",
-        "transactionHistory": "Transactiegeschiedenis"
+        "transactionHistory": "Transactiegeschiedenis",
+        "addressSafetyTitle": "Belangrijk: controleer het walletadres",
+        "addressSafetySubtitle": "Voor uw veiligheid dient u altijd te controleren of het adres dat u in uw wallet plakt overeenkomt met het adres dat hier wordt weergegeven.",
+        "verifyAddressInstructions": "Controleer ten minste de eerste 4 en laatste 4 tekens van het adres.",
+        "dismiss": "Sluiten"
       },
       "CheckoutPayExternalUrl": {
         "clickHereIfNotVisible": "Zie je het niet? Klik hier",
@@ -180,13 +185,13 @@
         "copied": "Gekopieerd!",
         "copyBelow": "Je kunt het hieronder kopiëren.",
         "copyEmailBelow": "Kopieer het e-mailadres van PayPal hieronder.",
-        "friendsFamilyNoteWarning": "Zorg ervoor dat je de betaling als Vrienden &amp; Familie verstuurt en de notitie toevoegt, anders wordt je bestelling niet automatisch verwerkt.",
-        "friendsFamilyWarning": "Als je niet als Vrienden &amp; Familie verstuurt, wordt je bestelling niet automatisch verwerkt.",
+        "friendsFamilyNoteWarning": "Zorg ervoor dat je de betaling als Vrienden & Familie verstuurt en de notitie toevoegt, anders wordt je bestelling niet automatisch verwerkt.",
+        "friendsFamilyWarning": "Als je niet als Vrienden & Familie verstuurt, wordt je bestelling niet automatisch verwerkt.",
         "noNoteInstruction": "Voeg geen notitie toe bij het verzenden van de betaling.",
         "openPaypal": "Open PayPal",
         "sendExactAmount": "Zorg ervoor dat je het exacte bedrag stuurt.",
-        "sendFriendsFamilyNote": "Je moet een Friends &amp; Family-betaling met een briefje sturen naar de volgende rekening.",
-        "warningFriendsFamilyNote": "Waarschuwing - Vrienden &amp; Familie Betaling met Notitie"
+        "sendFriendsFamilyNote": "Je moet een Friends & Family-betaling met een briefje sturen naar de volgende rekening.",
+        "warningFriendsFamilyNote": "Waarschuwing - Vrienden & Familie Betaling met Notitie"
       },
       "CheckoutPayPayPalREST": {
         "paypalPaymentProcessing": "Uw PayPal-betaling wordt verwerkt..."
@@ -216,12 +221,12 @@
         "copied": "Gekopieerd!",
         "copyBelow": "Je kunt het hieronder kopiëren.",
         "copyTagBelow": "Of kopieer de tag hieronder.",
-        "friendsFamilyNoteWarning": "Zorg ervoor dat je de betaling als Vrienden &amp; Familie verstuurt en de notitie toevoegt, anders wordt je bestelling niet automatisch verwerkt.",
+        "friendsFamilyNoteWarning": "Zorg ervoor dat je de betaling als Vrienden & Familie verstuurt en de notitie toevoegt, anders wordt je bestelling niet automatisch verwerkt.",
         "openVenmo": "Venmo openen",
         "scanQrCode": "Je kunt de QR-code scannen.",
         "sendExactAmount": "Zorg ervoor dat je het exacte bedrag stuurt.",
-        "sendFriendsFamilyNote": "Je moet een Friends &amp; Family-betaling met een briefje sturen naar de volgende rekening.",
-        "warningFriendsFamilyNote": "Waarschuwing - Vrienden &amp; Familie Betaling met Notitie"
+        "sendFriendsFamilyNote": "Je moet een Friends & Family-betaling met een briefje sturen naar de volgende rekening.",
+        "warningFriendsFamilyNote": "Waarschuwing - Vrienden & Familie Betaling met Notitie"
       },
       "CheckoutPaymentMethodButton": {
         "allowedAmounts": "Toegestane bedragen:",
@@ -232,7 +237,7 @@
         "poweredBy": "Aangedreven door"
       },
       "CheckoutPriceSummary": {
-        "couponCodeWithName": "Couponcode ({code})",
+        "couponCodeWithDiscount": "Couponcode ({discount})",
         "paymentMethodDiscount": "Betalingsmethode Korting",
         "paymentMethodFee": "Betalingsmethode Vergoeding",
         "preTaxTotal": "Totaal vóór belastingen",

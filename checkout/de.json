@@ -3,7 +3,7 @@
     "Checkout": {
       "Checkout": {
         "payShopName": "Bezahlen {shopName}",
-        "stepConfirmPay": "Bestätigen &amp; Bezahlen",
+        "stepConfirmPay": "Bestätigen & Bezahlen",
         "stepExtraInformation": "Weitere Informationen",
         "stepOrderCancelled": "Bestellung storniert",
         "stepOrderInformation": "Bestellinformationen",
@@ -107,6 +107,7 @@
       "CheckoutOrderInformationForm": {
         "applied": "Angewandt",
         "apply": "Anwenden",
+        "remove": "Entfernen",
         "couponCode": "Gutscheincode",
         "couponPlaceholder": "Haben Sie einen Gutscheincode? Geben Sie ihn hier ein.",
         "emailAddress": "E-Mail Adresse",
@@ -154,7 +155,11 @@
         "sendExactAmount": "Achten Sie darauf, den genauen Betrag zu übermitteln.",
         "sendExactRemainingAmount": "Achten Sie darauf, dass Sie den genauen Restbetrag übermitteln.",
         "sendPaymentToAddress": "Die Zahlung ist an die folgende Adresse zu senden.",
-        "transactionHistory": "Transaktionsverlauf"
+        "transactionHistory": "Transaktionsverlauf",
+        "addressSafetyTitle": "Important: Verify the Wallet Address",
+        "addressSafetySubtitle": "Zu Ihrer Sicherheit überprüfen Sie bitte immer, ob die Adresse, die Sie in Ihre Wallet einfügen, mit der hier angezeigten übereinstimmt.",
+        "verifyAddressInstructions": "Überprüfen Sie mindestens die ersten 4 und die letzten 4 Zeichen der Adresse.",
+        "dismiss": "Ablehnen"
       },
       "CheckoutPayExternalUrl": {
         "clickHereIfNotVisible": "Sie sehen es nicht? Klicken Sie hier",
@@ -180,13 +185,13 @@
         "copied": "Kopiert!",
         "copyBelow": "Sie können ihn unten kopieren.",
         "copyEmailBelow": "Kopieren Sie die PayPal-E-Mail-Adresse unten.",
-        "friendsFamilyNoteWarning": "Vergewissern Sie sich, dass Sie die Zahlung als \"Friends &amp; Family\" und \"Add The Note\" senden, sonst wird Ihre Bestellung nicht automatisch bearbeitet.",
-        "friendsFamilyWarning": "Wenn Sie nicht als Friends &amp; Family versenden, wird Ihre Bestellung nicht automatisch bearbeitet.",
+        "friendsFamilyNoteWarning": "Vergewissern Sie sich, dass Sie die Zahlung als \"Friends & Family\" und \"Add The Note\" senden, sonst wird Ihre Bestellung nicht automatisch bearbeitet.",
+        "friendsFamilyWarning": "Wenn Sie nicht als Friends & Family versenden, wird Ihre Bestellung nicht automatisch bearbeitet.",
         "noNoteInstruction": "Legen Sie der Zahlung keinen Vermerk bei.",
         "openPaypal": "PayPal öffnen",
         "sendExactAmount": "Achten Sie darauf, den genauen Betrag zu übermitteln.",
-        "sendFriendsFamilyNote": "Senden Sie eine Friends &amp; Family-Zahlung mit einem Vermerk an das folgende Konto.",
-        "warningFriendsFamilyNote": "Warnung - Freunde &amp; Familie Zahlung mit Hinweis"
+        "sendFriendsFamilyNote": "Senden Sie eine Friends & Family-Zahlung mit einem Vermerk an das folgende Konto.",
+        "warningFriendsFamilyNote": "Warnung - Freunde & Familie Zahlung mit Hinweis"
       },
       "CheckoutPayPayPalREST": {
         "paypalPaymentProcessing": "Ihre PayPal-Zahlung wird gerade bearbeitet..."
@@ -216,12 +221,12 @@
         "copied": "Kopiert!",
         "copyBelow": "Sie können ihn unten kopieren.",
         "copyTagBelow": "Oder kopieren Sie den unten stehenden Tag.",
-        "friendsFamilyNoteWarning": "Vergewissern Sie sich, dass Sie die Zahlung als \"Friends &amp; Family\" und \"Add The Note\" senden, sonst wird Ihre Bestellung nicht automatisch bearbeitet.",
+        "friendsFamilyNoteWarning": "Vergewissern Sie sich, dass Sie die Zahlung als \"Friends & Family\" und \"Add The Note\" senden, sonst wird Ihre Bestellung nicht automatisch bearbeitet.",
         "openVenmo": "Venmo öffnen",
         "scanQrCode": "Sie können den QR-Code scannen.",
         "sendExactAmount": "Achten Sie darauf, den genauen Betrag zu übermitteln.",
-        "sendFriendsFamilyNote": "Senden Sie eine Friends &amp; Family-Zahlung mit einem Vermerk an das folgende Konto.",
-        "warningFriendsFamilyNote": "Warnung - Freunde &amp; Familie Zahlung mit Hinweis"
+        "sendFriendsFamilyNote": "Senden Sie eine Friends & Family-Zahlung mit einem Vermerk an das folgende Konto.",
+        "warningFriendsFamilyNote": "Warnung - Freunde & Familie Zahlung mit Hinweis"
       },
       "CheckoutPaymentMethodButton": {
         "allowedAmounts": "Zulässige Beträge:",
@@ -232,7 +237,7 @@
         "poweredBy": "Angetrieben durch"
       },
       "CheckoutPriceSummary": {
-        "couponCodeWithName": "Gutscheincode ({code})",
+        "couponCodeWithDiscount": "Gutscheincode ({discount})",
         "paymentMethodDiscount": "Rabatt für Zahlungsmethode",
         "paymentMethodFee": "Gebühr für Zahlungsmethode",
         "preTaxTotal": "Zwischensumme (ohne Steuern)",

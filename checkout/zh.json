@@ -71,7 +71,7 @@
         "feedbackIneligibleManual": "此订单不支持评价（人工处理订单）",
         "feedbackIneligibleAmount": "此订单不支持评价（金额过低）",
         "feedbackCouponIncentive": "留下评价可获得下次购买的折扣券。最低要求评分：{rating} 星。",
-        "feedbackEmailInstructions": "您可以点击订单完成后收到的邮件中的“留下评价”按钮进行评价。",
+        "feedbackEmailInstructions": "您可以点击订单完成后收到的邮件中的\"留下评价\"按钮进行评价。",
         "yourFeedback": "您的评价",
         "leaveFeedback": "留下评价",
         "automaticFeedbackWarning": "若7天内未留下评价，系统将自动为您提交5星评价。"
@@ -179,7 +179,11 @@
         "noTransactions": "暂无交易记录...",
         "automaticProcessingRemaining": "收到剩余金额后，您的订单将自动处理。",
         "automaticProcessingPayment": "收到付款后，您的订单将自动处理。",
-        "automaticProcessingConfirmation": "交易确认后，您的订单将自动处理。"
+        "automaticProcessingConfirmation": "交易确认后，您的订单将自动处理。",
+        "addressSafetyTitle": "为保障您的安全，请务必确认您粘贴至钱包中的地址与本页面显示的地址完全一致。",
+        "addressSafetySubtitle": "请至少核对地址的前4位和后4位字符。",
+        "verifyAddressInstructions": "关闭",
+        "dismiss": "关闭"
       },
       "CheckoutPayExternalUrl": {
         "paymentBeingProcessed": "您的付款正在处理中...",
@@ -199,8 +203,8 @@
       },
       "CheckoutPayPayPalFriendsFamily": {
         "warningFriendsFamilyNote": "警告 - 亲友转账带备注付款",
-        "friendsFamilyNoteWarning": "请务必以“亲友”模式发送付款并添加备注，否则您的订单将无法自动处理。",
-        "friendsFamilyWarning": "若不以“亲友”模式发送，您的订单将无法自动处理。",
+        "friendsFamilyNoteWarning": "请务必以\"亲友\"模式发送付款并添加备注，否则您的订单将无法自动处理。",
+        "friendsFamilyWarning": "若不以\"亲友\"模式发送，您的订单将无法自动处理。",
         "continue": "继续",
         "automaticProcessingMessage": "收到付款后，您的订单将自动处理。",
         "sendFriendsFamilyNote": "您需要向以下账户发送带备注的亲友转账付款。",
@@ -235,7 +239,7 @@
       },
       "CheckoutPayVenmo": {
         "warningFriendsFamilyNote": "警告 - 亲友转账带备注付款",
-        "friendsFamilyNoteWarning": "请务必以“亲友”模式发送付款并添加备注，否则您的订单将无法自动处理。",
+        "friendsFamilyNoteWarning": "请务必以\"亲友\"模式发送付款并添加备注，否则您的订单将无法自动处理。",
         "continue": "继续",
         "automaticProcessingMessage": "收到付款后，您的订单将自动处理。",
         "sendFriendsFamilyNote": "您需要向以下账户发送带备注的亲友转账付款。",

@@ -3,7 +3,7 @@
     "Checkout": {
       "Checkout": {
         "payShopName": "Betala {shopName}",
-        "stepConfirmPay": "Bekräfta &amp; betala",
+        "stepConfirmPay": "Bekräfta & betala",
         "stepExtraInformation": "Extra information",
         "stepOrderCancelled": "Order avbruten",
         "stepOrderInformation": "Beställningsinformation",
@@ -107,6 +107,7 @@
       "CheckoutOrderInformationForm": {
         "applied": "Tillämpad",
         "apply": "Tillämpa",
+        "remove": "Ta bort",
         "couponCode": "Kupongkod",
         "couponPlaceholder": "Har du en kupongkod? Skriv in den här.",
         "emailAddress": "E-postadress",
@@ -154,7 +155,11 @@
         "sendExactAmount": "Se till att skicka det exakta beloppet.",
         "sendExactRemainingAmount": "Se till att skicka det exakta återstående beloppet.",
         "sendPaymentToAddress": "Du bör skicka en betalning till följande adress.",
-        "transactionHistory": "Transaktionshistorik"
+        "transactionHistory": "Transaktionshistorik",
+        "addressSafetyTitle": "Viktigt: Kontrollera plånbokens adress",
+        "addressSafetySubtitle": "För din säkerhet, kontrollera alltid att den plånboksadress du klistrar in i din plånbok stämmer överens med den som visas här.",
+        "verifyAddressInstructions": "Kontrollera åtminstone de första 4 och sista 4 tecknen i adressen.",
+        "dismiss": "Avvisa"
       },
       "CheckoutPayExternalUrl": {
         "clickHereIfNotVisible": "Ser du det inte? Klicka här",
@@ -180,13 +185,13 @@
         "copied": "Kopierat!",
         "copyBelow": "Du kan kopiera den nedan.",
         "copyEmailBelow": "Kopiera PayPal-mejladressen nedan.",
-        "friendsFamilyNoteWarning": "Se till att skicka betalningen som Friends &amp; Family och att lägga till noten, annars kommer din beställning inte att behandlas automatiskt.",
-        "friendsFamilyWarning": "Om du inte skickar som Friends &amp; Family kommer din order inte att behandlas automatiskt.",
+        "friendsFamilyNoteWarning": "Se till att skicka betalningen som Friends & Family och att lägga till noten, annars kommer din beställning inte att behandlas automatiskt.",
+        "friendsFamilyWarning": "Om du inte skickar som Friends & Family kommer din order inte att behandlas automatiskt.",
         "noNoteInstruction": "Skicka inte med en anteckning när du skickar betalningen.",
         "openPaypal": "Öppna PayPal",
         "sendExactAmount": "Se till att skicka det exakta beloppet.",
-        "sendFriendsFamilyNote": "Du bör skicka en Friends &amp; Family-betalning med en not till följande konto.",
-        "warningFriendsFamilyNote": "Varning - Friends &amp; Family-betalning med nota"
+        "sendFriendsFamilyNote": "Du bör skicka en Friends & Family-betalning med en not till följande konto.",
+        "warningFriendsFamilyNote": "Varning - Friends & Family-betalning med nota"
       },
       "CheckoutPayPayPalREST": {
         "paypalPaymentProcessing": "Din PayPal-betalning håller på att behandlas..."
@@ -216,12 +221,12 @@
         "copied": "Kopierat!",
         "copyBelow": "Du kan kopiera den nedan.",
         "copyTagBelow": "Eller kopiera taggen nedan.",
-        "friendsFamilyNoteWarning": "Se till att skicka betalningen som Friends &amp; Family och att lägga till noten, annars kommer din beställning inte att behandlas automatiskt.",
+        "friendsFamilyNoteWarning": "Se till att skicka betalningen som Friends & Family och att lägga till noten, annars kommer din beställning inte att behandlas automatiskt.",
         "openVenmo": "Öppna Venmo",
         "scanQrCode": "Du kan skanna QR-koden.",
         "sendExactAmount": "Se till att skicka det exakta beloppet.",
-        "sendFriendsFamilyNote": "Du bör skicka en Friends &amp; Family-betalning med en not till följande konto.",
-        "warningFriendsFamilyNote": "Varning - Friends &amp; Family-betalning med nota"
+        "sendFriendsFamilyNote": "Du bör skicka en Friends & Family-betalning med en not till följande konto.",
+        "warningFriendsFamilyNote": "Varning - Friends & Family-betalning med nota"
       },
       "CheckoutPaymentMethodButton": {
         "allowedAmounts": "Tillåtna belopp:",
@@ -232,7 +237,7 @@
         "poweredBy": "Drivs av"
       },
       "CheckoutPriceSummary": {
-        "couponCodeWithName": "Kupongkod ({code})",
+        "couponCodeWithDiscount": "Kupongkod ({discount})",
         "paymentMethodDiscount": "Betalningsmetod Rabatt",
         "paymentMethodFee": "Betalningsmetod Avgift",
         "preTaxTotal": "Före skatt Totalt",

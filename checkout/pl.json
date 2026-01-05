@@ -46,7 +46,7 @@
         "cancel": "Anuluj",
         "editFeedback": "Edytuj opinię",
         "feedbackCouponIncentive": "Zostaw opinię, aby otrzymać kupon rabatowy na następny zakup. Minimalna ocena: {rating} gwiazdek.",
-        "feedbackEmailInstructions": "Możesz zostawić opinię, klikając przycisk „Zostaw opinię” w e-mailu potwierdzającym zamówienie.",
+        "feedbackEmailInstructions": "Możesz zostawić opinię, klikając przycisk \"Zostaw opinię\" w e-mailu potwierdzającym zamówienie.",
         "feedbackIneligibleAmount": "To zamówienie nie kwalifikuje się do opinii (zbyt niska kwota).",
         "feedbackIneligibleManual": "To zamówienie nie kwalifikuje się do opinii (przetwarzane ręcznie).",
         "leaveFeedback": "Zostaw opinię",
@@ -107,6 +107,7 @@
       "CheckoutOrderInformationForm": {
         "applied": "Zastosowano",
         "apply": "Zastosuj",
+        "remove": "Usuń",
         "couponCode": "Kod kuponu",
         "couponPlaceholder": "Masz kod kuponu? Wpisz go tutaj.",
         "emailAddress": "Adres e-mail",
@@ -154,7 +155,11 @@
         "sendExactAmount": "Upewnij się, że wysyłasz dokładną kwotę.",
         "sendExactRemainingAmount": "Upewnij się, że wysyłasz dokładną pozostałą kwotę.",
         "sendPaymentToAddress": "Wyślij płatność na poniższy adres.",
-        "transactionHistory": "Historia transakcji"
+        "transactionHistory": "Historia transakcji",
+        "addressSafetyTitle": "Ważne: sprawdź adres portfela",
+        "addressSafetySubtitle": "Dla własnego bezpieczeństwa zawsze sprawdzaj, czy adres portfela, który wklejasz do swojego portfela, jest zgodny z adresem wyświetlonym tutaj.",
+        "verifyAddressInstructions": "Sprawdź co najmniej pierwsze 4 i ostatnie 4 znaki adresu.",
+        "dismiss": "Odrzuć"
       },
       "CheckoutPayExternalUrl": {
         "clickHereIfNotVisible": "Nie widzisz? Kliknij tutaj.",
@@ -232,7 +237,7 @@
         "poweredBy": "Obsługiwane przez"
       },
       "CheckoutPriceSummary": {
-        "couponCodeWithName": "Kod kuponu ({code})",
+        "couponCodeWithDiscount": "Kod kuponu ({discount})",
         "paymentMethodDiscount": "Zniżka za metodę płatności",
         "paymentMethodFee": "Opłata za metodę płatności",
         "preTaxTotal": "Razem przed podatkiem",

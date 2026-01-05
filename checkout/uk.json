@@ -107,6 +107,7 @@
       "CheckoutOrderInformationForm": {
         "applied": "Застосовано",
         "apply": "Подати заявку",
+        "remove": "Видалити",
         "couponCode": "Код купона",
         "couponPlaceholder": "Маєте код купона? Введіть його тут.",
         "emailAddress": "Адреса електронної пошти",
@@ -154,7 +155,11 @@
         "sendExactAmount": "Переконайтеся, що ви надіслали точну суму.",
         "sendExactRemainingAmount": "Переконайтеся, що ви надіслали точну суму, що залишилася.",
         "sendPaymentToAddress": "Ви повинні надіслати платіж на наступну адресу.",
-        "transactionHistory": "Історія транзакцій"
+        "transactionHistory": "Історія транзакцій",
+        "addressSafetyTitle": "Важливо: перевірте адресу гаманця",
+        "addressSafetySubtitle": "Для вашої безпеки завжди перевіряйте, чи адреса гаманця, яку ви вставляєте у свій гаманець, збігається з адресою, вказаною тут.",
+        "verifyAddressInstructions": "Перевірте принаймні перші 4 та останні 4 символи адреси.",
+        "dismiss": "Відхилити"
       },
       "CheckoutPayExternalUrl": {
         "clickHereIfNotVisible": "Не бачите? Натисни сюди.",
@@ -185,7 +190,7 @@
         "noNoteInstruction": "Не додавайте примітку при надсиланні платежу.",
         "openPaypal": "Відкрити PayPal",
         "sendExactAmount": "Переконайтеся, що ви надіслали точну суму.",
-        "sendFriendsFamilyNote": "Ви повинні надіслати платіж Friends &amp; Family з приміткою на наступний рахунок.",
+        "sendFriendsFamilyNote": "Ви повинні надіслати платіж Friends & Family з приміткою на наступний рахунок.",
         "warningFriendsFamilyNote": "Попередження - Друзі та родичі Оплата з приміткою"
       },
       "CheckoutPayPayPalREST": {
@@ -220,7 +225,7 @@
         "openVenmo": "Відкрити Venmo",
         "scanQrCode": "Ви можете відсканувати QR-код.",
         "sendExactAmount": "Переконайтеся, що ви надіслали точну суму.",
-        "sendFriendsFamilyNote": "Ви повинні надіслати платіж Friends &amp; Family з приміткою на наступний рахунок.",
+        "sendFriendsFamilyNote": "Ви повинні надіслати платіж Friends & Family з приміткою на наступний рахунок.",
         "warningFriendsFamilyNote": "Попередження - Друзі та родичі Оплата з приміткою"
       },
       "CheckoutPaymentMethodButton": {
@@ -232,7 +237,7 @@
         "poweredBy": "За підтримки"
       },
       "CheckoutPriceSummary": {
-        "couponCodeWithName": "Код купона ({code})",
+        "couponCodeWithDiscount": "Код купона ({discount})",
         "paymentMethodDiscount": "Спосіб оплати Знижка",
         "paymentMethodFee": "Плата за спосіб оплати Комісія",
         "preTaxTotal": "До оподаткування Всього",

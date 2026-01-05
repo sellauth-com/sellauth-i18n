@@ -107,6 +107,7 @@
       "CheckoutOrderInformationForm": {
         "applied": "Прикладная",
         "apply": "Применить",
+        "remove": "Удалить",
         "couponCode": "Код купона",
         "couponPlaceholder": "У вас есть код купона? Введите его здесь.",
         "emailAddress": "Адрес электронной почты",
@@ -154,7 +155,11 @@
         "sendExactAmount": "Убедитесь, что вы отправили точную сумму.",
         "sendExactRemainingAmount": "Обязательно отправьте точную оставшуюся сумму.",
         "sendPaymentToAddress": "Вы должны отправить платеж по следующему адресу.",
-        "transactionHistory": "История транзакций"
+        "transactionHistory": "История транзакций",
+        "addressSafetyTitle": "Важно: проверьте адрес кошелька",
+        "addressSafetySubtitle": "В целях безопасности всегда проверяйте, что адрес кошелька, который вы вставляете в свой кошелек, совпадает с указанным здесь.",
+        "verifyAddressInstructions": "Проверьте как минимум первые 4 и последние 4 символа адреса.",
+        "dismiss": "Отклонить"
       },
       "CheckoutPayExternalUrl": {
         "clickHereIfNotVisible": "Не видите? Нажмите здесь",
@@ -232,7 +237,7 @@
         "poweredBy": "Находится"
       },
       "CheckoutPriceSummary": {
-        "couponCodeWithName": "Код купона ({code})",
+        "couponCodeWithDiscount": "Код купона ({discount})",
         "paymentMethodDiscount": "Скидка на способ оплаты",
         "paymentMethodFee": "Комиссия за способ оплаты",
         "preTaxTotal": "Итого до уплаты налогов",

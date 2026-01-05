@@ -107,6 +107,7 @@
       "CheckoutOrderInformationForm": {
         "applied": "Applicato",
         "apply": "Applicare",
+        "remove": "Rimuovere",
         "couponCode": "Codice coupon",
         "couponPlaceholder": "Avete un codice coupon? Inseritelo qui.",
         "emailAddress": "Indirizzo e-mail",
@@ -154,7 +155,11 @@
         "sendExactAmount": "Assicuratevi di inviare l'importo esatto.",
         "sendExactRemainingAmount": "Assicuratevi di inviare l'esatto importo rimanente.",
         "sendPaymentToAddress": "Il pagamento deve essere inviato al seguente indirizzo.",
-        "transactionHistory": "Storia delle transazioni"
+        "transactionHistory": "Storia delle transazioni",
+        "addressSafetyTitle": "Importante: verifica l'indirizzo del portafoglio",
+        "addressSafetySubtitle": "Per la tua sicurezza, verifica sempre che l'indirizzo del portafoglio che stai incollando nel tuo portafoglio corrisponda a quello mostrato qui.",
+        "verifyAddressInstructions": "Verifica almeno i primi 4 e gli ultimi 4 caratteri dell'indirizzo.",
+        "dismiss": "Ignora"
       },
       "CheckoutPayExternalUrl": {
         "clickHereIfNotVisible": "Non lo vedi? Clicca qui",
@@ -185,7 +190,7 @@
         "noNoteInstruction": "Non includere una nota quando si invia il pagamento.",
         "openPaypal": "Aprire PayPal",
         "sendExactAmount": "Assicuratevi di inviare l'importo esatto.",
-        "sendFriendsFamilyNote": "È necessario inviare un pagamento Friends &amp; Family con una nota al seguente conto.",
+        "sendFriendsFamilyNote": "È necessario inviare un pagamento Friends & Family con una nota al seguente conto.",
         "warningFriendsFamilyNote": "Avvertenza - Pagamento amici e parenti con nota"
       },
       "CheckoutPayPayPalREST": {
@@ -220,7 +225,7 @@
         "openVenmo": "Aprire Venmo",
         "scanQrCode": "È possibile scansionare il codice QR.",
         "sendExactAmount": "Assicuratevi di inviare l'importo esatto.",
-        "sendFriendsFamilyNote": "È necessario inviare un pagamento Friends &amp; Family con una nota al seguente conto.",
+        "sendFriendsFamilyNote": "È necessario inviare un pagamento Friends & Family con una nota al seguente conto.",
         "warningFriendsFamilyNote": "Avvertenza - Pagamento amici e parenti con nota"
       },
       "CheckoutPaymentMethodButton": {
@@ -232,7 +237,7 @@
         "poweredBy": "Alimentato da"
       },
       "CheckoutPriceSummary": {
-        "couponCodeWithName": "Codice coupon ({code})",
+        "couponCodeWithDiscount": "Codice coupon ({discount})",
         "paymentMethodDiscount": "Sconto sul metodo di pagamento",
         "paymentMethodFee": "Metodo di pagamento Tassa",
         "preTaxTotal": "Totale ante imposte",

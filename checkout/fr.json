@@ -107,6 +107,7 @@
       "CheckoutOrderInformationForm": {
         "applied": "Appliqué",
         "apply": "Appliquer",
+        "remove": "Supprimer",
         "couponCode": "Code des coupons",
         "couponPlaceholder": "Vous avez un code de réduction ? Saisissez-le ici.",
         "emailAddress": "Adresse électronique",
@@ -154,7 +155,11 @@
         "sendExactAmount": "Veillez à envoyer le montant exact.",
         "sendExactRemainingAmount": "Veillez à envoyer le montant exact restant.",
         "sendPaymentToAddress": "Vous devez envoyer un paiement à l'adresse suivante.",
-        "transactionHistory": "Historique des transactions"
+        "transactionHistory": "Historique des transactions",
+        "addressSafetyTitle" : "Important : vérifiez l'adresse du portefeuille",
+        "addressSafetySubtitle" : "Pour votre sécurité, vérifiez toujours que l'adresse que vous collez dans votre portefeuille correspond à celle indiquée ici.",
+        "verifyAddressInstructions" : "Vérifiez au moins les 4 premiers et les 4 derniers caractères de l'adresse.",
+        "dismiss" : "Ignorer"
       },
       "CheckoutPayExternalUrl": {
         "clickHereIfNotVisible": "Vous ne le voyez pas ? Cliquez ici",
@@ -232,7 +237,7 @@
         "poweredBy": "Propulsé par"
       },
       "CheckoutPriceSummary": {
-        "couponCodeWithName": "Code promo ({code})",
+        "couponCodeWithDiscount": "Code promo ({discount})",
         "paymentMethodDiscount": "Remise sur le mode de paiement",
         "paymentMethodFee": "Frais liés au mode de paiement",
         "preTaxTotal": "Total avant impôt",

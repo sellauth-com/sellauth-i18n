@@ -129,6 +129,7 @@
         "couponPlaceholder": "יש לך קוד קופון? שים אותו כאן.",
         "applied": "הוחל",
         "apply": "יישם",
+        "remove": "הסר",
         "paymentMethod": "שיטת תשלום",
         "paymentMethodRequired": "אנא בחר שיטת תשלום",
         "termsRequired": "אנא קבלו את התנאים וההגבלות",
@@ -178,7 +179,11 @@
         "noTransactions": "לא היו תשלומים עד כה...",
         "automaticProcessingRemaining": "ההזמנה שלך תושלם באופן אוטומטי ברגע שהכמות שנשארה תשולם.",
         "automaticProcessingPayment": "ההזמנה שלך תושלם באופן אוטומטי ברגע שהתשלום יעבור.",
-        "automaticProcessingConfirmation": "ההזמנה שלך תושלם באופן אוטומטי ברגע שההעברה תאומת."
+        "automaticProcessingConfirmation": "ההזמנה שלך תושלם באופן אוטומטי ברגע שההעברה תאומת.",
+        "addressSafetyTitle": "חשוב: אמת את כתובת הארנק",
+        "addressSafetySubtitle": "למען ביטחונך, ודא תמיד שכתובת הארנק שאתה מדביק בארנק שלך תואמת לכתובת המוצגת כאן.",
+        "verifyAddressInstructions": "אמת לפחות את 4 התווים הראשונים ו-4 התווים האחרונים של הכתובת.",
+        "dismiss": "דחה"
       },
       "CheckoutPayExternalUrl": {
         "paymentBeingProcessed": "התשלום שלך בבדיקה...",
@@ -250,7 +255,7 @@
       "CheckoutPriceSummary": {
         "subtotal": "סכום ביניים",
         "volumeDiscount": "אחוז הנחה",
-        "couponCodeWithName": "קוד קופון ({code})",
+        "couponCodeWithDiscount": "קוד קופון ({discount})",
         "unknownCode": "קוד לא מוכר",
         "paymentMethodFee": "עמלת שיטת תשלום",
         "paymentMethodDiscount": "הנחת שיטת תשלום",

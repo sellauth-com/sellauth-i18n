@@ -129,6 +129,7 @@
         "couponPlaceholder": "Have a coupon code? Enter it here.",
         "applied": "Applied",
         "apply": "Apply",
+        "remove": "Remove",
         "paymentMethod": "Payment Method",
         "paymentMethodRequired": "Please select a payment method",
         "termsRequired": "Please accept the terms and conditions",
@@ -178,7 +179,11 @@
         "noTransactions": "No transactions yet...",
         "automaticProcessingRemaining": "Your order will be automatically processed once the remaining amount is received.",
         "automaticProcessingPayment": "Your order will be automatically processed once the payment is received.",
-        "automaticProcessingConfirmation": "Your order will be automatically processed once the transaction is confirmed."
+        "automaticProcessingConfirmation": "Your order will be automatically processed once the transaction is confirmed.",
+        "addressSafetyTitle": "Important: Verify the Wallet Address",
+        "addressSafetySubtitle": "For your security, always confirm that the wallet address you are pasting into your wallet matches the one shown here.",
+        "verifyAddressInstructions": "Verify at least the first 4 and last 4 characters of the address.",
+        "dismiss": "Dismiss"
       },
       "CheckoutPayExternalUrl": {
         "paymentBeingProcessed": "Your payment is being processed...",
@@ -250,7 +255,7 @@
       "CheckoutPriceSummary": {
         "subtotal": "Subtotal",
         "volumeDiscount": "Volume Discount",
-        "couponCodeWithName": "Coupon Code ({code})",
+        "couponCodeWithDiscount": "Coupon Code ({discount})",
         "unknownCode": "Unknown Code",
         "paymentMethodFee": "Payment Method Fee",
         "paymentMethodDiscount": "Payment Method Discount",

@@ -107,6 +107,7 @@
       "CheckoutOrderInformationForm": {
         "applied": "Uygulamalı",
         "apply": "Başvurmak",
+        "remove": "Kaldır",
         "couponCode": "Kupon Kodu",
         "couponPlaceholder": "Kupon kodunuz mu var? Buraya girin.",
         "emailAddress": "E-posta Adresi",
@@ -154,7 +155,11 @@
         "sendExactAmount": "Tam tutarı gönderdiğinizden emin olun.",
         "sendExactRemainingAmount": "Kalan miktarı tam olarak gönderdiğinizden emin olun.",
         "sendPaymentToAddress": "Ödemeyi aşağıdaki adrese göndermelisiniz.",
-        "transactionHistory": "İşlem Geçmişi"
+        "transactionHistory": "İşlem Geçmişi",
+        "addressSafetyTitle": "Önemli: Cüzdan Adresini Doğrulayın",
+        "addressSafetySubtitle": "Güvenliğiniz için, cüzdanınıza yapıştırdığınız cüzdan adresinin burada gösterilen adresle aynı olduğunu her zaman kontrol edin.",
+        "verifyAddressInstructions": "Adresin en az ilk 4 ve son 4 karakterini kontrol edin.",
+        "dismiss": "Kapat"
       },
       "CheckoutPayExternalUrl": {
         "clickHereIfNotVisible": "Görmüyor musunuz? Buraya tıklayın",
@@ -181,11 +186,11 @@
         "copyBelow": "Aşağıya kopyalayabilirsiniz.",
         "copyEmailBelow": "PayPal e-posta adresini aşağıya kopyalayın.",
         "friendsFamilyNoteWarning": "Ödemeyi Arkadaşlar ve Aile olarak gönderdiğinizden ve Not Eklediğinizden emin olun, aksi takdirde siparişiniz otomatik olarak işleme alınmayacaktır.",
-        "friendsFamilyWarning": "Friends &amp; Family olarak göndermezseniz, siparişiniz otomatik olarak işleme alınmayacaktır.",
+        "friendsFamilyWarning": "Friends & Family olarak göndermezseniz, siparişiniz otomatik olarak işleme alınmayacaktır.",
         "noNoteInstruction": "Ödemeyi gönderirken bir not eklemeyin.",
         "openPaypal": "Açık PayPal",
         "sendExactAmount": "Tam tutarı gönderdiğinizden emin olun.",
-        "sendFriendsFamilyNote": "Friends &amp; Family ödemesini bir notla birlikte aşağıdaki hesaba göndermelisiniz.",
+        "sendFriendsFamilyNote": "Friends & Family ödemesini bir notla birlikte aşağıdaki hesaba göndermelisiniz.",
         "warningFriendsFamilyNote": "Uyarı - Not ile Arkadaş ve Aile Ödemesi"
       },
       "CheckoutPayPayPalREST": {
@@ -220,7 +225,7 @@
         "openVenmo": "Venmo'yu aç",
         "scanQrCode": "QR kodunu tarayabilirsiniz.",
         "sendExactAmount": "Tam tutarı gönderdiğinizden emin olun.",
-        "sendFriendsFamilyNote": "Friends &amp; Family ödemesini bir notla birlikte aşağıdaki hesaba göndermelisiniz.",
+        "sendFriendsFamilyNote": "Friends & Family ödemesini bir notla birlikte aşağıdaki hesaba göndermelisiniz.",
         "warningFriendsFamilyNote": "Uyarı - Not ile Arkadaş ve Aile Ödemesi"
       },
       "CheckoutPaymentMethodButton": {
@@ -232,7 +237,7 @@
         "poweredBy": "Tarafından desteklenmektedir"
       },
       "CheckoutPriceSummary": {
-        "couponCodeWithName": "Kupon Kodu ({code})",
+        "couponCodeWithDiscount": "Kupon Kodu ({discount})",
         "paymentMethodDiscount": "Ödeme Yöntemi İndirimi",
         "paymentMethodFee": "Ödeme Yöntemi Ücreti",
         "preTaxTotal": "Vergi Öncesi Toplam",

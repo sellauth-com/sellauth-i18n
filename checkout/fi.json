@@ -3,7 +3,7 @@
     "Checkout": {
       "Checkout": {
         "payShopName": "Palkka {shopName}",
-        "stepConfirmPay": "Vahvista &amp; maksa",
+        "stepConfirmPay": "Vahvista & maksa",
         "stepExtraInformation": "Lisätietoa",
         "stepOrderCancelled": "Tilaus peruutettu",
         "stepOrderInformation": "Tilaustiedot",
@@ -107,6 +107,7 @@
       "CheckoutOrderInformationForm": {
         "applied": "Sovellettu",
         "apply": "Hae",
+        "remove": "Poista",
         "couponCode": "Kuponkikoodi",
         "couponPlaceholder": "Onko sinulla kuponkikoodi? Kirjoita se tähän.",
         "emailAddress": "Sähköpostiosoite",
@@ -154,7 +155,11 @@
         "sendExactAmount": "Varmista, että lähetät tarkan summan.",
         "sendExactRemainingAmount": "Varmista, että lähetät tarkan jäljellä olevan summan.",
         "sendPaymentToAddress": "Maksu on lähetettävä seuraavaan osoitteeseen.",
-        "transactionHistory": "Tapahtumahistoria"
+        "transactionHistory": "Tapahtumahistoria",
+        "addressSafetyTitle": "Tärkeää: Vahvista lompakon osoite",
+        "addressSafetySubtitle": "Turvallisuutesi vuoksi varmista aina, että lompakkoosi liittämääsi lompakon osoite vastaa tässä näkyvää osoitetta.",
+        "verifyAddressInstructions": "Tarkista vähintään osoitteen neljä ensimmäistä ja neljä viimeistä merkkiä.",
+        "dismiss": "Hylkää"
       },
       "CheckoutPayExternalUrl": {
         "clickHereIfNotVisible": "Etkö näe sitä? Klikkaa tästä",
@@ -181,12 +186,12 @@
         "copyBelow": "Voit kopioida sen alta.",
         "copyEmailBelow": "Kopioi PayPalin sähköpostiosoite alta.",
         "friendsFamilyNoteWarning": "Varmista, että lähetät maksun ystäville ja perheelle ja lisäät muistiinpanon, muuten tilaustasi ei käsitellä automaattisesti.",
-        "friendsFamilyWarning": "Jos et lähetä Friends &amp; Family -tilausta, tilaustasi ei käsitellä automaattisesti.",
+        "friendsFamilyWarning": "Jos et lähetä Friends & Family -tilausta, tilaustasi ei käsitellä automaattisesti.",
         "noNoteInstruction": "Älä liitä huomautusta maksun lähettämisen yhteydessä.",
         "openPaypal": "Avaa PayPal",
         "sendExactAmount": "Varmista, että lähetät tarkan summan.",
-        "sendFriendsFamilyNote": "Lähetä Friends &amp; Family -maksu ja merkintä seuraavalle tilille.",
-        "warningFriendsFamilyNote": "Varoitus - Friends &amp; Family -maksu huomautuksella"
+        "sendFriendsFamilyNote": "Lähetä Friends & Family -maksu ja merkintä seuraavalle tilille.",
+        "warningFriendsFamilyNote": "Varoitus - Friends & Family -maksu huomautuksella"
       },
       "CheckoutPayPayPalREST": {
         "paypalPaymentProcessing": "PayPal-maksua käsitellään parhaillaan..."
@@ -220,8 +225,8 @@
         "openVenmo": "Avaa Venmo",
         "scanQrCode": "Voit skannata QR-koodin.",
         "sendExactAmount": "Varmista, että lähetät tarkan summan.",
-        "sendFriendsFamilyNote": "Lähetä Friends &amp; Family -maksu ja merkintä seuraavalle tilille.",
-        "warningFriendsFamilyNote": "Varoitus - Friends &amp; Family -maksu huomautuksella"
+        "sendFriendsFamilyNote": "Lähetä Friends & Family -maksu ja merkintä seuraavalle tilille.",
+        "warningFriendsFamilyNote": "Varoitus - Friends & Family -maksu huomautuksella"
       },
       "CheckoutPaymentMethodButton": {
         "allowedAmounts": "Sallitut määrät:",
@@ -232,7 +237,7 @@
         "poweredBy": "Powered by"
       },
       "CheckoutPriceSummary": {
-        "couponCodeWithName": "Kuponkikoodi ({code})",
+        "couponCodeWithDiscount": "Kuponkikoodi ({discount})",
         "paymentMethodDiscount": "Maksutapa-alennus",
         "paymentMethodFee": "Maksutapa Maksu",
         "preTaxTotal": "Ennen veroja Yhteensä",
