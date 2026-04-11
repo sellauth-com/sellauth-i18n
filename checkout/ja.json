@@ -55,7 +55,9 @@
         "copy": "コピー",
         "outOfStockMessage": "この商品は現在在庫切れです。詳細についてはサポートにお問い合わせください。",
         "productBeingDelivered": "この商品は配送中です...",
-        "productDeliveryFailed": "この商品は配達できませんでした。詳細についてはサポートにお問い合わせください。"
+        "productDeliveryFailed": "この商品は配達できませんでした。詳細についてはサポートにお問い合わせください。",
+        "downloadableFiles": "ダウンロード可能ファイル",
+        "downloadFileFailed": "ファイルのダウンロードに失敗しました。"
       },
       "CheckoutCompletedFeedback": {
         "rating": "評価",
@@ -97,7 +99,6 @@
         "orderProcessingFailed": "注文を処理できませんでした。誤りだと思われる場合はサポートに連絡するか、後でもう一度お試しください。"
       },
       "CheckoutFooter": {
-        "poweredBy": "提供元",
         "termsOfService": "利用規約",
         "privacyPolicy": "プライバシーポリシー",
         "refundPolicy": "返金ポリシー"
@@ -135,13 +136,46 @@
         "termsRequired": "利用規約に同意してください",
         "termsAgreement": "{shopName} の利用規約の内容を確認し、同意しました",
         "newsletterSignup": "{shopName} からのお得な情報をメールで受け取る",
-        "proceedToPayment": "支払いに進む"
+        "proceedToPayment": "支払いに進む",
+        "billingAddress": "請求先住所",
+        "shippingAddress": "配送先住所",
+        "shippingSameAsBilling": "請求先住所と同じ",
+        "name": "氏名",
+        "namePlaceholder": "氏名",
+        "nameRequired": "氏名を入力してください",
+        "addressLine1": "住所1",
+        "addressLine1Placeholder": "番地・建物名",
+        "addressLine1Required": "住所を入力してください",
+        "addressLine2": "住所2（任意）",
+        "addressLine2Placeholder": "部屋番号など",
+        "city": "市区町村",
+        "cityPlaceholder": "市区町村",
+        "cityRequired": "市区町村を入力してください",
+        "state": "都道府県",
+        "statePlaceholder": "都道府県",
+        "postcode": "郵便番号",
+        "postcodePlaceholder": "郵便番号",
+        "postcodeRequired": "郵便番号を入力してください",
+        "country": "国",
+        "countryPlaceholder": "国",
+        "countryRequired": "国を入力してください",
+        "shippingPhone": "電話番号",
+        "shippingPhonePlaceholder": "配達連絡用電話番号",
+        "shippingPhoneRequired": "電話番号を入力してください",
+        "sectionCoupon": "割引",
+        "sectionContact": "連絡先",
+        "sectionContactDelivery": "連絡先 & 配送",
+        "sectionBilling": "請求",
+        "sectionShipping": "配送",
+        "sectionPayment": "お支払い",
+        "secureEncrypted": "すべての取引は安全に暗号化されています。"
       },
       "CheckoutPaymentMethodButton": {
-        "poweredBy": "提供元",
         "allowedAmounts": "許可された金額：",
         "minimumAmount": "最小金額：",
         "maximumAmount": "最大金額：",
+        "notAvailable": "利用不可",
+        "amountNotEligible": "対象外の金額",
         "fee": "手数料",
         "discount": "割引"
       },
@@ -189,6 +223,18 @@
         "paymentBeingProcessed": "お支払いを処理中です...",
         "paymentPageOpened": "支払いページが新しいタブで開かれました",
         "clickHereIfNotVisible": "表示されませんか？こちらをクリック"
+      },
+      "CheckoutPayRewarble": {
+        "title": "Rewarbleバウチャーを利用する",
+        "description": "お支払いを完了するには、下記にRewarbleバウチャーコードを入力してください。",
+        "overpayNote": "バウチャーの金額が注文合計を超える場合、残高はカスタマーアカウントに積み立てられます。",
+        "partialPaymentTitle": "一部支払い受付済み",
+        "partialPaymentStatus": "{paidAmount} {currency} 支払い済み — 残り {remainingAmount} {currency} が必要です。残高を補うために別のバウチャーを利用してください。",
+        "voucherCodeLabel": "バウチャーコード",
+        "voucherCodeRequired": "バウチャーコードを入力してください。",
+        "redeemButton": "バウチャーを利用する",
+        "redeemError": "バウチャーの利用に失敗しました。コードを確認して再度お試しください。",
+        "resellersTitle": "バウチャーをお持ちでない方は、リセラーからご購入いただけます。"
       },
       "CheckoutPayManual": {
         "markedAsPaidSuccess": "注文が正常に支払い済みとしてマークされました！確認をお待ちください。",
@@ -281,6 +327,8 @@
         "maximumAmount": "最大金額：",
         "discount": "割引",
         "fee": "手数料",
+        "notAvailable": "利用不可",
+        "amountNotEligible": "対象外の金額",
         "logInCustomerAccount": "マイページにログイン",
         "cancel": "キャンセル",
         "logIn": "ログイン",

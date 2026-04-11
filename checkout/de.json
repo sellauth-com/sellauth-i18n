@@ -32,6 +32,8 @@
         "outOfStockMessage": "Dieses Produkt ist derzeit nicht auf Lager. Bitte kontaktieren Sie unseren Support für weitere Informationen.",
         "productBeingDelivered": "Dieses Produkt wird geliefert...",
         "productDeliveryFailed": "Dieses Produkt konnte nicht geliefert werden. Bitte kontaktieren Sie unseren Support für weitere Informationen.",
+        "downloadableFiles": "Herunterladbare Dateien",
+        "downloadFileFailed": "Datei konnte nicht heruntergeladen werden.",
         "statusCancelled": "Abgesagt",
         "statusDelivered": "Geliefert",
         "statusExpired": "Abgelaufen",
@@ -81,7 +83,6 @@
         "paymentNotSentInTime": "Die Zahlung wurde nicht fristgerecht übermittelt."
       },
       "CheckoutFooter": {
-        "poweredBy": "Angetrieben durch",
         "termsOfService": "Nutzungsbedingungen",
         "privacyPolicy": "Datenschutz-Bestimmungen",
         "refundPolicy": "Rückerstattungsrichtlinie"
@@ -119,7 +120,39 @@
         "paymentMethodRequired": "Bitte wählen Sie eine Zahlungsmethode",
         "proceedToPayment": "Weiter zur Zahlung",
         "termsAgreement": "Ich habe die Allgemeinen Geschäftsbedingungen von {shopName} gelesen und stimme ihnen zu.",
-        "termsRequired": "Bitte akzeptieren Sie die Allgemeinen Geschäftsbedingungen."
+        "termsRequired": "Bitte akzeptieren Sie die Allgemeinen Geschäftsbedingungen.",
+        "billingAddress": "Rechnungsadresse",
+        "shippingAddress": "Lieferadresse",
+        "shippingSameAsBilling": "Gleich wie Rechnungsadresse",
+        "name": "Vollständiger Name",
+        "namePlaceholder": "Vollständiger Name",
+        "nameRequired": "Bitte geben Sie Ihren vollständigen Namen ein",
+        "addressLine1": "Adresszeile 1",
+        "addressLine1Placeholder": "Straße und Hausnummer",
+        "addressLine1Required": "Bitte geben Sie Ihre Adresse ein",
+        "addressLine2": "Adresszeile 2 (optional)",
+        "addressLine2Placeholder": "Wohnung, Etage, etc.",
+        "city": "Stadt",
+        "cityPlaceholder": "Stadt",
+        "cityRequired": "Bitte geben Sie Ihre Stadt ein",
+        "state": "Bundesland / Provinz",
+        "statePlaceholder": "Bundesland / Provinz",
+        "postcode": "Postleitzahl",
+        "postcodePlaceholder": "Postleitzahl",
+        "postcodeRequired": "Bitte geben Sie Ihre Postleitzahl ein",
+        "country": "Land",
+        "countryPlaceholder": "Land",
+        "countryRequired": "Bitte geben Sie Ihr Land ein",
+        "shippingPhone": "Telefonnummer",
+        "shippingPhonePlaceholder": "Telefonnummer für Lieferkontakt",
+        "shippingPhoneRequired": "Bitte geben Sie eine Telefonnummer ein",
+        "sectionCoupon": "Rabatt",
+        "sectionContact": "Kontakt",
+        "sectionContactDelivery": "Kontakt & Lieferung",
+        "sectionBilling": "Rechnung",
+        "sectionShipping": "Versand",
+        "sectionPayment": "Zahlung",
+        "secureEncrypted": "Alle Transaktionen sind sicher und verschlüsselt."
       },
       "CheckoutPayCashApp": {
         "addNoteInstruction": "Fügen Sie der Zahlung eine Notiz hinzu, sonst wird sie ignoriert.",
@@ -165,6 +198,18 @@
         "clickHereIfNotVisible": "Sie sehen es nicht? Klicken Sie hier",
         "paymentBeingProcessed": "Ihre Zahlung wird gerade bearbeitet...",
         "paymentPageOpened": "Die Zahlungsseite wurde in einer neuen Registerkarte geöffnet"
+      },
+      "CheckoutPayRewarble": {
+        "title": "Rewarble-Gutschein einlösen",
+        "description": "Geben Sie unten Ihren Rewarble-Gutscheincode ein, um die Zahlung abzuschließen.",
+        "overpayNote": "Wenn Ihr Gutschein mehr wert ist als der Bestellbetrag, wird der Restbetrag Ihrem Kundenkonto gutgeschrieben.",
+        "partialPaymentTitle": "Teilzahlung erhalten",
+        "partialPaymentStatus": "{paidAmount} {currency} bezahlt — {remainingAmount} {currency} noch ausstehend. Lösen Sie einen weiteren Gutschein ein, um den Restbetrag zu decken.",
+        "voucherCodeLabel": "Gutscheincode",
+        "voucherCodeRequired": "Bitte geben Sie Ihren Gutscheincode ein.",
+        "redeemButton": "Gutschein einlösen",
+        "redeemError": "Gutschein konnte nicht eingelöst werden. Bitte überprüfen Sie den Code und versuchen Sie es erneut.",
+        "resellersTitle": "Keinen Gutschein? Kaufen Sie einen bei einem Händler."
       },
       "CheckoutPayManual": {
         "awaitingConfirmation": "Bestätigung steht noch aus",
@@ -234,7 +279,8 @@
         "fee": "Gebühr",
         "maximumAmount": "Höchstbetrag:",
         "minimumAmount": "Mindestbetrag:",
-        "poweredBy": "Angetrieben durch"
+        "notAvailable": "Nicht verfügbar",
+        "amountNotEligible": "Betrag nicht berechtigt"
       },
       "CheckoutPriceSummary": {
         "couponCodeWithDiscount": "Gutscheincode ({discount})",
@@ -272,7 +318,9 @@
         "otpCaptchaInstructions": "Nach der CAPTCHA-Prüfung wird Ihnen ein einmaliges Passwort an Ihre E-Mail-Adresse geschickt. Bitte warten Sie einen Moment.",
         "otpSent": "OTP wurde an Ihre E-Mail gesendet.",
         "otpSentInstructions": "Ein einmaliges Passwort wurde an Ihre E-Mail-Adresse gesendet. Bitte geben Sie es unten ein, um auf Ihr Konto zuzugreifen und mit Ihrem Guthaben zu bezahlen.",
-        "sufficientBalance": "Sie haben genug Guthaben, um diese Rechnung zu bezahlen."
+        "sufficientBalance": "Sie haben genug Guthaben, um diese Rechnung zu bezahlen.",
+        "notAvailable": "Nicht verfügbar",
+        "amountNotEligible": "Betrag nicht berechtigt"
       },
       "CheckoutStepper": {
         "next": "Nächste:",

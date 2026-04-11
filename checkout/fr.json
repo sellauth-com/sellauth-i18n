@@ -32,6 +32,8 @@
         "outOfStockMessage": "Ce produit est actuellement en rupture de stock. Veuillez contacter notre service d'assistance pour plus d'informations.",
         "productBeingDelivered": "Ce produit est en cours de livraison...",
         "productDeliveryFailed": "Ce produit n'a pas pu être livré. Veuillez contacter notre service d'assistance pour plus d'informations.",
+        "downloadableFiles": "Fichiers téléchargeables",
+        "downloadFileFailed": "Échec du téléchargement du fichier.",
         "statusCancelled": "Annulé",
         "statusDelivered": "Livré",
         "statusExpired": "Expiré",
@@ -81,7 +83,6 @@
         "paymentNotSentInTime": "Le paiement n'a pas été envoyé à temps."
       },
       "CheckoutFooter": {
-        "poweredBy": "Propulsé par",
         "termsOfService": "Conditions d'utilisation",
         "privacyPolicy": "Politique de confidentialité",
         "refundPolicy": "Politique de remboursement"
@@ -119,7 +120,39 @@
         "paymentMethodRequired": "Veuillez sélectionner un mode de paiement",
         "proceedToPayment": "Procéder au paiement",
         "termsAgreement": "J'ai lu et j'accepte les conditions d'utilisation de {shopName}.",
-        "termsRequired": "Veuillez accepter les termes et conditions"
+        "termsRequired": "Veuillez accepter les termes et conditions",
+        "billingAddress": "Adresse de facturation",
+        "shippingAddress": "Adresse de livraison",
+        "shippingSameAsBilling": "Identique à l'adresse de facturation",
+        "name": "Nom complet",
+        "namePlaceholder": "Nom complet",
+        "nameRequired": "Veuillez saisir votre nom complet",
+        "addressLine1": "Ligne d'adresse 1",
+        "addressLine1Placeholder": "Adresse postale",
+        "addressLine1Required": "Veuillez saisir votre adresse",
+        "addressLine2": "Ligne d'adresse 2 (optionnel)",
+        "addressLine2Placeholder": "Appartement, suite, etc.",
+        "city": "Ville",
+        "cityPlaceholder": "Ville",
+        "cityRequired": "Veuillez saisir votre ville",
+        "state": "État / Province",
+        "statePlaceholder": "État / Province",
+        "postcode": "Code postal",
+        "postcodePlaceholder": "Code postal",
+        "postcodeRequired": "Veuillez saisir votre code postal",
+        "country": "Pays",
+        "countryPlaceholder": "Pays",
+        "countryRequired": "Veuillez saisir votre pays",
+        "shippingPhone": "Numéro de téléphone",
+        "shippingPhonePlaceholder": "Numéro de téléphone pour le contact de livraison",
+        "shippingPhoneRequired": "Veuillez saisir un numéro de téléphone",
+        "sectionCoupon": "Remise",
+        "sectionContact": "Contact",
+        "sectionContactDelivery": "Contact et livraison",
+        "sectionBilling": "Facturation",
+        "sectionShipping": "Livraison",
+        "sectionPayment": "Paiement",
+        "secureEncrypted": "Toutes les transactions sont sécurisées et chiffrées."
       },
       "CheckoutPayCashApp": {
         "addNoteInstruction": "Ajoutez une note au paiement, sinon il sera ignoré.",
@@ -156,15 +189,27 @@
         "sendExactRemainingAmount": "Veillez à envoyer le montant exact restant.",
         "sendPaymentToAddress": "Vous devez envoyer un paiement à l'adresse suivante.",
         "transactionHistory": "Historique des transactions",
-        "addressSafetyTitle" : "Important : vérifiez l'adresse du portefeuille",
-        "addressSafetySubtitle" : "Pour votre sécurité, vérifiez toujours que l'adresse que vous collez dans votre portefeuille correspond à celle indiquée ici.",
-        "verifyAddressInstructions" : "Vérifiez au moins les 4 premiers et les 4 derniers caractères de l'adresse.",
-        "dismiss" : "Ignorer"
+        "addressSafetyTitle": "Important : vérifiez l'adresse du portefeuille",
+        "addressSafetySubtitle": "Pour votre sécurité, vérifiez toujours que l'adresse que vous collez dans votre portefeuille correspond à celle indiquée ici.",
+        "verifyAddressInstructions": "Vérifiez au moins les 4 premiers et les 4 derniers caractères de l'adresse.",
+        "dismiss": "Ignorer"
       },
       "CheckoutPayExternalUrl": {
         "clickHereIfNotVisible": "Vous ne le voyez pas ? Cliquez ici",
         "paymentBeingProcessed": "Votre paiement est en cours de traitement...",
         "paymentPageOpened": "La page de paiement a été ouverte dans un nouvel onglet"
+      },
+      "CheckoutPayRewarble": {
+        "title": "Échanger un bon Rewarble",
+        "description": "Saisissez votre code de bon Rewarble ci-dessous pour finaliser le paiement.",
+        "overpayNote": "Si votre bon vaut plus que le total de la commande, le solde restant sera crédité sur votre compte client.",
+        "partialPaymentTitle": "Paiement partiel reçu",
+        "partialPaymentStatus": "{paidAmount} {currency} payé — {remainingAmount} {currency} encore nécessaire. Échangez un autre bon pour couvrir le solde restant.",
+        "voucherCodeLabel": "Code bon",
+        "voucherCodeRequired": "Veuillez saisir votre code bon.",
+        "redeemButton": "Échanger le bon",
+        "redeemError": "Échec de l'échange du bon. Veuillez vérifier le code et réessayer.",
+        "resellersTitle": "Vous n'avez pas de bon ? Achetez-en un chez un revendeur."
       },
       "CheckoutPayManual": {
         "awaitingConfirmation": "En attente de confirmation",
@@ -234,7 +279,8 @@
         "fee": "taxe",
         "maximumAmount": "Montant maximum :",
         "minimumAmount": "Montant minimum :",
-        "poweredBy": "Propulsé par"
+        "notAvailable": "Non disponible",
+        "amountNotEligible": "Montant non éligible"
       },
       "CheckoutPriceSummary": {
         "couponCodeWithDiscount": "Code promo ({discount})",
@@ -272,7 +318,9 @@
         "otpCaptchaInstructions": "Un mot de passe à usage unique sera envoyé à votre adresse électronique après la vérification du CAPTCHA. Veuillez patienter un instant.",
         "otpSent": "L'OTP a été envoyé à votre e-mail.",
         "otpSentInstructions": "Un mot de passe à usage unique a été envoyé à votre adresse e-mail. Veuillez le saisir ci-dessous pour accéder à votre compte et payer avec votre solde.",
-        "sufficientBalance": "Votre solde est suffisant pour payer cette facture."
+        "sufficientBalance": "Votre solde est suffisant pour payer cette facture.",
+        "notAvailable": "Non disponible",
+        "amountNotEligible": "Montant non éligible"
       },
       "CheckoutStepper": {
         "next": "Suivant :",

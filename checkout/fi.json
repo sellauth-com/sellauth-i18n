@@ -32,6 +32,8 @@
         "outOfStockMessage": "Tämä tuote on tällä hetkellä loppunut varastosta. Ota yhteyttä asiakaspalveluumme saadaksesi lisätietoja.",
         "productBeingDelivered": "Tämä tuote toimitetaan...",
         "productDeliveryFailed": "Tätä tuotetta ei voitu toimittaa. Ota yhteyttä asiakaspalveluumme saadaksesi lisätietoja.",
+        "downloadableFiles": "Ladattavat tiedostot",
+        "downloadFileFailed": "Tiedoston lataaminen epäonnistui.",
         "statusCancelled": "Peruutettu",
         "statusDelivered": "Toimitettu",
         "statusExpired": "Vanhentunut",
@@ -81,7 +83,6 @@
         "paymentNotSentInTime": "Maksua ei lähetetty ajoissa."
       },
       "CheckoutFooter": {
-        "poweredBy": "Powered by",
         "termsOfService": "Käyttöehdot",
         "privacyPolicy": "Tietosuojakäytäntö",
         "refundPolicy": "Hyvityskäytäntö"
@@ -119,7 +120,39 @@
         "paymentMethodRequired": "Valitse maksutapa",
         "proceedToPayment": "Siirry maksuun",
         "termsAgreement": "Olen lukenut ja hyväksyn {shopName}:n käyttöehdot.",
-        "termsRequired": "Hyväksy ehdot"
+        "termsRequired": "Hyväksy ehdot",
+        "billingAddress": "Laskutusosoite",
+        "shippingAddress": "Toimitusosoite",
+        "shippingSameAsBilling": "Sama kuin laskutusosoite",
+        "name": "Koko nimi",
+        "namePlaceholder": "Koko nimi",
+        "nameRequired": "Ole hyvä ja syötä koko nimesi",
+        "addressLine1": "Osoiterivi 1",
+        "addressLine1Placeholder": "Katuosoite",
+        "addressLine1Required": "Ole hyvä ja syötä osoitteesi",
+        "addressLine2": "Osoiterivi 2 (valinnainen)",
+        "addressLine2Placeholder": "Huoneisto, osasto, jne.",
+        "city": "Kaupunki",
+        "cityPlaceholder": "Kaupunki",
+        "cityRequired": "Ole hyvä ja syötä kaupunkisi",
+        "state": "Osavaltio / Maakunta",
+        "statePlaceholder": "Osavaltio / Maakunta",
+        "postcode": "Postinumero",
+        "postcodePlaceholder": "Postinumero",
+        "postcodeRequired": "Ole hyvä ja syötä postinumerosi",
+        "country": "Maa",
+        "countryPlaceholder": "Maa",
+        "countryRequired": "Ole hyvä ja syötä maasi",
+        "shippingPhone": "Puhelinnumero",
+        "shippingPhonePlaceholder": "Puhelinnumero toimitusyhteyshenkilölle",
+        "shippingPhoneRequired": "Ole hyvä ja syötä puhelinnumero",
+        "sectionCoupon": "Alennus",
+        "sectionContact": "Yhteystiedot",
+        "sectionContactDelivery": "Yhteystiedot ja toimitus",
+        "sectionBilling": "Laskutus",
+        "sectionShipping": "Toimitus",
+        "sectionPayment": "Maksu",
+        "secureEncrypted": "Kaikki tapahtumat ovat turvallisia ja salattuja."
       },
       "CheckoutPayCashApp": {
         "addNoteInstruction": "Lisää maksuun huomautus, muuten se jätetään huomiotta.",
@@ -165,6 +198,18 @@
         "clickHereIfNotVisible": "Etkö näe sitä? Klikkaa tästä",
         "paymentBeingProcessed": "Maksuasi käsitellään parhaillaan...",
         "paymentPageOpened": "Maksusivu on avattu uuteen välilehteen."
+      },
+      "CheckoutPayRewarble": {
+        "title": "Lunasta Rewarble-lahjakortti",
+        "description": "Syötä Rewarble-lahjakorttikoodi alla maksun suorittamiseksi.",
+        "overpayNote": "Jos lahjakorttisi arvo ylittää tilauksen kokonaissumman, jäljelle jäävä saldo hyvitetään asiakastilillesi.",
+        "partialPaymentTitle": "Osittainen maksu vastaanotettu",
+        "partialPaymentStatus": "{paidAmount} {currency} maksettu — {remainingAmount} {currency} vielä tarvitaan. Lunasta toinen lahjakortti kattaaksesi loppusaldon.",
+        "voucherCodeLabel": "Lahjakorttikoodi",
+        "voucherCodeRequired": "Syötä lahjakorttikoodi.",
+        "redeemButton": "Lunasta lahjakortti",
+        "redeemError": "Lahjakortin lunastus epäonnistui. Tarkista koodi ja yritä uudelleen.",
+        "resellersTitle": "Ei lahjakorttia? Osta se jälleenmyyjältä."
       },
       "CheckoutPayManual": {
         "awaitingConfirmation": "Odottaa vahvistusta",
@@ -234,7 +279,8 @@
         "fee": "maksu",
         "maximumAmount": "Enimmäismäärä:",
         "minimumAmount": "Vähimmäismäärä:",
-        "poweredBy": "Powered by"
+        "notAvailable": "Ei saatavilla",
+        "amountNotEligible": "Summa ei ole oikeutettu"
       },
       "CheckoutPriceSummary": {
         "couponCodeWithDiscount": "Kuponkikoodi ({discount})",
@@ -272,7 +318,9 @@
         "otpCaptchaInstructions": "CAPTCHA-varmennuksen jälkeen sähköpostiosoitteeseesi lähetetään kertakäyttösalasana. Odota hetki.",
         "otpSent": "OTP on lähetetty sähköpostiisi.",
         "otpSentInstructions": "Sähköpostiosoitteeseesi on lähetetty kertakäyttösalasana. Syötä se alla olevaan kenttään päästäksesi tilillesi ja maksaaksesi saldollasi.",
-        "sufficientBalance": "Sinulla on riittävästi saldoa tämän laskun maksamiseen."
+        "sufficientBalance": "Sinulla on riittävästi saldoa tämän laskun maksamiseen.",
+        "notAvailable": "Ei saatavilla",
+        "amountNotEligible": "Summa ei ole oikeutettu"
       },
       "CheckoutStepper": {
         "next": "Seuraava:",

@@ -32,6 +32,8 @@
         "outOfStockMessage": "Dit product is momenteel niet op voorraad. Neem contact op met onze Klantenservice voor meer informatie.",
         "productBeingDelivered": "Dit product wordt geleverd...",
         "productDeliveryFailed": "Dit product kon niet worden geleverd. Neem contact op met onze Klantenservice voor meer informatie.",
+        "downloadableFiles": "Downloadbare bestanden",
+        "downloadFileFailed": "Bestand downloaden mislukt.",
         "statusCancelled": "Geannuleerd",
         "statusDelivered": "Geleverd",
         "statusExpired": "Verlopen",
@@ -81,7 +83,6 @@
         "paymentNotSentInTime": "De betaling is niet op tijd verzonden."
       },
       "CheckoutFooter": {
-        "poweredBy": "Aangedreven door",
         "termsOfService": "Servicevoorwaarden",
         "privacyPolicy": "Privacybeleid",
         "refundPolicy": "Terugbetalingsbeleid"
@@ -119,7 +120,39 @@
         "paymentMethodRequired": "Selecteer een betaalmethode",
         "proceedToPayment": "Doorgaan naar betaling",
         "termsAgreement": "Ik heb de Servicevoorwaarden van {shopName} gelezen en ga ermee akkoord.",
-        "termsRequired": "Accepteer de algemene voorwaarden"
+        "termsRequired": "Accepteer de algemene voorwaarden",
+        "billingAddress": "Factuuradres",
+        "shippingAddress": "Verzendadres",
+        "shippingSameAsBilling": "Hetzelfde als factuuradres",
+        "name": "Volledige naam",
+        "namePlaceholder": "Volledige naam",
+        "nameRequired": "Voer uw volledige naam in",
+        "addressLine1": "Adresregel 1",
+        "addressLine1Placeholder": "Straatnaam en huisnummer",
+        "addressLine1Required": "Voer uw adres in",
+        "addressLine2": "Adresregel 2 (optioneel)",
+        "addressLine2Placeholder": "Appartement, suite, etc.",
+        "city": "Stad",
+        "cityPlaceholder": "Stad",
+        "cityRequired": "Voer uw stad in",
+        "state": "Provincie",
+        "statePlaceholder": "Provincie",
+        "postcode": "Postcode",
+        "postcodePlaceholder": "Postcode",
+        "postcodeRequired": "Voer uw postcode in",
+        "country": "Land",
+        "countryPlaceholder": "Land",
+        "countryRequired": "Voer uw land in",
+        "shippingPhone": "Telefoonnummer",
+        "shippingPhonePlaceholder": "Telefoonnummer voor bezorgcontact",
+        "shippingPhoneRequired": "Voer een telefoonnummer in",
+        "sectionCoupon": "Korting",
+        "sectionContact": "Contact",
+        "sectionContactDelivery": "Contact en bezorging",
+        "sectionBilling": "Facturering",
+        "sectionShipping": "Verzending",
+        "sectionPayment": "Betaling",
+        "secureEncrypted": "Alle transacties zijn beveiligd en versleuteld."
       },
       "CheckoutPayCashApp": {
         "addNoteInstruction": "Voeg een notitie toe aan de betaling, anders wordt deze genegeerd.",
@@ -166,6 +199,18 @@
         "paymentBeingProcessed": "Uw betaling wordt verwerkt...",
         "paymentPageOpened": "De betaalpagina is geopend in een nieuw tabblad"
       },
+      "CheckoutPayRewarble": {
+        "title": "Rewarble-voucher inwisselen",
+        "description": "Voer hieronder uw Rewarble-vouchercode in om de betaling te voltooien.",
+        "overpayNote": "Als uw voucher meer waard is dan het ordertotaal, wordt het resterende saldo bijgeschreven op uw klantenaccount.",
+        "partialPaymentTitle": "Gedeeltelijke betaling ontvangen",
+        "partialPaymentStatus": "{paidAmount} {currency} betaald — {remainingAmount} {currency} nog nodig. Wissel een andere voucher in om het resterende saldo te dekken.",
+        "voucherCodeLabel": "Vouchercode",
+        "voucherCodeRequired": "Voer uw vouchercode in.",
+        "redeemButton": "Voucher inwisselen",
+        "redeemError": "Voucher inwisselen mislukt. Controleer de code en probeer het opnieuw.",
+        "resellersTitle": "Geen voucher? Koop er een bij een wederverkoper."
+      },
       "CheckoutPayManual": {
         "awaitingConfirmation": "In afwachting van bevestiging",
         "cancel": "Annuleren",
@@ -197,11 +242,11 @@
         "paypalPaymentProcessing": "Uw PayPal-betaling wordt verwerkt..."
       },
       "CheckoutPayRevolutBusiness": {
-        "pleaseWait": "Vänligen vänta...",
-        "somethingWentWrong": "Något gick fel.",
-        "retry": "Försök igen",
-        "yourPaymentIsBeingProcessed": "Din betalning behandlas.",
-        "clickTheButtonBelowToPayForYourOrder": "Klicka på knappen nedan för att betala för din beställning."
+        "pleaseWait": "Een moment geduld...",
+        "somethingWentWrong": "Er is iets misgegaan.",
+        "retry": "Opnieuw proberen",
+        "yourPaymentIsBeingProcessed": "Uw betaling wordt verwerkt.",
+        "clickTheButtonBelowToPayForYourOrder": "Klik op de knop hieronder om uw bestelling te betalen."
       },
       "CheckoutPaySumUp": {
         "authenticationFailed": "Kaartverificatie mislukt. Probeer een andere kaart.",
@@ -234,7 +279,8 @@
         "fee": "vergoeding",
         "maximumAmount": "Maximumbedrag:",
         "minimumAmount": "Minimumbedrag:",
-        "poweredBy": "Aangedreven door"
+        "notAvailable": "Niet beschikbaar",
+        "amountNotEligible": "Bedrag niet in aanmerking"
       },
       "CheckoutPriceSummary": {
         "couponCodeWithDiscount": "Couponcode ({discount})",
@@ -272,7 +318,9 @@
         "otpCaptchaInstructions": "Na de CAPTCHA-verificatie wordt een eenmalig wachtwoord naar je e-mailadres gestuurd. Een ogenblik geduld alstublieft.",
         "otpSent": "OTP is naar uw e-mail verzonden.",
         "otpSentInstructions": "Er is een eenmalig wachtwoord naar je e-mailadres gestuurd. Voer het hieronder in om toegang te krijgen tot je account en met je saldo te betalen.",
-        "sufficientBalance": "Je hebt genoeg saldo om deze factuur te betalen."
+        "sufficientBalance": "Je hebt genoeg saldo om deze factuur te betalen.",
+        "notAvailable": "Niet beschikbaar",
+        "amountNotEligible": "Bedrag niet in aanmerking"
       },
       "CheckoutStepper": {
         "next": "Volgende:",

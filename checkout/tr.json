@@ -32,6 +32,8 @@
         "outOfStockMessage": "Bu ürün şu anda stoklarımızda bulunmamaktadır. Daha fazla bilgi için lütfen Destek ekibimizle iletişime geçin.",
         "productBeingDelivered": "Bu ürün teslim ediliyor...",
         "productDeliveryFailed": "Bu ürün teslim edilemedi. Daha fazla bilgi için lütfen Destek ekibimizle iletişime geçin.",
+        "downloadableFiles": "İndirilebilir dosyalar",
+        "downloadFileFailed": "Dosya indirilemedi.",
         "statusCancelled": "İptal Edildi",
         "statusDelivered": "Teslim edildi",
         "statusExpired": "Süresi doldu",
@@ -81,7 +83,6 @@
         "paymentNotSentInTime": "Ödeme zamanında gönderilmedi."
       },
       "CheckoutFooter": {
-        "poweredBy": "Tarafından desteklenmektedir",
         "termsOfService": "Hizmet Koşulları",
         "privacyPolicy": "Gizlilik Politikası",
         "refundPolicy": "İade Politikası"
@@ -119,7 +120,39 @@
         "paymentMethodRequired": "Lütfen bir ödeme yöntemi seçin",
         "proceedToPayment": "Ödeme İşlemine Geçin",
         "termsAgreement": "{shopName}'un Hizmet Şartlarını okudum ve kabul ediyorum.",
-        "termsRequired": "Lütfen hüküm ve koşulları kabul edin"
+        "termsRequired": "Lütfen hüküm ve koşulları kabul edin",
+        "billingAddress": "Fatura Adresi",
+        "shippingAddress": "Teslimat Adresi",
+        "shippingSameAsBilling": "Fatura adresiyle aynı",
+        "name": "Ad Soyad",
+        "namePlaceholder": "Ad Soyad",
+        "nameRequired": "Lütfen ad soyadınızı girin",
+        "addressLine1": "Adres Satırı 1",
+        "addressLine1Placeholder": "Cadde/sokak adresi",
+        "addressLine1Required": "Lütfen adresinizi girin",
+        "addressLine2": "Adres Satırı 2 (isteğe bağlı)",
+        "addressLine2Placeholder": "Daire, blok, vb.",
+        "city": "Şehir",
+        "cityPlaceholder": "Şehir",
+        "cityRequired": "Lütfen şehrinizi girin",
+        "state": "İl / Bölge",
+        "statePlaceholder": "İl / Bölge",
+        "postcode": "Posta Kodu",
+        "postcodePlaceholder": "Posta kodu",
+        "postcodeRequired": "Lütfen posta kodunuzu girin",
+        "country": "Ülke",
+        "countryPlaceholder": "Ülke",
+        "countryRequired": "Lütfen ülkenizi girin",
+        "shippingPhone": "Telefon Numarası",
+        "shippingPhonePlaceholder": "Teslimat için iletişim telefonu",
+        "shippingPhoneRequired": "Lütfen bir telefon numarası girin",
+        "sectionCoupon": "İndirim",
+        "sectionContact": "İletişim",
+        "sectionContactDelivery": "İletişim ve Teslimat",
+        "sectionBilling": "Faturalama",
+        "sectionShipping": "Kargo",
+        "sectionPayment": "Ödeme",
+        "secureEncrypted": "Tüm işlemler güvenli ve şifrelidir."
       },
       "CheckoutPayCashApp": {
         "addNoteInstruction": "Ödemeye bir not ekleyin, aksi takdirde dikkate alınmayacaktır.",
@@ -165,6 +198,18 @@
         "clickHereIfNotVisible": "Görmüyor musunuz? Buraya tıklayın",
         "paymentBeingProcessed": "Ödemeniz işleme alınıyor...",
         "paymentPageOpened": "Ödeme sayfası yeni bir sekmede açıldı"
+      },
+      "CheckoutPayRewarble": {
+        "title": "Rewarble Voucher'ı Kullan",
+        "description": "Ödemeyi tamamlamak için Rewarble voucher kodunuzu aşağıya girin.",
+        "overpayNote": "Voucher'ınızın değeri sipariş toplamından fazlaysa, kalan bakiye müşteri hesabınıza eklenecektir.",
+        "partialPaymentTitle": "Kısmi ödeme alındı",
+        "partialPaymentStatus": "{paidAmount} {currency} ödendi — {remainingAmount} {currency} daha gerekli. Kalan bakiyeyi karşılamak için başka bir voucher kullanın.",
+        "voucherCodeLabel": "Voucher Kodu",
+        "voucherCodeRequired": "Lütfen voucher kodunuzu girin.",
+        "redeemButton": "Voucher'ı Kullan",
+        "redeemError": "Voucher kullanılamadı. Lütfen kodu kontrol edip tekrar deneyin.",
+        "resellersTitle": "Voucher'ınız yok mu? Bir satıcıdan satın alın."
       },
       "CheckoutPayManual": {
         "awaitingConfirmation": "Onay Bekleniyor",
@@ -234,7 +279,8 @@
         "fee": "ücret",
         "maximumAmount": "Maksimum miktar:",
         "minimumAmount": "Minimum miktar:",
-        "poweredBy": "Tarafından desteklenmektedir"
+        "notAvailable": "Mevcut değil",
+        "amountNotEligible": "Tutar uygun değil"
       },
       "CheckoutPriceSummary": {
         "couponCodeWithDiscount": "Kupon Kodu ({discount})",
@@ -272,7 +318,9 @@
         "otpCaptchaInstructions": "CAPTCHA doğrulamasından sonra e-posta adresinize tek seferlik bir şifre gönderilecektir. Lütfen bir dakika bekleyiniz.",
         "otpSent": "OTP e-postanıza gönderilmiştir.",
         "otpSentInstructions": "E-posta adresinize tek seferlik bir şifre gönderilmiştir. Hesabınıza erişmek ve bakiyenizle ödeme yapmak için lütfen aşağıya girin.",
-        "sufficientBalance": "Bu faturayı ödemek için yeterli bakiyeniz var."
+        "sufficientBalance": "Bu faturayı ödemek için yeterli bakiyeniz var.",
+        "notAvailable": "Mevcut değil",
+        "amountNotEligible": "Tutar uygun değil"
       },
       "CheckoutStepper": {
         "next": "Sıradaki:",

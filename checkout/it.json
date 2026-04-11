@@ -32,6 +32,8 @@
         "outOfStockMessage": "Questo prodotto è attualmente esaurito. Per ulteriori informazioni, contattare l'assistenza.",
         "productBeingDelivered": "Questo prodotto viene consegnato...",
         "productDeliveryFailed": "Non è stato possibile consegnare questo prodotto. Per ulteriori informazioni, contattare l'assistenza.",
+        "downloadableFiles": "File scaricabili",
+        "downloadFileFailed": "Impossibile scaricare il file.",
         "statusCancelled": "Annullato",
         "statusDelivered": "Consegnato",
         "statusExpired": "Scaduto",
@@ -81,7 +83,6 @@
         "paymentNotSentInTime": "Il pagamento non è stato inviato in tempo."
       },
       "CheckoutFooter": {
-        "poweredBy": "Alimentato da",
         "termsOfService": "Termini di servizio",
         "privacyPolicy": "Politica sulla riservatezza",
         "refundPolicy": "Politica di rimborso"
@@ -119,7 +120,39 @@
         "paymentMethodRequired": "Selezionare un metodo di pagamento",
         "proceedToPayment": "Procedere al pagamento",
         "termsAgreement": "Ho letto e accetto i Termini di servizio di {shopName}.",
-        "termsRequired": "Accettare i termini e le condizioni"
+        "termsRequired": "Accettare i termini e le condizioni",
+        "billingAddress": "Indirizzo di fatturazione",
+        "shippingAddress": "Indirizzo di spedizione",
+        "shippingSameAsBilling": "Uguale all'indirizzo di fatturazione",
+        "name": "Nome completo",
+        "namePlaceholder": "Nome completo",
+        "nameRequired": "Inserire il nome completo",
+        "addressLine1": "Riga indirizzo 1",
+        "addressLine1Placeholder": "Indirizzo stradale",
+        "addressLine1Required": "Inserire l'indirizzo",
+        "addressLine2": "Riga indirizzo 2 (opzionale)",
+        "addressLine2Placeholder": "Appartamento, suite, ecc.",
+        "city": "Città",
+        "cityPlaceholder": "Città",
+        "cityRequired": "Inserire la città",
+        "state": "Stato / Provincia",
+        "statePlaceholder": "Stato / Provincia",
+        "postcode": "Codice postale",
+        "postcodePlaceholder": "Codice postale",
+        "postcodeRequired": "Inserire il codice postale",
+        "country": "Paese",
+        "countryPlaceholder": "Paese",
+        "countryRequired": "Inserire il paese",
+        "shippingPhone": "Numero di telefono",
+        "shippingPhonePlaceholder": "Numero di telefono per il contatto di consegna",
+        "shippingPhoneRequired": "Inserire un numero di telefono",
+        "sectionCoupon": "Sconto",
+        "sectionContact": "Contatto",
+        "sectionContactDelivery": "Contatto e consegna",
+        "sectionBilling": "Fatturazione",
+        "sectionShipping": "Spedizione",
+        "sectionPayment": "Pagamento",
+        "secureEncrypted": "Tutte le transazioni sono sicure e crittografate."
       },
       "CheckoutPayCashApp": {
         "addNoteInstruction": "Aggiungete una nota al pagamento, altrimenti verrà ignorato.",
@@ -165,6 +198,18 @@
         "clickHereIfNotVisible": "Non lo vedi? Clicca qui",
         "paymentBeingProcessed": "Il suo pagamento è in fase di elaborazione...",
         "paymentPageOpened": "La pagina di pagamento è stata aperta in una nuova scheda."
+      },
+      "CheckoutPayRewarble": {
+        "title": "Riscatta il voucher Rewarble",
+        "description": "Inserisci il codice del voucher Rewarble qui sotto per completare il pagamento.",
+        "overpayNote": "Se il tuo voucher vale più del totale dell'ordine, il saldo residuo verrà accreditato sul tuo account cliente.",
+        "partialPaymentTitle": "Pagamento parziale ricevuto",
+        "partialPaymentStatus": "{paidAmount} {currency} pagato — {remainingAmount} {currency} ancora necessari. Riscatta un altro voucher per coprire il saldo residuo.",
+        "voucherCodeLabel": "Codice voucher",
+        "voucherCodeRequired": "Inserisci il codice del voucher.",
+        "redeemButton": "Riscatta voucher",
+        "redeemError": "Impossibile riscattare il voucher. Controlla il codice e riprova.",
+        "resellersTitle": "Non hai un voucher? Acquistane uno da un rivenditore."
       },
       "CheckoutPayManual": {
         "awaitingConfirmation": "In attesa di conferma",
@@ -234,7 +279,8 @@
         "fee": "tassa",
         "maximumAmount": "Importo massimo:",
         "minimumAmount": "Importo minimo:",
-        "poweredBy": "Alimentato da"
+        "notAvailable": "Non disponibile",
+        "amountNotEligible": "Importo non idoneo"
       },
       "CheckoutPriceSummary": {
         "couponCodeWithDiscount": "Codice coupon ({discount})",
@@ -272,7 +318,9 @@
         "otpCaptchaInstructions": "Una password unica verrà inviata al vostro indirizzo e-mail dopo la verifica CAPTCHA. Attendere un momento.",
         "otpSent": "L'OTP è stato inviato al vostro indirizzo e-mail.",
         "otpSentInstructions": "Al vostro indirizzo e-mail è stata inviata una password unica. Inseritela qui sotto per accedere al vostro conto e pagare con il vostro saldo.",
-        "sufficientBalance": "Il saldo è sufficiente per pagare questa fattura."
+        "sufficientBalance": "Il saldo è sufficiente per pagare questa fattura.",
+        "notAvailable": "Non disponibile",
+        "amountNotEligible": "Importo non idoneo"
       },
       "CheckoutStepper": {
         "next": "Il prossimo:",

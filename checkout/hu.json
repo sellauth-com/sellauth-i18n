@@ -55,7 +55,9 @@
         "copy": "Másolás",
         "outOfStockMessage": "Ez a termék jelenleg nincs készleten.\nTovábbi információért kérjük, vedd fel a kapcsolatot az ügyfélszolgálatunkkal.",
         "productBeingDelivered": "A termék kézbesítése folyamatban van...",
-        "productDeliveryFailed": "A terméket nem sikerült kézbesíteni.\nHa további információra van szükséged, kérjük, vedd fel a kapcsolatot az ügyfélszolgálatunkkal."
+        "productDeliveryFailed": "A terméket nem sikerült kézbesíteni.\nHa további információra van szükséged, kérjük, vedd fel a kapcsolatot az ügyfélszolgálatunkkal.",
+        "downloadableFiles": "Letölthető fájlok",
+        "downloadFileFailed": "A fájl letöltése sikertelen."
       },
       "CheckoutCompletedFeedback": {
         "rating": "Értékelés",
@@ -97,7 +99,6 @@
         "orderProcessingFailed": "A rendelést nem sikerült feldolgozni.\nHa úgy gondolod, hogy ez hiba, kérjük, lépj kapcsolatba az ügyfélszolgálattal, vagy próbáld meg később újra."
       },
       "CheckoutFooter": {
-        "poweredBy": "Működteti",
         "termsOfService": "Felhasználási feltételek",
         "privacyPolicy": "Adatvédelmi irányelvek",
         "refundPolicy": "Visszatérítési szabályzat"
@@ -135,13 +136,46 @@
         "termsRequired": "Kérjük, fogadd el a feltételeket",
         "termsAgreement": "Elolvastam és elfogadom a(z) {shopName} felhasználási feltételeit.",
         "newsletterSignup": "Szeretnék nformációkat és promóciókat kapni a(z) {shopName} oldalról.",
-        "proceedToPayment": "Tovább a fizetéshez"
+        "proceedToPayment": "Tovább a fizetéshez",
+        "billingAddress": "Számlázási cím",
+        "shippingAddress": "Szállítási cím",
+        "shippingSameAsBilling": "Megegyezik a számlázási címmel",
+        "name": "Teljes név",
+        "namePlaceholder": "Teljes név",
+        "nameRequired": "Kérjük, add meg a teljes nevedet",
+        "addressLine1": "Cím 1. sor",
+        "addressLine1Placeholder": "Utcanév és házszám",
+        "addressLine1Required": "Kérjük, add meg a címedet",
+        "addressLine2": "Cím 2. sor (opcionális)",
+        "addressLine2Placeholder": "Emelet, ajtó, stb.",
+        "city": "Város",
+        "cityPlaceholder": "Város",
+        "cityRequired": "Kérjük, add meg a városodat",
+        "state": "Megye / Tartomány",
+        "statePlaceholder": "Megye / Tartomány",
+        "postcode": "Irányítószám",
+        "postcodePlaceholder": "Irányítószám",
+        "postcodeRequired": "Kérjük, add meg az irányítószámodat",
+        "country": "Ország",
+        "countryPlaceholder": "Ország",
+        "countryRequired": "Kérjük, add meg az országodat",
+        "shippingPhone": "Telefonszám",
+        "shippingPhonePlaceholder": "Telefonszám a kézbesítéshez",
+        "shippingPhoneRequired": "Kérjük, adj meg egy telefonszámot",
+        "sectionCoupon": "Kedvezmény",
+        "sectionContact": "Kapcsolat",
+        "sectionContactDelivery": "Kapcsolat és kézbesítés",
+        "sectionBilling": "Számlázás",
+        "sectionShipping": "Szállítás",
+        "sectionPayment": "Fizetés",
+        "secureEncrypted": "Minden tranzakció biztonságos és titkosított."
       },
       "CheckoutPaymentMethodButton": {
-        "poweredBy": "Működteti",
         "allowedAmounts": "Engedélyezett összegek:",
         "minimumAmount": "Minimum összeg:",
         "maximumAmount": "Maximum összeg:",
+        "notAvailable": "Nem elérhető",
+        "amountNotEligible": "Az összeg nem jogosult",
         "fee": "díj",
         "discount": "kedvezmény"
       },
@@ -189,6 +223,18 @@
         "paymentBeingProcessed": "A fizetésed feldolgozása folyamatban van...",
         "paymentPageOpened": "A fizetési oldal új lapon nyílt meg",
         "clickHereIfNotVisible": "Nem látod? Kattints ide"
+      },
+      "CheckoutPayRewarble": {
+        "title": "Rewarble utalvány beváltása",
+        "description": "Add meg a Rewarble utalványkódodat az alábbi mezőbe a fizetés befejezéséhez.",
+        "overpayNote": "Ha az utalványod értéke meghaladja a rendelés összegét, a fennmaradó egyenleg az ügyfélfiókodba kerül.",
+        "partialPaymentTitle": "Részleges fizetés érkezett",
+        "partialPaymentStatus": "{paidAmount} {currency} fizetve — még {remainingAmount} {currency} szükséges. Váltsd be a fennmaradó egyenleg fedezésére egy másik utalványt.",
+        "voucherCodeLabel": "Utalványkód",
+        "voucherCodeRequired": "Kérjük, add meg az utalványkódodat.",
+        "redeemButton": "Utalvány beváltása",
+        "redeemError": "Az utalvány beváltása sikertelen. Kérjük, ellenőrizd a kódot és próbáld újra.",
+        "resellersTitle": "Nincs utalványod? Vásárolj egyet egy viszonteladótól."
       },
       "CheckoutPayManual": {
         "markedAsPaidSuccess": "A rendelésed sikeresen kifizetettként lett jelölve! Kérjük, várj a megerősítésre.",
@@ -281,6 +327,8 @@
         "maximumAmount": "Maximum összeg:",
         "discount": "kedvezmény",
         "fee": "díj",
+        "notAvailable": "Nem elérhető",
+        "amountNotEligible": "Az összeg nem jogosult",
         "logInCustomerAccount": "Bejelentkezés az ügyfélfiókba",
         "cancel": "Mégse",
         "logIn": "Bejelentkezés",

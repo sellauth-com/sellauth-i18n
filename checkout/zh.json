@@ -55,7 +55,9 @@
         "copy": "复制",
         "outOfStockMessage": "该商品目前缺货。详情请联系我们的客服。",
         "productBeingDelivered": "该商品正在交付中...",
-        "productDeliveryFailed": "该商品交付失败。详情请联系我们的客服。"
+        "productDeliveryFailed": "该商品交付失败。详情请联系我们的客服。",
+        "downloadableFiles": "可下载文件",
+        "downloadFileFailed": "下载文件失败。"
       },
       "CheckoutCompletedFeedback": {
         "rating": "评分",
@@ -97,7 +99,6 @@
         "orderProcessingFailed": "订单处理失败。如您认为这是错误，请联系客服或稍后重试。"
       },
       "CheckoutFooter": {
-        "poweredBy": "技术支持",
         "termsOfService": "服务条款",
         "privacyPolicy": "隐私政策",
         "refundPolicy": "退款政策"
@@ -135,15 +136,48 @@
         "termsRequired": "请接受条款和条件",
         "termsAgreement": "我已阅读并同意 {shopName} 的服务条款。",
         "newsletterSignup": "我希望接收 {shopName} 的更新和促销信息。",
-        "proceedToPayment": "前往支付"
+        "proceedToPayment": "前往支付",
+        "billingAddress": "账单地址",
+        "shippingAddress": "收货地址",
+        "shippingSameAsBilling": "与账单地址相同",
+        "name": "姓名",
+        "namePlaceholder": "姓名",
+        "nameRequired": "请输入您的姓名",
+        "addressLine1": "地址第1行",
+        "addressLine1Placeholder": "街道地址",
+        "addressLine1Required": "请输入您的地址",
+        "addressLine2": "地址第2行（选填）",
+        "addressLine2Placeholder": "公寓、楼号等",
+        "city": "城市",
+        "cityPlaceholder": "城市",
+        "cityRequired": "请输入您所在城市",
+        "state": "省/州",
+        "statePlaceholder": "省/州",
+        "postcode": "邮政编码",
+        "postcodePlaceholder": "邮政编码",
+        "postcodeRequired": "请输入您的邮政编码",
+        "country": "国家",
+        "countryPlaceholder": "国家",
+        "countryRequired": "请输入您所在国家",
+        "shippingPhone": "手机号码",
+        "shippingPhonePlaceholder": "配送联系电话",
+        "shippingPhoneRequired": "请输入手机号码",
+        "sectionCoupon": "折扣",
+        "sectionContact": "联系方式",
+        "sectionContactDelivery": "联系方式和配送",
+        "sectionBilling": "账单",
+        "sectionShipping": "运送",
+        "sectionPayment": "支付",
+        "secureEncrypted": "所有交易均安全加密。"
       },
       "CheckoutPaymentMethodButton": {
-        "poweredBy": "技术支持",
         "allowedAmounts": "允许金额：",
         "minimumAmount": "最低金额：",
         "maximumAmount": "最高金额：",
         "fee": "手续费",
-        "discount": "折扣"
+        "discount": "折扣",
+        "notAvailable": "不可用",
+        "amountNotEligible": "金额不符合条件"
       },
       "CheckoutPayCashApp": {
         "warningPaymentWithNote": "警告 - 带备注的付款",
@@ -189,6 +223,18 @@
         "paymentBeingProcessed": "您的付款正在处理中...",
         "paymentPageOpened": "支付页面已在新标签页打开",
         "clickHereIfNotVisible": "未看到页面？请点击此处"
+      },
+      "CheckoutPayRewarble": {
+        "title": "兑换 Rewarble 礼券",
+        "description": "请在下方输入您的 Rewarble 礼券代码以完成付款。",
+        "overpayNote": "如果您的礼券价值超过订单总额，剩余余额将存入您的客户账户。",
+        "partialPaymentTitle": "已收到部分付款",
+        "partialPaymentStatus": "已支付 {paidAmount} {currency} — 还需 {remainingAmount} {currency}。请兑换另一张礼券以补足余额。",
+        "voucherCodeLabel": "礼券代码",
+        "voucherCodeRequired": "请输入您的礼券代码。",
+        "redeemButton": "兑换礼券",
+        "redeemError": "礼券兑换失败。请检查代码并重试。",
+        "resellersTitle": "没有礼券？请从经销商处购买。"
       },
       "CheckoutPayManual": {
         "markedAsPaidSuccess": "发票已成功标记为已付款！请等待确认。",
@@ -288,7 +334,9 @@
         "sufficientBalance": "您的余额足以支付此发票。",
         "balance": "余额",
         "logout": "退出登录",
-        "continue": "继续"
+        "continue": "继续",
+        "notAvailable": "不可用",
+        "amountNotEligible": "金额不符合条件"
       },
       "CheckoutStepper": {
         "next": "下一步：",

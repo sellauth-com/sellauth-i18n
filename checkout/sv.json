@@ -32,6 +32,8 @@
         "outOfStockMessage": "Denna produkt är för närvarande slut i lager. Vänligen kontakta vår support för mer information.",
         "productBeingDelivered": "Denna produkt håller på att levereras...",
         "productDeliveryFailed": "Den här produkten kunde inte levereras. Vänligen kontakta vår support för mer information.",
+        "downloadableFiles": "Nedladdningsbara filer",
+        "downloadFileFailed": "Det gick inte att ladda ned filen.",
         "statusCancelled": "Avbruten",
         "statusDelivered": "Levereras",
         "statusExpired": "Utgått",
@@ -81,7 +83,6 @@
         "paymentNotSentInTime": "Betalningen skickades inte i tid."
       },
       "CheckoutFooter": {
-        "poweredBy": "Drivs av",
         "termsOfService": "Villkor för tjänsten",
         "privacyPolicy": "Integritetspolicy",
         "refundPolicy": "Återbetalningspolicy"
@@ -119,7 +120,39 @@
         "paymentMethodRequired": "Vänligen välj en betalningsmetod",
         "proceedToPayment": "Fortsätt till betalning",
         "termsAgreement": "Jag har läst och godkänner {shopName}:s användarvillkor.",
-        "termsRequired": "Vänligen acceptera villkor och bestämmelser"
+        "termsRequired": "Vänligen acceptera villkor och bestämmelser",
+        "billingAddress": "Faktureringsadress",
+        "shippingAddress": "Leveransadress",
+        "shippingSameAsBilling": "Samma som faktureringsadress",
+        "name": "Fullständigt namn",
+        "namePlaceholder": "Fullständigt namn",
+        "nameRequired": "Ange ditt fullständiga namn",
+        "addressLine1": "Adressrad 1",
+        "addressLine1Placeholder": "Gatuadress",
+        "addressLine1Required": "Ange din adress",
+        "addressLine2": "Adressrad 2 (valfritt)",
+        "addressLine2Placeholder": "Lägenhet, svit, etc.",
+        "city": "Stad",
+        "cityPlaceholder": "Stad",
+        "cityRequired": "Ange din stad",
+        "state": "Stat / Provins",
+        "statePlaceholder": "Stat / Provins",
+        "postcode": "Postnummer",
+        "postcodePlaceholder": "Postnummer",
+        "postcodeRequired": "Ange ditt postnummer",
+        "country": "Land",
+        "countryPlaceholder": "Land",
+        "countryRequired": "Ange ditt land",
+        "shippingPhone": "Telefonnummer",
+        "shippingPhonePlaceholder": "Telefonnummer för leveranskontakt",
+        "shippingPhoneRequired": "Ange ett telefonnummer",
+        "sectionCoupon": "Rabatt",
+        "sectionContact": "Kontakt",
+        "sectionContactDelivery": "Kontakt och leverans",
+        "sectionBilling": "Fakturering",
+        "sectionShipping": "Frakt",
+        "sectionPayment": "Betalning",
+        "secureEncrypted": "Alla transaktioner är säkra och krypterade."
       },
       "CheckoutPayCashApp": {
         "addNoteInstruction": "Lägg till en anmärkning till betalningen, annars kommer den att ignoreras.",
@@ -165,6 +198,18 @@
         "clickHereIfNotVisible": "Ser du det inte? Klicka här",
         "paymentBeingProcessed": "Din betalning håller på att behandlas...",
         "paymentPageOpened": "Betalningssidan har öppnats i en ny flik"
+      },
+      "CheckoutPayRewarble": {
+        "title": "Lös in Rewarble-voucher",
+        "description": "Ange din Rewarble-voucherkod nedan för att slutföra betalningen.",
+        "overpayNote": "Om din voucher är värd mer än orderns totalsumma krediteras resterande saldo till ditt kundkonto.",
+        "partialPaymentTitle": "Delbetalning mottagen",
+        "partialPaymentStatus": "{paidAmount} {currency} betalt — {remainingAmount} {currency} återstår. Lös in en annan voucher för att täcka resterande saldo.",
+        "voucherCodeLabel": "Voucherkod",
+        "voucherCodeRequired": "Ange din voucherkod.",
+        "redeemButton": "Lös in voucher",
+        "redeemError": "Det gick inte att lösa in vouchern. Kontrollera koden och försök igen.",
+        "resellersTitle": "Har du ingen voucher? Köp en från en återförsäljare."
       },
       "CheckoutPayManual": {
         "awaitingConfirmation": "Inväntar bekräftelse",
@@ -234,7 +279,8 @@
         "fee": "avgift",
         "maximumAmount": "Högsta belopp:",
         "minimumAmount": "Lägsta belopp:",
-        "poweredBy": "Drivs av"
+        "notAvailable": "Inte tillgänglig",
+        "amountNotEligible": "Belopp ej berättigat"
       },
       "CheckoutPriceSummary": {
         "couponCodeWithDiscount": "Kupongkod ({discount})",
@@ -272,7 +318,9 @@
         "otpCaptchaInstructions": "Ett engångslösenord kommer att skickas till din e-postadress efter CAPTCHA-verifieringen. Vänligen vänta ett ögonblick.",
         "otpSent": "OTP har skickats till din e-post.",
         "otpSentInstructions": "Ett engångslösenord har skickats till din e-postadress. Ange det nedan för att få tillgång till ditt konto och betala med ditt saldo.",
-        "sufficientBalance": "Du har tillräckligt med saldo för att betala denna faktura."
+        "sufficientBalance": "Du har tillräckligt med saldo för att betala denna faktura.",
+        "notAvailable": "Inte tillgänglig",
+        "amountNotEligible": "Belopp ej berättigat"
       },
       "CheckoutStepper": {
         "next": "Nästa:",

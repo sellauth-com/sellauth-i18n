@@ -32,6 +32,8 @@
         "outOfStockMessage": "Этот продукт в настоящее время отсутствует на складе. Пожалуйста, свяжитесь с нашей службой поддержки для получения дополнительной информации.",
         "productBeingDelivered": "Этот продукт доставляется...",
         "productDeliveryFailed": "Этот продукт не удалось доставить. Пожалуйста, свяжитесь с нашей службой поддержки для получения дополнительной информации.",
+        "downloadableFiles": "Загружаемые файлы",
+        "downloadFileFailed": "Не удалось загрузить файл.",
         "statusCancelled": "Отменено",
         "statusDelivered": "Доставлено",
         "statusExpired": "Просроченный",
@@ -81,7 +83,6 @@
         "paymentNotSentInTime": "Платеж не был отправлен вовремя."
       },
       "CheckoutFooter": {
-        "poweredBy": "Находится",
         "termsOfService": "Условия предоставления услуг",
         "privacyPolicy": "Политика конфиденциальности",
         "refundPolicy": "Политика возврата"
@@ -119,7 +120,39 @@
         "paymentMethodRequired": "Пожалуйста, выберите способ оплаты",
         "proceedToPayment": "Перейти к оплате",
         "termsAgreement": "Я прочитал и согласен с Условиями предоставления услуг {shopName}.",
-        "termsRequired": "Пожалуйста, примите условия и положения"
+        "termsRequired": "Пожалуйста, примите условия и положения",
+        "billingAddress": "Адрес для выставления счёта",
+        "shippingAddress": "Адрес доставки",
+        "shippingSameAsBilling": "Совпадает с адресом для выставления счёта",
+        "name": "Полное имя",
+        "namePlaceholder": "Полное имя",
+        "nameRequired": "Пожалуйста, введите ваше полное имя",
+        "addressLine1": "Строка адреса 1",
+        "addressLine1Placeholder": "Адрес улицы",
+        "addressLine1Required": "Пожалуйста, введите ваш адрес",
+        "addressLine2": "Строка адреса 2 (необязательно)",
+        "addressLine2Placeholder": "Квартира, офис и т.д.",
+        "city": "Город",
+        "cityPlaceholder": "Город",
+        "cityRequired": "Пожалуйста, введите ваш город",
+        "state": "Регион / Область",
+        "statePlaceholder": "Регион / Область",
+        "postcode": "Почтовый индекс",
+        "postcodePlaceholder": "Почтовый индекс",
+        "postcodeRequired": "Пожалуйста, введите ваш почтовый индекс",
+        "country": "Страна",
+        "countryPlaceholder": "Страна",
+        "countryRequired": "Пожалуйста, введите вашу страну",
+        "shippingPhone": "Номер телефона",
+        "shippingPhonePlaceholder": "Номер телефона для контакта при доставке",
+        "shippingPhoneRequired": "Пожалуйста, введите номер телефона",
+        "sectionCoupon": "Скидка",
+        "sectionContact": "Контакт",
+        "sectionContactDelivery": "Контакт и доставка",
+        "sectionBilling": "Выставление счёта",
+        "sectionShipping": "Доставка",
+        "sectionPayment": "Оплата",
+        "secureEncrypted": "Все транзакции безопасны и зашифрованы."
       },
       "CheckoutPayCashApp": {
         "addNoteInstruction": "Добавьте примечание к платежу, иначе он будет проигнорирован.",
@@ -165,6 +198,18 @@
         "clickHereIfNotVisible": "Не видите? Нажмите здесь",
         "paymentBeingProcessed": "Ваш платеж обрабатывается...",
         "paymentPageOpened": "Страница оплаты была открыта в новой вкладке"
+      },
+      "CheckoutPayRewarble": {
+        "title": "Активировать ваучер Rewarble",
+        "description": "Введите код ваучера Rewarble ниже, чтобы завершить оплату.",
+        "overpayNote": "Если ваучер стоит больше суммы заказа, остаток будет зачислен на ваш счёт покупателя.",
+        "partialPaymentTitle": "Частичная оплата получена",
+        "partialPaymentStatus": "Оплачено {paidAmount} {currency} — ещё необходимо {remainingAmount} {currency}. Активируйте ещё один ваучер для покрытия остатка.",
+        "voucherCodeLabel": "Код ваучера",
+        "voucherCodeRequired": "Пожалуйста, введите код ваучера.",
+        "redeemButton": "Активировать ваучер",
+        "redeemError": "Не удалось активировать ваучер. Проверьте код и попробуйте снова.",
+        "resellersTitle": "Нет ваучера? Купите его у продавца."
       },
       "CheckoutPayManual": {
         "awaitingConfirmation": "Ожидание подтверждения",
@@ -234,7 +279,8 @@
         "fee": "плата",
         "maximumAmount": "Максимальная сумма:",
         "minimumAmount": "Минимальная сумма:",
-        "poweredBy": "Находится"
+        "notAvailable": "Недоступно",
+        "amountNotEligible": "Сумма не соответствует критериям"
       },
       "CheckoutPriceSummary": {
         "couponCodeWithDiscount": "Код купона ({discount})",
@@ -272,7 +318,9 @@
         "otpCaptchaInstructions": "После проверки CAPTCHA на ваш адрес электронной почты будет отправлен одноразовый пароль. Пожалуйста, подождите немного.",
         "otpSent": "OTP отправлен на вашу электронную почту.",
         "otpSentInstructions": "На ваш адрес электронной почты был отправлен одноразовый пароль. Введите его ниже, чтобы получить доступ к своему аккаунту и оплатить баланс.",
-        "sufficientBalance": "У вас достаточно средств для оплаты этого счета."
+        "sufficientBalance": "У вас достаточно средств для оплаты этого счета.",
+        "notAvailable": "Недоступно",
+        "amountNotEligible": "Сумма не соответствует критериям"
       },
       "CheckoutStepper": {
         "next": "Следующий:",

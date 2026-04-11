@@ -55,7 +55,9 @@
         "copy": "העתק",
         "outOfStockMessage": "המוצר הזה כרגע לא במלאי. בבקשה תיצור קשר עם צוות התמיכה בשביל עוד מידע.",
         "productBeingDelivered": "המוצר הזה נמסר כרגע.",
-        "productDeliveryFailed": "המוצר הזה לא יכל היה להימסר. בבקשה תיצור קשר עם צוות התמיכה בשביל עוד מידע."
+        "productDeliveryFailed": "המוצר הזה לא יכל היה להימסר. בבקשה תיצור קשר עם צוות התמיכה בשביל עוד מידע.",
+        "downloadableFiles": "קבצים להורדה",
+        "downloadFileFailed": "הורדת הקובץ נכשלה."
       },
       "CheckoutCompletedFeedback": {
         "rating": "דירוג",
@@ -97,7 +99,6 @@
         "orderProcessingFailed": "לא ניתן היה לעבד הזמנה זו. אם אתה חושב שזאת טעות, בבקשה תיצור קשר עם צוות התמיכה שלנו או נסה שוב מאוחר יותר."
       },
       "CheckoutFooter": {
-        "poweredBy": "מופעל על ידי",
         "termsOfService": "תנאי השירות",
         "privacyPolicy": "מדיניות פרטיות",
         "refundPolicy": "מדיניות החזרות"
@@ -135,15 +136,48 @@
         "termsRequired": "אנא קבלו את התנאים וההגבלות",
         "termsAgreement": "קראתי והסכמתי לתנאי השימוש של {shopName}",
         "newsletterSignup": "אני אשמח לקבל עדכונים והנחות מ{shopName}",
-        "proceedToPayment": "המשך לתשלום"
+        "proceedToPayment": "המשך לתשלום",
+        "billingAddress": "כתובת חיוב",
+        "shippingAddress": "כתובת משלוח",
+        "shippingSameAsBilling": "זהה לכתובת החיוב",
+        "name": "שם מלא",
+        "namePlaceholder": "שם מלא",
+        "nameRequired": "אנא הזן את שמך המלא",
+        "addressLine1": "שורת כתובת 1",
+        "addressLine1Placeholder": "כתובת רחוב",
+        "addressLine1Required": "אנא הזן את כתובתך",
+        "addressLine2": "שורת כתובת 2 (אופציונלי)",
+        "addressLine2Placeholder": "דירה, חדר, וכו'",
+        "city": "עיר",
+        "cityPlaceholder": "עיר",
+        "cityRequired": "אנא הזן את עירך",
+        "state": "מדינה / מחוז",
+        "statePlaceholder": "מדינה / מחוז",
+        "postcode": "מיקוד",
+        "postcodePlaceholder": "מיקוד",
+        "postcodeRequired": "אנא הזן את המיקוד שלך",
+        "country": "מדינה",
+        "countryPlaceholder": "מדינה",
+        "countryRequired": "אנא הזן את מדינתך",
+        "shippingPhone": "מספר טלפון",
+        "shippingPhonePlaceholder": "מספר טלפון לקשר עם שליח",
+        "shippingPhoneRequired": "אנא הזן מספר טלפון",
+        "sectionCoupon": "הנחה",
+        "sectionContact": "יצירת קשר",
+        "sectionContactDelivery": "יצירת קשר ומשלוח",
+        "sectionBilling": "חיוב",
+        "sectionShipping": "משלוח",
+        "sectionPayment": "תשלום",
+        "secureEncrypted": "כל העסקאות מאובטחות ומוצפנות."
       },
       "CheckoutPaymentMethodButton": {
-        "poweredBy": "מופעל על ידי",
         "allowedAmounts": "כמות מותרת:",
         "minimumAmount": "כמות מינימלית:",
         "maximumAmount": "כמות מקסימלית:",
         "fee": "עמלה",
-        "discount": "הנחה"
+        "discount": "הנחה",
+        "notAvailable": "לא זמין",
+        "amountNotEligible": "הסכום אינו כשיר"
       },
       "CheckoutPayCashApp": {
         "warningPaymentWithNote": "אזהרה - תשלום עם סיבת ההעברה",
@@ -189,6 +223,18 @@
         "paymentBeingProcessed": "התשלום שלך בבדיקה...",
         "paymentPageOpened": "עמוד התשלום נפתח בדף חדש.",
         "clickHereIfNotVisible": "לא רואה את זה? לחץ כאן"
+      },
+      "CheckoutPayRewarble": {
+        "title": "מימוש שובר Rewarble",
+        "description": "הזן את קוד השובר של Rewarble למטה להשלמת התשלום.",
+        "overpayNote": "אם שוברך שווה יותר מסכום ההזמנה, היתרה תיזכה לחשבון הלקוח שלך.",
+        "partialPaymentTitle": "התקבל תשלום חלקי",
+        "partialPaymentStatus": "{paidAmount} {currency} שולם — נדרש עוד {remainingAmount} {currency}. ממש שובר נוסף לכיסוי היתרה.",
+        "voucherCodeLabel": "קוד שובר",
+        "voucherCodeRequired": "אנא הזן את קוד השובר.",
+        "redeemButton": "מימוש שובר",
+        "redeemError": "מימוש השובר נכשל. אנא בדוק את הקוד ונסה שנית.",
+        "resellersTitle": "אין לך שובר? קנה אחד ממפיץ מורשה."
       },
       "CheckoutPayManual": {
         "markedAsPaidSuccess": "החשבונית סומנה כשולמה בהצלחה! אנא המתן לאישור.",
@@ -288,7 +334,9 @@
         "sufficientBalance": "יש לך מספיק יתרה בכדי לשלם על קבלה זאת.",
         "balance": "יתרה",
         "logout": "התנתק",
-        "continue": "המשך"
+        "continue": "המשך",
+        "notAvailable": "לא זמין",
+        "amountNotEligible": "הסכום אינו כשיר"
       },
       "CheckoutStepper": {
         "next": "הבא:",

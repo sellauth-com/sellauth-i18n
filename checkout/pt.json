@@ -32,6 +32,8 @@
         "outOfStockMessage": "Este produto está fora de estoque. Entre em contato com nosso Suporte ao Cliente para mais informações.",
         "productBeingDelivered": "Este produto está sendo entregue...",
         "productDeliveryFailed": "Não foi possível entregar este produto. Entre em contato com nosso Suporte ao Cliente para mais informações.",
+        "downloadableFiles": "Arquivos para download",
+        "downloadFileFailed": "Falha ao baixar o arquivo.",
         "statusCancelled": "Cancelado",
         "statusDelivered": "Entregue",
         "statusExpired": "Expirado",
@@ -81,7 +83,6 @@
         "paymentNotSentInTime": "O pagamento não foi enviado a tempo."
       },
       "CheckoutFooter": {
-        "poweredBy": "Desenvolvido por",
         "termsOfService": "Termos de serviço",
         "privacyPolicy": "Política de privacidade",
         "refundPolicy": "Política de reembolso"
@@ -119,7 +120,39 @@
         "paymentMethodRequired": "Selecione uma forma de pagamento",
         "proceedToPayment": "Prosseguir para o pagamento",
         "termsAgreement": "Li e aceito os Termos de Serviço de {shopName}.",
-        "termsRequired": "É necessário aceitar os termos e condições"
+        "termsRequired": "É necessário aceitar os termos e condições",
+        "billingAddress": "Endereço de cobrança",
+        "shippingAddress": "Endereço de entrega",
+        "shippingSameAsBilling": "Mesmo que o endereço de cobrança",
+        "name": "Nome completo",
+        "namePlaceholder": "Nome completo",
+        "nameRequired": "Por favor, insira seu nome completo",
+        "addressLine1": "Linha de endereço 1",
+        "addressLine1Placeholder": "Endereço da rua",
+        "addressLine1Required": "Por favor, insira seu endereço",
+        "addressLine2": "Linha de endereço 2 (opcional)",
+        "addressLine2Placeholder": "Apartamento, suíte, etc.",
+        "city": "Cidade",
+        "cityPlaceholder": "Cidade",
+        "cityRequired": "Por favor, insira sua cidade",
+        "state": "Estado / Província",
+        "statePlaceholder": "Estado / Província",
+        "postcode": "CEP",
+        "postcodePlaceholder": "CEP",
+        "postcodeRequired": "Por favor, insira seu CEP",
+        "country": "País",
+        "countryPlaceholder": "País",
+        "countryRequired": "Por favor, insira seu país",
+        "shippingPhone": "Número de telefone",
+        "shippingPhonePlaceholder": "Número de telefone para contato de entrega",
+        "shippingPhoneRequired": "Por favor, insira um número de telefone",
+        "sectionCoupon": "Desconto",
+        "sectionContact": "Contato",
+        "sectionContactDelivery": "Contato e Entrega",
+        "sectionBilling": "Cobrança",
+        "sectionShipping": "Envio",
+        "sectionPayment": "Pagamento",
+        "secureEncrypted": "Todas as transações são seguras e criptografadas."
       },
       "CheckoutPayCashApp": {
         "addNoteInstruction": "Adicione uma observação ao pagamento, caso contrário será ignorado.",
@@ -165,6 +198,18 @@
         "clickHereIfNotVisible": "Não está vendo? Clique aqui",
         "paymentBeingProcessed": "Seu pagamento está sendo processado...",
         "paymentPageOpened": "A página de pagamento foi aberta em uma nova aba"
+      },
+      "CheckoutPayRewarble": {
+        "title": "Resgatar voucher Rewarble",
+        "description": "Insira o código do voucher Rewarble abaixo para concluir o pagamento.",
+        "overpayNote": "Se o seu voucher valer mais do que o total do pedido, o saldo restante será creditado na sua conta de cliente.",
+        "partialPaymentTitle": "Pagamento parcial recebido",
+        "partialPaymentStatus": "{paidAmount} {currency} pago — {remainingAmount} {currency} ainda necessário. Resgate outro voucher para cobrir o saldo restante.",
+        "voucherCodeLabel": "Código do voucher",
+        "voucherCodeRequired": "Por favor, insira o código do voucher.",
+        "redeemButton": "Resgatar voucher",
+        "redeemError": "Falha ao resgatar o voucher. Por favor, verifique o código e tente novamente.",
+        "resellersTitle": "Não tem voucher? Compre um num revendedor."
       },
       "CheckoutPayManual": {
         "awaitingConfirmation": "Aguardando confirmação",
@@ -234,7 +279,8 @@
         "fee": "taxa",
         "maximumAmount": "Valor máximo:",
         "minimumAmount": "Valor mínimo:",
-        "poweredBy": "Desenvolvido por"
+        "notAvailable": "Não disponível",
+        "amountNotEligible": "Valor não elegível"
       },
       "CheckoutPriceSummary": {
         "couponCodeWithDiscount": "Código do cupom ({discount})",
@@ -272,7 +318,9 @@
         "otpCaptchaInstructions": "Uma senha única será enviada para seu endereço de email após a verificação do CAPTCHA. Aguarde um momento.",
         "otpSent": "OTP foi enviado para seu email.",
         "otpSentInstructions": "Uma senha única foi enviada para seu endereço de email. Digite abaixo para acessar sua conta e pagar com seu saldo.",
-        "sufficientBalance": "Você tem saldo suficiente para pagar esta fatura."
+        "sufficientBalance": "Você tem saldo suficiente para pagar esta fatura.",
+        "notAvailable": "Não disponível",
+        "amountNotEligible": "Valor não elegível"
       },
       "CheckoutStepper": {
         "next": "Próximo:",

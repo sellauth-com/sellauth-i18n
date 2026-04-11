@@ -32,6 +32,8 @@
         "outOfStockMessage": "Наразі цього продукту немає в наявності. Будь ласка, зверніться до нашої служби підтримки для отримання додаткової інформації.",
         "productBeingDelivered": "Цей товар доставляється...",
         "productDeliveryFailed": "Цей продукт не може бути доставлений. Будь ласка, зверніться до нашої служби підтримки для отримання додаткової інформації.",
+        "downloadableFiles": "Завантажувані файли",
+        "downloadFileFailed": "Не вдалося завантажити файл.",
         "statusCancelled": "Скасовано.",
         "statusDelivered": "Доставлено",
         "statusExpired": "Закінчився",
@@ -81,7 +83,6 @@
         "paymentNotSentInTime": "Платіж не був відправлений вчасно."
       },
       "CheckoutFooter": {
-        "poweredBy": "За підтримки",
         "termsOfService": "Умови надання послуг",
         "privacyPolicy": "Політика конфіденційності",
         "refundPolicy": "Політика повернення коштів"
@@ -119,7 +120,39 @@
         "paymentMethodRequired": "Будь ласка, оберіть спосіб оплати",
         "proceedToPayment": "Перейти до оплати",
         "termsAgreement": "Я прочитав та погоджуюсь з Умовами надання послуг {shopName}.",
-        "termsRequired": "Будь ласка, прийміть умови та положення"
+        "termsRequired": "Будь ласка, прийміть умови та положення",
+        "billingAddress": "Адреса для виставлення рахунку",
+        "shippingAddress": "Адреса доставки",
+        "shippingSameAsBilling": "Збігається з адресою для виставлення рахунку",
+        "name": "Повне ім'я",
+        "namePlaceholder": "Повне ім'я",
+        "nameRequired": "Будь ласка, введіть своє повне ім'я",
+        "addressLine1": "Рядок адреси 1",
+        "addressLine1Placeholder": "Адреса вулиці",
+        "addressLine1Required": "Будь ласка, введіть свою адресу",
+        "addressLine2": "Рядок адреси 2 (необов'язково)",
+        "addressLine2Placeholder": "Квартира, офіс тощо",
+        "city": "Місто",
+        "cityPlaceholder": "Місто",
+        "cityRequired": "Будь ласка, введіть своє місто",
+        "state": "Регіон / Область",
+        "statePlaceholder": "Регіон / Область",
+        "postcode": "Поштовий індекс",
+        "postcodePlaceholder": "Поштовий індекс",
+        "postcodeRequired": "Будь ласка, введіть свій поштовий індекс",
+        "country": "Країна",
+        "countryPlaceholder": "Країна",
+        "countryRequired": "Будь ласка, введіть свою країну",
+        "shippingPhone": "Номер телефону",
+        "shippingPhonePlaceholder": "Номер телефону для контакту при доставці",
+        "shippingPhoneRequired": "Будь ласка, введіть номер телефону",
+        "sectionCoupon": "Знижка",
+        "sectionContact": "Контакт",
+        "sectionContactDelivery": "Контакт та доставка",
+        "sectionBilling": "Виставлення рахунку",
+        "sectionShipping": "Доставка",
+        "sectionPayment": "Оплата",
+        "secureEncrypted": "Усі транзакції є безпечними та зашифрованими."
       },
       "CheckoutPayCashApp": {
         "addNoteInstruction": "Додайте примітку до платежу, інакше він буде проігнорований.",
@@ -165,6 +198,18 @@
         "clickHereIfNotVisible": "Не бачите? Натисни сюди.",
         "paymentBeingProcessed": "Ваш платіж обробляється...",
         "paymentPageOpened": "Сторінка оплати відкрилася в новій вкладці"
+      },
+      "CheckoutPayRewarble": {
+        "title": "Активувати ваучер Rewarble",
+        "description": "Введіть код ваучера Rewarble нижче, щоб завершити оплату.",
+        "overpayNote": "Якщо ваучер коштує більше суми замовлення, залишок буде зараховано на ваш рахунок покупця.",
+        "partialPaymentTitle": "Отримано часткову оплату",
+        "partialPaymentStatus": "Сплачено {paidAmount} {currency} — ще потрібно {remainingAmount} {currency}. Активуйте ще один ваучер для покриття залишку.",
+        "voucherCodeLabel": "Код ваучера",
+        "voucherCodeRequired": "Будь ласка, введіть код ваучера.",
+        "redeemButton": "Активувати ваучер",
+        "redeemError": "Не вдалося активувати ваучер. Перевірте код і спробуйте знову.",
+        "resellersTitle": "Немає ваучера? Придбайте його у продавця."
       },
       "CheckoutPayManual": {
         "awaitingConfirmation": "Очікує на підтвердження",
@@ -234,7 +279,8 @@
         "fee": "плата",
         "maximumAmount": "Максимальна сума:",
         "minimumAmount": "Мінімальна сума:",
-        "poweredBy": "За підтримки"
+        "notAvailable": "Недоступно",
+        "amountNotEligible": "Сума не відповідає критеріям"
       },
       "CheckoutPriceSummary": {
         "couponCodeWithDiscount": "Код купона ({discount})",
@@ -272,7 +318,9 @@
         "otpCaptchaInstructions": "Одноразовий пароль буде надіслано на вашу електронну адресу після перевірки CAPTCHA. Будь ласка, зачекайте хвилинку.",
         "otpSent": "OTP надіслано на вашу електронну пошту.",
         "otpSentInstructions": "Одноразовий пароль було надіслано на вашу електронну адресу. Будь ласка, введіть його нижче, щоб отримати доступ до свого облікового запису та оплатити рахунок.",
-        "sufficientBalance": "На вашому балансі достатньо коштів, щоб оплатити цей інвойс."
+        "sufficientBalance": "На вашому балансі достатньо коштів, щоб оплатити цей інвойс.",
+        "notAvailable": "Недоступно",
+        "amountNotEligible": "Сума не відповідає критеріям"
       },
       "CheckoutStepper": {
         "next": "Наступний:",
