@@ -1,14 +1,31 @@
 {
+  "Route": {
+    "App": {
+      "title": "Kasse"
+    },
+    "Checkout": {
+      "pageTitle": "Zur Kasse - {shopName}",
+      "invoiceNotFound": "Rechnung nicht gefunden",
+      "shopNotFound": "Shop nicht gefunden"
+    }
+  },
   "Cmp": {
+    "FormLabel": {
+      "optionalIndicator": "(Optional)"
+    },
+    "FormSubmit": {
+      "defaultLabel": "Weiter"
+    },
     "Checkout": {
       "Checkout": {
-        "payShopName": "Bezahlen {shopName}",
-        "stepConfirmPay": "Bestätigen & Bezahlen",
-        "stepExtraInformation": "Weitere Informationen",
-        "stepOrderCancelled": "Bestellung storniert",
         "stepOrderInformation": "Bestellinformationen",
+        "stepExtraInformation": "Weitere Informationen",
+        "stepConfirmPay": "Bestätigen & Bezahlen",
+        "stepReceiveItems": "Artikel erhalten",
+        "stepOrderCancelled": "Bestellung storniert",
         "stepOrderRefunded": "Bestellung erstattet",
-        "stepReceiveItems": "Artikel erhalten"
+        "payShopName": "Bezahlen {shopName}",
+        "orderSummary": "Bestellungs Übersicht"
       },
       "CheckoutAdditionalInformationForm": {
         "additionalInformationInstructions": "Bitte geben Sie in Ihrer Bestellung zusätzliche Informationen zu den folgenden Punkten an.",
@@ -16,111 +33,128 @@
         "proceedToPayment": "Weiter zur Zahlung"
       },
       "CheckoutCompleted": {
-        "orderCompletedSuccessfully": "Ihre Bestellung wurde erfolgreich abgeschlossen!",
-        "orderMarkedRefunded": "Ihre Bestellung wurde als erstattet markiert!",
-        "orderPartiallyCompleted": "Ihre Bestellung wurde teilweise abgeschlossen!"
+        "orderCompletedTitle": "Bestellung abgeschlossen",
+        "orderCompletedSubtitle": "Ihre Artikel sind bereit. Überprüfen Sie unten Ihren Artikel.",
+        "orderPartiallyCompletedTitle": "Teilweise erfüllt",
+        "orderPartiallyCompletedSubtitle": "Einige Artikel konnten nicht geliefert werden. Überprüfen Sie unten die Details.",
+        "orderRefundedTitle": "Bestellung erstattet",
+        "orderRefundedSubtitle": "Ihre Zahlung wurde erstattet. Kontaktieren Sie den Support, wenn Sie Fragen haben."
       },
       "CheckoutCompletedDeliverables": {
-        "addOns": "Add-ons",
-        "copied": "Kopiert!",
-        "copy": "Kopieren",
-        "deliveredItems": "Gelieferte Artikel",
-        "downloadButton": "Herunterladen",
+        "statusDelivered": "Geliefert",
+        "statusPending": "Ausstehend",
+        "statusOutOfStock": "Nicht auf Lager",
+        "statusCancelled": "Abgesagt",
+        "statusExpired": "Abgelaufen",
+        "statusVoided": "Storniert",
+        "statusFailed": "Fehlgeschlagen",
+        "statusRefunded": "Erstattet",
         "downloadFailed": "Der Download von Deliverables ist fehlgeschlagen.",
+        "downloadButton": "Herunterladen",
+        "deliveredItems": "Gelieferte Artikel",
+        "addOns": "Add-ons",
         "instructions": "Anweisungen",
+        "copied": "Kopiert!",
         "moreItemsDownload": "und {count} weitere Artikel, auf die Sie durch Herunterladen von {label} zugreifen können.",
+        "copy": "Kopieren",
         "outOfStockMessage": "Dieses Produkt ist derzeit nicht auf Lager. Bitte kontaktieren Sie unseren Support für weitere Informationen.",
         "productBeingDelivered": "Dieses Produkt wird geliefert...",
         "productDeliveryFailed": "Dieses Produkt konnte nicht geliefert werden. Bitte kontaktieren Sie unseren Support für weitere Informationen.",
         "downloadableFiles": "Herunterladbare Dateien",
         "downloadFileFailed": "Datei konnte nicht heruntergeladen werden.",
-        "statusCancelled": "Abgesagt",
-        "statusDelivered": "Geliefert",
-        "statusExpired": "Abgelaufen",
-        "statusFailed": "Fehlgeschlagen",
-        "statusOutOfStock": "Nicht auf Lager",
-        "statusPending": "Ausstehend",
-        "statusRefunded": "Erstattet",
-        "statusVoided": "Storniert"
+        "copyAll": "Kopiere alles",
+        "showMore": "Zeige {count} mehr"
       },
       "CheckoutCompletedFeedback": {
-        "automaticFeedbackWarning": "Wenn Sie innerhalb von 7 Tagen kein Feedback hinterlassen, wird automatisch ein 5-Sterne-Feedback für Sie abgegeben.",
-        "cancel": "Abbrechen",
-        "editFeedback": "Feedback bearbeiten",
-        "feedbackCouponIncentive": "Hinterlassen Sie eine Bewertung, um einen Rabattgutschein für Ihren nächsten Einkauf zu erhalten. Mindestbewertung erforderlich: {rating} Sterne.",
-        "feedbackEmailInstructions": "Sie können uns eine Rückmeldung geben, indem Sie in der E-Mail, die Sie nach Abschluss der Bestellung erhalten haben, auf die Schaltfläche \"Feedback hinterlassen\" klicken.",
-        "feedbackIneligibleAmount": "Diese Bestellung ist nicht für eine Rückmeldung geeignet (geringer Betrag).",
-        "feedbackIneligibleManual": "Diese Bestellung ist nicht für eine Rückmeldung geeignet (manuell bearbeitet)",
-        "leaveFeedback": "Feedback hinterlassen",
-        "message": "Nachricht",
-        "messageRequired": "Nachricht ist erforderlich.",
-        "noMessageLeft": "Keine Nachricht hinterlassen.",
         "rating": "Bewertung",
-        "ratingRequired": "Eine Bewertung ist erforderlich.",
+        "message": "Nachricht",
+        "noMessageLeft": "Keine Nachricht hinterlassen.",
         "replyFromShop": "Antwort von {shopName}",
+        "editFeedback": "Feedback bearbeiten",
+        "ratingRequired": "Eine Bewertung ist erforderlich.",
+        "messageRequired": "Nachricht ist erforderlich.",
         "saveChanges": "Änderungen speichern",
         "submitFeedback": "Feedback abgeben",
-        "yourFeedback": "Ihr Feedback"
+        "cancel": "Abbrechen",
+        "feedbackIneligibleManual": "Diese Bestellung ist nicht für eine Rückmeldung geeignet (manuell bearbeitet)",
+        "feedbackIneligibleAmount": "Diese Bestellung ist nicht für eine Rückmeldung geeignet (geringer Betrag).",
+        "feedbackCouponIncentive": "Hinterlassen Sie eine Bewertung, um einen Rabattgutschein für Ihren nächsten Einkauf zu erhalten. Mindestbewertung erforderlich: {rating} Sterne.",
+        "feedbackEmailInstructions": "Sie können uns eine Rückmeldung geben, indem Sie in der E-Mail, die Sie nach Abschluss der Bestellung erhalten haben, auf die Schaltfläche \"Feedback hinterlassen\" klicken.",
+        "yourFeedback": "Ihr Feedback",
+        "leaveFeedback": "Feedback hinterlassen",
+        "yourFeedbackSubtitle": "Thank you for taking the time to share your feedback.",
+        "leaveFeedbackSubtitle": "Your review helps other buyers make better decisions.",
+        "ratingExcellent": "Top",
+        "ratingGood": "Gut",
+        "ratingAverage": "Durchschnittlich",
+        "ratingPoor": "Schlecht",
+        "ratingTerrible": "Schrecklich",
+        "automaticFeedbackWarning": "Wenn Sie innerhalb von 7 Tagen kein Feedback hinterlassen, wird automatisch ein 5-Sterne-Feedback für Sie abgegeben."
       },
       "CheckoutCompletedRedirectUrl": {
         "clickContinueOrder": "Klicken Sie, um mit Ihrer Bestellung fortzufahren."
       },
       "CheckoutDiscordIntegration": {
-        "connectButton": "Verbinden Sie",
-        "connectDiscord": "Discord verbinden",
+        "discord": "Discord",
         "connectDiscordRequired": "Verbinde dein Discord-Konto, um fortzufahren.",
         "disconnect": "Trennen Sie die Verbindung",
-        "discord": "Discord",
+        "connectDiscord": "Discord verbinden",
+        "connectButton": "Verbinden Sie",
         "discordDescriptionWithRole": "um automatisch unserem Discord-Server beizutreten und eine Rolle zu erhalten.",
         "discordDescriptionWithoutRole": "um automatisch unserem Discord-Server beizutreten."
       },
       "CheckoutFailed": {
         "orderCancelled": "Bestellung storniert",
-        "orderCancelledMessage": "Die Bestellung wurde storniert.",
         "orderExpired": "Bestellung abgelaufen",
         "orderFailed": "Bestellung fehlgeschlagen",
-        "orderProcessingFailed": "Diese Bestellung konnte nicht bearbeitet werden. Wenn Sie glauben, dass dies ein Fehler ist, kontaktieren Sie bitte unseren Support oder versuchen Sie es später noch einmal.",
-        "paymentNotSentInTime": "Die Zahlung wurde nicht fristgerecht übermittelt."
+        "orderCancelledMessage": "Die Bestellung wurde storniert.",
+        "paymentNotSentInTime": "Die Zahlung wurde nicht fristgerecht übermittelt.",
+        "orderProcessingFailed": "Diese Bestellung konnte nicht bearbeitet werden. Wenn Sie glauben, dass dies ein Fehler ist, kontaktieren Sie bitte unseren Support oder versuchen Sie es später noch einmal."
       },
       "CheckoutFooter": {
         "termsOfService": "Nutzungsbedingungen",
         "privacyPolicy": "Datenschutz-Bestimmungen",
-        "refundPolicy": "Rückerstattungsrichtlinie"
+        "refundPolicy": "Rückerstattungsrichtlinie",
+        "poweredBy": "Unterstützt von"
       },
       "CheckoutInvoiceDetails": {
-        "anonymized": "Anonymisiert",
-        "cancelledAt": "Abgebrochen am",
-        "completedAt": "Abgeschlossen am",
-        "copied": "Kopiert!",
-        "createdAt": "Erstellt am",
-        "emailAddress": "E-Mail Adresse",
-        "expiresAt": "Läuft ab bei",
         "invoiceId": "Rechnungs-ID",
-        "remainingAmountCrypto": "Restbetrag ({gateway})",
-        "totalAmountCrypto": "Gesamtbetrag ({gateway})",
+        "copied": "Kopiert!",
+        "emailAddress": "E-Mail Adresse",
+        "anonymized": "Anonymisiert",
         "totalPrice": "Gesamtpreis",
-        "totalPriceUsd": "Gesamtpreis (USD)"
+        "totalPriceUsd": "Gesamtpreis (USD)",
+        "totalAmountCrypto": "Gesamtbetrag ({gateway})",
+        "remainingAmountCrypto": "Restbetrag ({gateway})",
+        "createdAt": "Erstellt am",
+        "expiresAt": "Läuft ab bei",
+        "completedAt": "Abgeschlossen am",
+        "cancelledAt": "Abgebrochen am",
+        "invoicePdf": "Download Rechnung PDF",
+        "paymentMethod": "Zahlungsmethode",
+        "orderInformation": "Bestellinformationen",
+        "expired": "Abgelaufen"
       },
       "CheckoutInvoiceItems": {
         "forParentItem": "Für {parentName}",
         "priceEach": "{price} jede"
       },
       "CheckoutOrderInformationForm": {
+        "emailAddress": "E-Mail Adresse",
+        "emailPlaceholder": "Die Auftragsbestätigung wird an diese E-Mail-Adresse gesendet.",
+        "emailRequired": "Bitte geben Sie Ihre E-Mail Adresse ein",
+        "emailInvalid": "Bitte geben Sie eine gültige E-Mail Adresse ein",
+        "couponCode": "Gutscheincode",
+        "couponPlaceholder": "Haben Sie einen Gutscheincode? Geben Sie ihn hier ein.",
         "applied": "Angewandt",
         "apply": "Anwenden",
         "remove": "Entfernen",
-        "couponCode": "Gutscheincode",
-        "couponPlaceholder": "Haben Sie einen Gutscheincode? Geben Sie ihn hier ein.",
-        "emailAddress": "E-Mail Adresse",
-        "emailInvalid": "Bitte geben Sie eine gültige E-Mail Adresse ein",
-        "emailPlaceholder": "Die Auftragsbestätigung wird an diese E-Mail-Adresse gesendet.",
-        "emailRequired": "Bitte geben Sie Ihre E-Mail Adresse ein",
-        "newsletterSignup": "Ich möchte aktuelle Informationen und Sonderangebote von {shopName} erhalten.",
         "paymentMethod": "Zahlungsmethode",
         "paymentMethodRequired": "Bitte wählen Sie eine Zahlungsmethode",
-        "proceedToPayment": "Weiter zur Zahlung",
-        "termsAgreement": "Ich habe die Allgemeinen Geschäftsbedingungen von {shopName} gelesen und stimme ihnen zu.",
         "termsRequired": "Bitte akzeptieren Sie die Allgemeinen Geschäftsbedingungen.",
+        "termsAgreement": "Ich habe die Allgemeinen Geschäftsbedingungen von {shopName} gelesen und stimme ihnen zu.",
+        "newsletterSignup": "Ich möchte aktuelle Informationen und Sonderangebote von {shopName} erhalten.",
+        "proceedToPayment": "Weiter zur Zahlung",
         "billingAddress": "Rechnungsadresse",
         "shippingAddress": "Lieferadresse",
         "shippingSameAsBilling": "Gleich wie Rechnungsadresse",
@@ -152,91 +186,118 @@
         "sectionBilling": "Rechnung",
         "sectionShipping": "Versand",
         "sectionPayment": "Zahlung",
+        "noPaymentMethods": "Keine Zahlungsmethoden verfügbar",
+        "noPaymentMethodsOwnerHint": "Wenn Sie der Shop-Besitzer sind, können Sie diese unter",
+        "noPaymentMethodsOwnerLink": "Einstellungen > Zahlungsmethoden",
         "secureEncrypted": "Alle Transaktionen sind sicher und verschlüsselt."
       },
+      "CheckoutPay": {
+        "waitingForPayment": "Warte auf Zahlung. Diese Seite wird automatisch aktualisiert."
+      },
+      "CheckoutPaymentMethodButton": {
+        "allowedAmounts": "Zulässige Beträge:",
+        "minimumAmount": "Mindestbetrag:",
+        "maximumAmount": "Höchstbetrag:",
+        "notAvailable": "Nicht verfügbar",
+        "amountNotEligible": "Betrag nicht berechtigt",
+        "fee": "Gebühr",
+        "discount": "Rabatt",
+        "feeTooltip": "Für diese Zahlungsmethode wird eine Gebühr berechnet",
+        "discountTooltip": "Für diese Zahlungsmethode wird ein Rabatt angewendet"
+      },
       "CheckoutPayCashApp": {
-        "addNoteInstruction": "Fügen Sie der Zahlung eine Notiz hinzu, sonst wird sie ignoriert.",
+        "warningPaymentWithNote": "Warnung - Zahlung mit Vermerk",
         "addNoteWarning": "Vergewissern Sie sich, dass Sie die Notiz hinzufügen, sonst wird Ihre Bestellung nicht automatisch bearbeitet.",
+        "addNoteInstruction": "Fügen Sie der Zahlung eine Notiz hinzu, sonst wird sie ignoriert.",
+        "continue": "Weiter",
         "automaticProcessingMessage": "Ihre Bestellung wird automatisch bearbeitet, sobald die Zahlung eingegangen ist.",
+        "sendPaymentWithNote": "Sie sollten eine Zahlung mit einem Vermerk auf das folgende Konto schicken.",
+        "sendExactAmount": "Achten Sie darauf, den genauen Betrag zu übermitteln.",
+        "scanQrCode": "Sie können den QR-Code scannen.",
+        "copyCashtag": "Oder kopieren Sie den unten stehenden Cashtag.",
+        "copyBelow": "Sie können ihn unten kopieren.",
+        "copied": "Kopiert!",
+        "openCashapp": "CashApp öffnen",
         "awaitingConfirmation": "Warten auf Bestätigung...",
+        "manualAcceptanceWait": "Bitte warten Sie, während Ihre Zahlung manuell vom Kontoinhaber angenommen wird.",
         "confirmationMessage": "Sie erhalten eine Bestätigung, sobald die Zahlung bearbeitet wurde.",
         "contactForAssistance": "Wenn Sie Fragen haben oder weitere Unterstützung benötigen, wenden Sie sich bitte an uns.",
-        "continue": "Weiter",
-        "copied": "Kopiert!",
-        "copyBelow": "Sie können ihn unten kopieren.",
-        "copyCashtag": "Oder kopieren Sie den unten stehenden Cashtag.",
-        "manualAcceptanceWait": "Bitte warten Sie, während Ihre Zahlung manuell vom Kontoinhaber angenommen wird.",
-        "openCashapp": "CashApp öffnen",
-        "scanQrCode": "Sie können den QR-Code scannen.",
-        "sendExactAmount": "Achten Sie darauf, den genauen Betrag zu übermitteln.",
-        "sendPaymentWithNote": "Sie sollten eine Zahlung mit einem Vermerk auf das folgende Konto schicken.",
-        "warningPaymentWithNote": "Warnung - Zahlung mit Vermerk"
+        "howToPay": "Wie man zahlt",
+        "step1": "Öffne Cash App auf Ihrem Handy",
+        "step2": "Scannen Sie den QR-Code oder senden Sie eine Zahlung an {cashtag}",
+        "step3": "Fügen Sie die oben gezeigte Zahlungshinweis hinzu",
+        "step4": "Schließen Sie die Zahlung ab. Ihre Bestellung wird automatisch aktualisiert.",
+        "waitingForPayment": "Warte auf Zahlung. Diese Seite wird automatisch aktualisiert."
       },
       "CheckoutPayCryptocurrency": {
-        "automaticProcessingConfirmation": "Ihre Bestellung wird automatisch bearbeitet, sobald die Transaktion bestätigt ist.",
-        "automaticProcessingPayment": "Ihre Bestellung wird automatisch bearbeitet, sobald die Zahlung eingegangen ist.",
-        "automaticProcessingRemaining": "Ihre Bestellung wird automatisch bearbeitet, sobald der Restbetrag eingegangen ist.",
-        "copied": "Kopiert!",
-        "copyAddressBelow": "Oder kopieren Sie die unten stehende Adresse.",
-        "copyBelow": "Sie können ihn unten kopieren.",
-        "noTransactions": "Noch keine Transaktionen...",
-        "openWallet": "Wallet öffnen",
         "partialPayment": "Teilweise Zahlung",
-        "partialPaymentStatus": "Sie haben {paidAmount} {gateway} aus {totalAmount} {gateway} bezahlt.",
-        "remainingAmount": "Verbleibender Betrag: {amount} {gateway}.",
-        "scanQrCode": "Sie können den QR-Code scannen.",
+        "remainingAmount": "Remaining: {amount} {gateway}",
         "sendExactAmount": "Achten Sie darauf, den genauen Betrag zu übermitteln.",
         "sendExactRemainingAmount": "Achten Sie darauf, dass Sie den genauen Restbetrag übermitteln.",
-        "sendPaymentToAddress": "Die Zahlung ist an die folgende Adresse zu senden.",
+        "copied": "Kopiert!",
+        "openWallet": "Wallet öffnen",
         "transactionHistory": "Transaktionsverlauf",
-        "addressSafetyTitle": "Important: Verify the Wallet Address",
-        "addressSafetySubtitle": "Zu Ihrer Sicherheit überprüfen Sie bitte immer, ob die Adresse, die Sie in Ihre Wallet einfügen, mit der hier angezeigten übereinstimmt.",
-        "verifyAddressInstructions": "Überprüfen Sie mindestens die ersten 4 und die letzten 4 Zeichen der Adresse.",
-        "dismiss": "Ablehnen"
+        "awaitingConfirmation": "Warten auf Netzwerkbestätigung...",
+        "verifyAddressInstructions": "Verifizieren Sie immer die ersten und letzten Zeichen der Adresse vor dem Senden.",
+        "howToPay": "Wie man zahlt",
+        "step1": "Senden Sie {amount} {gateway} an die oben genannte Adresse",
+        "step2": "Die Zahlung wird automatisch erkannt nach der Netzwerkbestätigung",
+        "step3": "Senden Sie nur {gateway} an diese Adresse. Andere Kryptowährungen werden verloren gehen.",
+        "waitingForPayment": "Warte auf Zahlung. Diese Seite wird automatisch aktualisiert."
       },
       "CheckoutPayExternalUrl": {
-        "clickHereIfNotVisible": "Sie sehen es nicht? Klicken Sie hier",
         "paymentBeingProcessed": "Ihre Zahlung wird gerade bearbeitet...",
-        "paymentPageOpened": "Die Zahlungsseite wurde in einer neuen Registerkarte geöffnet"
+        "paymentPageOpened": "Zahlungsseite geöffnet",
+        "redirectDescription": "Eine Zahlungsseite wurde in einem neuen Tab geöffnet. Klicken Sie auf die Schaltfläche unten, wenn sie nicht geöffnet wurde oder Sie zu ihr zurückkehren müssen.",
+        "payNow": "Jetzt bezahlen",
+        "clickHereIfNotVisible": "Sie sehen es nicht? Klicken Sie hier"
       },
       "CheckoutPayRewarble": {
-        "title": "Rewarble-Gutschein einlösen",
         "description": "Geben Sie unten Ihren Rewarble-Gutscheincode ein, um die Zahlung abzuschließen.",
         "overpayNote": "Wenn Ihr Gutschein mehr wert ist als der Bestellbetrag, wird der Restbetrag Ihrem Kundenkonto gutgeschrieben.",
         "partialPaymentTitle": "Teilzahlung erhalten",
-        "partialPaymentStatus": "{paidAmount} {currency} bezahlt — {remainingAmount} {currency} noch ausstehend. Lösen Sie einen weiteren Gutschein ein, um den Restbetrag zu decken.",
-        "voucherCodeLabel": "Gutscheincode",
+        "partialPaymentRemaining": "{remainingAmount} {currency} noch benötigt. Einlösen Sie einen weiteren Gutschein, um den Rest zu bedecken.",
+        "redeemTitle": "Gutschein einlösen",
         "voucherCodeRequired": "Bitte geben Sie Ihren Gutscheincode ein.",
         "redeemButton": "Gutschein einlösen",
         "redeemError": "Gutschein konnte nicht eingelöst werden. Bitte überprüfen Sie den Code und versuchen Sie es erneut.",
-        "resellersTitle": "Keinen Gutschein? Kaufen Sie einen bei einem Händler."
+        "howToPay": "Wie man zahlt",
+        "step1": "Kaufe einen Rewarble-Gutschein von einem der unten aufgeführten Händler",
+        "step2": "Kopieren Sie den erhaltenen Gutscheincode",
+        "step3": "Fügen Sie ihn in das Feld oben ein und klicken Sie auf Gutschein einlösen",
+        "step4": "Ihre Bestellung wird automatisch verarbeitet, sobald der Gutschein angewendet wurde",
+        "resellersTitle": "Keinen Gutschein? Kaufen Sie einen bei einem Händler.",
+        "waitingForPayment": "Warte auf Zahlung. Diese Seite wird automatisch aktualisiert."
       },
       "CheckoutPayManual": {
-        "awaitingConfirmation": "Bestätigung steht noch aus",
-        "cancel": "Abbrechen",
+        "markedAsPaidSuccess": "Rechnung als erfolgreich bezahlt markiert! Bitte warten Sie auf die Bestätigung.",
+        "markedAsPaidFailed": "Die Rechnung konnte nicht als bezahlt markiert werden. Bitte versuchen Sie es erneut.",
         "markAsPaid": "Als bezahlt markieren",
         "markOrderAsPaid": "Bestellung als bezahlt markieren",
-        "markedAsPaidFailed": "Die Rechnung konnte nicht als bezahlt markiert werden. Bitte versuchen Sie es erneut.",
-        "markedAsPaidSuccess": "Rechnung als erfolgreich bezahlt markiert! Bitte warten Sie auf die Bestätigung.",
-        "paymentInstructions": "Zahlungsanweisungen",
         "proofOfPayment": "Zahlungsnachweis",
-        "proofOfPaymentRequired": "Ein Zahlungsnachweis ist erforderlich."
+        "proofOfPaymentRequired": "Ein Zahlungsnachweis ist erforderlich.",
+        "cancel": "Abbrechen",
+        "paymentInstructions": "Zahlungsanweisungen",
+        "awaitingConfirmation": "Bestätigung steht noch aus",
+        "waitingForPayment": "Warte auf Zahlung. Diese Seite wird automatisch aktualisiert."
       },
       "CheckoutPayPayPalFriendsFamily": {
         "addNoteInstruction": "Fügen Sie der Zahlung eine Notiz hinzu, sonst wird sie ignoriert.",
-        "additionalDetailsInstruction": "Wenn Sie um zusätzliche Angaben gebeten werden, verwenden Sie die folgenden Angaben:",
-        "automaticProcessingMessage": "Ihre Bestellung wird automatisch bearbeitet, sobald die Zahlung eingegangen ist.",
-        "continue": "Weiter",
-        "copied": "Kopiert!",
-        "copyBelow": "Sie können ihn unten kopieren.",
-        "copyEmailBelow": "Kopieren Sie die PayPal-E-Mail-Adresse unten.",
-        "friendsFamilyNoteWarning": "Vergewissern Sie sich, dass Sie die Zahlung als \"Friends & Family\" und \"Add The Note\" senden, sonst wird Ihre Bestellung nicht automatisch bearbeitet.",
-        "friendsFamilyWarning": "Wenn Sie nicht als Friends & Family versenden, wird Ihre Bestellung nicht automatisch bearbeitet.",
+        "addNoteWarning": "Stellen Sie sicher, dass Sie als Friends & Family senden und die Notiz hinzufügen, andernfalls wird Ihre Bestellung nicht automatisch verarbeitet.",
         "noNoteInstruction": "Legen Sie der Zahlung keinen Vermerk bei.",
-        "openPaypal": "PayPal öffnen",
         "sendExactAmount": "Achten Sie darauf, den genauen Betrag zu übermitteln.",
-        "sendFriendsFamilyNote": "Senden Sie eine Friends & Family-Zahlung mit einem Vermerk an das folgende Konto.",
-        "warningFriendsFamilyNote": "Warnung - Freunde & Familie Zahlung mit Hinweis"
+        "copied": "Kopiert!",
+        "openPaypal": "PayPal öffnen",
+        "howToPay": "Wie man zahlt",
+        "step1": "Melden Sie sich in Ihrem PayPal-Konto an",
+        "step2": "Wählen Sie \"Senden & Anfordern\" und dann \"Senden\"",
+        "step3": "Geben Sie die oben angezeigte E-Mail-Adresse ein ({email})",
+        "step4": "Wählen Sie \"An einen Freund senden\" (Friends & Family)",
+        "step5": "Geben Sie den genauen Betrag ein: {amount}",
+        "step6": "Fügen Sie die oben gezeigte Notiz im Feld \"Was ist das?\" hinzu",
+        "step7": "Schließen Sie die Zahlung ab. Ihre Bestellung wird automatisch aktualisiert.",
+        "waitingForPayment": "Warte auf Zahlung. Diese Seite wird automatisch aktualisiert.",
+        "additionalDetailsInstruction": "Wenn Sie um zusätzliche Angaben gebeten werden, verwenden Sie die folgenden Angaben:"
       },
       "CheckoutPayPayPalREST": {
         "paypalPaymentProcessing": "Ihre PayPal-Zahlung wird gerade bearbeitet..."
@@ -249,78 +310,70 @@
         "clickTheButtonBelowToPayForYourOrder": "Klicken Sie auf die Schaltfläche unten, um Ihre Bestellung zu bezahlen."
       },
       "CheckoutPaySumUp": {
-        "authenticationFailed": "Kartenauthentifizierung fehlgeschlagen. Bitte versuchen Sie eine andere Karte.",
-        "insufficientFunds": "Unzureichende Deckung. Bitte versuchen Sie eine andere Karte.",
-        "networkError": "Netzwerkfehler. Bitte überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.",
-        "paymentCancelled": "Die Zahlung wurde storniert. Bitte versuchen Sie es erneut.",
-        "paymentErrorGeneric": "Bei der Bearbeitung Ihrer Zahlung ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.",
+        "sumupPaymentProcessing": "Ihre SumUp-Zahlung wird gerade bearbeitet...",
         "paymentFailedRetry": "Zahlung fehlgeschlagen. Bitte aktualisieren Sie und versuchen Sie es erneut oder verwenden Sie eine andere Karte.",
         "paymentProcessingNotification": "Ihre Zahlung wird gerade bearbeitet. Wir werden Sie benachrichtigen, sobald die Bearbeitung abgeschlossen ist.",
-        "sumupPaymentProcessing": "Ihre SumUp-Zahlung wird gerade bearbeitet..."
+        "paymentCancelled": "Die Zahlung wurde storniert. Bitte versuchen Sie es erneut.",
+        "paymentErrorGeneric": "Bei der Bearbeitung Ihrer Zahlung ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.",
+        "networkError": "Netzwerkfehler. Bitte überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.",
+        "authenticationFailed": "Kartenauthentifizierung fehlgeschlagen. Bitte versuchen Sie eine andere Karte.",
+        "insufficientFunds": "Unzureichende Deckung. Bitte versuchen Sie eine andere Karte."
       },
       "CheckoutPayVenmo": {
         "addNoteInstruction": "Fügen Sie der Zahlung eine Notiz hinzu, sonst wird sie ignoriert.",
-        "additionalDetailsInstruction": "Wenn Sie um zusätzliche Angaben gebeten werden, verwenden Sie die folgenden Angaben:",
-        "automaticProcessingMessage": "Ihre Bestellung wird automatisch bearbeitet, sobald die Zahlung eingegangen ist.",
-        "continue": "Weiter",
-        "copied": "Kopiert!",
-        "copyBelow": "Sie können ihn unten kopieren.",
-        "copyTagBelow": "Oder kopieren Sie den unten stehenden Tag.",
-        "friendsFamilyNoteWarning": "Vergewissern Sie sich, dass Sie die Zahlung als \"Friends & Family\" und \"Add The Note\" senden, sonst wird Ihre Bestellung nicht automatisch bearbeitet.",
-        "openVenmo": "Venmo öffnen",
-        "scanQrCode": "Sie können den QR-Code scannen.",
+        "addNoteWarning": "Make sure to send as Friends & Family and add the note, otherwise your order won't be automatically processed.",
         "sendExactAmount": "Achten Sie darauf, den genauen Betrag zu übermitteln.",
-        "sendFriendsFamilyNote": "Senden Sie eine Friends & Family-Zahlung mit einem Vermerk an das folgende Konto.",
-        "warningFriendsFamilyNote": "Warnung - Freunde & Familie Zahlung mit Hinweis"
-      },
-      "CheckoutPaymentMethodButton": {
-        "allowedAmounts": "Zulässige Beträge:",
-        "discount": "Rabatt",
-        "fee": "Gebühr",
-        "maximumAmount": "Höchstbetrag:",
-        "minimumAmount": "Mindestbetrag:",
-        "notAvailable": "Nicht verfügbar",
-        "amountNotEligible": "Betrag nicht berechtigt"
+        "copied": "Kopiert!",
+        "openVenmo": "Venmo öffnen",
+        "howToPay": "Wie man zahlt",
+        "step1": "Melden Sie sich in Ihrem Venmo-Konto an",
+        "step2": "Scannen Sie den QR-Code oder senden Sie eine Zahlung an {tag}",
+        "step3": "Wählen Sie \"Freunde & Familie\" und fügen Sie dann die oben gezeigte Zahlungshinweis hinzu",
+        "step4": "Schließen Sie die Zahlung ab. Ihre Bestellung wird automatisch aktualisiert.",
+        "waitingForPayment": "Warte auf Zahlung. Diese Seite wird automatisch aktualisiert.",
+        "additionalDetailsInstruction": "Wenn Sie um zusätzliche Angaben gebeten werden, verwenden Sie die folgenden Angaben:"
       },
       "CheckoutPriceSummary": {
-        "couponCodeWithDiscount": "Gutscheincode ({discount})",
-        "paymentMethodDiscount": "Rabatt für Zahlungsmethode",
-        "paymentMethodFee": "Gebühr für Zahlungsmethode",
-        "preTaxTotal": "Zwischensumme (ohne Steuern)",
         "subtotal": "Zwischensumme",
-        "taxWithRate": "Steuer ({rate}%)",
-        "total": "Insgesamt",
+        "volumeDiscount": "Mengenrabatt",
+        "couponCodeWithDiscount": "Gutscheincode ({discount})",
         "unknownCode": "Unbekannter Code",
-        "volumeDiscount": "Mengenrabatt"
+        "paymentMethodFee": "Gebühr für Zahlungsmethode",
+        "paymentMethodDiscount": "Rabatt für Zahlungsmethode",
+        "preTaxTotal": "Zwischensumme (ohne Steuern)",
+        "taxWithRate": "Steuer ({rate}%)",
+        "total": "Insgesamt"
       },
       "CheckoutRefunded": {
         "orderRefunded": "Erstattete Bestellung",
         "orderRefundedMessage": "Diese Bestellung wurde als erstattet markiert."
       },
       "CheckoutShopCustomerBalanceButton": {
-        "allowedAmounts": "Zulässige Beträge:",
-        "balance": "Guthaben",
-        "cancel": "Abbrechen",
-        "clickToAuthenticate": "Klicken Sie zur Authentifizierung.",
-        "continue": "Weiter",
-        "discount": "Rabatt",
-        "enterEmailAddress": "Bitte geben Sie Ihre E-Mail Adresse ein.",
-        "fee": "Gebühr",
-        "insufficientBalance": "Sie haben nicht genug Guthaben, um diese Rechnung zu bezahlen.",
-        "invalidCredentials": "Ungültige Anmeldedaten.",
-        "logIn": "Einloggen",
-        "logInCustomerAccount": "Melden Sie sich bei Ihrem Kundenkonto an",
-        "loggedInAs": "Eingeloggt als {email}.",
-        "loggedInAsEmail": "Eingeloggt als {email}",
-        "logout": "Abmelden",
-        "maximumAmount": "Höchstbetrag:",
-        "minimumAmount": "Mindestbetrag:",
-        "otpCaptchaInstructions": "Nach der CAPTCHA-Prüfung wird Ihnen ein einmaliges Passwort an Ihre E-Mail-Adresse geschickt. Bitte warten Sie einen Moment.",
         "otpSent": "OTP wurde an Ihre E-Mail gesendet.",
         "otpSentInstructions": "Ein einmaliges Passwort wurde an Ihre E-Mail-Adresse gesendet. Bitte geben Sie es unten ein, um auf Ihr Konto zuzugreifen und mit Ihrem Guthaben zu bezahlen.",
-        "sufficientBalance": "Sie haben genug Guthaben, um diese Rechnung zu bezahlen.",
+        "otpCaptchaInstructions": "Nach der CAPTCHA-Prüfung wird Ihnen ein einmaliges Passwort an Ihre E-Mail-Adresse geschickt. Bitte warten Sie einen Moment.",
+        "invalidCredentials": "Ungültige Anmeldedaten.",
+        "loggedInAs": "Eingeloggt als {email}.",
+        "loggedInAsEmail": "Eingeloggt als {email}",
+        "clickToAuthenticate": "Klicken Sie zur Authentifizierung.",
+        "enterEmailAddress": "Bitte geben Sie Ihre E-Mail Adresse ein.",
+        "allowedAmounts": "Zulässige Beträge:",
+        "minimumAmount": "Mindestbetrag:",
+        "maximumAmount": "Höchstbetrag:",
         "notAvailable": "Nicht verfügbar",
-        "amountNotEligible": "Betrag nicht berechtigt"
+        "amountNotEligible": "Betrag nicht berechtigt",
+        "discount": "Rabatt",
+        "fee": "Gebühr",
+        "feeTooltip": "Für diese Zahlungsmethode wird eine Gebühr berechnet",
+        "discountTooltip": "Für diese Zahlungsmethode wird ein Rabatt angewendet",
+        "logInCustomerAccount": "Melden Sie sich bei Ihrem Kundenkonto an",
+        "cancel": "Abbrechen",
+        "logIn": "Einloggen",
+        "insufficientBalance": "Sie haben nicht genug Guthaben, um diese Rechnung zu bezahlen.",
+        "sufficientBalance": "Sie haben genug Guthaben, um diese Rechnung zu bezahlen.",
+        "balance": "Guthaben",
+        "logout": "Abmelden",
+        "continue": "Weiter"
       },
       "CheckoutStepper": {
         "next": "Nächste:",
@@ -328,25 +381,17 @@
       },
       "CheckoutTicketButton": {
         "havingIssues": "Haben Sie Probleme mit Ihrer Bestellung?",
-        "openSupportTicket": "Ein Support-Ticket eröffnen",
-        "openTicketInstructions": "Sie können in Ihrem Kunden-Dashboard ein Ticket eröffnen, um Unterstützung von unserem Support-Team zu erhalten."
+        "openTicketInstructions": "Sie können in Ihrem Kunden-Dashboard ein Ticket eröffnen, um Unterstützung von unserem Support-Team zu erhalten.",
+        "openSupportTicket": "Ein Support-Ticket eröffnen"
+      },
+      "CheckoutCompletedShipping": {
+        "shippingStatus": "Versandstatus",
+        "stepPreparing": "Wird vorbereitet",
+        "stepShipped": "Versendet",
+        "stepDelivered": "Zugestellt",
+        "trackingCode": "Tracking",
+        "trackPackage": "Paket verfolgen"
       }
-    },
-    "FormLabel": {
-      "optionalIndicator": "(fakultativ)"
-    },
-    "FormSubmit": {
-      "defaultLabel": "Weiter"
-    }
-  },
-  "Route": {
-    "App": {
-      "title": "Kasse"
-    },
-    "Checkout": {
-      "invoiceNotFound": "Rechnung nicht gefunden",
-      "pageTitle": "Zur Kasse - {shopName}",
-      "shopNotFound": "Shop nicht gefunden"
     }
   }
 }

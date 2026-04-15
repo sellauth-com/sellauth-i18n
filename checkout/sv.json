@@ -1,14 +1,31 @@
 {
+  "Route": {
+    "App": {
+      "title": "Checka ut"
+    },
+    "Checkout": {
+      "pageTitle": "Checka ut - {shopName}",
+      "invoiceNotFound": "Fakturan hittades inte",
+      "shopNotFound": "Butiken hittades inte"
+    }
+  },
   "Cmp": {
+    "FormLabel": {
+      "optionalIndicator": "(valfritt)"
+    },
+    "FormSubmit": {
+      "defaultLabel": "Fortsätt"
+    },
     "Checkout": {
       "Checkout": {
-        "payShopName": "Betala {shopName}",
-        "stepConfirmPay": "Bekräfta & betala",
-        "stepExtraInformation": "Extra information",
-        "stepOrderCancelled": "Order avbruten",
         "stepOrderInformation": "Beställningsinformation",
+        "stepExtraInformation": "Extra information",
+        "stepConfirmPay": "Bekräfta & betala",
+        "stepReceiveItems": "Ta emot dina försändelser",
+        "stepOrderCancelled": "Order avbruten",
         "stepOrderRefunded": "Order återbetalad",
-        "stepReceiveItems": "Ta emot dina försändelser"
+        "payShopName": "Betala {shopName}",
+        "orderSummary": "Ordersammanfattning"
       },
       "CheckoutAdditionalInformationForm": {
         "additionalInformationInstructions": "Vänligen ange ytterligare information för följande punkter i din beställning.",
@@ -16,111 +33,128 @@
         "proceedToPayment": "Fortsätt till betalning"
       },
       "CheckoutCompleted": {
-        "orderCompletedSuccessfully": "Din beställning har slutförts framgångsrikt!",
-        "orderMarkedRefunded": "Din order har markerats som återbetald!",
-        "orderPartiallyCompleted": "Din order har delvis slutförts!"
+        "orderCompletedTitle": "Order slutförd",
+        "orderCompletedSubtitle": "Dina föremål är klara. Kontrollera nedan för din produkt.",
+        "orderPartiallyCompletedTitle": "Delvis uppfylld",
+        "orderPartiallyCompletedSubtitle": "Vissa föremål kunde inte levereras. Kontrollera nedan för detaljer.",
+        "orderRefundedTitle": "Order återbetald",
+        "orderRefundedSubtitle": "Din betalning har återbetaldts. Kontakta supporten om du har frågor."
       },
       "CheckoutCompletedDeliverables": {
-        "addOns": "Tilläggstjänster",
-        "copied": "Kopierat!",
-        "copy": "Kopia",
-        "deliveredItems": "Levererade föremål",
-        "downloadButton": "Nedladdningar",
+        "statusDelivered": "Levereras",
+        "statusPending": "Avvaktande",
+        "statusOutOfStock": "Slut i lager",
+        "statusCancelled": "Avbruten",
+        "statusExpired": "Utgått",
+        "statusVoided": "ogiltigt",
+        "statusFailed": "Misslyckades",
+        "statusRefunded": "Återbetalade",
         "downloadFailed": "Misslyckades med att ladda ner leveranser.",
+        "downloadButton": "Nedladdningar",
+        "deliveredItems": "Levererade föremål",
+        "addOns": "Tilläggstjänster",
         "instructions": "Instruktioner",
+        "copied": "Kopierat!",
         "moreItemsDownload": "och {count} fler artiklar som du kan komma åt genom att ladda ner {label}.",
+        "copy": "Kopia",
         "outOfStockMessage": "Denna produkt är för närvarande slut i lager. Vänligen kontakta vår support för mer information.",
         "productBeingDelivered": "Denna produkt håller på att levereras...",
         "productDeliveryFailed": "Den här produkten kunde inte levereras. Vänligen kontakta vår support för mer information.",
         "downloadableFiles": "Nedladdningsbara filer",
         "downloadFileFailed": "Det gick inte att ladda ned filen.",
-        "statusCancelled": "Avbruten",
-        "statusDelivered": "Levereras",
-        "statusExpired": "Utgått",
-        "statusFailed": "Misslyckades",
-        "statusOutOfStock": "Slut i lager",
-        "statusPending": "Avvaktande",
-        "statusRefunded": "Återbetalade",
-        "statusVoided": "ogiltigt"
+        "copyAll": "Kopiera allt",
+        "showMore": "Visa {count} fler"
       },
       "CheckoutCompletedFeedback": {
-        "automaticFeedbackWarning": "Om du inte lämnar feedback inom 7 dagar kommer en 5-stjärnig feedback automatiskt att lämnas åt dig.",
-        "cancel": "Avbryt",
-        "editFeedback": "Redigera feedback",
-        "feedbackCouponIncentive": "Lämna en feedback för att få en rabattkupong för ditt nästa köp. Minsta betyg krävs: {rating} stjärnor.",
-        "feedbackEmailInstructions": "Du kan lämna feedback genom att klicka på knappen \"Lämna feedback\" i det e-postmeddelande som du fick när ordern slutfördes.",
-        "feedbackIneligibleAmount": "Denna order är inte berättigad till feedback (obetydligt belopp).",
-        "feedbackIneligibleManual": "Denna order är inte berättigad till feedback (manuellt behandlad)",
-        "leaveFeedback": "Lämna feedback",
-        "message": "Meddelande",
-        "messageRequired": "Meddelande krävs.",
-        "noMessageLeft": "Inget meddelande lämnades.",
         "rating": "Betyg",
-        "ratingRequired": "Betyg krävs.",
+        "message": "Meddelande",
+        "noMessageLeft": "Inget meddelande lämnades.",
         "replyFromShop": "Svar från {shopName}",
+        "editFeedback": "Redigera feedback",
+        "ratingRequired": "Betyg krävs.",
+        "messageRequired": "Meddelande krävs.",
         "saveChanges": "Spara ändringar",
         "submitFeedback": "Skicka in feedback",
-        "yourFeedback": "Din feedback"
+        "cancel": "Avbryt",
+        "feedbackIneligibleManual": "Denna order är inte berättigad till feedback (manuellt behandlad)",
+        "feedbackIneligibleAmount": "Denna order är inte berättigad till feedback (obetydligt belopp).",
+        "feedbackCouponIncentive": "Lämna en feedback för att få en rabattkupong för ditt nästa köp. Minsta betyg krävs: {rating} stjärnor.",
+        "feedbackEmailInstructions": "Du kan lämna feedback genom att klicka på knappen \"Lämna feedback\" i det e-postmeddelande som du fick när ordern slutfördes.",
+        "yourFeedback": "Din feedback",
+        "leaveFeedback": "Lämna feedback",
+        "yourFeedbackSubtitle": "Tack för att du tog dig tid att dela din feedback.",
+        "leaveFeedbackSubtitle": "Din recension hjälper andra köpare att fatta bättre beslut.",
+        "ratingExcellent": "Utmärkt",
+        "ratingGood": "Bra",
+        "ratingAverage": "Genomsnitt",
+        "ratingPoor": "Dåligt",
+        "ratingTerrible": "Fruktansvärt",
+        "automaticFeedbackWarning": "Om du inte lämnar feedback inom 7 dagar kommer en 5-stjärnig feedback automatiskt att lämnas åt dig."
       },
       "CheckoutCompletedRedirectUrl": {
         "clickContinueOrder": "Klicka var som helst för att fortsätta med din beställning."
       },
       "CheckoutDiscordIntegration": {
-        "connectButton": "Anslut",
-        "connectDiscord": "Anslut Discord",
+        "discord": "Discord",
         "connectDiscordRequired": "Anslut ditt Discord-konto för att fortsätta.",
         "disconnect": "Koppla bort",
-        "discord": "Discord",
+        "connectDiscord": "Anslut Discord",
+        "connectButton": "Anslut",
         "discordDescriptionWithRole": "för att automatiskt gå med i vår Discord-server och få en roll.",
         "discordDescriptionWithoutRole": "för att automatiskt ansluta till vår Discord-server."
       },
       "CheckoutFailed": {
         "orderCancelled": "Order avbruten",
-        "orderCancelledMessage": "Ordern har annullerats.",
         "orderExpired": "Beställning Utgången",
         "orderFailed": "Beställningen misslyckades",
-        "orderProcessingFailed": "Denna order kunde inte behandlas. Om du tror att detta är ett misstag, vänligen kontakta vår support eller försök igen senare.",
-        "paymentNotSentInTime": "Betalningen skickades inte i tid."
+        "orderCancelledMessage": "Ordern har annullerats.",
+        "paymentNotSentInTime": "Betalningen skickades inte i tid.",
+        "orderProcessingFailed": "Denna order kunde inte behandlas. Om du tror att detta är ett misstag, vänligen kontakta vår support eller försök igen senare."
       },
       "CheckoutFooter": {
         "termsOfService": "Villkor för tjänsten",
         "privacyPolicy": "Integritetspolicy",
-        "refundPolicy": "Återbetalningspolicy"
+        "refundPolicy": "Återbetalningspolicy",
+        "poweredBy": "Drivs av"
       },
       "CheckoutInvoiceDetails": {
-        "anonymized": "Anonymiserad",
-        "cancelledAt": "Avbeställd vid",
-        "completedAt": "Avslutad vid",
-        "copied": "Kopierat!",
-        "createdAt": "Skapad vid",
-        "emailAddress": "E-postadress",
-        "expiresAt": "Upphör att gälla kl.",
         "invoiceId": "Fakturans ID",
-        "remainingAmountCrypto": "Återstående belopp ({gateway})",
-        "totalAmountCrypto": "Totalt belopp ({gateway})",
+        "copied": "Kopierat!",
+        "emailAddress": "E-postadress",
+        "anonymized": "Anonymiserad",
         "totalPrice": "Totalt pris",
-        "totalPriceUsd": "Totalt pris (USD)"
+        "totalPriceUsd": "Totalt pris (USD)",
+        "totalAmountCrypto": "Totalt belopp ({gateway})",
+        "remainingAmountCrypto": "Återstående belopp ({gateway})",
+        "createdAt": "Skapad vid",
+        "expiresAt": "Upphör att gälla kl.",
+        "completedAt": "Avslutad vid",
+        "cancelledAt": "Avbeställd vid",
+        "invoicePdf": "Ladda ner faktura PDF",
+        "paymentMethod": "Betalningsmetod",
+        "orderInformation": "Orderinformation",
+        "expired": "Utgången"
       },
       "CheckoutInvoiceItems": {
         "forParentItem": "För {parentName}",
         "priceEach": "{price} varje"
       },
       "CheckoutOrderInformationForm": {
+        "emailAddress": "E-postadress",
+        "emailPlaceholder": "Orderbekräftelsen kommer att skickas till denna e-postadress.",
+        "emailRequired": "Vänligen ange din e-postadress",
+        "emailInvalid": "Vänligen ange en giltig e-postadress",
+        "couponCode": "Kupongkod",
+        "couponPlaceholder": "Har du en kupongkod? Skriv in den här.",
         "applied": "Tillämpad",
         "apply": "Tillämpa",
         "remove": "Ta bort",
-        "couponCode": "Kupongkod",
-        "couponPlaceholder": "Har du en kupongkod? Skriv in den här.",
-        "emailAddress": "E-postadress",
-        "emailInvalid": "Vänligen ange en giltig e-postadress",
-        "emailPlaceholder": "Orderbekräftelsen kommer att skickas till denna e-postadress.",
-        "emailRequired": "Vänligen ange din e-postadress",
-        "newsletterSignup": "Jag vill gärna ta emot uppdateringar och kampanjer från {shopName}.",
         "paymentMethod": "Betalningsmetod",
         "paymentMethodRequired": "Vänligen välj en betalningsmetod",
-        "proceedToPayment": "Fortsätt till betalning",
-        "termsAgreement": "Jag har läst och godkänner {shopName}:s användarvillkor.",
         "termsRequired": "Vänligen acceptera villkor och bestämmelser",
+        "termsAgreement": "Jag har läst och godkänner {shopName}:s användarvillkor.",
+        "newsletterSignup": "Jag vill gärna ta emot uppdateringar och kampanjer från {shopName}.",
+        "proceedToPayment": "Fortsätt till betalning",
         "billingAddress": "Faktureringsadress",
         "shippingAddress": "Leveransadress",
         "shippingSameAsBilling": "Samma som faktureringsadress",
@@ -152,91 +186,118 @@
         "sectionBilling": "Fakturering",
         "sectionShipping": "Frakt",
         "sectionPayment": "Betalning",
+        "noPaymentMethods": "Inga betalningsmetoder tillgängliga",
+        "noPaymentMethodsOwnerHint": "Om du är butiksägaren kan du lägga till dem under",
+        "noPaymentMethodsOwnerLink": "Inställningar > Betalningsmetoder",
         "secureEncrypted": "Alla transaktioner är säkra och krypterade."
       },
+      "CheckoutPay": {
+        "waitingForPayment": "Väntar på betalning. Den här sidan uppdateras automatiskt."
+      },
+      "CheckoutPaymentMethodButton": {
+        "allowedAmounts": "Tillåtna belopp:",
+        "minimumAmount": "Lägsta belopp:",
+        "maximumAmount": "Högsta belopp:",
+        "notAvailable": "Inte tillgänglig",
+        "amountNotEligible": "Belopp ej berättigat",
+        "fee": "avgift",
+        "discount": "rabatt",
+        "feeTooltip": "En avgift läggs till för denna betalningsmetod",
+        "discountTooltip": "En rabatt tillämpas för denna betalningsmetod"
+      },
       "CheckoutPayCashApp": {
-        "addNoteInstruction": "Lägg till en anmärkning till betalningen, annars kommer den att ignoreras.",
+        "warningPaymentWithNote": "Varning - Betalning med nota",
         "addNoteWarning": "Se till att lägga till noten, annars kommer din beställning inte att behandlas automatiskt.",
+        "addNoteInstruction": "Lägg till en anmärkning till betalningen, annars kommer den att ignoreras.",
+        "continue": "Fortsätt",
         "automaticProcessingMessage": "Din beställning kommer att behandlas automatiskt när betalningen har mottagits.",
+        "sendPaymentWithNote": "Du ska skicka en betalning med en nota till följande konto.",
+        "sendExactAmount": "Se till att skicka det exakta beloppet.",
+        "scanQrCode": "Du kan skanna QR-koden.",
+        "copyCashtag": "Eller kopiera cashtaggen nedan.",
+        "copyBelow": "Du kan kopiera den nedan.",
+        "copied": "Kopierat!",
+        "openCashapp": "Öppna CashApp",
         "awaitingConfirmation": "Väntar på bekräftelse...",
+        "manualAcceptanceWait": "Vänligen vänta medan din betalning manuellt accepteras av kontoägaren.",
         "confirmationMessage": "Du kommer att få en bekräftelse när betalningen har behandlats.",
         "contactForAssistance": "Om du har några frågor eller behöver ytterligare hjälp är du välkommen att kontakta oss.",
-        "continue": "Fortsätt",
-        "copied": "Kopierat!",
-        "copyBelow": "Du kan kopiera den nedan.",
-        "copyCashtag": "Eller kopiera cashtaggen nedan.",
-        "manualAcceptanceWait": "Vänligen vänta medan din betalning manuellt accepteras av kontoägaren.",
-        "openCashapp": "Öppna CashApp",
-        "scanQrCode": "Du kan skanna QR-koden.",
-        "sendExactAmount": "Se till att skicka det exakta beloppet.",
-        "sendPaymentWithNote": "Du ska skicka en betalning med en nota till följande konto.",
-        "warningPaymentWithNote": "Varning - Betalning med nota"
+        "howToPay": "Hur man betalar",
+        "step1": "Öppna Cash App på din telefon",
+        "step2": "Skanna QR-koden eller skicka betalning till {cashtag}",
+        "step3": "Lägg till betalningsanteckningen som visas ovan",
+        "step4": "Slutför betalningen. Din order uppdateras automatiskt.",
+        "waitingForPayment": "Väntar på betalning. Den här sidan uppdateras automatiskt."
       },
       "CheckoutPayCryptocurrency": {
-        "automaticProcessingConfirmation": "Din beställning kommer att behandlas automatiskt när transaktionen har bekräftats.",
-        "automaticProcessingPayment": "Din beställning kommer att behandlas automatiskt när betalningen har mottagits.",
-        "automaticProcessingRemaining": "Din order kommer att behandlas automatiskt när resterande belopp har mottagits.",
-        "copied": "Kopierat!",
-        "copyAddressBelow": "Eller kopiera adressen nedan.",
-        "copyBelow": "Du kan kopiera den nedan.",
-        "noTransactions": "Inga transaktioner ännu...",
-        "openWallet": "Öppen plånbok",
         "partialPayment": "Delbetalning",
-        "partialPaymentStatus": "Du har betalat {paidAmount} {gateway} från {totalAmount} {gateway}.",
-        "remainingAmount": "Återstående belopp: {amount} {gateway}.",
-        "scanQrCode": "Du kan skanna QR-koden.",
+        "remainingAmount": "Återstår: {amount} {gateway}",
         "sendExactAmount": "Se till att skicka det exakta beloppet.",
         "sendExactRemainingAmount": "Se till att skicka det exakta återstående beloppet.",
-        "sendPaymentToAddress": "Du bör skicka en betalning till följande adress.",
+        "copied": "Kopierat!",
+        "openWallet": "Öppen plånbok",
         "transactionHistory": "Transaktionshistorik",
-        "addressSafetyTitle": "Viktigt: Kontrollera plånbokens adress",
-        "addressSafetySubtitle": "För din säkerhet, kontrollera alltid att den plånboksadress du klistrar in i din plånbok stämmer överens med den som visas här.",
-        "verifyAddressInstructions": "Kontrollera åtminstone de första 4 och sista 4 tecknen i adressen.",
-        "dismiss": "Avvisa"
+        "awaitingConfirmation": "Väntar på bekräftelse från nätverk...",
+        "verifyAddressInstructions": "Verifiera alltid de första och sista tecknen i adressen innan du skickar.",
+        "howToPay": "Hur man betalar",
+        "step1": "Skicka {amount} {gateway} till adressen ovan",
+        "step2": "Betalningen kommer att detekteras automatiskt efter bekräftelse från nätverk",
+        "step3": "Skicka endast {gateway} till denna adress. Andra kryptovalutor kommer att gå förlorade.",
+        "waitingForPayment": "Väntar på betalning. Den här sidan uppdateras automatiskt."
       },
       "CheckoutPayExternalUrl": {
-        "clickHereIfNotVisible": "Ser du det inte? Klicka här",
         "paymentBeingProcessed": "Din betalning håller på att behandlas...",
-        "paymentPageOpened": "Betalningssidan har öppnats i en ny flik"
+        "paymentPageOpened": "Betalningssida öppnad",
+        "redirectDescription": "En betalningssida har öppnats i en ny flik. Klicka på knappen nedan om den inte öppnades eller om du behöver återvända till den.",
+        "payNow": "Betala nu",
+        "clickHereIfNotVisible": "Ser du det inte? Klicka här"
       },
       "CheckoutPayRewarble": {
-        "title": "Lös in Rewarble-voucher",
         "description": "Ange din Rewarble-voucherkod nedan för att slutföra betalningen.",
         "overpayNote": "Om din voucher är värd mer än orderns totalsumma krediteras resterande saldo till ditt kundkonto.",
         "partialPaymentTitle": "Delbetalning mottagen",
-        "partialPaymentStatus": "{paidAmount} {currency} betalt — {remainingAmount} {currency} återstår. Lös in en annan voucher för att täcka resterande saldo.",
-        "voucherCodeLabel": "Voucherkod",
+        "partialPaymentRemaining": "{remainingAmount} {currency} behövs fortfarande. Lös in en annan voucher för att täcka resten.",
+        "redeemTitle": "Lös in voucher",
         "voucherCodeRequired": "Ange din voucherkod.",
         "redeemButton": "Lös in voucher",
         "redeemError": "Det gick inte att lösa in vouchern. Kontrollera koden och försök igen.",
-        "resellersTitle": "Har du ingen voucher? Köp en från en återförsäljare."
+        "howToPay": "Hur man betalar",
+        "step1": "Köp en Rewarble-voucher från någon av återförsäljarna nedan",
+        "step2": "Kopiera voucherkoden du mottog",
+        "step3": "Klistra in den i fältet ovan och klicka på Lös in voucher",
+        "step4": "Din order kommer att behandlas automatiskt när vouchern har tillämpats",
+        "resellersTitle": "Har du ingen voucher? Köp en från en återförsäljare.",
+        "waitingForPayment": "Waiting for payment. This page updates automatically."
       },
       "CheckoutPayManual": {
-        "awaitingConfirmation": "Inväntar bekräftelse",
-        "cancel": "Avbryt",
+        "markedAsPaidSuccess": "Fakturan markerad som betald framgångsrikt! Vänligen vänta på bekräftelse.",
+        "markedAsPaidFailed": "Misslyckades med att markera fakturan som betald. Vänligen försök igen.",
         "markAsPaid": "Markera som betald",
         "markOrderAsPaid": "Markera ordern som betald",
-        "markedAsPaidFailed": "Misslyckades med att markera fakturan som betald. Vänligen försök igen.",
-        "markedAsPaidSuccess": "Fakturan markerad som betald framgångsrikt! Vänligen vänta på bekräftelse.",
-        "paymentInstructions": "Betalningsinstruktioner",
         "proofOfPayment": "Bevis på betalning",
-        "proofOfPaymentRequired": "Bevis på betalning krävs."
+        "proofOfPaymentRequired": "Bevis på betalning krävs.",
+        "cancel": "Avbryt",
+        "paymentInstructions": "Betalningsinstruktioner",
+        "awaitingConfirmation": "Inväntar bekräftelse",
+        "waitingForPayment": "Väntar på betalning. Den här sidan uppdateras automatiskt."
       },
       "CheckoutPayPayPalFriendsFamily": {
         "addNoteInstruction": "Lägg till en anmärkning till betalningen, annars kommer den att ignoreras.",
-        "additionalDetailsInstruction": "Om du blir ombedd att lämna ytterligare information, använd följande:",
-        "automaticProcessingMessage": "Din beställning kommer att behandlas automatiskt när betalningen har mottagits.",
-        "continue": "Fortsätt",
-        "copied": "Kopierat!",
-        "copyBelow": "Du kan kopiera den nedan.",
-        "copyEmailBelow": "Kopiera PayPal-mejladressen nedan.",
-        "friendsFamilyNoteWarning": "Se till att skicka betalningen som Friends & Family och att lägga till noten, annars kommer din beställning inte att behandlas automatiskt.",
-        "friendsFamilyWarning": "Om du inte skickar som Friends & Family kommer din order inte att behandlas automatiskt.",
+        "addNoteWarning": "Se till att skicka som Vänner och familj och lägg till anteckningen, annars kommer din beställning inte att behandlas automatiskt.",
         "noNoteInstruction": "Skicka inte med en anteckning när du skickar betalningen.",
-        "openPaypal": "Öppna PayPal",
         "sendExactAmount": "Se till att skicka det exakta beloppet.",
-        "sendFriendsFamilyNote": "Du bör skicka en Friends & Family-betalning med en not till följande konto.",
-        "warningFriendsFamilyNote": "Varning - Friends & Family-betalning med nota"
+        "copied": "Kopierat!",
+        "openPaypal": "Öppna PayPal",
+        "howToPay": "Hur man betalar",
+        "step1": "Logga in på ditt PayPal-konto",
+        "step2": "Välj \"Skicka & begär\" och sedan \"Skicka\"",
+        "step3": "Ange e-postadressen som visas ovan ({email})",
+        "step4": "Välj \"Skicka till en vän\" (Vänner och familj)",
+        "step5": "Ange det exakta beloppet: {amount}",
+        "step6": "Lägg till anteckningen som visas ovan i fältet \"Vad är detta för?\"",
+        "step7": "Slutför betalningen. Din order uppdateras automatiskt.",
+        "waitingForPayment": "Väntar på betalning. Den här sidan uppdateras automatiskt.",
+        "additionalDetailsInstruction": "Om du blir ombedd att lämna ytterligare information, använd följande:"
       },
       "CheckoutPayPayPalREST": {
         "paypalPaymentProcessing": "Din PayPal-betalning håller på att behandlas..."
@@ -249,78 +310,70 @@
         "clickTheButtonBelowToPayForYourOrder": "Klicka på knappen nedan för att betala för din beställning."
       },
       "CheckoutPaySumUp": {
-        "authenticationFailed": "Autentiseringen av kortet misslyckades. Försök med ett annat kort.",
-        "insufficientFunds": "Otillräckliga medel. Försök med ett annat kort.",
-        "networkError": "Fel i nätverket. Kontrollera din anslutning och försök igen.",
-        "paymentCancelled": "Betalningen har avbrutits. Vänligen försök igen.",
-        "paymentErrorGeneric": "Ett fel inträffade vid behandlingen av din betalning. Vänligen försök igen.",
+        "sumupPaymentProcessing": "Din SumUp-betalning håller på att behandlas...",
         "paymentFailedRetry": "Betalningen misslyckades. Uppdatera och försök igen eller använd ett annat kort.",
         "paymentProcessingNotification": "Din betalning håller på att behandlas. Vi kommer att meddela dig när den är klar.",
-        "sumupPaymentProcessing": "Din SumUp-betalning håller på att behandlas..."
+        "paymentCancelled": "Betalningen har avbrutits. Vänligen försök igen.",
+        "paymentErrorGeneric": "Ett fel inträffade vid behandlingen av din betalning. Vänligen försök igen.",
+        "networkError": "Fel i nätverket. Kontrollera din anslutning och försök igen.",
+        "authenticationFailed": "Autentiseringen av kortet misslyckades. Försök med ett annat kort.",
+        "insufficientFunds": "Otillräckliga medel. Försök med ett annat kort."
       },
       "CheckoutPayVenmo": {
         "addNoteInstruction": "Lägg till en anmärkning till betalningen, annars kommer den att ignoreras.",
-        "additionalDetailsInstruction": "Om du blir ombedd att lämna ytterligare information, använd följande:",
-        "automaticProcessingMessage": "Din beställning kommer att behandlas automatiskt när betalningen har mottagits.",
-        "continue": "Fortsätt",
-        "copied": "Kopierat!",
-        "copyBelow": "Du kan kopiera den nedan.",
-        "copyTagBelow": "Eller kopiera taggen nedan.",
-        "friendsFamilyNoteWarning": "Se till att skicka betalningen som Friends & Family och att lägga till noten, annars kommer din beställning inte att behandlas automatiskt.",
-        "openVenmo": "Öppna Venmo",
-        "scanQrCode": "Du kan skanna QR-koden.",
+        "addNoteWarning": "Se till att skicka som Vänner och familj och lägg till anteckningen, annars kommer din beställning inte att behandlas automatiskt.",
         "sendExactAmount": "Se till att skicka det exakta beloppet.",
-        "sendFriendsFamilyNote": "Du bör skicka en Friends & Family-betalning med en not till följande konto.",
-        "warningFriendsFamilyNote": "Varning - Friends & Family-betalning med nota"
-      },
-      "CheckoutPaymentMethodButton": {
-        "allowedAmounts": "Tillåtna belopp:",
-        "discount": "rabatt",
-        "fee": "avgift",
-        "maximumAmount": "Högsta belopp:",
-        "minimumAmount": "Lägsta belopp:",
-        "notAvailable": "Inte tillgänglig",
-        "amountNotEligible": "Belopp ej berättigat"
+        "copied": "Kopierat!",
+        "openVenmo": "Öppna Venmo",
+        "howToPay": "Hur man betalar",
+        "step1": "Öppna Venmo på din telefon",
+        "step2": "Skanna QR-koden eller skicka betalning till {tag}",
+        "step3": "Välj Vänner och familj och lägg sedan till betalningsanteckningen som visas ovan",
+        "step4": "Slutför betalningen. Din order uppdateras automatiskt.",
+        "waitingForPayment": "Väntar på betalning. Den här sidan uppdateras automatiskt.",
+        "additionalDetailsInstruction": "Om du blir ombedd att lämna ytterligare information, använd följande:"
       },
       "CheckoutPriceSummary": {
-        "couponCodeWithDiscount": "Kupongkod ({discount})",
-        "paymentMethodDiscount": "Betalningsmetod Rabatt",
-        "paymentMethodFee": "Betalningsmetod Avgift",
-        "preTaxTotal": "Före skatt Totalt",
         "subtotal": "Delsumma",
-        "taxWithRate": "Skatt ({rate}%)",
-        "total": "Totalt",
+        "volumeDiscount": "Volymrabatt",
+        "couponCodeWithDiscount": "Kupongkod ({discount})",
         "unknownCode": "Okänd kod",
-        "volumeDiscount": "Volymrabatt"
+        "paymentMethodFee": "Betalningsmetod Avgift",
+        "paymentMethodDiscount": "Betalningsmetod Rabatt",
+        "preTaxTotal": "Före skatt Totalt",
+        "taxWithRate": "Skatt ({rate}%)",
+        "total": "Totalt"
       },
       "CheckoutRefunded": {
         "orderRefunded": "Order återbetalad",
         "orderRefundedMessage": "Denna order har markerats som återbetald."
       },
       "CheckoutShopCustomerBalanceButton": {
-        "allowedAmounts": "Tillåtna belopp:",
-        "balance": "Balans",
-        "cancel": "Avbryt",
-        "clickToAuthenticate": "Klicka på för att autentisera.",
-        "continue": "Fortsätt",
-        "discount": "rabatt",
-        "enterEmailAddress": "Vänligen ange din e-postadress.",
-        "fee": "avgift",
-        "insufficientBalance": "Du har inte tillräckligt med saldo för att betala den här fakturan.",
-        "invalidCredentials": "Ogiltiga inloggningsuppgifter.",
-        "logIn": "Logga in",
-        "logInCustomerAccount": "Logga in på ditt kundkonto",
-        "loggedInAs": "Inloggad som {email}.",
-        "loggedInAsEmail": "Inloggad som {email}",
-        "logout": "Logga ut",
-        "maximumAmount": "Högsta belopp:",
-        "minimumAmount": "Lägsta belopp:",
-        "otpCaptchaInstructions": "Ett engångslösenord kommer att skickas till din e-postadress efter CAPTCHA-verifieringen. Vänligen vänta ett ögonblick.",
         "otpSent": "OTP har skickats till din e-post.",
         "otpSentInstructions": "Ett engångslösenord har skickats till din e-postadress. Ange det nedan för att få tillgång till ditt konto och betala med ditt saldo.",
-        "sufficientBalance": "Du har tillräckligt med saldo för att betala denna faktura.",
+        "otpCaptchaInstructions": "Ett engångslösenord kommer att skickas till din e-postadress efter CAPTCHA-verifieringen. Vänligen vänta ett ögonblick.",
+        "invalidCredentials": "Ogiltiga inloggningsuppgifter.",
+        "loggedInAs": "Inloggad som {email}.",
+        "loggedInAsEmail": "Inloggad som {email}",
+        "clickToAuthenticate": "Klicka på för att autentisera.",
+        "enterEmailAddress": "Vänligen ange din e-postadress.",
+        "allowedAmounts": "Tillåtna belopp:",
+        "minimumAmount": "Lägsta belopp:",
+        "maximumAmount": "Högsta belopp:",
         "notAvailable": "Inte tillgänglig",
-        "amountNotEligible": "Belopp ej berättigat"
+        "amountNotEligible": "Belopp ej berättigat",
+        "discount": "rabatt",
+        "fee": "avgift",
+        "feeTooltip": "En avgift läggs till för denna betalningsmetod",
+        "discountTooltip": "En rabatt tillämpas för denna betalningsmetod",
+        "logInCustomerAccount": "Logga in på ditt kundkonto",
+        "cancel": "Avbryt",
+        "logIn": "Logga in",
+        "insufficientBalance": "Du har inte tillräckligt med saldo för att betala den här fakturan.",
+        "sufficientBalance": "Du har tillräckligt med saldo för att betala denna faktura.",
+        "balance": "Balans",
+        "logout": "Logga ut",
+        "continue": "Fortsätt"
       },
       "CheckoutStepper": {
         "next": "Nästa:",
@@ -328,25 +381,17 @@
       },
       "CheckoutTicketButton": {
         "havingIssues": "Har du problem med din beställning?",
-        "openSupportTicket": "Öppna ett supportärende",
-        "openTicketInstructions": "Du kan öppna ett ärende på din Customer Dashboard för att få hjälp från vårt supportteam."
+        "openTicketInstructions": "Du kan öppna ett ärende på din Customer Dashboard för att få hjälp från vårt supportteam.",
+        "openSupportTicket": "Öppna ett supportärende"
+      },
+      "CheckoutCompletedShipping": {
+        "shippingStatus": "Leveransstatus",
+        "stepPreparing": "Förbereds",
+        "stepShipped": "Skickat",
+        "stepDelivered": "Levererat",
+        "trackingCode": "Spårning",
+        "trackPackage": "Spåra paket"
       }
-    },
-    "FormLabel": {
-      "optionalIndicator": "(valfritt)"
-    },
-    "FormSubmit": {
-      "defaultLabel": "Fortsätt"
-    }
-  },
-  "Route": {
-    "App": {
-      "title": "Checka ut"
-    },
-    "Checkout": {
-      "invoiceNotFound": "Fakturan hittades inte",
-      "pageTitle": "Checka ut - {shopName}",
-      "shopNotFound": "Butiken hittades inte"
     }
   }
 }

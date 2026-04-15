@@ -24,7 +24,8 @@
         "stepReceiveItems": "商品を受け取る",
         "stepOrderCancelled": "注文がキャンセルされました",
         "stepOrderRefunded": "注文が返金されました",
-        "payShopName": "{shopName} への支払い"
+        "payShopName": "{shopName} への支払い",
+        "orderSummary": "注文概要"
       },
       "CheckoutAdditionalInformationForm": {
         "additionalInformationInstructions": "以下の項目を入力してください。",
@@ -32,9 +33,12 @@
         "proceedToPayment": "支払いに進む"
       },
       "CheckoutCompleted": {
-        "orderCompletedSuccessfully": "ご注文が正常に完了しました！",
-        "orderPartiallyCompleted": "ご注文が一部完了しました！",
-        "orderMarkedRefunded": "ご注文は返金済みにマークされました！"
+        "orderCompletedTitle": "注文完了",
+        "orderCompletedSubtitle": "商品の準備ができました。下記で商品をご確認ください。",
+        "orderPartiallyCompletedTitle": "一部履行済み",
+        "orderPartiallyCompletedSubtitle": "一部の商品が配送できませんでした。詳細は下記をご確認ください。",
+        "orderRefundedTitle": "注文返金済み",
+        "orderRefundedSubtitle": "支払いが返金されました。ご質問がある場合はサポートにお問い合わせください。"
       },
       "CheckoutCompletedDeliverables": {
         "statusDelivered": "提供済み",
@@ -57,7 +61,9 @@
         "productBeingDelivered": "この商品は配送中です...",
         "productDeliveryFailed": "この商品は配達できませんでした。詳細についてはサポートにお問い合わせください。",
         "downloadableFiles": "ダウンロード可能ファイル",
-        "downloadFileFailed": "ファイルのダウンロードに失敗しました。"
+        "downloadFileFailed": "ファイルのダウンロードに失敗しました。",
+        "copyAll": "すべてコピー",
+        "showMore": "{count} 件以上を表示"
       },
       "CheckoutCompletedFeedback": {
         "rating": "評価",
@@ -76,6 +82,13 @@
         "feedbackEmailInstructions": "注文完了時に受け取ったメールの\"フィードバックを残す\"ボタンをクリックしてフィードバックを残すことができます。",
         "yourFeedback": "あなたの評価",
         "leaveFeedback": "評価を投稿する",
+        "yourFeedbackSubtitle": "フィードバックを共有いただきありがとうございます。",
+        "leaveFeedbackSubtitle": "あなたのレビューは他の購入者の参考になります。",
+        "ratingExcellent": "非常に良い",
+        "ratingGood": "良い",
+        "ratingAverage": "普通",
+        "ratingPoor": "悪い",
+        "ratingTerrible": "非常に悪い",
         "automaticFeedbackWarning": "7日以内にレビューが投稿されない場合、自動的に「星5」の評価が適用されます。"
       },
       "CheckoutCompletedRedirectUrl": {
@@ -101,7 +114,8 @@
       "CheckoutFooter": {
         "termsOfService": "利用規約",
         "privacyPolicy": "プライバシーポリシー",
-        "refundPolicy": "返金ポリシー"
+        "refundPolicy": "返金ポリシー",
+        "poweredBy": "提供元"
       },
       "CheckoutInvoiceDetails": {
         "invoiceId": "ご注文ID",
@@ -115,7 +129,11 @@
         "createdAt": "注文作成日",
         "expiresAt": "支払い期限",
         "completedAt": "完了日",
-        "cancelledAt": "キャンセル日"
+        "cancelledAt": "キャンセル日",
+        "invoicePdf": "請求書PDFをダウンロード",
+        "paymentMethod": "支払い方法",
+        "orderInformation": "注文情報",
+        "expired": "期限切れ"
       },
       "CheckoutInvoiceItems": {
         "forParentItem": "{parentName} 用",
@@ -168,7 +186,13 @@
         "sectionBilling": "請求",
         "sectionShipping": "配送",
         "sectionPayment": "お支払い",
+        "noPaymentMethods": "利用可能な支払い方法がありません",
+        "noPaymentMethodsOwnerHint": "ショップオーナーの場合は、以下から追加できます",
+        "noPaymentMethodsOwnerLink": "設定 > 支払い方法",
         "secureEncrypted": "すべての取引は安全に暗号化されています。"
+      },
+      "CheckoutPay": {
+        "waitingForPayment": "支払いを待っています。このページは自動的に更新されます。"
       },
       "CheckoutPaymentMethodButton": {
         "allowedAmounts": "許可された金額：",
@@ -177,7 +201,9 @@
         "notAvailable": "利用不可",
         "amountNotEligible": "対象外の金額",
         "fee": "手数料",
-        "discount": "割引"
+        "discount": "割引",
+        "feeTooltip": "この支払い方法には手数料が追加されます",
+        "discountTooltip": "この支払い方法には割引が適用されます"
       },
       "CheckoutPayCashApp": {
         "warningPaymentWithNote": "注意 - メモ付き支払い",
@@ -195,46 +221,53 @@
         "awaitingConfirmation": "確認をお待ちしています...",
         "manualAcceptanceWait": "アカウント所有者による手動承認をお待ちください。",
         "confirmationMessage": "支払いが処理されると確認通知が届きます。",
-        "contactForAssistance": "ご質問やサポートが必要な場合は、お気軽にお問い合わせください。"
+        "contactForAssistance": "ご質問やサポートが必要な場合は、お気軽にお問い合わせください。",
+        "howToPay": "支払い方法",
+        "step1": "スマートフォンでCash Appを開く",
+        "step2": "QRコードをスキャンするか、{cashtag} に支払いを送信する",
+        "step3": "上記の支払いメモを追加する",
+        "step4": "支払いを完了する。注文は自動的に更新されます。",
+        "waitingForPayment": "支払いを待っています。このページは自動的に更新されます。"
       },
       "CheckoutPayCryptocurrency": {
         "partialPayment": "一部支払い",
-        "partialPaymentStatus": "{totalAmount} {gateway} のうち {paidAmount} {gateway} をお支払いいただきました。",
-        "remainingAmount": "残額：{amount} {gateway}。",
-        "sendPaymentToAddress": "以下のアドレスへご送金ください。",
+        "remainingAmount": "残り: {amount} {gateway}",
         "sendExactAmount": "指定された金額を正確にお送りください。",
         "sendExactRemainingAmount": "指定された残額を正確にお送りください。",
-        "scanQrCode": "このQRコードをスキャンすることで、簡単に送金できます。",
-        "copyAddressBelow": "もしくは以下のアドレスをコピーしてご送金ください。",
-        "copyBelow": "下の金額をクリックして金額をコピーできます。",
         "copied": "コピーしました！",
         "openWallet": "ウォレットを開く",
         "transactionHistory": "取引情報",
-        "noTransactions": "送金を待っています...",
-        "automaticProcessingRemaining": "残りの金額が確認され次第、ご注文の処理を自動で進めます。",
-        "automaticProcessingPayment": "ネットワークでの承認後、注文は自動的に処理されます。",
-        "automaticProcessingConfirmation": "取引が確認されると注文は自動的に処理されます。",
-        "addressSafetyTitle": "重要：送金先アドレスを必ずご確認ください",
-        "addressSafetySubtitle": "打ち間違い防止のため、送金先ウォレットに貼り付けたアドレスが、画面上の表示と一致していることを必ず確認してください。",
-        "verifyAddressInstructions": "アドレスの最後の4文字を少なくとも確認してください。",
-        "dismiss": "閉じる"
+        "awaitingConfirmation": "ネットワーク確認を待っています...",
+        "verifyAddressInstructions": "送信前にアドレスの最初と最後の文字を確認してください。",
+        "howToPay": "支払い方法",
+        "step1": "上記のアドレスに {amount} {gateway} を送信する",
+        "step2": "ネットワーク確認後に支払いが自動的に検出されます",
+        "step3": "このアドレスには {gateway} のみを送信してください。他の暗号通貨は失われます。",
+        "waitingForPayment": "支払いを待っています。このページは自動的に更新されます。"
       },
       "CheckoutPayExternalUrl": {
         "paymentBeingProcessed": "お支払いを処理中です...",
-        "paymentPageOpened": "支払いページが新しいタブで開かれました",
+        "paymentPageOpened": "支払いページが開きました",
+        "redirectDescription": "新しいタブで支払いページが開かれました。開かなかった場合や戻る必要がある場合は、下記のボタンをクリックしてください。",
+        "payNow": "今すぐ支払う",
         "clickHereIfNotVisible": "表示されませんか？こちらをクリック"
       },
       "CheckoutPayRewarble": {
-        "title": "Rewarbleバウチャーを利用する",
         "description": "お支払いを完了するには、下記にRewarbleバウチャーコードを入力してください。",
         "overpayNote": "バウチャーの金額が注文合計を超える場合、残高はカスタマーアカウントに積み立てられます。",
         "partialPaymentTitle": "一部支払い受付済み",
-        "partialPaymentStatus": "{paidAmount} {currency} 支払い済み — 残り {remainingAmount} {currency} が必要です。残高を補うために別のバウチャーを利用してください。",
-        "voucherCodeLabel": "バウチャーコード",
+        "partialPaymentRemaining": "{remainingAmount} {currency} が必要です。残りをカバーするために別のバウチャーを利用してください。",
+        "redeemTitle": "バウチャーを利用する",
         "voucherCodeRequired": "バウチャーコードを入力してください。",
         "redeemButton": "バウチャーを利用する",
         "redeemError": "バウチャーの利用に失敗しました。コードを確認して再度お試しください。",
-        "resellersTitle": "バウチャーをお持ちでない方は、リセラーからご購入いただけます。"
+        "howToPay": "支払い方法",
+        "step1": "下記のリセラーからRewarbleバウチャーを購入する",
+        "step2": "受け取ったバウチャーコードをコピーする",
+        "step3": "上記のフィールドに貼り付けて「バウチャーを利用する」をクリックする",
+        "step4": "バウチャーが適用されると注文が自動的に処理されます",
+        "resellersTitle": "バウチャーをお持ちでない方は、リセラーからご購入いただけます。",
+        "waitingForPayment": "支払いを待っています。このページは自動的に更新されます。"
       },
       "CheckoutPayManual": {
         "markedAsPaidSuccess": "注文が正常に支払い済みとしてマークされました！確認をお待ちください。",
@@ -245,22 +278,25 @@
         "proofOfPaymentRequired": "支払い証明が必要です。",
         "cancel": "キャンセル",
         "paymentInstructions": "支払い手順",
-        "awaitingConfirmation": "確認をお待ちしています"
+        "awaitingConfirmation": "確認をお待ちしています",
+        "waitingForPayment": "支払いを待っています。このページは自動的に更新されます。"
       },
       "CheckoutPayPayPalFriendsFamily": {
-        "warningFriendsFamilyNote": "注意 - 個人間送金（メモ付き）",
-        "friendsFamilyNoteWarning": "友達・家族間送金として送信し、メモを追加してください。そうしないと注文が自動処理されません。",
-        "friendsFamilyWarning": "友達・家族間送金として送信しないと、注文が自動処理されません。",
-        "continue": "続ける",
-        "automaticProcessingMessage": "支払いが受信されると注文は自動的に処理されます。",
-        "sendFriendsFamilyNote": "次のアカウントに個人間送金でメモ付きで支払いを送信してください。",
+        "addNoteInstruction": "支払いにメモを追加してください。そうしないと無視されます。",
+        "addNoteWarning": "友達や家族として送信し、メモを追加してください。そうしないと注文が自動的に処理されません。",
+        "noNoteInstruction": "支払い送信時にメモは含めないでください。",
         "sendExactAmount": "正確な金額を送信してください。",
-        "copyEmailBelow": "下記のPayPalメールアドレスをコピーしてください。",
-        "copyBelow": "下記からコピーできます。",
         "copied": "コピーしました！",
         "openPaypal": "PayPalを開く",
-        "addNoteInstruction": "支払いにメモを追加してください。そうしないと無視されます。",
-        "noNoteInstruction": "支払い送信時にメモは含めないでください。",
+        "howToPay": "支払い方法",
+        "step1": "PayPalアカウントにログインする",
+        "step2": "\"送金・請求\"を選択してから\"送金\"を選択する",
+        "step3": "上記に表示されているメールアドレスを入力する（{email}）",
+        "step4": "\"友達に送る\"（友達や家族）を選択する",
+        "step5": "正確な金額を入力する: {amount}",
+        "step6": "\"何のため？\"フィールドに上記のメモを追加する",
+        "step7": "支払いを完了する。注文は自動的に更新されます。",
+        "waitingForPayment": "支払いを待っています。このページは自動的に更新されます。",
         "additionalDetailsInstruction": "追加詳細の入力を求められた場合は、次のものを使用してください："
       },
       "CheckoutPayPayPalREST": {
@@ -284,18 +320,17 @@
         "insufficientFunds": "残高不足です。別のカードをお試しください。"
       },
       "CheckoutPayVenmo": {
-        "warningFriendsFamilyNote": "注意 - 個人間送金（メモ付き）",
-        "friendsFamilyNoteWarning": "個人間送金として送信し、メモを追加してください。そうしないと注文が自動処理されません。",
-        "continue": "続ける",
-        "automaticProcessingMessage": "支払いが受信されると注文は自動的に処理されます。",
-        "sendFriendsFamilyNote": "次のアカウントに個人間送金でメモ付きで支払いを送信してください。",
+        "addNoteInstruction": "支払いにメモを追加してください。そうしないと無視されます。",
+        "addNoteWarning": "友達や家族として送信し、メモを追加してください。そうしないと注文が自動的に処理されません。",
         "sendExactAmount": "正確な金額を送信してください。",
-        "scanQrCode": "QRコードをスキャンできます。",
-        "copyTagBelow": "または下記のタグをコピーしてください。",
-        "copyBelow": "下記からコピーできます。",
         "copied": "コピーしました！",
         "openVenmo": "Venmoを開く",
-        "addNoteInstruction": "支払いにメモを追加してください。そうしないと無視されます。",
+        "howToPay": "支払い方法",
+        "step1": "スマートフォンでVenmoを開く",
+        "step2": "QRコードをスキャンするか、{tag} に支払いを送信する",
+        "step3": "友達や家族を選択し、上記の支払いメモを追加する",
+        "step4": "支払いを完了する。注文は自動的に更新されます。",
+        "waitingForPayment": "支払いを待っています。このページは自動的に更新されます。",
         "additionalDetailsInstruction": "追加詳細の入力を求められた場合は、次のものを使用してください："
       },
       "CheckoutPriceSummary": {
@@ -325,10 +360,12 @@
         "allowedAmounts": "許可された金額：",
         "minimumAmount": "最小金額：",
         "maximumAmount": "最大金額：",
-        "discount": "割引",
-        "fee": "手数料",
         "notAvailable": "利用不可",
         "amountNotEligible": "対象外の金額",
+        "discount": "割引",
+        "fee": "手数料",
+        "feeTooltip": "この支払い方法には手数料が追加されます",
+        "discountTooltip": "この支払い方法には割引が適用されます",
         "logInCustomerAccount": "マイページにログイン",
         "cancel": "キャンセル",
         "logIn": "ログイン",
@@ -346,6 +383,14 @@
         "havingIssues": "お困りですか？",
         "openTicketInstructions": "サポートチームから支援を受けられます。",
         "openSupportTicket": "サポートへ問い合わせる"
+      },
+      "CheckoutCompletedShipping": {
+        "shippingStatus": "配送状況",
+        "stepPreparing": "準備中",
+        "stepShipped": "発送済み",
+        "stepDelivered": "配達完了",
+        "trackingCode": "追跡",
+        "trackPackage": "荷物を追跡"
       }
     }
   }
