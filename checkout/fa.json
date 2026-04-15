@@ -1,0 +1,352 @@
+{
+  "Route": {
+    "App": {
+      "title": "پرداخت"
+    },
+    "Checkout": {
+      "pageTitle": "پرداخت - {shopName}",
+      "invoiceNotFound": "فاکتور یافت نشد",
+      "shopNotFound": "فروشگاه یافت نشد"
+    }
+  },
+  "Cmp": {
+    "FormLabel": {
+      "optionalIndicator": "(اختیاری)"
+    },
+    "FormSubmit": {
+      "defaultLabel": "ادامه"
+    },
+    "Checkout": {
+      "Checkout": {
+        "stepOrderInformation": "اطلاعات سفارش",
+        "stepExtraInformation": "اطلاعات اضافی",
+        "stepConfirmPay": "تأیید و پرداخت",
+        "stepReceiveItems": "دریافت اقلام شما",
+        "stepOrderCancelled": "سفارش لغو شد",
+        "stepOrderRefunded": "سفارش بازپرداخت شد",
+        "payShopName": "پرداخت به {shopName}"
+      },
+      "CheckoutAdditionalInformationForm": {
+        "additionalInformationInstructions": "لطفاً اطلاعات اضافی برای اقلام زیر در سفارش خود ارائه دهید.",
+        "fieldRequiredError": "این فیلد الزامی است",
+        "proceedToPayment": "ادامه به پرداخت"
+      },
+      "CheckoutCompleted": {
+        "orderCompletedSuccessfully": "سفارش شما با موفقیت تکمیل شد!",
+        "orderPartiallyCompleted": "سفارش شما جزئاً تکمیل شد!",
+        "orderMarkedRefunded": "سفارش شما به عنوان بازپرداخت شده علامت‌گذاری شد!"
+      },
+      "CheckoutCompletedDeliverables": {
+        "statusDelivered": "تحویل داده شد",
+        "statusPending": "در انتظار",
+        "statusOutOfStock": "ناموجود",
+        "statusCancelled": "لغو شد",
+        "statusExpired": "منقضی شده",
+        "statusVoided": "باطل شده",
+        "statusFailed": "ناموفق",
+        "statusRefunded": "بازپرداخت شد",
+        "downloadFailed": "دانلود اقلام قابل تحویل ناموفق بود.",
+        "downloadButton": "دانلود",
+        "deliveredItems": "اقلام تحویل داده شده",
+        "addOns": "افزودنی‌ها",
+        "instructions": "دستورالعمل‌ها",
+        "copied": "کپی شد!",
+        "moreItemsDownload": "و {count} مورد دیگر که می‌توانید با دانلود {label} به آن‌ها دسترسی پیدا کنید.",
+        "copy": "کپی",
+        "outOfStockMessage": "این محصول در حال حاضر ناموجود است. لطفاً برای اطلاعات بیشتر با پشتیبانی ما تماس بگیرید.",
+        "productBeingDelivered": "این محصول در حال تحویل است...",
+        "productDeliveryFailed": "این محصول قابل تحویل نبود. لطفاً برای اطلاعات بیشتر با پشتیبانی ما تماس بگیرید.",
+        "downloadableFiles": "فایل‌های قابل دانلود",
+        "downloadFileFailed": "دانلود فایل ناموفق بود."
+      },
+      "CheckoutCompletedFeedback": {
+        "rating": "امتیاز",
+        "message": "پیام",
+        "noMessageLeft": "پیامی باقی نمانده است.",
+        "replyFromShop": "پاسخ از {shopName}",
+        "editFeedback": "ویرایش بازخورد",
+        "ratingRequired": "امتیاز الزامی است.",
+        "messageRequired": "پیام الزامی است.",
+        "saveChanges": "ذخیره تغییرات",
+        "submitFeedback": "ارسال بازخورد",
+        "cancel": "لغو",
+        "feedbackIneligibleManual": "این سفارش واجد شرایط بازخورد نیست (پردازش دستی)",
+        "feedbackIneligibleAmount": "این سفارش واجد شرایط بازخورد نیست (مبلغ ناچیز)",
+        "feedbackCouponIncentive": "بازخورد بگذارید تا برای خرید بعدی خود کوپن تخفیف دریافت کنید. حداقل امتیاز مورد نیاز: {rating} ستاره.",
+        "feedbackEmailInstructions": "می‌توانید با کلیک روی دکمه \"بازخورد بگذارید\" در ایمیلی که پس از تکمیل سفارش دریافت کردید، بازخورد بگذارید.",
+        "yourFeedback": "بازخورد شما",
+        "leaveFeedback": "بازخورد بگذارید",
+        "automaticFeedbackWarning": "اگر ظرف 7 روز بازخورد نگذارید، بازخورد 5 ستاره به طور خودکار برای شما ثبت خواهد شد."
+      },
+      "CheckoutCompletedRedirectUrl": {
+        "clickContinueOrder": "برای ادامه به سفارش خود در هر جا کلیک کنید."
+      },
+      "CheckoutDiscordIntegration": {
+        "discord": "دیسکورد",
+        "connectDiscordRequired": "برای ادامه حساب دیسکورد خود را متصل کنید.",
+        "disconnect": "قطع اتصال",
+        "connectDiscord": "اتصال دیسکورد",
+        "connectButton": "اتصال",
+        "discordDescriptionWithRole": "برای پیوستن خودکار به سرور دیسکورد ما و دریافت نقش.",
+        "discordDescriptionWithoutRole": "برای پیوستن خودکار به سرور دیسکورد ما."
+      },
+      "CheckoutFailed": {
+        "orderCancelled": "سفارش لغو شد",
+        "orderExpired": "سفارش منقضی شد",
+        "orderFailed": "سفارش ناموفق بود",
+        "orderCancelledMessage": "سفارش لغو شده است.",
+        "paymentNotSentInTime": "پرداخت در زمان مقرر ارسال نشد.",
+        "orderProcessingFailed": "این سفارش قابل پردازش نبود. اگر فکر می‌کنید این اشتباه است، لطفاً با پشتیبانی ما تماس بگیرید یا بعداً دوباره امتحان کنید."
+      },
+      "CheckoutFooter": {
+        "termsOfService": "شرایط خدمات",
+        "privacyPolicy": "سیاست حریم خصوصی",
+        "refundPolicy": "سیاست بازپرداخت"
+      },
+      "CheckoutInvoiceDetails": {
+        "invoiceId": "شناسه فاکتور",
+        "copied": "کپی شد!",
+        "emailAddress": "آدرس ایمیل",
+        "anonymized": "ناشناس شده",
+        "totalPrice": "قیمت کل",
+        "totalPriceUsd": "قیمت کل (USD)",
+        "totalAmountCrypto": "مبلغ کل ({gateway})",
+        "remainingAmountCrypto": "مبلغ باقیمانده ({gateway})",
+        "createdAt": "ایجاد شده در",
+        "expiresAt": "منقضی می‌شود در",
+        "completedAt": "تکمیل شده در",
+        "cancelledAt": "لغو شده در"
+      },
+      "CheckoutInvoiceItems": {
+        "forParentItem": "برای {parentName}",
+        "priceEach": "{price} برای هر یک"
+      },
+      "CheckoutOrderInformationForm": {
+        "emailAddress": "آدرس ایمیل",
+        "emailPlaceholder": "تأییدیه سفارش به این آدرس ایمیل ارسال خواهد شد.",
+        "emailRequired": "لطفاً آدرس ایمیل خود را وارد کنید",
+        "emailInvalid": "لطفاً یک آدرس ایمیل معتبر وارد کنید",
+        "couponCode": "کد کوپن",
+        "couponPlaceholder": "کد کوپن دارید؟ اینجا وارد کنید.",
+        "applied": "اعمال شد",
+        "apply": "اعمال",
+        "remove": "حذف",
+        "paymentMethod": "روش پرداخت",
+        "paymentMethodRequired": "لطفاً یک روش پرداخت انتخاب کنید",
+        "termsRequired": "لطفاً شرایط و ضوابط را بپذیرید",
+        "termsAgreement": "من شرایط خدمات {shopName} را خوانده‌ام و قبول دارم.",
+        "newsletterSignup": "مایلم به‌روزرسانی‌ها و پیشنهادات تبلیغاتی {shopName} را دریافت کنم.",
+        "proceedToPayment": "ادامه به پرداخت",
+        "billingAddress": "آدرس صورتحساب",
+        "shippingAddress": "آدرس ارسال",
+        "shippingSameAsBilling": "همانند آدرس صورتحساب",
+        "name": "نام کامل",
+        "namePlaceholder": "نام کامل",
+        "nameRequired": "لطفاً نام کامل خود را وارد کنید",
+        "addressLine1": "آدرس خط 1",
+        "addressLine1Placeholder": "آدرس خیابان",
+        "addressLine1Required": "لطفاً آدرس خود را وارد کنید",
+        "addressLine2": "آدرس خط 2 (اختیاری)",
+        "addressLine2Placeholder": "آپارتمان، سوئیت، و غیره.",
+        "city": "شهر",
+        "cityPlaceholder": "شهر",
+        "cityRequired": "لطفاً شهر خود را وارد کنید",
+        "state": "استان / استان",
+        "statePlaceholder": "استان / استان",
+        "postcode": "کد پستی",
+        "postcodePlaceholder": "کد پستی",
+        "postcodeRequired": "لطفاً کد پستی خود را وارد کنید",
+        "country": "کشور",
+        "countryPlaceholder": "کشور",
+        "countryRequired": "لطفاً کشور خود را وارد کنید",
+        "shippingPhone": "شماره تلفن",
+        "shippingPhonePlaceholder": "شماره تلفن برای تماس تحویل",
+        "shippingPhoneRequired": "لطفاً یک شماره تلفن وارد کنید",
+        "sectionCoupon": "تخفیف",
+        "sectionContact": "تماس",
+        "sectionContactDelivery": "تماس و تحویل",
+        "sectionBilling": "صورتحساب",
+        "sectionShipping": "ارسال",
+        "sectionPayment": "پرداخت",
+        "secureEncrypted": "تمام تراکنش‌ها امن و رمزگذاری شده‌اند."
+      },
+      "CheckoutPaymentMethodButton": {
+        "allowedAmounts": "مبالغ مجاز:",
+        "minimumAmount": "حداقل:",
+        "maximumAmount": "حداکثر:",
+        "notAvailable": "در دسترس نیست",
+        "amountNotEligible": "مبلغ واجد شرایط نیست",
+        "fee": "کارمزد",
+        "discount": "تخفیف"
+      },
+      "CheckoutPayCashApp": {
+        "warningPaymentWithNote": "هشدار - پرداخت با یادداشت",
+        "addNoteWarning": "مطمئن شوید که یادداشت را اضافه می‌کنید، در غیر این صورت سفارش شما به طور خودکار پردازش نخواهد شد.",
+        "addNoteInstruction": "به پرداخت یادداشت اضافه کنید، در غیر این صورت نادیده گرفته خواهد شد.",
+        "continue": "ادامه",
+        "automaticProcessingMessage": "سفارش شما به محض دریافت پرداخت به طور خودکار پردازش خواهد شد.",
+        "sendPaymentWithNote": "شما باید پرداختی با یادداشت به حساب زیر ارسال کنید.",
+        "sendExactAmount": "مطمئن شوید که مبلغ دقیق را ارسال می‌کنید.",
+        "scanQrCode": "می‌توانید کد QR را اسکن کنید.",
+        "copyCashtag": "یا کازتگ زیر را کپی کنید.",
+        "copyBelow": "می‌توانید آن را زیر کپی کنید.",
+        "copied": "کپی شد!",
+        "openCashapp": "باز کردن CashApp",
+        "awaitingConfirmation": "در انتظار تأیید...",
+        "manualAcceptanceWait": "لطفاً منتظر بمانید تا پرداخت شما به صورت دستی توسط مالک حساب پذیرفته شود.",
+        "confirmationMessage": "پس از پردازش پرداخت، تأییدیه دریافت خواهید کرد.",
+        "contactForAssistance": "اگر سوالی دارید یا به کمک بیشتری نیاز دارید، لطفاً با ما تماس بگیرید."
+      },
+      "CheckoutPayCryptocurrency": {
+        "partialPayment": "پرداخت جزئی",
+        "partialPaymentStatus": "شما {paidAmount} {gateway} از {totalAmount} {gateway} را پرداخت کرده‌اید.",
+        "remainingAmount": "مبلغ باقیمانده: {amount} {gateway}.",
+        "sendPaymentToAddress": "شما باید پرداخت را به آدرس زیر ارسال کنید.",
+        "sendExactAmount": "مطمئن شوید که مبلغ دقیق را ارسال می‌کنید.",
+        "sendExactRemainingAmount": "مطمئن شوید که مبلغ باقیمانده دقیق را ارسال می‌کنید.",
+        "scanQrCode": "می‌توانید کد QR را اسکن کنید.",
+        "copyAddressBelow": "یا آدرس زیر را کپی کنید.",
+        "copyBelow": "می‌توانید آن را زیر کپی کنید.",
+        "copied": "کپی شد!",
+        "openWallet": "باز کردن کیف پول",
+        "transactionHistory": "تاریخچه تراکنش‌ها",
+        "noTransactions": "هنوز تراکنشی وجود ندارد...",
+        "automaticProcessingRemaining": "سفارش شما به محض دریافت مبلغ باقیمانده به طور خودکار پردازش خواهد شد.",
+        "automaticProcessingPayment": "سفارش شما به محض دریافت پرداخت به طور خودکار پردازش خواهد شد.",
+        "automaticProcessingConfirmation": "سفارش شما به محض تأیید تراکنش به طور خودکار پردازش خواهد شد.",
+        "addressSafetyTitle": "مهم: تأیید آدرس کیف پول",
+        "addressSafetySubtitle": "برای امنیت شما، همیشه تأیید کنید که آدرس کیف پولی که در کیف پول خود جای می‌دهید با آدرس نمایش داده شده در اینجا مطابقت دارد.",
+        "verifyAddressInstructions": "حداقل 4 کاراکتر اول و آخر آدرس را تأیید کنید.",
+        "dismiss": "رد کردن"
+      },
+      "CheckoutPayExternalUrl": {
+        "paymentBeingProcessed": "در حال پردازش پرداخت شما...",
+        "paymentPageOpened": "صفحه پرداخت در تب جدید باز شده است",
+        "clickHereIfNotVisible": "نمی‌بینید؟ اینجا کلیک کنید"
+      },
+      "CheckoutPayRewarble": {
+        "title": "بازخرید کوپن Rewarble",
+        "description": "کد کوپن Rewarble خود را در زیر وارد کنید تا پرداخت را تکمیل کنید.",
+        "overpayNote": "اگر کوپن شما بیش از مجموع سفارش ارزش دارد، مانده به حساب مشتری شما افزوده خواهد شد.",
+        "partialPaymentTitle": "پرداخت جزئی دریافت شد",
+        "partialPaymentStatus": "{paidAmount} {currency} پرداخت شده — هنوز {remainingAmount} {currency} نیاز است. کوپن دیگری را برای پوشش مانده بازخرید کنید.",
+        "voucherCodeLabel": "کد کوپن",
+        "voucherCodeRequired": "لطفاً کد کوپن خود را وارد کنید.",
+        "redeemButton": "بازخرید کوپن",
+        "redeemError": "بازخرید کوپن ناموفق بود. لطفاً کد را بررسی کرده و دوباره امتحان کنید.",
+        "resellersTitle": "کوپن ندارید؟ از یک فروشنده بخرید."
+      },
+      "CheckoutPayManual": {
+        "markedAsPaidSuccess": "فاکتور با موفقیت به عنوان پرداخت شده علامت‌گذاری شد! لطفاً برای تأیید منتظر بمانید.",
+        "markedAsPaidFailed": "علامت‌گذاری فاکتور به عنوان پرداخت شده ناموفق بود. لطفاً دوباره امتحان کنید.",
+        "markAsPaid": "علامت‌گذاری به عنوان پرداخت شده",
+        "markOrderAsPaid": "علامت‌گذاری سفارش به عنوان پرداخت شده",
+        "proofOfPayment": "اثبات پرداخت",
+        "proofOfPaymentRequired": "اثبات پرداخت الزامی است.",
+        "cancel": "لغو",
+        "paymentInstructions": "دستورالعمل‌های پرداخت",
+        "awaitingConfirmation": "در انتظار تأیید"
+      },
+      "CheckoutPayPayPalFriendsFamily": {
+        "warningFriendsFamilyNote": "هشدار - پرداخت دوستان و خانواده با یادداشت",
+        "friendsFamilyNoteWarning": "مطمئن شوید که پرداخت را به عنوان دوستان و خانواده ارسال می‌کنید و یادداشت را اضافه می‌کنید، در غیر این صورت سفارش شما به طور خودکار پردازش نخواهد شد.",
+        "friendsFamilyWarning": "اگر به عنوان دوستان و خانواده ارسال نکنید، سفارش شما به طور خودکار پردازش نخواهد شد.",
+        "continue": "ادامه",
+        "automaticProcessingMessage": "سفارش شما به محض دریافت پرداخت به طور خودکار پردازش خواهد شد.",
+        "sendFriendsFamilyNote": "شما باید پرداخت دوستان و خانواده با یادداشت به حساب زیر ارسال کنید.",
+        "sendExactAmount": "مطمئن شوید که مبلغ دقیق را ارسال می‌کنید.",
+        "copyEmailBelow": "آدرس ایمیل PayPal زیر را کپی کنید.",
+        "copyBelow": "می‌توانید آن را زیر کپی کنید.",
+        "copied": "کپی شد!",
+        "openPaypal": "باز کردن PayPal",
+        "addNoteInstruction": "به پرداخت یادداشت اضافه کنید، در غیر این صورت نادیده گرفته خواهد شد.",
+        "noNoteInstruction": "هنگام ارسال پرداخت یادداشت نگذارید.",
+        "additionalDetailsInstruction": "اگر خواسته شد اطلاعات اضافی ارائه دهید، از موارد زیر استفاده کنید:"
+      },
+      "CheckoutPayPayPalREST": {
+        "paypalPaymentProcessing": "در حال پردازش پرداخت PayPal شما..."
+      },
+      "CheckoutPayRevolutBusiness": {
+        "pleaseWait": "لطفاً منتظر بمانید...",
+        "somethingWentWrong": "مشکلی پیش آمد.",
+        "retry": "تلاش مجدد",
+        "yourPaymentIsBeingProcessed": "در حال پردازش پرداخت شما هستیم.",
+        "clickTheButtonBelowToPayForYourOrder": "برای پرداخت سفارش خود روی دکمه زیر کلیک کنید."
+      },
+      "CheckoutPaySumUp": {
+        "sumupPaymentProcessing": "در حال پردازش پرداخت SumUp شما...",
+        "paymentFailedRetry": "پرداخت ناموفق بود. لطفاً refresh کرده و دوباره امتحان کنید یا از کارت دیگری استفاده کنید.",
+        "paymentProcessingNotification": "در حال پردازش پرداخت شما هستیم. هنگام تکمیل آن به شما اطلاع خواهیم داد.",
+        "paymentCancelled": "پرداخت لغو شد. لطفاً دوباره امتحان کنید.",
+        "paymentErrorGeneric": "خطایی در پردازش پرداخت شما رخ داد. لطفاً دوباره امتحان کنید.",
+        "networkError": "خطای شبکه. لطفاً اتصال خود را بررسی کرده و دوباره امتحان کنید.",
+        "authenticationFailed": "احراز هویت کارت ناموفق بود. لطفاً از کارت دیگری استفاده کنید.",
+        "insufficientFunds": "بودجه کافی نیست. لطفاً از کارت دیگری استفاده کنید."
+      },
+      "CheckoutPayVenmo": {
+        "warningFriendsFamilyNote": "هشدار - پرداخت دوستان و خانواده با یادداشت",
+        "friendsFamilyNoteWarning": "مطمئن شوید که پرداخت را به عنوان دوستان و خانواده ارسال می‌کنید و یادداشت را اضافه می‌کنید، در غیر این صورت سفارش شما به طور خودکار پردازش نخواهد شد.",
+        "continue": "ادامه",
+        "automaticProcessingMessage": "سفارش شما به محض دریافت پرداخت به طور خودکار پردازش خواهد شد.",
+        "sendFriendsFamilyNote": "شما باید پرداخت دوستان و خانواده با یادداشت به حساب زیر ارسال کنید.",
+        "sendExactAmount": "مطمئن شوید که مبلغ دقیق را ارسال می‌کنید.",
+        "scanQrCode": "می‌توانید کد QR را اسکن کنید.",
+        "copyTagBelow": "یا تگ زیر را کپی کنید.",
+        "copyBelow": "می‌توانید آن را زیر کپی کنید.",
+        "copied": "کپی شد!",
+        "openVenmo": "باز کردن Venmo",
+        "addNoteInstruction": "به پرداخت یادداشت اضافه کنید، در غیر این صورت نادیده گرفته خواهد شد.",
+        "additionalDetailsInstruction": "اگر خواسته شد اطلاعات اضافی ارائه دهید، از موارد زیر استفاده کنید:"
+      },
+      "CheckoutPriceSummary": {
+        "subtotal": "جمع جزئی",
+        "volumeDiscount": "تخفیف حجم",
+        "couponCodeWithDiscount": "کد کوپن ({discount})",
+        "unknownCode": "کد ناشناخته",
+        "paymentMethodFee": "کارمزد روش پرداخت",
+        "paymentMethodDiscount": "تخفیف روش پرداخت",
+        "preTaxTotal": "جمع قبل از مالیات",
+        "taxWithRate": "مالیات ({rate}٪)",
+        "total": "جمع کل"
+      },
+      "CheckoutRefunded": {
+        "orderRefunded": "سفارش بازپرداخت شد",
+        "orderRefundedMessage": "این سفارش به عنوان بازپرداخت شده علامت‌گذاری شده است."
+      },
+      "CheckoutShopCustomerBalanceButton": {
+        "otpSent": "OTP به ایمیل شما ارسال شد.",
+        "otpSentInstructions": "رمز یک‌بار مصرف به آدرس ایمیل شما ارسال شده است. لطفاً آن را در زیر وارد کنید تا به حساب خود دسترسی پیدا کرده و با موجودی خود پرداخت کنید.",
+        "otpCaptchaInstructions": "رمز یک‌بار مصرف پس از تأیید CAPTCHA به آدرس ایمیل شما ارسال خواهد شد. لطفاً کمی صبر کنید.",
+        "invalidCredentials": "اعتبارنامه‌های نامعتبر.",
+        "loggedInAs": "به عنوان {email} وارد شده‌اید.",
+        "loggedInAsEmail": "به عنوان {email} وارد شده‌اید",
+        "clickToAuthenticate": "برای احراز هویت کلیک کنید.",
+        "enterEmailAddress": "لطفاً آدرس ایمیل خود را وارد کنید.",
+        "allowedAmounts": "مبالغ مجاز:",
+        "minimumAmount": "حداقل:",
+        "maximumAmount": "حداکثر:",
+        "notAvailable": "در دسترس نیست",
+        "amountNotEligible": "مبلغ واجد شرایط نیست",
+        "discount": "تخفیف",
+        "fee": "کارمزد",
+        "logInCustomerAccount": "ورود به حساب مشتری خود",
+        "cancel": "لغو",
+        "logIn": "ورود",
+        "insufficientBalance": "شما موجودی کافی برای پرداخت این فاکتور را ندارید.",
+        "sufficientBalance": "شما موجودی کافی برای پرداخت این فاکتور را دارید.",
+        "balance": "موجودی",
+        "logout": "خروج",
+        "continue": "ادامه"
+      },
+      "CheckoutStepper": {
+        "next": "بعدی:",
+        "stepNumber": "مرحله {number}"
+      },
+      "CheckoutTicketButton": {
+        "havingIssues": "مشکلی با سفارش خود دارید؟",
+        "openTicketInstructions": "می‌توانید یک تیکت را در داشبورد مشتری خود باز کنید تا از تیم پشتیبانی ما کمک دریافت کنید.",
+        "openSupportTicket": "باز کردن تیکت پشتیبانی"
+      }
+    }
+  }
+}
