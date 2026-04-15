@@ -24,7 +24,8 @@
         "stepReceiveItems": "Termékek átvétele",
         "stepOrderCancelled": "Megrendelés törölve",
         "stepOrderRefunded": "Megrendelés visszatérítve",
-        "payShopName": "Fizetés: {shopName}"
+        "payShopName": "Fizetés: {shopName}",
+        "orderSummary": "Rendelési összefoglaló"
       },
       "CheckoutAdditionalInformationForm": {
         "additionalInformationInstructions": "Kérjük, adjon meg további információkat a megrendelésében szereplő alábbi tételekről.",
@@ -32,9 +33,12 @@
         "proceedToPayment": "Tovább a fizetéshez"
       },
       "CheckoutCompleted": {
-        "orderCompletedSuccessfully": "A rendelésed sikeresen kézbesítve!",
-        "orderPartiallyCompleted": "A rendelésed részben teljesült!",
-        "orderMarkedRefunded": "A rendelésed visszatérítettként lett megjelölve!"
+        "orderCompletedTitle": "Rendelés teljesítve",
+        "orderCompletedSubtitle": "A termékeid készen állnak. Nézd meg lent a termékedet.",
+        "orderPartiallyCompletedTitle": "Részben teljesített",
+        "orderPartiallyCompletedSubtitle": "Egyes termékeket nem sikerült kézbesíteni. Nézd meg lent a részleteket.",
+        "orderRefundedTitle": "Rendelés visszatérítve",
+        "orderRefundedSubtitle": "A fizetésed visszatérítve lett. Ha kérdésed van, vedd fel a kapcsolatot a támogatással."
       },
       "CheckoutCompletedDeliverables": {
         "statusDelivered": "Kézbesítve",
@@ -57,7 +61,9 @@
         "productBeingDelivered": "A termék kézbesítése folyamatban van...",
         "productDeliveryFailed": "A terméket nem sikerült kézbesíteni.\nHa további információra van szükséged, kérjük, vedd fel a kapcsolatot az ügyfélszolgálatunkkal.",
         "downloadableFiles": "Letölthető fájlok",
-        "downloadFileFailed": "A fájl letöltése sikertelen."
+        "downloadFileFailed": "A fájl letöltése sikertelen.",
+        "copyAll": "Összes másolása",
+        "showMore": "Mutass még {count} további"
       },
       "CheckoutCompletedFeedback": {
         "rating": "Értékelés",
@@ -76,6 +82,13 @@
         "feedbackEmailInstructions": "A rendelés lezárása után kapott e-mailben a \"Vélemény írása\" gombra kattintva hagyhatsz értékelést.",
         "yourFeedback": "Az értékelésed",
         "leaveFeedback": "Értékelés írása",
+        "yourFeedbackSubtitle": "Köszönjük, hogy időt szántál a visszajelzés megosztására.",
+        "leaveFeedbackSubtitle": "Az értékelésed segít más vásárlóknak jobb döntéseket hozni.",
+        "ratingExcellent": "Kiváló",
+        "ratingGood": "Jó",
+        "ratingAverage": "Átlagos",
+        "ratingPoor": "Gyenge",
+        "ratingTerrible": "Szörnyű",
         "automaticFeedbackWarning": "Ha 7 napon belül nem hagysz értékelést, automatikusan egy 5 csillagos értékelés kerül beküldésre a nevedben."
       },
       "CheckoutCompletedRedirectUrl": {
@@ -101,7 +114,8 @@
       "CheckoutFooter": {
         "termsOfService": "Felhasználási feltételek",
         "privacyPolicy": "Adatvédelmi irányelvek",
-        "refundPolicy": "Visszatérítési szabályzat"
+        "refundPolicy": "Visszatérítési szabályzat",
+        "poweredBy": "Működteti"
       },
       "CheckoutInvoiceDetails": {
         "invoiceId": "Rendelési azonosító",
@@ -115,7 +129,11 @@
         "createdAt": "Létrehozva",
         "expiresAt": "Lejárat",
         "completedAt": "Elvégezve",
-        "cancelledAt": "Törölve ekkor"
+        "cancelledAt": "Törölve ekkor",
+        "invoicePdf": "Számla PDF letöltése",
+        "paymentMethod": "Fizetési mód",
+        "orderInformation": "Rendelési információk",
+        "expired": "Lejárt"
       },
       "CheckoutInvoiceItems": {
         "forParentItem": "Ehhez: {parentName}",
@@ -168,7 +186,13 @@
         "sectionBilling": "Számlázás",
         "sectionShipping": "Szállítás",
         "sectionPayment": "Fizetés",
+        "noPaymentMethods": "Nincsenek elérhető fizetési módok",
+        "noPaymentMethodsOwnerHint": "Ha te vagy az üzlet tulajdonosa, hozzáadhatod őket a",
+        "noPaymentMethodsOwnerLink": "Beállítások > Fizetési módok",
         "secureEncrypted": "Minden tranzakció biztonságos és titkosított."
+      },
+      "CheckoutPay": {
+        "waitingForPayment": "Fizetésre vár. Ez az oldal automatikusan frissül."
       },
       "CheckoutPaymentMethodButton": {
         "allowedAmounts": "Engedélyezett összegek:",
@@ -177,7 +201,9 @@
         "notAvailable": "Nem elérhető",
         "amountNotEligible": "Az összeg nem jogosult",
         "fee": "díj",
-        "discount": "kedvezmény"
+        "discount": "kedvezmény",
+        "feeTooltip": "Díj kerül hozzáadásra ehhez a fizetési módhoz",
+        "discountTooltip": "Kedvezmény kerül alkalmazásra ehhez a fizetési módhoz"
       },
       "CheckoutPayCashApp": {
         "warningPaymentWithNote": "Figyelmeztetés - Fizetés megjegyzéssel",
@@ -195,46 +221,53 @@
         "awaitingConfirmation": "Megerősítésre vár...",
         "manualAcceptanceWait": "Kérjük, várj, amíg a fizetésedet a csapatunk manuálisan elfogadja.",
         "confirmationMessage": "Értesítést fogsz kapni, amint a fizetés feldolgozása befejeződött.",
-        "contactForAssistance": "Ha kérdésed van vagy további segítségre van szükséged, kérjük, vedd fel velünk a kapcsolatot."
+        "contactForAssistance": "Ha kérdésed van vagy további segítségre van szükséged, kérjük, vedd fel velünk a kapcsolatot.",
+        "howToPay": "Hogyan fizess",
+        "step1": "Nyisd meg a Cash App-ot a telefonodon",
+        "step2": "Olvasd be a QR-kódot vagy küldj fizetést a {cashtag} címre",
+        "step3": "Add hozzá a fent látható fizetési megjegyzést",
+        "step4": "Fejezd be a fizetést. A rendelésed automatikusan frissül.",
+        "waitingForPayment": "Fizetésre vár. Ez az oldal automatikusan frissül."
       },
       "CheckoutPayCryptocurrency": {
         "partialPayment": "Részfizetés",
-        "partialPaymentStatus": "{paidAmount} {gateway} összeget fizettél be a(z) {totalAmount} {gateway} összegből.",
-        "remainingAmount": "Fennmaradó összeg: {amount} {gateway}.",
-        "sendPaymentToAddress": "A fizetést a következő címre kell elküldened.",
+        "remainingAmount": "Hátralévő: {amount} {gateway}",
         "sendExactAmount": "Ügyelj arra, hogy a pontos összeget küldd el.",
         "sendExactRemainingAmount": "Ügyelj arra, hogy a fennmaradó pontos összeget küldd el.",
-        "scanQrCode": "Beolvashatod a QR-kódot.",
-        "copyAddressBelow": "Vagy másold ki az alábbi címet.",
-        "copyBelow": "Alul kimásolhatod.",
         "copied": "Másolva!",
         "openWallet": "Tárca megnyitása",
         "transactionHistory": "Tranzakciós előzmények",
-        "noTransactions": "Még nincsenek tranzakciók...",
-        "automaticProcessingRemaining": "A rendelésed automatikusan feldolgozásra kerül, amint a fennmaradó összeg beérkezik.",
-        "automaticProcessingPayment": "A rendelésed automatikusan feldolgozásra kerül, amint a fizetés beérkezik.",
-        "automaticProcessingConfirmation": "A rendelésed automatikusan feldolgozásra kerül, amint a tranzakció megerősítést kap.",
-        "addressSafetyTitle": "Fontos: Ellenőrizd a tárcacímet",
-        "addressSafetySubtitle": "A biztonságod érdekében mindig ellenőrizd, hogy a pénztárcádba bemásolt cím megegyezik-e az itt látható címmel.",
-        "verifyAddressInstructions": "Ellenőrizd legalább a cím első 4 és utolsó 4 karakterét.",
-        "dismiss": "Bezárás"
+        "awaitingConfirmation": "Hálózati megerősítésre vár...",
+        "verifyAddressInstructions": "Mindig ellenőrizd a cím első és utolsó karakterét küldés előtt.",
+        "howToPay": "Hogyan fizess",
+        "step1": "Küldj {amount} {gateway} összeget a fenti címre",
+        "step2": "A fizetés automatikusan észlelésre kerül a hálózati megerősítés után",
+        "step3": "Csak {gateway} küldj erre a címre. Más kriptovaluták elvesznek.",
+        "waitingForPayment": "Fizetésre vár. Ez az oldal automatikusan frissül."
       },
       "CheckoutPayExternalUrl": {
         "paymentBeingProcessed": "A fizetésed feldolgozása folyamatban van...",
-        "paymentPageOpened": "A fizetési oldal új lapon nyílt meg",
+        "paymentPageOpened": "Fizetési oldal megnyitva",
+        "redirectDescription": "Egy fizetési oldal megnyílt új lapon. Kattints az alábbi gombra, ha nem nyílt meg vagy vissza kell térned hozzá.",
+        "payNow": "Fizess most",
         "clickHereIfNotVisible": "Nem látod? Kattints ide"
       },
       "CheckoutPayRewarble": {
-        "title": "Rewarble utalvány beváltása",
         "description": "Add meg a Rewarble utalványkódodat az alábbi mezőbe a fizetés befejezéséhez.",
         "overpayNote": "Ha az utalványod értéke meghaladja a rendelés összegét, a fennmaradó egyenleg az ügyfélfiókodba kerül.",
         "partialPaymentTitle": "Részleges fizetés érkezett",
-        "partialPaymentStatus": "{paidAmount} {currency} fizetve — még {remainingAmount} {currency} szükséges. Váltsd be a fennmaradó egyenleg fedezésére egy másik utalványt.",
-        "voucherCodeLabel": "Utalványkód",
+        "partialPaymentRemaining": "{remainingAmount} {currency} még szükséges. Válts be másik utalványt a fedezethez.",
+        "redeemTitle": "Utalvány beváltása",
         "voucherCodeRequired": "Kérjük, add meg az utalványkódodat.",
         "redeemButton": "Utalvány beváltása",
         "redeemError": "Az utalvány beváltása sikertelen. Kérjük, ellenőrizd a kódot és próbáld újra.",
-        "resellersTitle": "Nincs utalványod? Vásárolj egyet egy viszonteladótól."
+        "howToPay": "Hogyan fizess",
+        "step1": "Vásárolj Rewarble utalványt az alábbi viszonteladók egyikétől",
+        "step2": "Másold ki a kapott utalványkódot",
+        "step3": "Illeszd be a fenti mezőbe és kattints az Utalvány beváltása gombra",
+        "step4": "A rendelésed automatikusan feldolgozásra kerül, amint az utalvány alkalmazásra kerül",
+        "resellersTitle": "Nincs utalványod? Vásárolj egyet egy viszonteladótól.",
+        "waitingForPayment": "Fizetésre vár. Ez az oldal automatikusan frissül."
       },
       "CheckoutPayManual": {
         "markedAsPaidSuccess": "A rendelésed sikeresen kifizetettként lett jelölve! Kérjük, várj a megerősítésre.",
@@ -245,22 +278,25 @@
         "proofOfPaymentRequired": "A fizetési bizonylat kötelező.",
         "cancel": "Mégse",
         "paymentInstructions": "Fizetési utasítások",
-        "awaitingConfirmation": "Megerősítésre vár"
+        "awaitingConfirmation": "Megerősítésre vár",
+        "waitingForPayment": "Fizetésre vár. Ez az oldal automatikusan frissül."
       },
       "CheckoutPayPayPalFriendsFamily": {
-        "warningFriendsFamilyNote": "Figyelmeztetés - Friends & Family (Család & Barát) fizetés, megjegyzéssel",
-        "friendsFamilyNoteWarning": "Győződj meg róla, hogy Friends & Family módban küldöd a fizetést, és hozzáadod a megjegyzést amit az oldal kér, különben a rendelésed nem lesz automatikusan feldolgozva.",
-        "friendsFamilyWarning": "Ha nem Friends & Family módban küldöd, a rendelésed nem lesz automatikusan feldolgozva.",
-        "continue": "Tovább",
-        "automaticProcessingMessage": "A rendelésed automatikusan feldolgozásra kerül, amint a fizetés beérkezik.",
-        "sendFriendsFamilyNote": "Friends & Family fizetést kell küldened megjegyzéssel a következő fiókra.",
+        "addNoteInstruction": "Adj megjegyzést a fizetéshez (pontosan azt amit az oldal kér), különben figyelmen kívül lesz hagyva és rendszerünk nem fogja érzékelni.",
+        "addNoteWarning": "Győződj meg róla, hogy baráti és családi módban küldöd és hozzáadod a megjegyzést, különben a rendelésed nem lesz automatikusan feldolgozva.",
+        "noNoteInstruction": "A fizetés küldésekor ne adj hozzá megjegyzést.",
         "sendExactAmount": "Ügyelj arra, hogy a pontos összeget küldd el.",
-        "copyEmailBelow": "Másold ki az alábbi PayPal e-mail-címet.",
-        "copyBelow": "Alul kimásolhatod.",
         "copied": "Másolva!",
         "openPaypal": "PayPal megnyitása",
-        "addNoteInstruction": "Adj megjegyzést a fizetéshez (pontosan azt amit az oldal kér), különben figyelmen kívül lesz hagyva és rendszerünk nem fogja érzékelni.",
-        "noNoteInstruction": "A fizetés küldésekor ne adj hozzá megjegyzést.",
+        "howToPay": "Hogyan fizess",
+        "step1": "Jelentkezz be a PayPal-fiókodba",
+        "step2": "Válaszd a \"Küldés és kérés\" majd \"Küldés\" opciót",
+        "step3": "Add meg a fent látható e-mail címet ({email})",
+        "step4": "Válaszd a \"Küldés barátnak\" (Barátok és család) opciót",
+        "step5": "Add meg a pontos összeget: {amount}",
+        "step6": "Add hozzá a fent látható megjegyzést a \"Mire való ez?\" mezőbe",
+        "step7": "Fejezd be a fizetést. A rendelésed automatikusan frissül.",
+        "waitingForPayment": "Fizetésre vár. Ez az oldal automatikusan frissül.",
         "additionalDetailsInstruction": "Ha további adatokat kérnek, használd a következőket:"
       },
       "CheckoutPayPayPalREST": {
@@ -284,18 +320,17 @@
         "insufficientFunds": "Nincs elegendő fedezet.\nKérjük, próbálj másik kártyát."
       },
       "CheckoutPayVenmo": {
-        "warningFriendsFamilyNote": "Figyelmeztetés - Friends & Family fizetés megjegyzéssel",
-        "friendsFamilyNoteWarning": "Győződj meg róla, hogy Friends & Family módban küldöd a fizetést, és hozzáadod a megjegyzést amit az oldal kér, különben a rendelésed nem lesz automatikusan feldolgozva.",
-        "continue": "Tovább",
-        "automaticProcessingMessage": "A rendelésed automatikusan feldolgozásra kerül, amint a fizetés beérkezik.",
-        "sendFriendsFamilyNote": "Friends & Family fizetést kell küldened megjegyzéssel a következő fiókra.",
+        "addNoteInstruction": "Adj megjegyzést a fizetéshez (amit az oldal kér), különben figyelmen kívül lesz hagyva.",
+        "addNoteWarning": "Győződj meg róla, hogy baráti és családi módban küldöd és hozzáadod a megjegyzést, különben a rendelésed nem lesz automatikusan feldolgozva.",
         "sendExactAmount": "Ügyelj arra, hogy a pontos összeget küldd el.",
-        "scanQrCode": "Beolvashatod a QR-kódot.",
-        "copyTagBelow": "Vagy másold ki az alábbi taget.",
-        "copyBelow": "Alul kimásolhatod.",
         "copied": "Másolva!",
         "openVenmo": "Venmo megnyitása",
-        "addNoteInstruction": "Adj megjegyzést a fizetéshez (amit az oldal kér), különben figyelmen kívül lesz hagyva.",
+        "howToPay": "Hogyan fizess",
+        "step1": "Nyisd meg a Venmo-t a telefonodon",
+        "step2": "Olvasd be a QR-kódot vagy küldj fizetést a {tag} címre",
+        "step3": "Válaszd a Barátok és család opciót, majd add hozzá a fent látható fizetési megjegyzést",
+        "step4": "Fejezd be a fizetést. A rendelésed automatikusan frissül.",
+        "waitingForPayment": "Fizetésre vár. Ez az oldal automatikusan frissül.",
         "additionalDetailsInstruction": "Ha további adatokat kérnek, használd a következőket:"
       },
       "CheckoutPriceSummary": {
@@ -325,10 +360,12 @@
         "allowedAmounts": "Engedélyezett összegek:",
         "minimumAmount": "Minimum összeg:",
         "maximumAmount": "Maximum összeg:",
-        "discount": "kedvezmény",
-        "fee": "díj",
         "notAvailable": "Nem elérhető",
         "amountNotEligible": "Az összeg nem jogosult",
+        "discount": "kedvezmény",
+        "fee": "díj",
+        "feeTooltip": "A fee is added for this payment method",
+        "discountTooltip": "A discount is applied for this payment method",
         "logInCustomerAccount": "Bejelentkezés az ügyfélfiókba",
         "cancel": "Mégse",
         "logIn": "Bejelentkezés",
@@ -346,6 +383,14 @@
         "havingIssues": "Problémád van a rendeléseddel?",
         "openTicketInstructions": "Nyithatsz egy támogatási jegyet az ügyfélfelületeden, hogy segítséget kapj az ügyfélszolgálatunktól.",
         "openSupportTicket": "Támogatási jegy megnyitása"
+      },
+      "CheckoutCompletedShipping": {
+        "shippingStatus": "Szállítási állapot",
+        "stepPreparing": "Elkészítés",
+        "stepShipped": "Elküldve",
+        "stepDelivered": "Kézbesítve",
+        "trackingCode": "Nyomonkövetés",
+        "trackPackage": "Csomag nyomonkövetése"
       }
     }
   }

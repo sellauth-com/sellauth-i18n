@@ -24,7 +24,8 @@
         "stepReceiveItems": "Receive Your Items",
         "stepOrderCancelled": "Order Cancelled",
         "stepOrderRefunded": "Order Refunded",
-        "payShopName": "Pay {shopName}"
+        "payShopName": "Pay {shopName}",
+        "orderSummary": "Order summary"
       },
       "CheckoutAdditionalInformationForm": {
         "additionalInformationInstructions": "Please provide additional information for the following items in your order.",
@@ -32,9 +33,12 @@
         "proceedToPayment": "Proceed to Payment"
       },
       "CheckoutCompleted": {
-        "orderCompletedSuccessfully": "Your order has been completed successfully!",
-        "orderPartiallyCompleted": "Your order has been partially completed!",
-        "orderMarkedRefunded": "Your order has been marked as refunded!"
+        "orderCompletedTitle": "Order Complete",
+        "orderCompletedSubtitle": "Your items are ready. Check below for your product.",
+        "orderPartiallyCompletedTitle": "Partially Fulfilled",
+        "orderPartiallyCompletedSubtitle": "Some items could not be delivered. Check below for details.",
+        "orderRefundedTitle": "Order Refunded",
+        "orderRefundedSubtitle": "Your payment has been refunded. Contact support if you have questions."
       },
       "CheckoutCompletedDeliverables": {
         "statusDelivered": "Delivered",
@@ -57,7 +61,9 @@
         "productBeingDelivered": "This product is being delivered...",
         "productDeliveryFailed": "This product could not be delivered. Please contact our Support for more information.",
         "downloadableFiles": "Downloadable Files",
-        "downloadFileFailed": "Failed to download file."
+        "downloadFileFailed": "Failed to download file.",
+        "copyAll": "Copy All",
+        "showMore": "Show {count} more"
       },
       "CheckoutCompletedFeedback": {
         "rating": "Rating",
@@ -75,7 +81,14 @@
         "feedbackCouponIncentive": "Leave a feedback to get a discount coupon for your next purchase. Minimum rating required: {rating} stars.",
         "feedbackEmailInstructions": "You can leave feedback by clicking the \"Leave Feedback\" button in the e-mail you received upon order completion.",
         "yourFeedback": "Your Feedback",
-        "leaveFeedback": "Leave Feedback",
+        "leaveFeedback": "Leave a Review",
+        "yourFeedbackSubtitle": "Thank you for taking the time to share your feedback.",
+        "leaveFeedbackSubtitle": "Your review helps other buyers make better decisions.",
+        "ratingExcellent": "Excellent",
+        "ratingGood": "Good",
+        "ratingAverage": "Average",
+        "ratingPoor": "Poor",
+        "ratingTerrible": "Terrible",
         "automaticFeedbackWarning": "If you do not leave feedback within 7 days, a 5-star feedback will be automatically left for you."
       },
       "CheckoutCompletedRedirectUrl": {
@@ -101,7 +114,8 @@
       "CheckoutFooter": {
         "termsOfService": "Terms of Service",
         "privacyPolicy": "Privacy Policy",
-        "refundPolicy": "Refund Policy"
+        "refundPolicy": "Refund Policy",
+        "poweredBy": "Powered by"
       },
       "CheckoutInvoiceDetails": {
         "invoiceId": "Invoice ID",
@@ -112,10 +126,14 @@
         "totalPriceUsd": "Total Price (USD)",
         "totalAmountCrypto": "Total Amount ({gateway})",
         "remainingAmountCrypto": "Remaining Amount ({gateway})",
-        "createdAt": "Created At",
-        "expiresAt": "Expires At",
-        "completedAt": "Completed At",
-        "cancelledAt": "Cancelled At"
+        "createdAt": "Created",
+        "expiresAt": "Expires",
+        "completedAt": "Completed",
+        "cancelledAt": "Cancelled",
+        "invoicePdf": "Download Invoice PDF",
+        "paymentMethod": "Payment Method",
+        "orderInformation": "Order Information",
+        "expired": "Expired"
       },
       "CheckoutInvoiceItems": {
         "forParentItem": "For {parentName}",
@@ -168,7 +186,13 @@
         "sectionBilling": "Billing",
         "sectionShipping": "Shipping",
         "sectionPayment": "Payment",
+        "noPaymentMethods": "No payment methods available",
+        "noPaymentMethodsOwnerHint": "If you're the shop owner, you can add them under",
+        "noPaymentMethodsOwnerLink": "Settings > Payment methods",
         "secureEncrypted": "All transactions are secure and encrypted."
+      },
+      "CheckoutPay": {
+        "waitingForPayment": "Waiting for payment. This page updates automatically."
       },
       "CheckoutPaymentMethodButton": {
         "allowedAmounts": "Allowed amounts:",
@@ -177,12 +201,14 @@
         "notAvailable": "Not available",
         "amountNotEligible": "Amount not eligible",
         "fee": "fee",
-        "discount": "discount"
+        "discount": "discount",
+        "feeTooltip": "A fee is added for this payment method",
+        "discountTooltip": "A discount is applied for this payment method"
       },
       "CheckoutPayCashApp": {
         "warningPaymentWithNote": "Warning - Payment with Note",
         "addNoteWarning": "Make sure to Add The Note, otherwise your order won't be automatically processed.",
-        "addNoteInstruction": "Add a note to the payment, otherwise it will be ignored.",
+        "addNoteInstruction": "Add the note below to the payment, otherwise it will be ignored.",
         "continue": "Continue",
         "automaticProcessingMessage": "Your order will be automatically processed once the payment is received.",
         "sendPaymentWithNote": "You should send a payment with a note to the following account.",
@@ -195,46 +221,53 @@
         "awaitingConfirmation": "Awaiting Confirmation...",
         "manualAcceptanceWait": "Please wait while your payment is manually accepted by the account owner.",
         "confirmationMessage": "You will receive a confirmation once the payment is processed.",
-        "contactForAssistance": "If you have any questions or need further assistance, please contact us."
+        "contactForAssistance": "If you have any questions or need further assistance, please contact us.",
+        "howToPay": "How to pay",
+        "step1": "Open Cash App on your phone",
+        "step2": "Scan the QR code or send payment to {cashtag}",
+        "step3": "Add the payment note shown above",
+        "step4": "Complete the payment. Your order updates automatically.",
+        "waitingForPayment": "Waiting for payment. This page updates automatically."
       },
       "CheckoutPayCryptocurrency": {
         "partialPayment": "Partial Payment",
-        "partialPaymentStatus": "You have paid {paidAmount} {gateway} out of {totalAmount} {gateway}.",
-        "remainingAmount": "Remaining amount: {amount} {gateway}.",
-        "sendPaymentToAddress": "You should send a payment to the following address.",
-        "sendExactAmount": "Make sure to send the exact amount.",
-        "sendExactRemainingAmount": "Make sure to send the exact remaining amount.",
-        "scanQrCode": "You can scan the QR code.",
-        "copyAddressBelow": "Or copy the address below.",
-        "copyBelow": "You can copy it below.",
+        "remainingAmount": "Remaining: {amount} {gateway}",
+        "sendExactAmount": "Send exact amount",
+        "sendExactRemainingAmount": "Send exact remaining amount",
         "copied": "Copied!",
         "openWallet": "Open Wallet",
         "transactionHistory": "Transaction History",
-        "noTransactions": "No transactions yet...",
-        "automaticProcessingRemaining": "Your order will be automatically processed once the remaining amount is received.",
-        "automaticProcessingPayment": "Your order will be automatically processed once the payment is received.",
-        "automaticProcessingConfirmation": "Your order will be automatically processed once the transaction is confirmed.",
-        "addressSafetyTitle": "Important: Verify the Wallet Address",
-        "addressSafetySubtitle": "For your security, always confirm that the wallet address you are pasting into your wallet matches the one shown here.",
-        "verifyAddressInstructions": "Verify at least the first 4 and last 4 characters of the address.",
-        "dismiss": "Dismiss"
+        "awaitingConfirmation": "Awaiting network confirmation...",
+        "verifyAddressInstructions": "Always verify the first and last characters of the address before sending.",
+        "howToPay": "How to pay",
+        "step1": "Send {amount} {gateway} to the address above",
+        "step2": "Payment will be detected automatically after network confirmation",
+        "step3": "Send only {gateway} to this address. Other cryptocurrencies will be lost.",
+        "waitingForPayment": "Waiting for payment. This page updates automatically."
       },
       "CheckoutPayExternalUrl": {
         "paymentBeingProcessed": "Your payment is being processed...",
-        "paymentPageOpened": "The payment page has been opened in a new tab",
+        "paymentPageOpened": "Payment page opened",
+        "redirectDescription": "A payment page has been opened in a new tab. Click the button below if it didn't open or you need to return to it.",
+        "payNow": "Pay Now",
         "clickHereIfNotVisible": "Don't see it? Click here"
       },
       "CheckoutPayRewarble": {
-        "title": "Redeem Rewarble Voucher",
-        "description": "Enter your Rewarble voucher code below to complete the payment.",
-        "overpayNote": "If your voucher is worth more than the order total, the remaining balance will be credited to your customer account.",
+        "description": "Enter your voucher code below to complete the payment.",
+        "overpayNote": "If your voucher is worth more than the order total, the remaining balance will be credited to your account.",
         "partialPaymentTitle": "Partial payment received",
-        "partialPaymentStatus": "{paidAmount} {currency} paid — {remainingAmount} {currency} still needed. Redeem another voucher to cover the remaining balance.",
-        "voucherCodeLabel": "Voucher Code",
+        "partialPaymentRemaining": "{remainingAmount} {currency} still needed. Redeem another voucher to cover the rest.",
+        "redeemTitle": "Redeem voucher",
         "voucherCodeRequired": "Please enter your voucher code.",
         "redeemButton": "Redeem Voucher",
         "redeemError": "Failed to redeem voucher. Please check the code and try again.",
-        "resellersTitle": "Don't have a voucher? Buy one from a reseller."
+        "howToPay": "How to pay",
+        "step1": "Purchase a Rewarble voucher from one of the resellers below",
+        "step2": "Copy the voucher code you received",
+        "step3": "Paste it into the field above and click Redeem Voucher",
+        "step4": "Your order will be processed automatically once the voucher is applied",
+        "resellersTitle": "Buy a voucher from a reseller",
+        "waitingForPayment": "Waiting for payment. This page updates automatically."
       },
       "CheckoutPayManual": {
         "markedAsPaidSuccess": "Invoice marked as paid successfully! Please wait for confirmation.",
@@ -245,22 +278,25 @@
         "proofOfPaymentRequired": "Proof of payment is required.",
         "cancel": "Cancel",
         "paymentInstructions": "Payment Instructions",
-        "awaitingConfirmation": "Awaiting Confirmation"
+        "awaitingConfirmation": "Awaiting confirmation...",
+        "waitingForPayment": "Waiting for payment. This page updates automatically."
       },
       "CheckoutPayPayPalFriendsFamily": {
-        "warningFriendsFamilyNote": "Warning - Friends & Family Payment with Note",
-        "friendsFamilyNoteWarning": "Make sure to send the payment as Friends & Family and to Add The Note, otherwise your order won't be automatically processed.",
-        "friendsFamilyWarning": "If you do not send as Friends & Family, your order won't be automatically processed.",
-        "continue": "Continue",
-        "automaticProcessingMessage": "Your order will be automatically processed once the payment is received.",
-        "sendFriendsFamilyNote": "You should send a Friends & Family payment with a note to the following account.",
+        "addNoteInstruction": "Add the note to the payment, otherwise it will be ignored.",
+        "addNoteWarning": "Make sure to send as Friends & Family and add the note, otherwise your order won't be automatically processed.",
+        "noNoteInstruction": "Do not include a note when sending the payment.",
         "sendExactAmount": "Make sure to send the exact amount.",
-        "copyEmailBelow": "Copy the PayPal e-mail address below.",
-        "copyBelow": "You can copy it below.",
         "copied": "Copied!",
         "openPaypal": "Open PayPal",
-        "addNoteInstruction": "Add a note to the payment, otherwise it will be ignored.",
-        "noNoteInstruction": "Do not include a note when sending the payment.",
+        "howToPay": "How to pay",
+        "step1": "Log in to your PayPal account",
+        "step2": "Select \"Send & Request\" then \"Send\"",
+        "step3": "Enter the email address shown above ({email})",
+        "step4": "Select \"Sending to a friend\" (Friends & Family)",
+        "step5": "Enter the exact amount: {amount}",
+        "step6": "Add the Note shown above in the \"What's this for?\" field",
+        "step7": "Complete the payment. Your order updates automatically.",
+        "waitingForPayment": "Waiting for payment. This page updates automatically.",
         "additionalDetailsInstruction": "If asked to provide additional details, use the following:"
       },
       "CheckoutPayPayPalREST": {
@@ -284,18 +320,17 @@
         "insufficientFunds": "Insufficient funds. Please try a different card."
       },
       "CheckoutPayVenmo": {
-        "warningFriendsFamilyNote": "Warning - Friends & Family Payment with Note",
-        "friendsFamilyNoteWarning": "Make sure to send the payment as Friends & Family and to Add The Note, otherwise your order won't be automatically processed.",
-        "continue": "Continue",
-        "automaticProcessingMessage": "Your order will be automatically processed once the payment is received.",
-        "sendFriendsFamilyNote": "You should send a Friends & Family payment with a note to the following account.",
+        "addNoteInstruction": "Add the note below to the payment, otherwise it will be ignored.",
+        "addNoteWarning": "Make sure to send as Friends & Family and add the note, otherwise your order won't be automatically processed.",
         "sendExactAmount": "Make sure to send the exact amount.",
-        "scanQrCode": "You can scan the QR code.",
-        "copyTagBelow": "Or copy the tag below.",
-        "copyBelow": "You can copy it below.",
         "copied": "Copied!",
         "openVenmo": "Open Venmo",
-        "addNoteInstruction": "Add a note to the payment, otherwise it will be ignored.",
+        "howToPay": "How to pay",
+        "step1": "Open Venmo on your phone",
+        "step2": "Scan the QR code or send payment to {tag}",
+        "step3": "Select Friends & Family, then add the payment note shown above",
+        "step4": "Complete the payment. Your order updates automatically.",
+        "waitingForPayment": "Waiting for payment. This page updates automatically.",
         "additionalDetailsInstruction": "If asked to provide additional details, use the following:"
       },
       "CheckoutPriceSummary": {
@@ -329,6 +364,8 @@
         "amountNotEligible": "Amount not eligible",
         "discount": "discount",
         "fee": "fee",
+        "feeTooltip": "A fee is added for this payment method",
+        "discountTooltip": "A discount is applied for this payment method",
         "logInCustomerAccount": "Log in to Your Customer Account",
         "cancel": "Cancel",
         "logIn": "Log In",
@@ -346,6 +383,14 @@
         "havingIssues": "Having issues with your order?",
         "openTicketInstructions": "You can Open a Ticket on your Customer Dashboard to receive assistance from our support team.",
         "openSupportTicket": "Open a Support Ticket"
+      },
+      "CheckoutCompletedShipping": {
+        "shippingStatus": "Shipping Status",
+        "stepPreparing": "Preparing",
+        "stepShipped": "Shipped",
+        "stepDelivered": "Delivered",
+        "trackingCode": "Tracking",
+        "trackPackage": "Track Package"
       }
     }
   }
