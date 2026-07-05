@@ -35,7 +35,7 @@
             "CheckoutCompleted": {
                 "orderCompletedTitle": "Pedido concluído",
                 "orderCompletedSubtitle": "Seus itens estão prontos. Verifique abaixo seu produto.",
-                "orderPartiallyCompletedTitle": "Parcialmente atendido",
+                "orderPartiallyCompletedTitle": "Pedido parcialmente concluído",
                 "orderPartiallyCompletedSubtitle": "Alguns itens não puderam ser entregues. Verifique abaixo para detalhes.",
                 "orderRefundedTitle": "Pedido reembolsado",
                 "orderRefundedSubtitle": "Seu pagamento foi reembolsado. Entre em contato com o suporte se tiver dúvidas.",
@@ -51,7 +51,7 @@
                 "statusOutOfStock": "Fora de estoque",
                 "statusCancelled": "Cancelado",
                 "statusExpired": "Expirado",
-                "statusVoided": "Anulado",
+                "statusVoided": "Cancelado",
                 "statusFailed": "Falhou",
                 "statusRefunded": "Reembolsado",
                 "downloadFailed": "Falha ao baixar os produtos.",
@@ -101,12 +101,12 @@
                 "feedbackCouponIncentiveFixedNoRating": "Deixe uma avaliação e ganhe um desconto de {discount} na sua próxima encomenda.",
                 "feedbackCouponIncentiveSurprise": "Deixe uma avaliação {rating}★+ e receba um desconto surpresa na sua próxima encomenda.",
                 "feedbackCouponIncentiveSurpriseNoRating": "Deixe uma avaliação e receba um desconto surpresa na sua próxima encomenda.",
-                "feedbackCouponExpirationSuffix": " O cupão é válido por{days}dias.",
-                "feedbackCouponMultipleHeading": "Deixe uma avaliação para ganhar cupões:",
-                "feedbackCouponSubmittedThanks": "Obrigado pela sua avaliação! O seu cupão será enviado por e-mail em breve."
+                "feedbackCouponExpirationSuffix": " O cupom é válido por {days}dias.",
+                "feedbackCouponMultipleHeading": "Deixe uma avaliação para ganhar cupons:",
+                "feedbackCouponSubmittedThanks": "Obrigado pela sua avaliação! O seu cupom será enviado por e-mail em breve."
             },
             "CheckoutCompletedRedirectUrl": {
-                "clickContinueOrder": "Clique em qualquer lugar para continuar seu pedido."
+                "clickContinueOrder": "Clique em qualquer lugar para continuar."
             },
             "CheckoutDiscordIntegration": {
                 "discord": "Discord",
@@ -144,7 +144,7 @@
                 "expiresAt": "Expira em",
                 "completedAt": "Concluído em",
                 "cancelledAt": "Cancelado em",
-                "invoicePdf": "Baixar fatura PDF",
+                "invoicePdf": "Baixar PDF da fatura",
                 "paymentMethod": "Forma de pagamento",
                 "orderInformation": "Informações do pedido",
                 "expired": "Expirado"
@@ -206,7 +206,7 @@
                 "secureEncrypted": "Todas as transações são seguras e criptografadas.",
                 "emailTypoWarning": "Queria dizer {suggestion}?",
                 "noShippingZones": "Não existem zonas de envio configuradas",
-                "noShippingZonesOwnerHint": "Se for o proprietário da loja, configure-os em",
+                "noShippingZonesOwnerHint": "Se você é o proprietário da loja, configure-as em",
                 "noShippingZonesOwnerLink": "Definições &gt; Zonas de envio",
                 "shippingSelectCountry": "Selecione o seu país para ver os custos de envio",
                 "shippingZonePrice": "{zoneName} — {price}",
@@ -222,7 +222,7 @@
                 "minimumAmount": "Valor mínimo:",
                 "maximumAmount": "Valor máximo:",
                 "notAvailable": "Não disponível",
-                "amountNotEligible": "Valor não elegível",
+                "amountNotEligible": "Valor não permitido",
                 "fee": "taxa",
                 "discount": "desconto",
                 "feeTooltip": "Uma taxa é adicionada para esta forma de pagamento",
@@ -289,7 +289,7 @@
                 "step2": "Copie o código do voucher que você recebeu",
                 "step3": "Cole-o no campo acima e clique em Resgatar Voucher",
                 "step4": "Seu pedido será processado automaticamente assim que o voucher for aplicado",
-                "resellersTitle": "Não tem voucher? Compre um num revendedor.",
+                "resellersTitle": "Não tem um voucher? Compre com um dos revendedores.",
                 "waitingForPayment": "Aguardando pagamento. Esta página atualiza automaticamente."
             },
             "CheckoutPayManual": {
@@ -359,8 +359,8 @@
             "CheckoutPriceSummary": {
                 "subtotal": "Subtotal",
                 "volumeDiscount": "Desconto por volume",
-                "quantityDealDiscount": "Quantity Deal Discount",
-                "bundleOfferDiscount": "Bundle Offer Discount",
+                "quantityDealDiscount": "Desconto por quantidade",
+                "bundleOfferDiscount": "Desconto do pacote",
                 "couponCodeWithDiscount": "Código do cupom ({discount})",
                 "unknownCode": "Código desconhecido",
                 "paymentMethodFee": "Taxa da forma de pagamento",
@@ -388,7 +388,7 @@
                 "minimumAmount": "Valor mínimo:",
                 "maximumAmount": "Valor máximo:",
                 "notAvailable": "Não disponível",
-                "amountNotEligible": "Valor não elegível",
+                "amountNotEligible": "Valor não permitido",
                 "discount": "desconto",
                 "fee": "taxa",
                 "feeTooltip": "Uma taxa é adicionada para esta forma de pagamento",
@@ -426,4 +426,4 @@
             }
         }
     }
-}
+  }
