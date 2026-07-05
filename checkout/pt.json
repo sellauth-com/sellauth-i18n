@@ -35,7 +35,7 @@
             "CheckoutCompleted": {
                 "orderCompletedTitle": "Pedido concluído",
                 "orderCompletedSubtitle": "Seus itens estão prontos. Verifique abaixo seu produto.",
-                "orderPartiallyCompletedTitle": "Pedido parcialmente concluído",
+                "orderPartiallyCompletedTitle": "Parcialmente atendido",
                 "orderPartiallyCompletedSubtitle": "Alguns itens não puderam ser entregues. Verifique abaixo para detalhes.",
                 "orderRefundedTitle": "Pedido reembolsado",
                 "orderRefundedSubtitle": "Seu pagamento foi reembolsado. Entre em contato com o suporte se tiver dúvidas.",
@@ -72,12 +72,12 @@
                 "outOfStockRefundedToBalance": "{amount} foi reembolsado para o seu saldo de cliente porque este item estava esgotado."
             },
             "CheckoutCompletedFeedback": {
-                "rating": "Classificação",
+                "rating": "Avaliação",
                 "message": "Mensagem",
                 "noMessageLeft": "Você não deixou nenhuma mensagem.",
                 "replyFromShop": "Resposta de {shopName}",
                 "editFeedback": "Editar avaliação",
-                "ratingRequired": "É necessária uma classificação.",
+                "ratingRequired": "É necessária uma avaliação.",
                 "messageRequired": "A mensagem é obrigatória.",
                 "saveChanges": "Salvar alterações",
                 "submitFeedback": "Enviar avaliação",
@@ -101,12 +101,12 @@
                 "feedbackCouponIncentiveFixedNoRating": "Deixe uma avaliação e ganhe um desconto de {discount} na sua próxima encomenda.",
                 "feedbackCouponIncentiveSurprise": "Deixe uma avaliação {rating}★+ e receba um desconto surpresa na sua próxima encomenda.",
                 "feedbackCouponIncentiveSurpriseNoRating": "Deixe uma avaliação e receba um desconto surpresa na sua próxima encomenda.",
-                "feedbackCouponExpirationSuffix": " O cupom é válido por {days}dias.",
-                "feedbackCouponMultipleHeading": "Deixe uma avaliação para ganhar cupons:",
-                "feedbackCouponSubmittedThanks": "Obrigado pela sua avaliação! O seu cupom será enviado por e-mail em breve."
+                "feedbackCouponExpirationSuffix": " O cupão é válido por{days}dias.",
+                "feedbackCouponMultipleHeading": "Deixe uma avaliação para ganhar cupões:",
+                "feedbackCouponSubmittedThanks": "Obrigado pela sua avaliação! O seu cupão será enviado por e-mail em breve."
             },
             "CheckoutCompletedRedirectUrl": {
-                "clickContinueOrder": "Clique em qualquer lugar para continuar."
+                "clickContinueOrder": "Clique em qualquer lugar para continuar seu pedido."
             },
             "CheckoutDiscordIntegration": {
                 "discord": "Discord",
@@ -140,11 +140,12 @@
                 "totalPriceUsd": "Preço total (USD)",
                 "totalAmountCrypto": "Valor total ({gateway})",
                 "remainingAmountCrypto": "Valor restante ({gateway})",
+                "cryptoAddress": "Endereço de cripto",
                 "createdAt": "Criado em",
                 "expiresAt": "Expira em",
                 "completedAt": "Concluído em",
                 "cancelledAt": "Cancelado em",
-                "invoicePdf": "Baixar PDF da fatura",
+                "invoicePdf": "Baixar fatura PDF",
                 "paymentMethod": "Forma de pagamento",
                 "orderInformation": "Informações do pedido",
                 "expired": "Expirado"
@@ -168,6 +169,11 @@
                 "termsRequired": "É necessário aceitar os termos e condições",
                 "termsAgreement": "Li e aceito os Termos de Serviço de {shopName}.",
                 "newsletterSignup": "Gostaria de receber atualizações e promoções de {shopName}.",
+                "immediateDeliveryTitle": "Entrega imediata",
+                "immediateDeliveryDescription": "O seu produto será entregue imediatamente após o pagamento.",
+                "immediateDeliveryNotice": "Ao continuar, solicita a entrega imediata e compreende que perderá o seu direito legal de retratação de 14 dias assim que a entrega começar.",
+                "immediateDeliveryAgreement": "Compreendo e concordo.",
+                "immediateDeliveryRequired": "Confirme a entrega imediata",
                 "proceedToPayment": "Prosseguir para o pagamento",
                 "billingAddress": "Endereço de cobrança",
                 "shippingAddress": "Endereço de entrega",
@@ -206,7 +212,7 @@
                 "secureEncrypted": "Todas as transações são seguras e criptografadas.",
                 "emailTypoWarning": "Queria dizer {suggestion}?",
                 "noShippingZones": "Não existem zonas de envio configuradas",
-                "noShippingZonesOwnerHint": "Se você é o proprietário da loja, configure-as em",
+                "noShippingZonesOwnerHint": "Se for o proprietário da loja, configure-os em",
                 "noShippingZonesOwnerLink": "Definições &gt; Zonas de envio",
                 "shippingSelectCountry": "Selecione o seu país para ver os custos de envio",
                 "shippingZonePrice": "{zoneName} — {price}",
@@ -249,7 +255,7 @@
                 "step1": "Abra o Cash App no seu telefone",
                 "step2": "Escaneie o código QR ou envie o pagamento para {cashtag}",
                 "step3": "Adicione a observação de pagamento mostrada acima",
-                "step4": "Conclua o pagamento. Seu pedido é atualizado automaticamente.",
+                "step4": "Conclua o pagamento. Seu pedido será atualizado automaticamente.",
                 "waitingForPayment": "Aguardando pagamento. Esta página atualiza automaticamente."
             },
             "CheckoutPayCryptocurrency": {
@@ -289,7 +295,7 @@
                 "step2": "Copie o código do voucher que você recebeu",
                 "step3": "Cole-o no campo acima e clique em Resgatar Voucher",
                 "step4": "Seu pedido será processado automaticamente assim que o voucher for aplicado",
-                "resellersTitle": "Não tem um voucher? Compre com um dos revendedores.",
+                "resellersTitle": "Não tem voucher? Compre um num revendedor.",
                 "waitingForPayment": "Aguardando pagamento. Esta página atualiza automaticamente."
             },
             "CheckoutPayManual": {
@@ -302,7 +308,9 @@
                 "cancel": "Cancelar",
                 "paymentInstructions": "Instruções de pagamento",
                 "awaitingConfirmation": "Aguardando confirmação",
-                "waitingForPayment": "Aguardando pagamento. Esta página atualiza automaticamente."
+                "waitingForPayment": "Aguardando pagamento. Esta página atualiza automaticamente.",
+                "proofOfPaymentImage": "Proof of Payment (Image)",
+                "proofOfPaymentImageTooLarge": "Image must be under 10MB."
             },
             "CheckoutPayPayPalFriendsFamily": {
                 "addNoteInstruction": "Adicione uma observação ao pagamento, caso contrário será ignorado.",
@@ -318,7 +326,7 @@
                 "step4": "Selecione \"Enviar para um amigo\" (Amigos e Família)",
                 "step5": "Digite o valor exato: {amount}",
                 "step6": "Adicione a observação mostrada acima no campo \"A que se destina?\"",
-                "step7": "Conclua o pagamento. Seu pedido é atualizado automaticamente.",
+                "step7": "Conclua o pagamento. Seu pedido será atualizado automaticamente.",
                 "waitingForPayment": "Aguardando pagamento. Esta página atualiza automaticamente.",
                 "additionalDetailsInstruction": "Se for solicitado que forneça detalhes adicionais, use o seguinte:"
             },
@@ -352,15 +360,15 @@
                 "step1": "Abra o Venmo no seu telefone",
                 "step2": "Escaneie o código QR ou envie o pagamento para {tag}",
                 "step3": "Selecione Amigos e Família e adicione a observação de pagamento mostrada acima",
-                "step4": "Conclua o pagamento. Seu pedido é atualizado automaticamente.",
+                "step4": "Conclua o pagamento. Seu pedido será atualizado automaticamente.",
                 "waitingForPayment": "Aguardando pagamento. Esta página atualiza automaticamente.",
                 "additionalDetailsInstruction": "Se for solicitado que forneça detalhes adicionais, use o seguinte:"
             },
             "CheckoutPriceSummary": {
                 "subtotal": "Subtotal",
                 "volumeDiscount": "Desconto por volume",
-                "quantityDealDiscount": "Desconto por quantidade",
-                "bundleOfferDiscount": "Desconto do pacote",
+                "quantityDealDiscount": "Quantity Deal Discount",
+                "bundleOfferDiscount": "Bundle Offer Discount",
                 "couponCodeWithDiscount": "Código do cupom ({discount})",
                 "unknownCode": "Código desconhecido",
                 "paymentMethodFee": "Taxa da forma de pagamento",
@@ -423,7 +431,40 @@
                 "buttonLabel": "Pagar pelo telemóvel",
                 "dialogTitle": "Pague pelo telemóvel",
                 "dialogDescription": "Digitalize este código QR com o seu telemóvel para concluir o processo de pagamento no seu dispositivo móvel."
+            },
+            "CheckoutPayMisticPay": {
+                "description": "Pague instantaneamente via PIX com o MisticPay.",
+                "enterDetails": "Os seus dados",
+                "enterDetailsNote": "Introduza o seu nome e o seu CPF para gerar um código QR PIX.",
+                "payerNamePlaceholder": "Nome completo",
+                "payerNameRequired": "Por favor, introduza o seu nome completo.",
+                "payerDocumentPlaceholder": "CPF (apenas o número)",
+                "payerDocumentRequired": "Introduza o seu CPF.",
+                "generateQrButton": "Continuar para o pagamento",
+                "createError": "Não foi possível criar a transação PIX. Por favor, tente novamente.",
+                "scanQr": "Digitalize este código QR com a sua aplicação bancária para efetuar o pagamento através do PIX.",
+                "pixCopyPaste": "Copiar e colar PIX",
+                "copy": "Copiar",
+                "copied": "Copiado!",
+                "howToPay": "Como pagar",
+                "step1": "Introduza o seu nome completo e o número do CPF",
+                "step2": "Clique em «Continuar para o pagamento»",
+                "step3": "Abra a sua aplicação bancária e digitalize o código QR ou utilize a opção «copiar e colar»",
+                "step4": "A sua encomenda será processada automaticamente após a confirmação do pagamento"
+            },
+            "CheckoutCompletedWithdrawal": {
+                "sectionTitle": "Direito de retratação",
+                "sectionDescription": "Se for um consumidor da UE, pode solicitar a retratação desta compra. Isto envia um pedido ao vendedor — não é processado automaticamente.",
+                "requestButton": "Solicitar retratação da compra",
+                "dialogTitle": "Solicitar retratação da compra",
+                "dialogDescription": "Isto enviará um pedido de retratação ao vendedor para a encomenda abaixo. Não se trata de um cancelamento ou reembolso automático. Deseja continuar?",
+                "invoiceId": "ID da fatura",
+                "email": "Endereço de email",
+                "cancel": "Cancelar",
+                "confirm": "Solicitar",
+                "successFallback": "Pedido de retratação enviado.",
+                "errorFallback": "Falha ao enviar o pedido de retratação."
             }
         }
     }
-  }
+}

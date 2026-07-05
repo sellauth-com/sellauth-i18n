@@ -140,6 +140,7 @@
                 "totalPriceUsd": "Общая цена (USD)",
                 "totalAmountCrypto": "Общая сумма ({gateway})",
                 "remainingAmountCrypto": "Оставшаяся сумма ({gateway})",
+                "cryptoAddress": "Крипто-адрес",
                 "createdAt": "Создано в",
                 "expiresAt": "Истекает в",
                 "completedAt": "Завершено",
@@ -168,6 +169,11 @@
                 "termsRequired": "Пожалуйста, примите условия и положения",
                 "termsAgreement": "Я прочитал и согласен с Условиями предоставления услуг {shopName}.",
                 "newsletterSignup": "Я хотел бы получать обновления и рекламные акции от {shopName}.",
+                "immediateDeliveryTitle": "Немедленная доставка",
+                "immediateDeliveryDescription": "Ваш продукт будет доставлен сразу после оплаты.",
+                "immediateDeliveryNotice": "Продолжая, вы запрашиваете немедленную доставку и понимаете, что теряете установленное законом 14-дневное право на отказ, как только начнётся доставка.",
+                "immediateDeliveryAgreement": "Я понимаю и согласен.",
+                "immediateDeliveryRequired": "Пожалуйста, подтвердите немедленную доставку",
                 "proceedToPayment": "Перейти к оплате",
                 "billingAddress": "Адрес для выставления счёта",
                 "shippingAddress": "Адрес доставки",
@@ -302,7 +308,9 @@
                 "cancel": "Отмена",
                 "paymentInstructions": "Инструкции по оплате",
                 "awaitingConfirmation": "Ожидание подтверждения",
-                "waitingForPayment": "Ожидается оплата. Эта страница обновляется автоматически."
+                "waitingForPayment": "Ожидается оплата. Эта страница обновляется автоматически.",
+                "proofOfPaymentImage": "Proof of Payment (Image)",
+                "proofOfPaymentImageTooLarge": "Image must be under 10MB."
             },
             "CheckoutPayPayPalFriendsFamily": {
                 "addNoteInstruction": "Добавьте примечание к платежу, иначе он будет проигнорирован.",
@@ -423,6 +431,39 @@
                 "buttonLabel": "Оплата через мобильное устройство",
                 "dialogTitle": "Оплатить через телефон",
                 "dialogDescription": "Отсканируйте этот QR-код с помощью телефона, чтобы продолжить оформление заказа на мобильном устройстве."
+            },
+            "CheckoutPayMisticPay": {
+                "description": "Оплачивайте через PIX мгновенно с помощью MisticPay.",
+                "enterDetails": "Ваши данные",
+                "enterDetailsNote": "Введите своё имя и номер CPF, чтобы сгенерировать QR-код PIX.",
+                "payerNamePlaceholder": "Полное имя",
+                "payerNameRequired": "Пожалуйста, введите своё полное имя.",
+                "payerDocumentPlaceholder": "CPF (только цифры)",
+                "payerDocumentRequired": "Введите номер CPF.",
+                "generateQrButton": "Перейти к оплате",
+                "createError": "Не удалось создать транзакцию PIX. Повторите попытку.",
+                "scanQr": "Отсканируйте этот QR-код в своем банковском приложении, чтобы оплатить через PIX.",
+                "pixCopyPaste": "PIX: скопировать и вставить",
+                "copy": "Копировать",
+                "copied": "Скопировано!",
+                "howToPay": "Как оплатить",
+                "step1": "Введите своё полное имя и номер документа CPF",
+                "step2": "Нажмите «Перейти к оплате»",
+                "step3": "Откройте приложение своего банка и отсканируйте QR-код или воспользуйтесь функцией «Копировать и вставить»",
+                "step4": "Ваш заказ будет обработан автоматически после подтверждения оплаты"
+            },
+            "CheckoutCompletedWithdrawal": {
+                "sectionTitle": "Право на отказ",
+                "sectionDescription": "Если вы потребитель из ЕС, вы можете запросить отказ от этой покупки. При этом продавцу отправляется запрос — он не обрабатывается автоматически.",
+                "requestButton": "Запросить отказ от покупки",
+                "dialogTitle": "Запросить отказ от покупки",
+                "dialogDescription": "Продавцу будет отправлен запрос на отказ по заказу ниже. Это не автоматическая отмена или возврат средств. Продолжить?",
+                "invoiceId": "Идентификатор счета-фактуры",
+                "email": "Адрес электронной почты",
+                "cancel": "Отмена",
+                "confirm": "Запросить",
+                "successFallback": "Запрос на отказ отправлен.",
+                "errorFallback": "Не удалось отправить запрос на отказ."
             }
         }
     }

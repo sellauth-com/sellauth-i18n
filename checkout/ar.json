@@ -140,6 +140,7 @@
                 "totalPriceUsd": "السعر الإجمالي (دولار أمريكي)",
                 "totalAmountCrypto": "المبلغ الإجمالي ({gateway})",
                 "remainingAmountCrypto": "المبلغ المتبقي ({gateway})",
+                "cryptoAddress": "عنوان العملة المشفرة",
                 "createdAt": "تم الإنشاء",
                 "expiresAt": "ينتهي",
                 "completedAt": "تم الإكمال",
@@ -168,6 +169,11 @@
                 "termsRequired": "يرجى قبول الشروط والأحكام",
                 "termsAgreement": "لقد قرأت وأوافق على شروط الخدمة الخاصة بـ {shopName}.",
                 "newsletterSignup": "أريد تلقي التحديثات والعروض من {shopName}.",
+                "immediateDeliveryTitle": "التسليم الفوري",
+                "immediateDeliveryDescription": "سيتم تسليم منتجك فور إتمام الدفع.",
+                "immediateDeliveryNotice": "بالمتابعة، فإنك تطلب التسليم الفوري وتدرك أنك ستفقد حقك القانوني في الانسحاب خلال 14 يومًا بمجرد بدء التسليم.",
+                "immediateDeliveryAgreement": "أفهم وأوافق.",
+                "immediateDeliveryRequired": "يرجى تأكيد التسليم الفوري",
                 "proceedToPayment": "المتابعة للدفع",
                 "billingAddress": "عنوان الفوترة",
                 "shippingAddress": "عنوان الشحن",
@@ -302,7 +308,9 @@
                 "cancel": "إلغاء",
                 "paymentInstructions": "تعليمات الدفع",
                 "awaitingConfirmation": "في انتظار التأكيد...",
-                "waitingForPayment": "في انتظار الدفع. هذه الصفحة تتحدث تلقائياً."
+                "waitingForPayment": "في انتظار الدفع. هذه الصفحة تتحدث تلقائياً.",
+                "proofOfPaymentImage": "Proof of Payment (Image)",
+                "proofOfPaymentImageTooLarge": "Image must be under 10MB."
             },
             "CheckoutPayPayPalFriendsFamily": {
                 "addNoteInstruction": "أضف الملاحظة إلى الدفع، وإلا سيتم تجاهلها.",
@@ -423,6 +431,39 @@
                 "buttonLabel": "الدفع عبر الهاتف المحمول",
                 "dialogTitle": "الدفع عبر الهاتف",
                 "dialogDescription": "امسح رمز الاستجابة السريعة هذا بواسطة هاتفك لمتابعة عملية الدفع على جهازك المحمول."
+            },
+            "CheckoutPayMisticPay": {
+                "description": "ادفع عبر PIX فورًا باستخدام MisticPay.",
+                "enterDetails": "بياناتك",
+                "enterDetailsNote": "أدخل اسمك ورقم CPF لإنشاء رمز QR لـ PIX.",
+                "payerNamePlaceholder": "الاسم الكامل",
+                "payerNameRequired": "يرجى إدخال اسمك الكامل.",
+                "payerDocumentPlaceholder": "CPF (الأرقام فقط)",
+                "payerDocumentRequired": "يرجى إدخال رقم CPF الخاص بك.",
+                "generateQrButton": "المتابعة إلى الدفع",
+                "createError": "فشل إنشاء معاملة PIX. يرجى المحاولة مرة أخرى.",
+                "scanQr": "امسح رمز الاستجابة السريعة هذا باستخدام تطبيق الخدمات المصرفية الخاص بك للدفع عبر PIX.",
+                "pixCopyPaste": "نسخ ولصق PIX",
+                "copy": "نسخ",
+                "copied": "تم النسخ!",
+                "howToPay": "كيفية الدفع",
+                "step1": "أدخل اسمك الكامل ورقم وثيقة CPF",
+                "step2": "انقر على \"متابعة إلى الدفع\"",
+                "step3": "افتح تطبيق الخدمات المصرفية الخاص بك وقم بمسح رمز الاستجابة السريعة ضوئيًّا أو استخدم زر النسخ واللصق",
+                "step4": "سيتم معالجة طلبك تلقائيًا بعد تأكيد الدفع"
+            },
+            "CheckoutCompletedWithdrawal": {
+                "sectionTitle": "حق الانسحاب",
+                "sectionDescription": "إذا كنت مستهلكًا في الاتحاد الأوروبي، يمكنك طلب الانسحاب من هذا الشراء. يؤدي ذلك إلى إرسال طلب إلى البائع — ولا تتم معالجته تلقائيًا.",
+                "requestButton": "طلب الانسحاب من الشراء",
+                "dialogTitle": "طلب الانسحاب من الشراء",
+                "dialogDescription": "سيؤدي ذلك إلى إرسال طلب انسحاب إلى البائع بخصوص الطلب أدناه. وهذا ليس إلغاءً أو استردادًا تلقائيًا. هل تريد المتابعة؟",
+                "invoiceId": "رقم الفاتورة",
+                "email": "عنوان البريد الإلكتروني",
+                "cancel": "إلغاء",
+                "confirm": "طلب",
+                "successFallback": "تم إرسال طلب الانسحاب.",
+                "errorFallback": "فشل إرسال طلب الانسحاب."
             }
         }
     }

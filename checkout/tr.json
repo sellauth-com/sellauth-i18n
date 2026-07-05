@@ -140,6 +140,7 @@
                 "totalPriceUsd": "Toplam Fiyat (USD)",
                 "totalAmountCrypto": "Toplam Tutar ({gateway})",
                 "remainingAmountCrypto": "Kalan Tutar ({gateway})",
+                "cryptoAddress": "Kripto Adresi",
                 "createdAt": "Şu Adreste Oluşturuldu",
                 "expiresAt": "Geçerlilik Süresi",
                 "completedAt": "Tamamlandı",
@@ -168,6 +169,11 @@
                 "termsRequired": "Lütfen hüküm ve koşulları kabul edin",
                 "termsAgreement": "{shopName}'un Hizmet Şartlarını okudum ve kabul ediyorum.",
                 "newsletterSignup": "{shopName} adresinden güncellemeler ve promosyonlar almak istiyorum.",
+                "immediateDeliveryTitle": "Anında teslimat",
+                "immediateDeliveryDescription": "Ürününüz ödemeden hemen sonra teslim edilecektir.",
+                "immediateDeliveryNotice": "Devam ederek anında teslimat talep etmiş olursunuz ve teslimat başladığında 14 günlük yasal cayma hakkınızı kaybedeceğinizi kabul edersiniz.",
+                "immediateDeliveryAgreement": "Anladım ve kabul ediyorum.",
+                "immediateDeliveryRequired": "Lütfen anında teslimatı onaylayın",
                 "proceedToPayment": "Ödeme İşlemine Geçin",
                 "billingAddress": "Fatura Adresi",
                 "shippingAddress": "Teslimat Adresi",
@@ -302,7 +308,9 @@
                 "cancel": "İptal",
                 "paymentInstructions": "Ödeme Talimatları",
                 "awaitingConfirmation": "Onay Bekleniyor",
-                "waitingForPayment": "Ödeme bekleniyor. Bu sayfa otomatik olarak güncellenir."
+                "waitingForPayment": "Ödeme bekleniyor. Bu sayfa otomatik olarak güncellenir.",
+                "proofOfPaymentImage": "Proof of Payment (Image)",
+                "proofOfPaymentImageTooLarge": "Image must be under 10MB."
             },
             "CheckoutPayPayPalFriendsFamily": {
                 "addNoteInstruction": "Ödemeye bir not ekleyin, aksi takdirde dikkate alınmayacaktır.",
@@ -423,6 +431,39 @@
                 "buttonLabel": "Mobil ödeme",
                 "dialogTitle": "Telefonunuzdan ödeme yapın",
                 "dialogDescription": "Mobil cihazınızda ödeme işlemine devam etmek için bu QR kodunu telefonunuzla tarayın."
+            },
+            "CheckoutPayMisticPay": {
+                "description": "MisticPay ile PIX üzerinden anında ödeme yapın.",
+                "enterDetails": "Bilgileriniz",
+                "enterDetailsNote": "PIX QR kodu oluşturmak için adınızı ve CPF numaranızı girin.",
+                "payerNamePlaceholder": "Tam adı",
+                "payerNameRequired": "Lütfen tam adınızı girin.",
+                "payerDocumentPlaceholder": "CPF (sadece rakamlar)",
+                "payerDocumentRequired": "Lütfen CPF numaranızı girin.",
+                "generateQrButton": "Ödemeye Devam Et",
+                "createError": "PIX işlemi oluşturulamadı. Lütfen tekrar deneyin.",
+                "scanQr": "PIX ile ödeme yapmak için bu QR kodunu banka uygulamanızla tarayın.",
+                "pixCopyPaste": "PIX kopyala ve yapıştır",
+                "copy": "Kopyala",
+                "copied": "Kopyalandı!",
+                "howToPay": "Nasıl ödeme yapılır",
+                "step1": "Tam adınızı ve CPF belge numaranızı girin",
+                "step2": "\"Ödemeye Devam Et\"i tıklayın",
+                "step3": "Bankacılık uygulamanızı açın ve QR kodunu tarayın ya da \"kopyala-yapıştır\" düğmesini kullanın",
+                "step4": "Ödeme onaylandıktan sonra siparişiniz otomatik olarak işleme alınacaktır"
+            },
+            "CheckoutCompletedWithdrawal": {
+                "sectionTitle": "Cayma hakkı",
+                "sectionDescription": "AB'de tüketici iseniz bu satın alımdan cayma talebinde bulunabilirsiniz. Bu işlem satıcıya bir talep gönderir — otomatik olarak işleme alınmaz.",
+                "requestButton": "Satın alımdan cayma talebinde bulun",
+                "dialogTitle": "Satın alımdan cayma talebinde bulun",
+                "dialogDescription": "Bu işlem, aşağıdaki sipariş için satıcıya bir cayma talebi gönderir. Bu, otomatik bir iptal veya geri ödeme değildir. Devam etmek istiyor musunuz?",
+                "invoiceId": "Fatura Kimliği",
+                "email": "E-posta Adresi",
+                "cancel": "İptal",
+                "confirm": "Talep et",
+                "successFallback": "Cayma talebi gönderildi.",
+                "errorFallback": "Cayma talebi gönderilemedi."
             }
         }
     }

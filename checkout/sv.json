@@ -140,6 +140,7 @@
                 "totalPriceUsd": "Totalt pris (USD)",
                 "totalAmountCrypto": "Totalt belopp ({gateway})",
                 "remainingAmountCrypto": "Återstående belopp ({gateway})",
+                "cryptoAddress": "Kryptoadress",
                 "createdAt": "Skapad vid",
                 "expiresAt": "Upphör att gälla kl.",
                 "completedAt": "Avslutad vid",
@@ -168,6 +169,11 @@
                 "termsRequired": "Vänligen acceptera villkor och bestämmelser",
                 "termsAgreement": "Jag har läst och godkänner {shopName}:s användarvillkor.",
                 "newsletterSignup": "Jag vill gärna ta emot uppdateringar och kampanjer från {shopName}.",
+                "immediateDeliveryTitle": "Omedelbar leverans",
+                "immediateDeliveryDescription": "Din produkt levereras omedelbart efter betalning.",
+                "immediateDeliveryNotice": "Genom att fortsätta begär du omedelbar leverans och förstår att du förlorar din lagstadgade 14-dagars ångerrätt så snart leveransen påbörjas.",
+                "immediateDeliveryAgreement": "Jag förstår och godkänner.",
+                "immediateDeliveryRequired": "Bekräfta omedelbar leverans",
                 "proceedToPayment": "Fortsätt till betalning",
                 "billingAddress": "Faktureringsadress",
                 "shippingAddress": "Leveransadress",
@@ -302,7 +308,9 @@
                 "cancel": "Avbryt",
                 "paymentInstructions": "Betalningsinstruktioner",
                 "awaitingConfirmation": "Inväntar bekräftelse",
-                "waitingForPayment": "Väntar på betalning. Den här sidan uppdateras automatiskt."
+                "waitingForPayment": "Väntar på betalning. Den här sidan uppdateras automatiskt.",
+                "proofOfPaymentImage": "Proof of Payment (Image)",
+                "proofOfPaymentImageTooLarge": "Image must be under 10MB."
             },
             "CheckoutPayPayPalFriendsFamily": {
                 "addNoteInstruction": "Lägg till en anmärkning till betalningen, annars kommer den att ignoreras.",
@@ -423,6 +431,39 @@
                 "buttonLabel": "Betala via mobilen",
                 "dialogTitle": "Betala via mobilen",
                 "dialogDescription": "Skanna den här QR-koden med din mobil för att fortsätta betalningen på din mobila enhet."
+            },
+            "CheckoutPayMisticPay": {
+                "description": "Betala direkt via PIX med MisticPay.",
+                "enterDetails": "Dina uppgifter",
+                "enterDetailsNote": "Ange ditt namn och ditt CPF-nummer för att skapa en PIX-QR-kod.",
+                "payerNamePlaceholder": "Fullständigt namn",
+                "payerNameRequired": "Ange ditt fullständiga namn.",
+                "payerDocumentPlaceholder": "CPF (endast siffror)",
+                "payerDocumentRequired": "Ange ditt CPF-nummer.",
+                "generateQrButton": "Fortsätt till betalning",
+                "createError": "Det gick inte att skapa PIX-transaktionen. Försök igen.",
+                "scanQr": "Skanna den här QR-koden med din bankapp för att betala via PIX.",
+                "pixCopyPaste": "PIX – kopiera och klistra in",
+                "copy": "Kopiera",
+                "copied": "Kopierat!",
+                "howToPay": "Hur man betalar",
+                "step1": "Ange ditt fullständiga namn och ditt CPF-nummer",
+                "step2": "Klicka på Fortsätt till betalning",
+                "step3": "Öppna din bankapp och skanna QR-koden eller använd funktionen för att kopiera och klistra in",
+                "step4": "Din beställning behandlas automatiskt så snart betalningen har bekräftats"
+            },
+            "CheckoutCompletedWithdrawal": {
+                "sectionTitle": "Ångerrätt",
+                "sectionDescription": "Om du är konsument i EU kan du begära att frånträda det här köpet. Detta skickar en begäran till säljaren — den behandlas inte automatiskt.",
+                "requestButton": "Begär ånger av köpet",
+                "dialogTitle": "Begär ånger av köpet",
+                "dialogDescription": "Detta skickar en ångerbegäran till säljaren för beställningen nedan. Det är inte en automatisk avbeställning eller återbetalning. Vill du fortsätta?",
+                "invoiceId": "Fakturans ID",
+                "email": "E-postadress",
+                "cancel": "Avbryt",
+                "confirm": "Begär",
+                "successFallback": "Ångerbegäran skickad.",
+                "errorFallback": "Det gick inte att skicka ångerbegäran."
             }
         }
     }

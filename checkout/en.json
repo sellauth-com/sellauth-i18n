@@ -33,7 +33,7 @@
                 "proceedToPayment": "Proceed to Payment"
             },
             "CheckoutCompleted": {
-                "orderCompletedTitle": "Order Complete",
+                "orderCompletedTitle": "Order Completed",
                 "orderCompletedSubtitle": "Your items are ready. Check below for your product.",
                 "orderPartiallyCompletedTitle": "Partially Fulfilled",
                 "orderPartiallyCompletedSubtitle": "Some items could not be delivered. Check below for details.",
@@ -140,6 +140,7 @@
                 "totalPriceUsd": "Total Price (USD)",
                 "totalAmountCrypto": "Total Amount ({gateway})",
                 "remainingAmountCrypto": "Remaining Amount ({gateway})",
+                "cryptoAddress": "Crypto Address",
                 "createdAt": "Created",
                 "expiresAt": "Expires",
                 "completedAt": "Completed",
@@ -169,6 +170,11 @@
                 "termsRequired": "Please accept the terms and conditions",
                 "termsAgreement": "I have read and agree to {shopName}'s Terms of Service.",
                 "newsletterSignup": "I would like to receive updates and promotions from {shopName}.",
+                "immediateDeliveryTitle": "Immediate delivery",
+                "immediateDeliveryDescription": "Your product will be delivered immediately after payment.",
+                "immediateDeliveryNotice": "By continuing, you request immediate delivery and understand that you will lose your statutory 14-day right of withdrawal once delivery begins.",
+                "immediateDeliveryAgreement": "I understand and agree.",
+                "immediateDeliveryRequired": "Please confirm immediate delivery",
                 "proceedToPayment": "Proceed to Payment",
                 "billingAddress": "Billing Address",
                 "shippingAddress": "Shipping Address",
@@ -275,6 +281,26 @@
                 "payNow": "Pay Now",
                 "clickHereIfNotVisible": "Don't see it? Click here"
             },
+            "CheckoutPayMisticPay": {
+                "description": "Pay via PIX instantly using MisticPay.",
+                "enterDetails": "Your details",
+                "enterDetailsNote": "Enter your name and CPF to generate a PIX QR code.",
+                "payerNamePlaceholder": "Full name",
+                "payerNameRequired": "Please enter your full name.",
+                "payerDocumentPlaceholder": "CPF (numbers only)",
+                "payerDocumentRequired": "Please enter your CPF.",
+                "generateQrButton": "Continue to Payment",
+                "createError": "Failed to create PIX transaction. Please try again.",
+                "scanQr": "Scan this QR code with your banking app to pay via PIX.",
+                "pixCopyPaste": "PIX copy & paste",
+                "copy": "Copy",
+                "copied": "Copied!",
+                "howToPay": "How to pay",
+                "step1": "Enter your full name and CPF document number",
+                "step2": "Click Continue to Payment",
+                "step3": "Open your banking app and scan the QR code or use the copy & paste key",
+                "step4": "Your order will be processed automatically after payment is confirmed"
+            },
             "CheckoutPayRewarble": {
                 "description": "Enter your voucher code below to complete the payment.",
                 "overpayNote": "If your voucher is worth more than the order total, the remaining balance will be credited to your account.",
@@ -299,6 +325,8 @@
                 "markOrderAsPaid": "Mark Order as Paid",
                 "proofOfPayment": "Proof of Payment",
                 "proofOfPaymentRequired": "Proof of payment is required.",
+                "proofOfPaymentImage": "Proof of Payment (Image)",
+                "proofOfPaymentImageTooLarge": "Image must be under 10MB.",
                 "cancel": "Cancel",
                 "paymentInstructions": "Payment Instructions",
                 "awaitingConfirmation": "Awaiting confirmation...",
@@ -423,6 +451,19 @@
                 "buttonLabel": "Pay on mobile",
                 "dialogTitle": "Pay on your phone",
                 "dialogDescription": "Scan this QR code with your phone to continue checkout on your mobile device."
+            },
+            "CheckoutCompletedWithdrawal": {
+                "sectionTitle": "Right of withdrawal",
+                "sectionDescription": "If you're an EU consumer, you can request to withdraw from this purchase. This sends a request to the seller — it is not processed automatically.",
+                "requestButton": "Request withdrawal from purchase",
+                "dialogTitle": "Request withdrawal from purchase",
+                "dialogDescription": "This will send a withdrawal request to the seller for the order below. It is not an automatic cancellation or refund. Do you want to continue?",
+                "invoiceId": "Invoice ID",
+                "email": "E-mail address",
+                "cancel": "Cancel",
+                "confirm": "Request",
+                "successFallback": "Withdrawal request submitted.",
+                "errorFallback": "Failed to submit withdrawal request."
             }
         }
     }

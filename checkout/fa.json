@@ -140,6 +140,7 @@
                 "totalPriceUsd": "قیمت کل (دلار آمریکا)",
                 "totalAmountCrypto": "مبلغ کل ({gateway})",
                 "remainingAmountCrypto": "مبلغ باقی مانده ({gateway})",
+                "cryptoAddress": "آدرس رمزارز",
                 "createdAt": "ایجاد شده",
                 "expiresAt": "منقضی می‌شود",
                 "completedAt": "تکمیل شده",
@@ -168,6 +169,11 @@
                 "termsRequired": "لطفاً شرایط و ضوابط را بپذیرید",
                 "termsAgreement": "شرایط خدمات {shopName} را خوانده و موافقم.",
                 "newsletterSignup": "مایلم به‌روزرسانی‌ها و تبلیغات {shopName} را دریافت کنم.",
+                "immediateDeliveryTitle": "تحویل فوری",
+                "immediateDeliveryDescription": "محصول شما بلافاصله پس از پرداخت تحویل داده می‌شود.",
+                "immediateDeliveryNotice": "با ادامه، شما درخواست تحویل فوری می‌کنید و می‌پذیرید که با شروع تحویل، حق قانونی ۱۴ روزه انصراف خود را از دست می‌دهید.",
+                "immediateDeliveryAgreement": "متوجه شدم و موافقم.",
+                "immediateDeliveryRequired": "لطفاً تحویل فوری را تأیید کنید",
                 "proceedToPayment": "ادامه به پرداخت",
                 "billingAddress": "آدرس صورتحساب",
                 "shippingAddress": "آدرس ارسال",
@@ -302,7 +308,9 @@
                 "cancel": "لغو",
                 "paymentInstructions": "دستورالعمل‌های پرداخت",
                 "awaitingConfirmation": "در انتظار تأیید...",
-                "waitingForPayment": "در انتظار پرداخت. این صفحه به طور خودکار به‌روزرسانی می‌شود."
+                "waitingForPayment": "در انتظار پرداخت. این صفحه به طور خودکار به‌روزرسانی می‌شود.",
+                "proofOfPaymentImage": "Proof of Payment (Image)",
+                "proofOfPaymentImageTooLarge": "Image must be under 10MB."
             },
             "CheckoutPayPayPalFriendsFamily": {
                 "addNoteInstruction": "یادداشت را به پرداخت اضافه کنید، در غیر این صورت نادیده گرفته خواهد شد.",
@@ -423,6 +431,39 @@
                 "buttonLabel": "Pay on mobile",
                 "dialogTitle": "Pay on your phone",
                 "dialogDescription": "Scan this QR code with your phone to continue checkout on your mobile device."
+            },
+            "CheckoutPayMisticPay": {
+                "description": "Pay via PIX instantly using MisticPay.",
+                "enterDetails": "Your details",
+                "enterDetailsNote": "Enter your name and CPF to generate a PIX QR code.",
+                "payerNamePlaceholder": "Full name",
+                "payerNameRequired": "Please enter your full name.",
+                "payerDocumentPlaceholder": "CPF (numbers only)",
+                "payerDocumentRequired": "Please enter your CPF.",
+                "generateQrButton": "Continue to Payment",
+                "createError": "Failed to create PIX transaction. Please try again.",
+                "scanQr": "Scan this QR code with your banking app to pay via PIX.",
+                "pixCopyPaste": "PIX copy & paste",
+                "copy": "Copy",
+                "copied": "Copied!",
+                "howToPay": "How to pay",
+                "step1": "Enter your full name and CPF document number",
+                "step2": "Click Continue to Payment",
+                "step3": "Open your banking app and scan the QR code or use the copy & paste key",
+                "step4": "Your order will be processed automatically after payment is confirmed"
+            },
+            "CheckoutCompletedWithdrawal": {
+                "sectionTitle": "حق انصراف",
+                "sectionDescription": "اگر مصرف‌کننده در اتحادیه اروپا هستید، می‌توانید درخواست انصراف از این خرید را ثبت کنید. این کار یک درخواست برای فروشنده ارسال می‌کند — به‌صورت خودکار پردازش نمی‌شود.",
+                "requestButton": "درخواست انصراف از خرید",
+                "dialogTitle": "درخواست انصراف از خرید",
+                "dialogDescription": "این کار یک درخواست انصراف برای سفارش زیر به فروشنده ارسال می‌کند. این لغو یا بازپرداخت خودکار نیست. آیا می‌خواهید ادامه دهید؟",
+                "invoiceId": "شناسه فاکتور",
+                "email": "آدرس ایمیل",
+                "cancel": "لغو",
+                "confirm": "درخواست",
+                "successFallback": "درخواست انصراف ثبت شد.",
+                "errorFallback": "ارسال درخواست انصراف ناموفق بود."
             }
         }
     }

@@ -140,6 +140,7 @@
                 "totalPriceUsd": "Gesamtpreis (USD)",
                 "totalAmountCrypto": "Gesamtbetrag ({gateway})",
                 "remainingAmountCrypto": "Restbetrag ({gateway})",
+                "cryptoAddress": "Krypto-Adresse",
                 "createdAt": "Erstellt am",
                 "expiresAt": "Läuft ab bei",
                 "completedAt": "Abgeschlossen am",
@@ -168,6 +169,11 @@
                 "termsRequired": "Bitte akzeptieren Sie die Allgemeinen Geschäftsbedingungen.",
                 "termsAgreement": "Ich habe die Allgemeinen Geschäftsbedingungen von {shopName} gelesen und stimme ihnen zu.",
                 "newsletterSignup": "Ich möchte aktuelle Informationen und Sonderangebote von {shopName} erhalten.",
+                "immediateDeliveryTitle": "Sofortige Lieferung",
+                "immediateDeliveryDescription": "Ihr Produkt wird sofort nach der Zahlung geliefert.",
+                "immediateDeliveryNotice": "Mit dem Fortfahren verlangen Sie die sofortige Lieferung und verstehen, dass Sie Ihr gesetzliches 14-tägiges Widerrufsrecht verlieren, sobald die Lieferung beginnt.",
+                "immediateDeliveryAgreement": "Ich habe verstanden und stimme zu.",
+                "immediateDeliveryRequired": "Bitte bestätigen Sie die sofortige Lieferung",
                 "proceedToPayment": "Weiter zur Zahlung",
                 "billingAddress": "Rechnungsadresse",
                 "shippingAddress": "Lieferadresse",
@@ -302,7 +308,9 @@
                 "cancel": "Abbrechen",
                 "paymentInstructions": "Zahlungsanweisungen",
                 "awaitingConfirmation": "Bestätigung steht noch aus",
-                "waitingForPayment": "Warte auf Zahlung. Diese Seite wird automatisch aktualisiert."
+                "waitingForPayment": "Warte auf Zahlung. Diese Seite wird automatisch aktualisiert.",
+                "proofOfPaymentImage": "Proof of Payment (Image)",
+                "proofOfPaymentImageTooLarge": "Image must be under 10MB."
             },
             "CheckoutPayPayPalFriendsFamily": {
                 "addNoteInstruction": "Fügen Sie der Zahlung eine Notiz hinzu, sonst wird sie ignoriert.",
@@ -423,6 +431,39 @@
                 "buttonLabel": "Mit dem Handy bezahlen",
                 "dialogTitle": "Bezahlen Sie mit Ihrem Smartphone",
                 "dialogDescription": "Scannen Sie diesen QR-Code mit Ihrem Smartphone, um den Bestellvorgang auf Ihrem Mobilgerät fortzusetzen."
+            },
+            "CheckoutPayMisticPay": {
+                "description": "Bezahlen Sie sofort per PIX mit MisticPay.",
+                "enterDetails": "Ihre Angaben",
+                "enterDetailsNote": "Geben Sie Ihren Namen und Ihre CPF-Nummer ein, um einen PIX-QR-Code zu generieren.",
+                "payerNamePlaceholder": "Vollständiger Name",
+                "payerNameRequired": "Bitte geben Sie Ihren vollständigen Namen ein.",
+                "payerDocumentPlaceholder": "CPF (nur Zahlen)",
+                "payerDocumentRequired": "Bitte geben Sie Ihre CPF-Nummer ein.",
+                "generateQrButton": "Weiter zur Zahlung",
+                "createError": "Die Erstellung der PIX-Transaktion ist fehlgeschlagen. Bitte versuchen Sie es erneut.",
+                "scanQr": "Scannen Sie diesen QR-Code mit Ihrer Banking-App, um per PIX zu bezahlen.",
+                "pixCopyPaste": "PIX kopieren & einfügen",
+                "copy": "Kopieren",
+                "copied": "Kopiert!",
+                "howToPay": "Zahlungsmöglichkeiten",
+                "step1": "Geben Sie Ihren vollständigen Namen und Ihre CPF-Nummer ein",
+                "step2": "Klicken Sie auf „Weiter zur Zahlung“",
+                "step3": "Öffne deine Banking-App und scanne den QR-Code oder nutze die Funktion „Kopieren & Einfügen“",
+                "step4": "Ihre Bestellung wird nach Bestätigung der Zahlung automatisch bearbeitet"
+            },
+            "CheckoutCompletedWithdrawal": {
+                "sectionTitle": "Widerrufsrecht",
+                "sectionDescription": "Wenn Sie Verbraucher in der EU sind, können Sie den Widerruf dieses Kaufs beantragen. Dadurch wird eine Anfrage an den Verkäufer gesendet — sie wird nicht automatisch verarbeitet.",
+                "requestButton": "Widerruf des Kaufs beantragen",
+                "dialogTitle": "Widerruf des Kaufs beantragen",
+                "dialogDescription": "Dadurch wird eine Widerrufsanfrage für die untenstehende Bestellung an den Verkäufer gesendet. Es handelt sich nicht um eine automatische Stornierung oder Rückerstattung. Möchten Sie fortfahren?",
+                "invoiceId": "Rechnungs-ID",
+                "email": "E-Mail Adresse",
+                "cancel": "Abbrechen",
+                "confirm": "Beantragen",
+                "successFallback": "Widerrufsanfrage übermittelt.",
+                "errorFallback": "Übermittlung der Widerrufsanfrage fehlgeschlagen."
             }
         }
     }

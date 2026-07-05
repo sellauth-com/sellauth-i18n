@@ -140,6 +140,7 @@
                 "totalPriceUsd": "Totale prijs (USD)",
                 "totalAmountCrypto": "Totaal bedrag ({gateway})",
                 "remainingAmountCrypto": "Resterend bedrag ({gateway})",
+                "cryptoAddress": "Cryptoadres",
                 "createdAt": "Gemaakt op",
                 "expiresAt": "Verloopt op",
                 "completedAt": "Voltooid Op",
@@ -168,6 +169,11 @@
                 "termsRequired": "Accepteer de algemene voorwaarden",
                 "termsAgreement": "Ik heb de Servicevoorwaarden van {shopName} gelezen en ga ermee akkoord.",
                 "newsletterSignup": "Ik wil graag updates en promoties ontvangen van {shopName}.",
+                "immediateDeliveryTitle": "Onmiddellijke levering",
+                "immediateDeliveryDescription": "Uw product wordt onmiddellijk na betaling geleverd.",
+                "immediateDeliveryNotice": "Door door te gaan verzoekt u om onmiddellijke levering en begrijpt u dat u uw wettelijke herroepingsrecht van 14 dagen verliest zodra de levering begint.",
+                "immediateDeliveryAgreement": "Ik begrijp het en ga akkoord.",
+                "immediateDeliveryRequired": "Bevestig de onmiddellijke levering",
                 "proceedToPayment": "Doorgaan naar betaling",
                 "billingAddress": "Factuuradres",
                 "shippingAddress": "Verzendadres",
@@ -302,7 +308,9 @@
                 "cancel": "Annuleren",
                 "paymentInstructions": "Betalingsinstructies",
                 "awaitingConfirmation": "In afwachting van bevestiging",
-                "waitingForPayment": "Wachten op betaling. Deze pagina wordt automatisch bijgewerkt."
+                "waitingForPayment": "Wachten op betaling. Deze pagina wordt automatisch bijgewerkt.",
+                "proofOfPaymentImage": "Proof of Payment (Image)",
+                "proofOfPaymentImageTooLarge": "Image must be under 10MB."
             },
             "CheckoutPayPayPalFriendsFamily": {
                 "addNoteInstruction": "Voeg een notitie toe aan de betaling, anders wordt deze genegeerd.",
@@ -423,6 +431,39 @@
                 "buttonLabel": "Betalen via je mobiel",
                 "dialogTitle": "Betaal via je telefoon",
                 "dialogDescription": "Scan deze QR-code met je telefoon om het afrekenen op je mobiele apparaat voort te zetten."
+            },
+            "CheckoutPayMisticPay": {
+                "description": "Betaal direct via PIX met MisticPay.",
+                "enterDetails": "Uw gegevens",
+                "enterDetailsNote": "Voer uw naam en CPF-nummer in om een PIX-QR-code te genereren.",
+                "payerNamePlaceholder": "Volledige naam",
+                "payerNameRequired": "Vul hier uw volledige naam in.",
+                "payerDocumentPlaceholder": "CPF (alleen cijfers)",
+                "payerDocumentRequired": "Voer uw CPF-nummer in.",
+                "generateQrButton": "Ga verder naar de betaling",
+                "createError": "Het is niet gelukt om de PIX-transactie aan te maken. Probeer het nog eens.",
+                "scanQr": "Scan deze QR-code met je bankapp om via PIX te betalen.",
+                "pixCopyPaste": "PIX kopiëren en plakken",
+                "copy": "Kopiëren",
+                "copied": "Gekopieerd!",
+                "howToPay": "Hoe kunt u betalen?",
+                "step1": "Vul uw volledige naam en CPF-nummer in",
+                "step2": "Klik op 'Doorgaan naar betaling'",
+                "step3": "Open je bankapp en scan de QR-code of gebruik de knop ‘Kopiëren en plakken’",
+                "step4": "Uw bestelling wordt automatisch verwerkt zodra de betaling is bevestigd"
+            },
+            "CheckoutCompletedWithdrawal": {
+                "sectionTitle": "Herroepingsrecht",
+                "sectionDescription": "Als u een consument in de EU bent, kunt u verzoeken deze aankoop te herroepen. Hiermee wordt een verzoek naar de verkoper gestuurd — het wordt niet automatisch verwerkt.",
+                "requestButton": "Herroeping van aankoop aanvragen",
+                "dialogTitle": "Herroeping van aankoop aanvragen",
+                "dialogDescription": "Hiermee wordt een herroepingsverzoek voor de onderstaande bestelling naar de verkoper gestuurd. Dit is geen automatische annulering of terugbetaling. Wilt u doorgaan?",
+                "invoiceId": "Factuur ID",
+                "email": "E-mailadres",
+                "cancel": "Annuleren",
+                "confirm": "Aanvragen",
+                "successFallback": "Herroepingsverzoek ingediend.",
+                "errorFallback": "Indienen van herroepingsverzoek mislukt."
             }
         }
     }

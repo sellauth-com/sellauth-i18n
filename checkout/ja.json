@@ -140,6 +140,7 @@
                 "totalPriceUsd": "合計金額 (米ドル)",
                 "totalAmountCrypto": "合計金額 ({gateway})",
                 "remainingAmountCrypto": "残額 ({gateway})",
+                "cryptoAddress": "暗号アドレス",
                 "createdAt": "注文作成日",
                 "expiresAt": "支払い期限",
                 "completedAt": "完了日",
@@ -168,6 +169,11 @@
                 "termsRequired": "利用規約に同意してください",
                 "termsAgreement": "{shopName} の利用規約の内容を確認し、同意しました",
                 "newsletterSignup": "{shopName} からのお得な情報をメールで受け取る",
+                "immediateDeliveryTitle": "即時配信",
+                "immediateDeliveryDescription": "お支払い後、すぐに商品が配信されます。",
+                "immediateDeliveryNotice": "続行すると、即時配信を要求したことになり、配信が開始されると法定の14日間の撤回権を失うことを理解したものとみなされます。",
+                "immediateDeliveryAgreement": "理解し、同意します。",
+                "immediateDeliveryRequired": "即時配信を確認してください",
                 "proceedToPayment": "支払いに進む",
                 "billingAddress": "請求先住所",
                 "shippingAddress": "配送先住所",
@@ -302,7 +308,9 @@
                 "cancel": "キャンセル",
                 "paymentInstructions": "支払い手順",
                 "awaitingConfirmation": "確認をお待ちしています",
-                "waitingForPayment": "支払いを待っています。このページは自動的に更新されます。"
+                "waitingForPayment": "支払いを待っています。このページは自動的に更新されます。",
+                "proofOfPaymentImage": "Proof of Payment (Image)",
+                "proofOfPaymentImageTooLarge": "Image must be under 10MB."
             },
             "CheckoutPayPayPalFriendsFamily": {
                 "addNoteInstruction": "支払いにメモを追加してください。そうしないと無視されます。",
@@ -423,6 +431,39 @@
                 "buttonLabel": "スマホで支払う",
                 "dialogTitle": "スマホで支払う",
                 "dialogDescription": "スマートフォンでこのQRコードをスキャンして、モバイル端末で決済手続きを続けてください。"
+            },
+            "CheckoutPayMisticPay": {
+                "description": "MisticPayを使って、PIX経由ですぐにお支払いいただけます。",
+                "enterDetails": "お客様の情報",
+                "enterDetailsNote": "お名前とCPF番号を入力して、PIX QRコードを生成してください。",
+                "payerNamePlaceholder": "氏名",
+                "payerNameRequired": "氏名をご入力ください。",
+                "payerDocumentPlaceholder": "CPF（数字のみ）",
+                "payerDocumentRequired": "CPF番号を入力してください。",
+                "generateQrButton": "お支払いに進む",
+                "createError": "PIXトランザクションの作成に失敗しました。もう一度お試しください。",
+                "scanQr": "銀行アプリでこのQRコードをスキャンして、PIX経由でお支払いください。",
+                "pixCopyPaste": "PIXのコピー＆ペースト",
+                "copy": "コピー",
+                "copied": "コピーしました！",
+                "howToPay": "お支払い方法",
+                "step1": "氏名とCPF番号を入力してください",
+                "step2": "「お支払いに進む」をクリックしてください",
+                "step3": "銀行アプリを開き、QRコードをスキャンするか、コピー＆ペースト機能をご利用ください",
+                "step4": "お支払いが確認され次第、ご注文は自動的に処理されます"
+            },
+            "CheckoutCompletedWithdrawal": {
+                "sectionTitle": "撤回権",
+                "sectionDescription": "EUの消費者の方は、この購入の撤回をリクエストできます。これは販売者にリクエストを送信するもので、自動的に処理されるわけではありません。",
+                "requestButton": "購入の撤回をリクエスト",
+                "dialogTitle": "購入の撤回をリクエスト",
+                "dialogDescription": "以下の注文について、販売者に撤回リクエストを送信します。これは自動的なキャンセルや返金ではありません。続行しますか？",
+                "invoiceId": "ご注文ID",
+                "email": "メールアドレス",
+                "cancel": "キャンセル",
+                "confirm": "リクエスト",
+                "successFallback": "撤回リクエストを送信しました。",
+                "errorFallback": "撤回リクエストの送信に失敗しました。"
             }
         }
     }

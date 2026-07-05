@@ -140,6 +140,7 @@
                 "totalPriceUsd": "Prix total (USD)",
                 "totalAmountCrypto": "Montant total ({gateway})",
                 "remainingAmountCrypto": "Montant restant ({gateway})",
+                "cryptoAddress": "Adresse crypto",
                 "createdAt": "Créé à",
                 "expiresAt": "Expire le",
                 "completedAt": "Terminé le",
@@ -168,6 +169,11 @@
                 "termsRequired": "Veuillez accepter les termes et conditions",
                 "termsAgreement": "J'ai lu et j'accepte les conditions d'utilisation de {shopName}.",
                 "newsletterSignup": "Je souhaite recevoir les mises à jour et les promotions de {shopName}.",
+                "immediateDeliveryTitle": "Livraison immédiate",
+                "immediateDeliveryDescription": "Votre produit sera livré immédiatement après le paiement.",
+                "immediateDeliveryNotice": "En continuant, vous demandez une livraison immédiate et comprenez que vous perdrez votre droit légal de rétractation de 14 jours dès le début de la livraison.",
+                "immediateDeliveryAgreement": "J'ai compris et j'accepte.",
+                "immediateDeliveryRequired": "Veuillez confirmer la livraison immédiate",
                 "proceedToPayment": "Procéder au paiement",
                 "billingAddress": "Adresse de facturation",
                 "shippingAddress": "Adresse de livraison",
@@ -302,7 +308,9 @@
                 "cancel": "Annuler",
                 "paymentInstructions": "Instructions de paiement",
                 "awaitingConfirmation": "En attente de confirmation",
-                "waitingForPayment": "En attente du paiement. Cette page se met à jour automatiquement."
+                "waitingForPayment": "En attente du paiement. Cette page se met à jour automatiquement.",
+                "proofOfPaymentImage": "Proof of Payment (Image)",
+                "proofOfPaymentImageTooLarge": "Image must be under 10MB."
             },
             "CheckoutPayPayPalFriendsFamily": {
                 "addNoteInstruction": "Ajoutez une note au paiement, sinon il sera ignoré.",
@@ -423,6 +431,39 @@
                 "buttonLabel": "Payer via mobile",
                 "dialogTitle": "Payez avec votre téléphone",
                 "dialogDescription": "Scannez ce code QR avec votre téléphone pour poursuivre votre commande sur votre appareil mobile."
+            },
+            "CheckoutPayMisticPay": {
+                "description": "Payez instantanément via PIX avec MisticPay.",
+                "enterDetails": "Vos coordonnées",
+                "enterDetailsNote": "Entrez votre nom et votre numéro CPF pour générer un code QR PIX.",
+                "payerNamePlaceholder": "Nom complet",
+                "payerNameRequired": "Veuillez saisir votre nom complet.",
+                "payerDocumentPlaceholder": "CPF (chiffres uniquement)",
+                "payerDocumentRequired": "Veuillez saisir votre numéro CPF.",
+                "generateQrButton": "Passer au paiement",
+                "createError": "Échec de la création de la transaction PIX. Veuillez réessayer.",
+                "scanQr": "Scannez ce code QR avec votre application bancaire pour payer via PIX.",
+                "pixCopyPaste": "Copier-coller PIX",
+                "copy": "Copier",
+                "copied": "C'est noté !",
+                "howToPay": "Comment payer",
+                "step1": "Veuillez saisir votre nom complet et votre numéro de CPF",
+                "step2": "Cliquez sur « Continuer vers le paiement »",
+                "step3": "Ouvrez votre application bancaire et scannez le code QR ou utilisez la fonction « copier-coller »",
+                "step4": "Votre commande sera traitée automatiquement dès confirmation du paiement"
+            },
+            "CheckoutCompletedWithdrawal": {
+                "sectionTitle": "Droit de rétractation",
+                "sectionDescription": "Si vous êtes un consommateur de l'UE, vous pouvez demander à vous rétracter de cet achat. Cela envoie une demande au vendeur — elle n'est pas traitée automatiquement.",
+                "requestButton": "Demander la rétractation de l'achat",
+                "dialogTitle": "Demander la rétractation de l'achat",
+                "dialogDescription": "Cela enverra une demande de rétractation au vendeur pour la commande ci-dessous. Il ne s'agit pas d'une annulation ni d'un remboursement automatique. Voulez-vous continuer ?",
+                "invoiceId": "ID de la facture",
+                "email": "Adresse électronique",
+                "cancel": "Annuler",
+                "confirm": "Demander",
+                "successFallback": "Demande de rétractation envoyée.",
+                "errorFallback": "Échec de l'envoi de la demande de rétractation."
             }
         }
     }

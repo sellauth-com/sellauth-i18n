@@ -140,6 +140,7 @@
                 "totalPriceUsd": "Cena całkowita (USD)",
                 "totalAmountCrypto": "Całkowita kwota ({gateway})",
                 "remainingAmountCrypto": "Pozostała kwota ({gateway})",
+                "cryptoAddress": "Adres kryptowaluty",
                 "createdAt": "Utworzono",
                 "expiresAt": "Wygasa",
                 "completedAt": "Ukończono",
@@ -168,6 +169,11 @@
                 "termsRequired": "Musisz zaakceptować warunki.",
                 "termsAgreement": "Przeczytałem i akceptuję Warunki świadczenia usług {shopName}.",
                 "newsletterSignup": "Chcę otrzymywać aktualizacje i promocje od {shopName}.",
+                "immediateDeliveryTitle": "Natychmiastowa dostawa",
+                "immediateDeliveryDescription": "Twój produkt zostanie dostarczony natychmiast po dokonaniu płatności.",
+                "immediateDeliveryNotice": "Kontynuując, żądasz natychmiastowej dostawy i rozumiesz, że tracisz ustawowe 14-dniowe prawo do odstąpienia od umowy z chwilą rozpoczęcia dostawy.",
+                "immediateDeliveryAgreement": "Rozumiem i zgadzam się.",
+                "immediateDeliveryRequired": "Potwierdź natychmiastową dostawę",
                 "proceedToPayment": "Przejdź do płatności",
                 "billingAddress": "Adres rozliczeniowy",
                 "shippingAddress": "Adres dostawy",
@@ -302,7 +308,9 @@
                 "cancel": "Anuluj",
                 "paymentInstructions": "Instrukcje płatności",
                 "awaitingConfirmation": "Oczekiwanie na potwierdzenie",
-                "waitingForPayment": "Oczekiwanie na płatność. Ta strona aktualizuje się automatycznie."
+                "waitingForPayment": "Oczekiwanie na płatność. Ta strona aktualizuje się automatycznie.",
+                "proofOfPaymentImage": "Proof of Payment (Image)",
+                "proofOfPaymentImageTooLarge": "Image must be under 10MB."
             },
             "CheckoutPayPayPalFriendsFamily": {
                 "addNoteInstruction": "Dodaj notatkę do płatności, inaczej zostanie zignorowana.",
@@ -423,6 +431,39 @@
                 "buttonLabel": "Płać przez telefon",
                 "dialogTitle": "Płać przez telefon",
                 "dialogDescription": "Zeskanuj ten kod QR telefonem, aby dokończyć proces płatności na urządzeniu mobilnym."
+            },
+            "CheckoutPayMisticPay": {
+                "description": "Zapłać natychmiast przez PIX za pomocą MisticPay.",
+                "enterDetails": "Twoje dane",
+                "enterDetailsNote": "Wpisz swoje imię i nazwisko oraz numer CPF, aby wygenerować kod QR PIX.",
+                "payerNamePlaceholder": "Pełne imię i nazwisko",
+                "payerNameRequired": "Proszę wpisać swoje imię i nazwisko.",
+                "payerDocumentPlaceholder": "CPF (tylko numery)",
+                "payerDocumentRequired": "Wprowadź swój numer CPF.",
+                "generateQrButton": "Przejdź do płatności",
+                "createError": "Nie udało się utworzyć transakcji PIX. Spróbuj ponownie.",
+                "scanQr": "Zeskanuj ten kod QR za pomocą aplikacji bankowej, aby dokonać płatności przez PIX.",
+                "pixCopyPaste": "PIX – skopiuj i wklej",
+                "copy": "Skopiuj",
+                "copied": "Skopiowano!",
+                "howToPay": "Jak dokonać płatności",
+                "step1": "Wpisz swoje imię i nazwisko oraz numer dokumentu CPF",
+                "step2": "Kliknij „Przejdź do płatności”",
+                "step3": "Otwórz aplikację bankową i zeskanuj kod QR lub skorzystaj z opcji „kopiuj i wklej”",
+                "step4": "Twoje zamówienie zostanie zrealizowane automatycznie po potwierdzeniu płatności"
+            },
+            "CheckoutCompletedWithdrawal": {
+                "sectionTitle": "Prawo do odstąpienia od umowy",
+                "sectionDescription": "Jeśli jesteś konsumentem w UE, możesz złożyć wniosek o odstąpienie od tego zakupu. Spowoduje to wysłanie wniosku do sprzedawcy — nie jest on przetwarzany automatycznie.",
+                "requestButton": "Złóż wniosek o odstąpienie od zakupu",
+                "dialogTitle": "Złóż wniosek o odstąpienie od zakupu",
+                "dialogDescription": "Spowoduje to wysłanie wniosku o odstąpienie do sprzedawcy w odniesieniu do poniższego zamówienia. Nie jest to automatyczne anulowanie ani zwrot środków. Czy chcesz kontynuować?",
+                "invoiceId": "ID faktury",
+                "email": "Adres e-mail",
+                "cancel": "Anuluj",
+                "confirm": "Złóż wniosek",
+                "successFallback": "Wniosek o odstąpienie został wysłany.",
+                "errorFallback": "Nie udało się wysłać wniosku o odstąpienie."
             }
         }
     }

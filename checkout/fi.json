@@ -140,6 +140,7 @@
                 "totalPriceUsd": "Kokonaishinta (USD)",
                 "totalAmountCrypto": "Kokonaismäärä ({gateway})",
                 "remainingAmountCrypto": "Jäljellä oleva määrä ({gateway})",
+                "cryptoAddress": "Kryptoosoite",
                 "createdAt": "Luotu",
                 "expiresAt": "Vanhentuu osoitteessa",
                 "completedAt": "Valmistunut klo",
@@ -168,6 +169,11 @@
                 "termsRequired": "Hyväksy ehdot",
                 "termsAgreement": "Olen lukenut ja hyväksyn {shopName}:n käyttöehdot.",
                 "newsletterSignup": "Haluan saada päivityksiä ja kampanjoita osoitteesta {shopName}.",
+                "immediateDeliveryTitle": "Välitön toimitus",
+                "immediateDeliveryDescription": "Tuotteesi toimitetaan välittömästi maksun jälkeen.",
+                "immediateDeliveryNotice": "Jatkamalla pyydät välitöntä toimitusta ja ymmärrät, että menetät lakisääteisen 14 päivän peruuttamisoikeutesi heti, kun toimitus alkaa.",
+                "immediateDeliveryAgreement": "Ymmärrän ja hyväksyn.",
+                "immediateDeliveryRequired": "Vahvista välitön toimitus",
                 "proceedToPayment": "Siirry maksuun",
                 "billingAddress": "Laskutusosoite",
                 "shippingAddress": "Toimitusosoite",
@@ -302,7 +308,9 @@
                 "cancel": "Peruuta",
                 "paymentInstructions": "Maksuohjeet",
                 "awaitingConfirmation": "Odottaa vahvistusta",
-                "waitingForPayment": "Odotetaan maksua. Tämä sivu päivittyy automaattisesti."
+                "waitingForPayment": "Odotetaan maksua. Tämä sivu päivittyy automaattisesti.",
+                "proofOfPaymentImage": "Proof of Payment (Image)",
+                "proofOfPaymentImageTooLarge": "Image must be under 10MB."
             },
             "CheckoutPayPayPalFriendsFamily": {
                 "addNoteInstruction": "Lisää maksuun huomautus, muuten se jätetään huomiotta.",
@@ -423,6 +431,39 @@
                 "buttonLabel": "Maksa kännykällä",
                 "dialogTitle": "Maksa puhelimella",
                 "dialogDescription": "Skannaa tämä QR-koodi puhelimellasi jatkaaksesi maksamista mobiililaitteellasi."
+            },
+            "CheckoutPayMisticPay": {
+                "description": "Maksa välittömästi PIX-palvelun kautta MisticPay-sovelluksella.",
+                "enterDetails": "Henkilötiedot",
+                "enterDetailsNote": "Kirjoita nimesi ja CPF-numerosi PIX-QR-koodin luomiseksi.",
+                "payerNamePlaceholder": "Koko nimi",
+                "payerNameRequired": "Kirjoita koko nimesi.",
+                "payerDocumentPlaceholder": "CPF (vain numerot)",
+                "payerDocumentRequired": "Syötä CPF-numerosi.",
+                "generateQrButton": "Jatka maksamiseen",
+                "createError": "PIX-tapahtuman luominen epäonnistui. Yritä uudelleen.",
+                "scanQr": "Skannaa tämä QR-koodi pankkisovelluksellasi maksaaksesi PIX-palvelun kautta.",
+                "pixCopyPaste": "PIX: kopioi ja liitä",
+                "copy": "Kopioi",
+                "copied": "Kopioitu!",
+                "howToPay": "Maksutavat",
+                "step1": "Kirjoita koko nimesi ja CPF-numerosi",
+                "step2": "Napsauta Jatka maksamiseen",
+                "step3": "Avaa pankkisovelluksesi ja skannaa QR-koodi tai käytä Kopioi ja liitä -painiketta",
+                "step4": "Tilauksesi käsitellään automaattisesti, kun maksu on vahvistettu"
+            },
+            "CheckoutCompletedWithdrawal": {
+                "sectionTitle": "Peruuttamisoikeus",
+                "sectionDescription": "Jos olet EU:n kuluttaja, voit pyytää tämän oston peruuttamista. Tämä lähettää pyynnön myyjälle — sitä ei käsitellä automaattisesti.",
+                "requestButton": "Pyydä oston peruuttamista",
+                "dialogTitle": "Pyydä oston peruuttamista",
+                "dialogDescription": "Tämä lähettää peruuttamispyynnön myyjälle alla olevasta tilauksesta. Se ei ole automaattinen peruutus tai hyvitys. Haluatko jatkaa?",
+                "invoiceId": "Laskun ID",
+                "email": "Sähköpostiosoite",
+                "cancel": "Peruuta",
+                "confirm": "Pyydä",
+                "successFallback": "Peruuttamispyyntö lähetetty.",
+                "errorFallback": "Peruuttamispyynnön lähettäminen epäonnistui."
             }
         }
     }

@@ -140,6 +140,7 @@
                 "totalPriceUsd": "Precio total (USD)",
                 "totalAmountCrypto": "Importe total ({gateway})",
                 "remainingAmountCrypto": "Importe restante ({gateway})",
+                "cryptoAddress": "Dirección de cripto",
                 "createdAt": "Creado en",
                 "expiresAt": "Caduca en",
                 "completedAt": "Completado en",
@@ -168,6 +169,11 @@
                 "termsRequired": "Por favor, acepte los términos y condiciones",
                 "termsAgreement": "He leído y acepto las condiciones de servicio de {shopName}.",
                 "newsletterSignup": "Me gustaría recibir actualizaciones y promociones de {shopName}.",
+                "immediateDeliveryTitle": "Entrega inmediata",
+                "immediateDeliveryDescription": "Su producto se entregará inmediatamente después del pago.",
+                "immediateDeliveryNotice": "Al continuar, solicita la entrega inmediata y entiende que perderá su derecho legal de desistimiento de 14 días una vez que comience la entrega.",
+                "immediateDeliveryAgreement": "Lo entiendo y acepto.",
+                "immediateDeliveryRequired": "Por favor, confirme la entrega inmediata",
                 "proceedToPayment": "Proceder al pago",
                 "billingAddress": "Dirección de facturación",
                 "shippingAddress": "Dirección de envío",
@@ -302,7 +308,9 @@
                 "cancel": "Cancelar",
                 "paymentInstructions": "Instrucciones de pago",
                 "awaitingConfirmation": "A la espera de confirmación",
-                "waitingForPayment": "Esperando el pago. Esta página se actualiza automáticamente."
+                "waitingForPayment": "Esperando el pago. Esta página se actualiza automáticamente.",
+                "proofOfPaymentImage": "Proof of Payment (Image)",
+                "proofOfPaymentImageTooLarge": "Image must be under 10MB."
             },
             "CheckoutPayPayPalFriendsFamily": {
                 "addNoteInstruction": "Añada una nota al pago, de lo contrario se ignorará.",
@@ -423,6 +431,39 @@
                 "buttonLabel": "Pagar con el móvil",
                 "dialogTitle": "Paga con el móvil",
                 "dialogDescription": "Escanea este código QR con tu teléfono para continuar con el proceso de pago en tu dispositivo móvil."
+            },
+            "CheckoutPayMisticPay": {
+                "description": "Paga al instante mediante PIX con MisticPay.",
+                "enterDetails": "Tus datos",
+                "enterDetailsNote": "Introduce tu nombre y tu CPF para generar un código QR PIX.",
+                "payerNamePlaceholder": "Nombre completo",
+                "payerNameRequired": "Introduce tu nombre completo.",
+                "payerDocumentPlaceholder": "CPF (solo números)",
+                "payerDocumentRequired": "Introduzca su CPF.",
+                "generateQrButton": "Continuar con el pago",
+                "createError": "No se ha podido crear la transacción PIX. Inténtalo de nuevo.",
+                "scanQr": "Escanea este código QR con tu aplicación bancaria para pagar a través de PIX.",
+                "pixCopyPaste": "Copiar y pegar PIX",
+                "copy": "Copiar",
+                "copied": "¡Copiado!",
+                "howToPay": "Formas de pago",
+                "step1": "Introduzca su nombre completo y el número de documento del CPF",
+                "step2": "Haz clic en «Continuar» para realizar el pago",
+                "step3": "Abre tu aplicación bancaria y escanea el código QR o utiliza la opción de copiar y pegar",
+                "step4": "Tu pedido se tramitará automáticamente una vez se haya confirmado el pago"
+            },
+            "CheckoutCompletedWithdrawal": {
+                "sectionTitle": "Derecho de desistimiento",
+                "sectionDescription": "Si es un consumidor de la UE, puede solicitar el desistimiento de esta compra. Esto envía una solicitud al vendedor; no se procesa automáticamente.",
+                "requestButton": "Solicitar el desistimiento de la compra",
+                "dialogTitle": "Solicitar el desistimiento de la compra",
+                "dialogDescription": "Esto enviará una solicitud de desistimiento al vendedor para el pedido que se muestra a continuación. No es una cancelación ni un reembolso automático. ¿Desea continuar?",
+                "invoiceId": "ID de factura",
+                "email": "Correo electrónico",
+                "cancel": "Cancelar",
+                "confirm": "Solicitar",
+                "successFallback": "Solicitud de desistimiento enviada.",
+                "errorFallback": "No se pudo enviar la solicitud de desistimiento."
             }
         }
     }

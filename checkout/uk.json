@@ -140,6 +140,7 @@
                 "totalPriceUsd": "Загальна ціна (USD)",
                 "totalAmountCrypto": "Загальна сума ({gateway})",
                 "remainingAmountCrypto": "Залишок коштів ({gateway})",
+                "cryptoAddress": "Крипто-адреса",
                 "createdAt": "Створено в",
                 "expiresAt": "Термін дії закінчується в",
                 "completedAt": "Завершено в",
@@ -168,6 +169,11 @@
                 "termsRequired": "Будь ласка, прийміть умови та положення",
                 "termsAgreement": "Я прочитав та погоджуюсь з Умовами надання послуг {shopName}.",
                 "newsletterSignup": "Я хочу отримувати новини та акції від {shopName}.",
+                "immediateDeliveryTitle": "Негайна доставка",
+                "immediateDeliveryDescription": "Ваш продукт буде доставлено одразу після оплати.",
+                "immediateDeliveryNotice": "Продовжуючи, ви запитуєте негайну доставку та розумієте, що втрачаєте встановлене законом 14-денне право на відмову, щойно розпочнеться доставка.",
+                "immediateDeliveryAgreement": "Я розумію та погоджуюся.",
+                "immediateDeliveryRequired": "Будь ласка, підтвердьте негайну доставку",
                 "proceedToPayment": "Перейти до оплати",
                 "billingAddress": "Адреса для виставлення рахунку",
                 "shippingAddress": "Адреса доставки",
@@ -302,7 +308,9 @@
                 "cancel": "Скасувати",
                 "paymentInstructions": "Платіжні реквізити",
                 "awaitingConfirmation": "Очікує на підтвердження",
-                "waitingForPayment": "Очікування платежу. Ця сторінка оновлюється автоматично."
+                "waitingForPayment": "Очікування платежу. Ця сторінка оновлюється автоматично.",
+                "proofOfPaymentImage": "Proof of Payment (Image)",
+                "proofOfPaymentImageTooLarge": "Image must be under 10MB."
             },
             "CheckoutPayPayPalFriendsFamily": {
                 "addNoteInstruction": "Додайте примітку до платежу, інакше він буде проігнорований.",
@@ -423,6 +431,39 @@
                 "buttonLabel": "Оплата через мобільний телефон",
                 "dialogTitle": "Оплата через телефон",
                 "dialogDescription": "Відскануйте цей QR-код за допомогою телефону, щоб продовжити оформлення замовлення на мобільному пристрої."
+            },
+            "CheckoutPayMisticPay": {
+                "description": "Оплатіть миттєво через PIX за допомогою MisticPay.",
+                "enterDetails": "Ваші дані",
+                "enterDetailsNote": "Введіть своє ім'я та номер CPF, щоб створити QR-код PIX.",
+                "payerNamePlaceholder": "Повне ім'я",
+                "payerNameRequired": "Введіть своє повне ім'я.",
+                "payerDocumentPlaceholder": "CPF (тільки цифри)",
+                "payerDocumentRequired": "Введіть номер CPF.",
+                "generateQrButton": "Перейти до оплати",
+                "createError": "Не вдалося створити транзакцію PIX. Спробуйте ще раз.",
+                "scanQr": "Відскануйте цей QR-код за допомогою банківського додатка, щоб здійснити оплату через PIX.",
+                "pixCopyPaste": "PIX: скопіювати та вставити",
+                "copy": "Копіювати",
+                "copied": "Скопійовано!",
+                "howToPay": "Як оплатити",
+                "step1": "Введіть своє повне ім'я та номер документа CPF",
+                "step2": "Натисніть «Перейти до оплати»",
+                "step3": "Відкрийте свій банківський додаток і відскануйте QR-код або скористайтеся функцією «копіювати та вставити»",
+                "step4": "Ваше замовлення буде оброблено автоматично після підтвердження оплати"
+            },
+            "CheckoutCompletedWithdrawal": {
+                "sectionTitle": "Право на відмову",
+                "sectionDescription": "Якщо ви споживач із ЄС, ви можете подати запит на відмову від цієї покупки. Це надішле запит продавцю — він не обробляється автоматично.",
+                "requestButton": "Подати запит на відмову від покупки",
+                "dialogTitle": "Подати запит на відмову від покупки",
+                "dialogDescription": "Це надішле продавцю запит на відмову щодо наведеного нижче замовлення. Це не автоматичне скасування чи повернення коштів. Продовжити?",
+                "invoiceId": "Ідентифікатор інвойсу",
+                "email": "Адреса електронної пошти",
+                "cancel": "Скасувати",
+                "confirm": "Подати запит",
+                "successFallback": "Запит на відмову надіслано.",
+                "errorFallback": "Не вдалося надіслати запит на відмову."
             }
         }
     }

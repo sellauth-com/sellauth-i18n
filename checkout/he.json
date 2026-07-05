@@ -140,6 +140,7 @@
                 "totalPriceUsd": "מחיר מלא (דולר אמריקאי)",
                 "totalAmountCrypto": "כמות מלאה ({gateway})",
                 "remainingAmountCrypto": "כמות שנשארה ({gateway})",
+                "cryptoAddress": "כתובת קריפטו",
                 "createdAt": "נוצר ב",
                 "expiresAt": "פג תוקף ב",
                 "completedAt": "הושלם ב",
@@ -168,6 +169,11 @@
                 "termsRequired": "אנא קבלו את התנאים וההגבלות",
                 "termsAgreement": "קראתי והסכמתי לתנאי השימוש של {shopName}",
                 "newsletterSignup": "אני אשמח לקבל עדכונים והנחות מ{shopName}",
+                "immediateDeliveryTitle": "אספקה מיידית",
+                "immediateDeliveryDescription": "המוצר שלך יסופק מיד לאחר התשלום.",
+                "immediateDeliveryNotice": "בהמשך, אתה מבקש אספקה מיידית ומבין שתאבד את זכות הביטול החוקית שלך למשך 14 ימים ברגע שהאספקה תתחיל.",
+                "immediateDeliveryAgreement": "אני מבין ומסכים.",
+                "immediateDeliveryRequired": "אנא אשר אספקה מיידית",
                 "proceedToPayment": "המשך לתשלום",
                 "billingAddress": "כתובת חיוב",
                 "shippingAddress": "כתובת משלוח",
@@ -302,7 +308,9 @@
                 "cancel": "בטל",
                 "paymentInstructions": "הוראות תשלום",
                 "awaitingConfirmation": "ממתין לאישור",
-                "waitingForPayment": "ממתין לתשלום. דף זה מתעדכן אוטומטית."
+                "waitingForPayment": "ממתין לתשלום. דף זה מתעדכן אוטומטית.",
+                "proofOfPaymentImage": "Proof of Payment (Image)",
+                "proofOfPaymentImageTooLarge": "Image must be under 10MB."
             },
             "CheckoutPayPayPalFriendsFamily": {
                 "addNoteInstruction": "תשים את סיבת ההעברה, אחרת יתעלמו מהתשלום.",
@@ -423,6 +431,39 @@
                 "buttonLabel": "Pay on mobile",
                 "dialogTitle": "Pay on your phone",
                 "dialogDescription": "Scan this QR code with your phone to continue checkout on your mobile device."
+            },
+            "CheckoutPayMisticPay": {
+                "description": "Pay via PIX instantly using MisticPay.",
+                "enterDetails": "Your details",
+                "enterDetailsNote": "Enter your name and CPF to generate a PIX QR code.",
+                "payerNamePlaceholder": "Full name",
+                "payerNameRequired": "Please enter your full name.",
+                "payerDocumentPlaceholder": "CPF (numbers only)",
+                "payerDocumentRequired": "Please enter your CPF.",
+                "generateQrButton": "Continue to Payment",
+                "createError": "Failed to create PIX transaction. Please try again.",
+                "scanQr": "Scan this QR code with your banking app to pay via PIX.",
+                "pixCopyPaste": "PIX copy & paste",
+                "copy": "Copy",
+                "copied": "Copied!",
+                "howToPay": "How to pay",
+                "step1": "Enter your full name and CPF document number",
+                "step2": "Click Continue to Payment",
+                "step3": "Open your banking app and scan the QR code or use the copy & paste key",
+                "step4": "Your order will be processed automatically after payment is confirmed"
+            },
+            "CheckoutCompletedWithdrawal": {
+                "sectionTitle": "זכות הביטול",
+                "sectionDescription": "אם אתה צרכן באיחוד האירופי, באפשרותך לבקש לבטל רכישה זו. פעולה זו שולחת בקשה למוכר — היא אינה מעובדת באופן אוטומטי.",
+                "requestButton": "בקשה לביטול הרכישה",
+                "dialogTitle": "בקשה לביטול הרכישה",
+                "dialogDescription": "פעולה זו תשלח בקשת ביטול למוכר עבור ההזמנה שלהלן. אין זה ביטול או החזר אוטומטי. האם להמשיך?",
+                "invoiceId": "מספר קבלה",
+                "email": "כתובת אימייל",
+                "cancel": "בטל",
+                "confirm": "שלח בקשה",
+                "successFallback": "בקשת הביטול נשלחה.",
+                "errorFallback": "שליחת בקשת הביטול נכשלה."
             }
         }
     }

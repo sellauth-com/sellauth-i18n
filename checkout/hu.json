@@ -140,6 +140,7 @@
                 "totalPriceUsd": "Teljes ár (USD)",
                 "totalAmountCrypto": "Teljes összeg ({gateway})",
                 "remainingAmountCrypto": "Hátralévő összeg ({gateway})",
+                "cryptoAddress": "Kriptó cím",
                 "createdAt": "Létrehozva",
                 "expiresAt": "Lejárat",
                 "completedAt": "Elvégezve",
@@ -168,6 +169,11 @@
                 "termsRequired": "Kérjük, fogadd el a feltételeket",
                 "termsAgreement": "Elolvastam és elfogadom a(z) {shopName} felhasználási feltételeit.",
                 "newsletterSignup": "Szeretnék nformációkat és promóciókat kapni a(z) {shopName} oldalról.",
+                "immediateDeliveryTitle": "Azonnali kézbesítés",
+                "immediateDeliveryDescription": "A terméket a fizetés után azonnal kézbesítjük.",
+                "immediateDeliveryNotice": "A folytatással azonnali kézbesítést kér, és tudomásul veszi, hogy a kézbesítés megkezdésével elveszíti a törvényben biztosított 14 napos elállási jogát.",
+                "immediateDeliveryAgreement": "Megértettem és elfogadom.",
+                "immediateDeliveryRequired": "Kérjük, erősítse meg az azonnali kézbesítést",
                 "proceedToPayment": "Tovább a fizetéshez",
                 "billingAddress": "Számlázási cím",
                 "shippingAddress": "Szállítási cím",
@@ -302,7 +308,9 @@
                 "cancel": "Mégse",
                 "paymentInstructions": "Fizetési utasítások",
                 "awaitingConfirmation": "Megerősítésre vár",
-                "waitingForPayment": "Fizetésre vár. Ez az oldal automatikusan frissül."
+                "waitingForPayment": "Fizetésre vár. Ez az oldal automatikusan frissül.",
+                "proofOfPaymentImage": "Proof of Payment (Image)",
+                "proofOfPaymentImageTooLarge": "Image must be under 10MB."
             },
             "CheckoutPayPayPalFriendsFamily": {
                 "addNoteInstruction": "Adj megjegyzést a fizetéshez (pontosan azt amit az oldal kér), különben figyelmen kívül lesz hagyva és rendszerünk nem fogja érzékelni.",
@@ -423,6 +431,39 @@
                 "buttonLabel": "Fizetés mobiltelefonon",
                 "dialogTitle": "Fizessen a telefonjával",
                 "dialogDescription": "Olvassa be ezt a QR-kódot a telefonjával, hogy folytassa a fizetést a mobilkészülékén."
+            },
+            "CheckoutPayMisticPay": {
+                "description": "Fizessen azonnal PIX-en keresztül a MisticPay segítségével.",
+                "enterDetails": "Az Ön adatai",
+                "enterDetailsNote": "Írja be a nevét és a CPF-számát a PIX QR-kód létrehozásához.",
+                "payerNamePlaceholder": "Teljes név",
+                "payerNameRequired": "Kérjük, írja be a teljes nevét.",
+                "payerDocumentPlaceholder": "CPF (csak számok)",
+                "payerDocumentRequired": "Kérjük, adja meg a CPF-számát.",
+                "generateQrButton": "Tovább a fizetéshez",
+                "createError": "A PIX-tranzakció létrehozása nem sikerült. Kérjük, próbálja meg újra.",
+                "scanQr": "Olvassa be ezt a QR-kódot a banki alkalmazásával, hogy PIX-en keresztül fizessen.",
+                "pixCopyPaste": "PIX másolás és beillesztés",
+                "copy": "Másolás",
+                "copied": "Másolva!",
+                "howToPay": "Fizetési módok",
+                "step1": "Írja be a teljes nevét és a CPF-számát",
+                "step2": "Kattintson a „Tovább a fizetéshez” gombra",
+                "step3": "Nyissa meg a banki alkalmazást, és olvassa be a QR-kódot, vagy használja a másolás és beillesztés funkciót",
+                "step4": "A fizetés megerősítését követően megrendelését automatikusan feldolgozzuk"
+            },
+            "CheckoutCompletedWithdrawal": {
+                "sectionTitle": "Elállási jog",
+                "sectionDescription": "Ha Ön uniós fogyasztó, kérheti az elállást ettől a vásárlástól. Ezzel kérelmet küld az eladónak — a feldolgozás nem automatikus.",
+                "requestButton": "Elállás kérése a vásárlástól",
+                "dialogTitle": "Elállás kérése a vásárlástól",
+                "dialogDescription": "Ezzel elállási kérelmet küld az eladónak az alábbi rendelésre vonatkozóan. Ez nem automatikus lemondás vagy visszatérítés. Folytatja?",
+                "invoiceId": "Rendelési azonosító",
+                "email": "E-mail-cím",
+                "cancel": "Mégse",
+                "confirm": "Kérés",
+                "successFallback": "Elállási kérelem elküldve.",
+                "errorFallback": "Nem sikerült elküldeni az elállási kérelmet."
             }
         }
     }

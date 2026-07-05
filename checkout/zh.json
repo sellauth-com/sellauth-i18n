@@ -140,6 +140,7 @@
                 "totalPriceUsd": "总价",
                 "totalAmountCrypto": "总金额（{gateway}）",
                 "remainingAmountCrypto": "剩余金额（{gateway}）",
+                "cryptoAddress": "加密地址",
                 "createdAt": "创建时间",
                 "expiresAt": "过期时间",
                 "completedAt": "完成时间",
@@ -168,6 +169,11 @@
                 "termsRequired": "请接受条款和条件",
                 "termsAgreement": "我已阅读并同意 {shopName} 的服务条款。",
                 "newsletterSignup": "我希望接收 {shopName} 的更新和促销信息。",
+                "immediateDeliveryTitle": "立即交付",
+                "immediateDeliveryDescription": "您的产品将在付款后立即交付。",
+                "immediateDeliveryNotice": "继续操作即表示您要求立即交付，并理解一旦开始交付，您将失去法定的14天撤回权。",
+                "immediateDeliveryAgreement": "我理解并同意。",
+                "immediateDeliveryRequired": "请确认立即交付",
                 "proceedToPayment": "前往支付",
                 "billingAddress": "账单地址",
                 "shippingAddress": "收货地址",
@@ -302,7 +308,9 @@
                 "cancel": "取消",
                 "paymentInstructions": "付款说明",
                 "awaitingConfirmation": "等待确认中",
-                "waitingForPayment": "等待付款。此页面自动更新。"
+                "waitingForPayment": "等待付款。此页面自动更新。",
+                "proofOfPaymentImage": "Proof of Payment (Image)",
+                "proofOfPaymentImageTooLarge": "Image must be under 10MB."
             },
             "CheckoutPayPayPalFriendsFamily": {
                 "addNoteInstruction": "请在付款时添加备注，否则付款将被忽略。",
@@ -423,6 +431,39 @@
                 "buttonLabel": "手机支付",
                 "dialogTitle": "手机支付",
                 "dialogDescription": "请用手机扫描此二维码，在移动设备上继续结账。"
+            },
+            "CheckoutPayMisticPay": {
+                "description": "使用 MisticPay 通过 PIX 即时付款。",
+                "enterDetails": "您的详细信息",
+                "enterDetailsNote": "请输入您的姓名和CPF号码以生成PIX二维码。",
+                "payerNamePlaceholder": "全名",
+                "payerNameRequired": "请输入您的全名。",
+                "payerDocumentPlaceholder": "CPF（仅数字）",
+                "payerDocumentRequired": "请输入您的中央公积金（CPF）号码。",
+                "generateQrButton": "继续前往支付",
+                "createError": "无法创建 PIX 交易。请重试。",
+                "scanQr": "请使用您的银行APP扫描此二维码，通过PIX进行支付。",
+                "pixCopyPaste": "PIX 复制与粘贴",
+                "copy": "复制",
+                "copied": "已复制！",
+                "howToPay": "如何付款",
+                "step1": "请输入您的全名和CPF文件编号",
+                "step2": "点击“继续支付”",
+                "step3": "打开您的银行APP，扫描二维码或使用“复制并粘贴”功能",
+                "step4": "付款确认后，您的订单将自动处理"
+            },
+            "CheckoutCompletedWithdrawal": {
+                "sectionTitle": "撤回权",
+                "sectionDescription": "如果您是欧盟消费者，可以申请撤回此次购买。此操作会向卖家发送请求——不会自动处理。",
+                "requestButton": "申请撤回购买",
+                "dialogTitle": "申请撤回购买",
+                "dialogDescription": "此操作将就以下订单向卖家发送撤回请求。这不是自动取消或退款。是否继续？",
+                "invoiceId": "发票编号",
+                "email": "电子邮箱",
+                "cancel": "取消",
+                "confirm": "申请",
+                "successFallback": "撤回请求已提交。",
+                "errorFallback": "提交撤回请求失败。"
             }
         }
     }

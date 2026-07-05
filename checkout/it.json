@@ -140,6 +140,7 @@
                 "totalPriceUsd": "Prezzo totale (USD)",
                 "totalAmountCrypto": "Importo totale ({gateway})",
                 "remainingAmountCrypto": "Importo rimanente ({gateway})",
+                "cryptoAddress": "Indirizzo crypto",
                 "createdAt": "Creato a",
                 "expiresAt": "Scade a",
                 "completedAt": "Completato a",
@@ -168,6 +169,11 @@
                 "termsRequired": "Accettare i termini e le condizioni",
                 "termsAgreement": "Ho letto e accetto i Termini di servizio di {shopName}.",
                 "newsletterSignup": "Desidero ricevere aggiornamenti e promozioni da {shopName}.",
+                "immediateDeliveryTitle": "Consegna immediata",
+                "immediateDeliveryDescription": "Il tuo prodotto sarà consegnato immediatamente dopo il pagamento.",
+                "immediateDeliveryNotice": "Continuando, richiedi la consegna immediata e comprendi che perderai il tuo diritto legale di recesso di 14 giorni una volta iniziata la consegna.",
+                "immediateDeliveryAgreement": "Ho capito e accetto.",
+                "immediateDeliveryRequired": "Conferma la consegna immediata",
                 "proceedToPayment": "Procedere al pagamento",
                 "billingAddress": "Indirizzo di fatturazione",
                 "shippingAddress": "Indirizzo di spedizione",
@@ -302,7 +308,9 @@
                 "cancel": "Annullamento",
                 "paymentInstructions": "Istruzioni per il pagamento",
                 "awaitingConfirmation": "In attesa di conferma",
-                "waitingForPayment": "In attesa del pagamento. Questa pagina si aggiorna automaticamente."
+                "waitingForPayment": "In attesa del pagamento. Questa pagina si aggiorna automaticamente.",
+                "proofOfPaymentImage": "Proof of Payment (Image)",
+                "proofOfPaymentImageTooLarge": "Image must be under 10MB."
             },
             "CheckoutPayPayPalFriendsFamily": {
                 "addNoteInstruction": "Aggiungete una nota al pagamento, altrimenti verrà ignorato.",
@@ -423,6 +431,39 @@
                 "buttonLabel": "Paga con il cellulare",
                 "dialogTitle": "Paga con il cellulare",
                 "dialogDescription": "Scansiona questo codice QR con il tuo telefono per completare il pagamento sul tuo dispositivo mobile."
+            },
+            "CheckoutPayMisticPay": {
+                "description": "Paga immediatamente tramite PIX con MisticPay.",
+                "enterDetails": "I tuoi dati",
+                "enterDetailsNote": "Inserisci il tuo nome e il tuo CPF per generare un codice QR PIX.",
+                "payerNamePlaceholder": "Nome completo",
+                "payerNameRequired": "Inserisci il tuo nome completo.",
+                "payerDocumentPlaceholder": "CPF (solo numeri)",
+                "payerDocumentRequired": "Inserisci il tuo numero CPF.",
+                "generateQrButton": "Procedi al pagamento",
+                "createError": "Impossibile creare la transazione PIX. Riprovare.",
+                "scanQr": "Scansiona questo codice QR con la tua app bancaria per pagare tramite PIX.",
+                "pixCopyPaste": "Copia e incolla PIX",
+                "copy": "Copia",
+                "copied": "Copiato!",
+                "howToPay": "Come pagare",
+                "step1": "Inserisci il tuo nome completo e il numero del documento CPF",
+                "step2": "Clicca su \"Continua al pagamento\"",
+                "step3": "Apri la tua app bancaria e scansiona il codice QR oppure usa la funzione \"copia e incolla\"",
+                "step4": "Il tuo ordine verrà elaborato automaticamente una volta confermato il pagamento"
+            },
+            "CheckoutCompletedWithdrawal": {
+                "sectionTitle": "Diritto di recesso",
+                "sectionDescription": "Se sei un consumatore dell'UE, puoi richiedere il recesso da questo acquisto. Questa operazione invia una richiesta al venditore — non viene elaborata automaticamente.",
+                "requestButton": "Richiedi il recesso dall'acquisto",
+                "dialogTitle": "Richiedi il recesso dall'acquisto",
+                "dialogDescription": "Questa operazione invierà una richiesta di recesso al venditore per l'ordine indicato di seguito. Non si tratta di un annullamento o di un rimborso automatico. Vuoi continuare?",
+                "invoiceId": "ID fattura",
+                "email": "Indirizzo e-mail",
+                "cancel": "Annulla",
+                "confirm": "Richiedi",
+                "successFallback": "Richiesta di recesso inviata.",
+                "errorFallback": "Invio della richiesta di recesso non riuscito."
             }
         }
     }
