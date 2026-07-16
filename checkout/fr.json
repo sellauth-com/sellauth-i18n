@@ -95,7 +95,7 @@
                 "ratingPoor": "Faible",
                 "ratingTerrible": "Horrible",
                 "automaticFeedbackWarning": "Si vous ne laissez pas d'évaluation dans les 7 jours, une évaluation 5 étoiles sera automatiquement laissée pour vous.",
-                "feedbackCouponIncentivePercentage": "Laissez un avis {rating}★+ et bénéficiez d'{discount} % de réduction sur votre prochaine commande.",
+                "feedbackCouponIncentivePercentage": "Laissez un avis {rating}★+ et bénéficiez de {discount} % de réduction sur votre prochaine commande.",
                 "feedbackCouponIncentivePercentageNoRating": "Laissez un avis et bénéficiez d'une réduction de {discount} % sur votre prochaine commande.",
                 "feedbackCouponIncentiveFixed": "Laissez un avis « {rating}» ★+ et bénéficiez d'une réduction de {discount} sur votre prochaine commande.",
                 "feedbackCouponIncentiveFixedNoRating": "Laissez un avis et bénéficiez d'une réduction de {discount} sur votre prochaine commande.",
